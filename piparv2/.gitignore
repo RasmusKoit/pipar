@@ -17,6 +17,8 @@ _autosave-*
 *-save.kicad_pcb
 fp-info-cache
 piparv2\production\backups\*.zip
+production\backups\*.zip
+
 
 # Netlist files (exported from Eeschema)
 *.net
