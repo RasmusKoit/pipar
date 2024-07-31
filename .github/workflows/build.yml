@@ -1,4 +1,11 @@
-on: [push, pull_request, workflow_dispatch]
+on: 
+  push: 
+    paths: 
+      - 'zmk-config/**'
+  pull_request: 
+    paths: 
+      - 'zmk-config/**'
+  workflow_dispatch: 
 
 jobs:
   build:
