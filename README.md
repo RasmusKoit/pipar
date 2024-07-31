@@ -4,15 +4,23 @@
 
 ## Designed PCBs
 
+Currently, both Pipar and Pipar Flake are designed to be manufactured together but used separately. Both PCBs are designed to be used with Choc switches and hotswap sockets. The PCBs are wireless.
+
 ### Pipar
 
 The **Pipar** is a 36-key split wireless keyboard with a 3x5+3 layout. It features:
 
 - **Microcontrollers**: XIAO BLE for both halves and a dongle.
 - **Switches**: Ambients Silent Kailh Low Profile Nocturnal Choc Switches.
-- **Sockets**: Kaihl Hotswap sockets for easy switch replacement.
+- **Sockets**: Kailh Hotswap sockets for easy switch replacement.
 
-Pipar is a splayed split keyboard with a 3x5+3 layout. The thumb cluster has three keys on each half, and the outer columns are split to reduce the distance to the keys. The keyboard is wireless and uses the XIAO BLE microcontroller for both halves and a dongle. The design a features a larger area for the battery.
+#### Design Details
+
+- **Layout**: Splayed split keyboard with a 3x5+3 layout.
+  - **Thumb Cluster**: Three keys on each half.
+  - **Outer Columns**: Split to reduce the distance to the keys.
+- **Wireless**: Uses the XIAO BLE microcontroller for both halves and a dongle.
+- **Battery**: Larger area for the battery to ensure longer usage time.
 
 ### Pipar Flake
 
@@ -21,9 +29,16 @@ The **Pipar Flake** is an 8+1 key wireless keypad with a rotary encoder and a sc
 - **Microcontroller**: SuperMini NRF52840.
 - **Display**: Tiny OLED display.
 - **Switches**: Ambients Silent Kailh Low Profile Nocturnal Choc Switches.
-- **Sockets**: Kaihl Hotswap sockets for easy switch replacement.
+- **Sockets**: Kailh Hotswap sockets for easy switch replacement.
 
-Pipar Flake is meant to be used as a tiny keypad or a numpad. My current usecase is to use it with Kodi to control the media player. Design wise I wanted it to be as small as possible while still being usable. The rotary encoder can be used to control the volume and the push button can be used to change layers.
+#### Design Details
+
+- **Usage**: Intended as a tiny keypad or numpad.
+  - **Current Use Case**: Control media player (e.g., Kodi).
+- **Size**: Designed to be as small as possible while still being usable.
+- **Rotary Encoder**: 
+  - **Function**: Can control volume.
+  - **Push Button**: Can be used to change layers.
 
 ## Schematic
 
