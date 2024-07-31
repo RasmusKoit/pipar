@@ -1,0 +1,93 @@
+/*
+ * Copyright (c) 2022 The ZMK Contributors
+ *
+ * SPDX-License-Identifier: MIT
+ */
+
+#include <dt-bindings/zmk/matrix_transform.h>
+
+/ {
+  chosen {
+    zmk,kscan = &kscan0;
+    zmk,matrix-transform = &default_transform;
+    zephyr,display = &oled;
+  };
+
+  encoder_1: encoder_1 {
+    compatible = "alps,ec11";
+    a-gpios = <&pro_micro 21 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>;
+    b-gpios = <&pro_micro 20 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>;
+    steps = <80>;
+    status = "disabled";
+  };
+
+  kscan0: kscan_composite {
+    compatible = "zmk,kscan-composite";
+    rows = <3>;
+    columns = <3>;
+
+    matrix {
+        kscan = <&kscan1>;
+    };
+
+    direct {
+        kscan = <&kscan2>;
+        row-offset = <3>;
+    };
+  };
+
+  kscan1: kscan_matrix {
+    compatible = "zmk,kscan-gpio-matrix";
+    wakeup-source;
+    diode-direction = "col2row";
+
+    row-gpios
+      = <&pro_micro 5 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
+      , <&pro_micro 6 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
+      , <&pro_micro 7 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
+      ;
+
+    col-gpios
+      = <&pro_micro 2 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
+      , <&pro_micro 3 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
+      , <&pro_micro 4 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
+      ;
+  };
+
+  kscan2: kscan_direct {
+    compatible = "zmk,kscan-gpio-direct";
+    wakeup-source;
+    input-gpios = <&pro_micro 0 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>;
+
+  };
+
+  default_transform: keymap_transform_0 {
+    compatible = "zmk,matrix-transform";
+    columns = <3>;
+    rows = <3>;
+    map = <
+            RC(0, 0) RC(0, 1) RC(3, 0)
+            RC(1, 0) RC(1, 1) RC(1, 2)
+            RC(2, 0) RC(2, 1) RC(2, 2)
+    >;
+  };
+
+};
+
+&pro_micro_i2c {
+    status = "okay";
+
+    oled: ssd1306@3c {
+        compatible = "solomon,ssd1306fb";
+        reg = <0x3c>;
+        width = <128>;
+        height = <32>;
+        segment-offset = <0>;
+        page-offset = <0>;
+        display-offset = <0>;
+        multiplex-ratio = <31>;
+        com-sequential;
+        inversion-on;
+        prechargep = <0x22>;
+    };
+};
