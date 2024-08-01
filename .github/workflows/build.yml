@@ -11,6 +11,6 @@ jobs:
   build:
     uses: zmkfirmware/zmk/.github/workflows/build-user-config.yml@main
     with:
-      config_path: 'zmk-config'
-      build_matrix_path: 'zmk-config/build.yaml'
+      config_path: 'config'
+      build_matrix_path: 'config/build.yaml'
       archive_name: 'pipar-firmware'
