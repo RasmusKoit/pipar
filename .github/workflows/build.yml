@@ -1,10 +1,10 @@
 on: 
   push: 
     paths: 
-      - 'zmk-config/**'
+      - 'config/**'
   pull_request: 
     paths: 
-      - 'zmk-config/**'
+      - 'config/**'
   workflow_dispatch: 
 
 jobs:
