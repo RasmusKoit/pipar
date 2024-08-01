@@ -1,2 +1,2 @@
 config SHIELD_PIPAR_FLAKE
-    def_bool $(shields_list_contains,PIPAR_FLAKE)
+    def_bool $(shields_list_contains,pipar_flake)
