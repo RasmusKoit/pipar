@@ -7,6 +7,6 @@ requires: [seeed_xiao]
 features:
   - keys
 siblings:
+  - pipar_dongle
   - pipar_left
   - pipar_right
-  - pipar_dongle
