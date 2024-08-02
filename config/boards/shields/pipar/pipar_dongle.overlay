@@ -1,33 +1,12 @@
-#include "pipar.dtsi"
-
-// include pins to be ignored forever since its a dongle
-
-&kscan0 { // 9, 8 ,7
-    row-gpios
-        = <&xiao_d 9 GPIO_ACTIVE_HIGH>
-        , <&xiao_d 8 GPIO_ACTIVE_HIGH>
-        , <&xiao_d 7 GPIO_ACTIVE_HIGH>
-        ;
-    
-    col-gpios
-        = <&xiao_d 1 GPIO_ACTIVE_HIGH>
-        , <&xiao_d 2 GPIO_ACTIVE_HIGH>
-        , <&xiao_d 3 GPIO_ACTIVE_HIGH>
-        , <&xiao_d 4 GPIO_ACTIVE_HIGH>
-        , <&xiao_d 5 GPIO_ACTIVE_HIGH>
-        , <&xiao_d 6 GPIO_ACTIVE_HIGH>
-        ;
-};
-
 / {
     chosen {
         zmk,kscan = &mock_kscan;
     };
 
-    mock_kscan: mock_kscan_0 {
+    mock_kscan: kscan_1 {
         compatible = "zmk,kscan-mock";
-        rows = <0>;
         columns = <0>;
+        rows = <0>;
         events = <0>;
     };
 };
