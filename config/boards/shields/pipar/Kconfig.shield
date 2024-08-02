@@ -1,11 +1,18 @@
+config SHIELD_PIPAR
+    bool
+
 config SHIELD_PIPAR_DONGLE
     def_bool $(shields_list_contains,pipar_dongle)
+    select ZMK_SPLIT_ROLE_CENTRAL
+    select ZMK_SPLIT
     select SHIELD_PIPAR
 
 config SHIELD_PIPAR_LEFT
     def_bool $(shields_list_contains,pipar_left)
+    select ZMK_SPLIT
     select SHIELD_PIPAR
 
 config SHIELD_PIPAR_RIGHT
     def_bool $(shields_list_contains,pipar_right)
+    select ZMK_SPLIT
     select SHIELD_PIPAR
