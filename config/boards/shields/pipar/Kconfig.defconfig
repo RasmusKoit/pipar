@@ -8,17 +8,11 @@ config ZMK_KEYBOARD_NAME
 config ZMK_SPLIT_ROLE_CENTRAL
     default y
 
-config ZMK_USB
-    default y
-
 endif
 
 if SHIELD_PIPAR_DONGLE || SHIELD_PIPAR_RIGHT || SHIELD_PIPAR_LEFT
 
 config ZMK_SPLIT
-    default y
-
-config ZMK_BLE
     default y
 
 endif
