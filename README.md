@@ -4,7 +4,7 @@ ZMK firmware for the Pipar PCBs.
 
 All builds:
 
-[![All builds](https://github.com/RasmusKoit/pipar/actions/workflows/build.yml/badge.svg?branch=master)](https://github.com/RasmusKoit/pipar/actions/workflows/build.yml)
+[![.github/workflows/build_pipar_firmwares.yml](https://github.com/RasmusKoit/pipar/actions/workflows/build_pipar_firmwares.yml/badge.svg)](https://github.com/RasmusKoit/pipar/actions/workflows/build_pipar_firmwares.yml)
 
 **Pipar** is a collection of different keyboards and keypads that I have designed. Each PCB in the series has unique features tailored to different needs and preferences.
 
