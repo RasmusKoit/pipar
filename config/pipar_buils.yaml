@@ -17,6 +17,7 @@
 #     artifact-name: corne_left_with_logging
 #
 ---
+name: 'Build Pipar Shields'
 include:
   - board: seeeduino_xiao_ble
     shield: pipar_left
