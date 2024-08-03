@@ -14,16 +14,16 @@ Currently, both Pipar and Pipar Flake are designed to be manufactured together b
 
 ### Pipar
 
+> [!NOTE]
+> Pipar Miryoku builds can be found here: [[RasmusKoit/miryoku_zmk]](https://github.com/RasmusKoit/miryoku_zmk/actions/workflows/build-example-pipar.yml)
+> [![Build Example Pipar](https://github.com/RasmusKoit/miryoku_zmk/actions/workflows/build-example-pipar.yml/badge.svg)](https://github.com/RasmusKoit/miryoku_zmk/actions/workflows/build-example-pipar.yml)
+
 The **Pipar** is a 36-key split wireless keyboard with a 3x5+3 layout with a dongle. It features:
 
 - **Microcontrollers**: XIAO BLE for both halves and a dongle.
 - **Switches**: Ambients Silent Kailh Low Profile Nocturnal Choc Switches.
 - **Sockets**: Kailh Hotswap sockets for easy switch replacement.
 - **Key Layout**: Pipar uses Miryoku default key layout.
-
-> [!NOTE]
-> Pipar Miryoku builds can be found here: [[RasmusKoit/miryoku_zmk]](https://github.com/RasmusKoit/miryoku_zmk/actions/workflows/build-example-pipar.yml)
-> [![Build Example Pipar](https://github.com/RasmusKoit/miryoku_zmk/actions/workflows/build-example-pipar.yml/badge.svg)](https://github.com/RasmusKoit/miryoku_zmk/actions/workflows/build-example-pipar.yml)
 
 #### Pipar Design Details
 
