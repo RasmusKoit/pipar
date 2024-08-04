@@ -13,10 +13,15 @@ config ZMK_SPLIT_BLE_CENTRAL_PERIPHERALS
 
 config ZMK_SPLIT
     default y
+config ZMK_BLE
+    default y
 
 endif
 
 if SHIELD_PIPAR_TEST_SLAVE
+
+config ZMK_BLE
+    default y
 
 config ZMK_SPLIT
     default y

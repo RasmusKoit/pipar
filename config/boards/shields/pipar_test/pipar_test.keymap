@@ -23,7 +23,7 @@
     default_layer {
         display-name = "default";
         bindings = <
-            &kp ESC  &kp SPACE  &kp ENTER
+            &kp ESC  &kp SPACE  &out OUT_BLE
             &kp BSPC &kp UP     &kp ENTER
             &sys_reset  &bootloader &bt BT_CLR
         >;
