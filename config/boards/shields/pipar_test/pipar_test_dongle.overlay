@@ -1,0 +1,13 @@
+/ {
+    chosen {
+        zmk,kscan = &mock_kscan;
+        // zmk,kscan = &kscan0;
+    };
+
+    mock_kscan: kscan_0 {
+        compatible = "zmk,kscan-mock";
+        columns = <0>;
+        rows = <0>;
+        events = <0>;
+    };
+};

@@ -1,0 +1,24 @@
+# Dongle 
+
+if SHIELD_PIPAR_TEST_DONGLE
+
+config ZMK_KEYBOARD_NAME
+    default "PiparTest"
+
+config ZMK_SPLIT_ROLE_CENTRAL
+    default y
+
+config ZMK_SPLIT_BLE_CENTRAL_PERIPHERALS
+    default 1
+
+endif
+
+if SHIELD_PIPAR_TEST_DONGLE || SHIELD_PIPAR_TEST_PERHIPERAL
+
+config ZMK_SPLIT
+    default y
+
+config ZMK_SLEEP
+    default n
+
+endif

@@ -1,0 +1,13 @@
+file_format: "1"
+id: pipar_test
+name: PiparTest
+type: shield
+url: https://github.com/RasmusKoit/zmk-pipar
+requires: [pro_micro]
+exposes: [i2c_oled]
+features:
+  - keys
+  - display
+siblings:
+  - pipar_test_dongle
+  - pipar_test_perhiperal
