@@ -10,4 +10,4 @@ features:
   - display
 siblings:
   - pipar_test_dongle
-  - pipar_test_perhiperal
+  - pipar_test_slave
