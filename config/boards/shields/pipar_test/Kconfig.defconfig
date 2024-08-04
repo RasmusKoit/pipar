@@ -11,9 +11,15 @@ config ZMK_SPLIT_ROLE_CENTRAL
 config ZMK_SPLIT_BLE_CENTRAL_PERIPHERALS
     default 1
 
+config ZMK_SPLIT
+    default y
+
 endif
 
 if SHIELD_PIPAR_TEST_SLAVE
+
+config ZMK_SPLIT
+    default y
 
 if ZMK_DISPLAY
 
@@ -44,12 +50,3 @@ endif # LVGL
 
 endif
 
-if SHIELD_PIPAR_TEST_DONGLE || SHIELD_PIPAR_TEST_SLAVE
-
-config ZMK_SPLIT
-    default y
-
-config ZMK_SLEEP
-    default n
-
-endif
