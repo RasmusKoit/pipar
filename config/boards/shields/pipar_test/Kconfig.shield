@@ -1,13 +1,5 @@
-config SHIELD_PIPAR_TEST
-    bool
-
 config SHIELD_PIPAR_TEST_DONGLE
     def_bool $(shields_list_contains,pipar_test_dongle)
-    select ZMK_SPLIT_ROLE_CENTRAL
-    select ZMK_SPLIT
-    select SHIELD_PIPAR_TEST
 
 config SHIELD_PIPAR_TEST_PERHIPERAL
     def_bool $(shields_list_contains,pipar_test_perhiperal)
-    select ZMK_SPLIT
-    select SHIELD_PIPAR_TEST
