@@ -21,6 +21,6 @@ include:
   - board: nice_nano_v2
     shield: settings_reset
   - board: nice_nano_v2
-    shield: pipar_test_perhiperal
+    shield: pipar_test_slave
   - board: nice_nano_v2
     shield: pipar_test_dongle
