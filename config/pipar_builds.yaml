@@ -24,3 +24,4 @@ include:
     shield: pipar_test_slave
   - board: nice_nano_v2
     shield: pipar_test_dongle
+    snippet: zmk-usb-logging
