@@ -18,16 +18,8 @@
 #
 ---
 include:
-  - board: seeeduino_xiao_ble
-    shield: pipar_left
-  - board: seeeduino_xiao_ble
-    shield: pipar_right
-  - board: seeeduino_xiao_ble
-    shield: pipar_dongle
-  - board: seeeduino_xiao_ble
-    shield: settings_reset
   - board: nice_nano_v2
-    shield: pipar_flake
+    shield: settings_reset
   - board: nice_nano_v2
     shield: pipar_test_perhiperal
   - board: nice_nano_v2
