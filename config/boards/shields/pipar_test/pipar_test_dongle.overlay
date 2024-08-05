@@ -1,13 +1,58 @@
 / {
-    chosen {
-        zmk,kscan = &mock_kscan;
-        // zmk,kscan = &kscan0;
+  chosen {
+    zmk,kscan = &kscan0;
+    zmk,matrix-transform = &default_transform;
+  };
+
+  kscan0: kscan_composite {
+    compatible = "zmk,kscan-composite";
+    rows = <3>;
+    columns = <3>;
+
+    matrix {
+        kscan = <&kscan1>;
     };
 
-    mock_kscan: kscan_0 {
-        compatible = "zmk,kscan-mock";
-        columns = <0>;
-        rows = <0>;
-        events = <0>;
+    direct {
+        kscan = <&kscan2>;
+        row-offset = <3>;
     };
+  };
+
+  kscan1: kscan_matrix {
+    compatible = "zmk,kscan-gpio-matrix";
+    wakeup-source;
+    diode-direction = "col2row";
+
+    row-gpios
+      = <&pro_micro 5 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
+      , <&pro_micro 6 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
+      , <&pro_micro 7 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
+      ;
+
+    col-gpios
+      = <&pro_micro 18 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
+      , <&pro_micro 15 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
+      , <&pro_micro 14 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
+      ;
+  };
+
+  kscan2: kscan_direct {
+    compatible = "zmk,kscan-gpio-direct";
+    wakeup-source;
+    input-gpios = <&pro_micro 0 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>;
+
+  };
+
+  default_transform: keymap_transform_0 {
+    compatible = "zmk,matrix-transform";
+    columns = <3>;
+    rows = <3>;
+    map = <
+            RC(0, 0) RC(0, 1) RC(3, 0)
+            RC(1, 0) RC(1, 1) RC(1, 2)
+            RC(2, 0) RC(2, 1) RC(2, 2)
+    >;
+  };
+
 };
