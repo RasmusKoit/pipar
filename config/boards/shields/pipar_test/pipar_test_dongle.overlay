@@ -1,8 +1,9 @@
-#include "pipar_test.dtsi"
+#include <dt-bindings/zmk/matrix_transform.h>
 
 / {
     chosen {
         zmk,kscan = &mock_kscan;
+        zmk,matrix-transform = &default_transform;
     };
 
     mock_kscan: kscan_0 {
@@ -10,5 +11,16 @@
         columns = <0>;
         rows = <0>;
         events = <0>;
+    };
+
+    default_transform: keymap_transform_0 {
+        compatible = "zmk,matrix-transform";
+        columns = <3>;
+        rows = <3>;
+        map = <
+                RC(0, 0) RC(0, 1) RC(3, 0)
+                RC(1, 0) RC(1, 1) RC(1, 2)
+                RC(2, 0) RC(2, 1) RC(2, 2)
+        >;
     };
 };
