@@ -8,7 +8,6 @@
 / {
     chosen {
         zmk,kscan = &mock_kscan;
-        // zmk,kscan = &kscan0;
         zmk,matrix-transform = &default_transform;
     };
 
