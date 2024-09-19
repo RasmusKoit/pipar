@@ -10,7 +10,7 @@ All builds:
 
 ## Designed PCBs
 
-Currently, both Pipar and Pipar Flake are designed to be manufactured together but used separately. Both PCBs are designed to be used with Choc switches and hotswap sockets. The PCBs are wireless.
+Currently, both Pipar and Pipar Flake are designed to be manufactured together but used separately. Both PCBs are designed to be used with Choc v1 switches and hotswap sockets. The PCBs are built to be wireless.
 
 ### Pipar
 
@@ -24,6 +24,11 @@ The **Pipar** is a 36-key split wireless keyboard with a 3x5+3 layout with a don
 - **Switches**: Ambients Silent Kailh Low Profile Nocturnal Choc Switches.
 - **Sockets**: Kailh Hotswap sockets for easy switch replacement.
 - **Key Layout**: Pipar uses Miryoku default key layout.
+
+#### Pipar Pictures
+
+![Pipar top](.extra/pipar_prod_top.jpg)
+![Pipar side](.extra/pipar_prod_side.jpg)
 
 #### Pipar Design Details
 
@@ -41,6 +46,10 @@ The **Pipar Flake** is an 8+1 key wireless keypad with a rotary encoder and a sc
 - **Display**: Tiny OLED display.
 - **Switches**: Ambients Silent Kailh Low Profile Nocturnal Choc Switches.
 - **Sockets**: Kailh Hotswap sockets for easy switch replacement.
+
+#### Pipar Flake Pictures
+
+![Pipar Flake side](.extra/pipar_flake_side.jpg)
 
 #### Pipar Flake Design Details
 
