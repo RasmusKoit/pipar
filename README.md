@@ -29,6 +29,7 @@ The **Pipar** is a 36-key split wireless keyboard with a 3x5+3 layout with a don
 
 ![Pipar top](.extra/pipar_prod_top.jpg)
 ![Pipar side](.extra/pipar_prod_side.jpg)
+![Pipar case](.extra/pipar_prod_case.png)
 
 #### Pipar Design Details
 
@@ -37,6 +38,18 @@ The **Pipar** is a 36-key split wireless keyboard with a 3x5+3 layout with a don
   - **Outer Columns**: Split to reduce the distance to the keys.
 - **Wireless**: Uses the XIAO BLE microcontroller for both halves and a dongle.
 - **Battery**: Larger area for the battery to ensure longer usage time.
+
+#### Pipar Order List
+
+- **PCB**: 2x Pipar PCBs.
+- **Microcontroller**: 3x [XIAO BLE microcontrollers (Aliexpress)](https://www.aliexpress.com/item/1005004459618789.html?spm=a2g0o.order_list.order_list_main.20.2f8718028ReplC)
+- **On/Off Switch**: 2x [On/Off Switch (Aliexpress)](https://www.aliexpress.com/item/1005006710234187.html?spm=a2g0o.order_list.order_list_main.15.2f8718028ReplC)
+- **Switches**: 36x [Ambients Silent Kailh Low Profile Nocturnal Choc Switches (SplitKB)](https://splitkb.com/products/ambients-kailh-low-profile-choc-switches?variant=48116119830875)
+- **Sockets**: 36x [Kailh Hotswap sockets (SplitKB)](https://splitkb.com/products/kailh-hotswap-sockets?variant=39472161456205)
+- **Diodes**: 36x [1N4148/SOD-123 Diodes (SplitKB)](https://splitkb.com/products/smd-diodes?variant=42283984027907)
+- **Battery**: 2x [320mAh 3x30x40mm (Oomipood)](https://www.oomipood.ee/product/accu_lp303040_cl). Case is designed for 3mm height batteries with some extra space.
+- **Case**: 1x [Pipar Case](https://cad.onshape.com/documents/b447867a8ef38c5c4b3f03a8/w/fa3f83cbdca5dabb6eda5ba8/e/aa2f21b7f0fc9dfb83784403?renderMode=0&uiState=66ebfb933005041fa7950d33)
+- **Keycaps**: 1x [Kailh Choc Keycaps (FKCaps)](https://fkcaps.com/custom/KYTMMA)
 
 ### Pipar Flake
 
