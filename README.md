@@ -10,28 +10,30 @@ All builds:
 
 ## Designed PCBs
 
-Currently, both Pipar and Pipar Flake are designed to be manufactured together but used separately. Both PCBs are designed to be used with Choc v1 switches and hotswap sockets. The PCBs are built to be wireless.
+Seperated all the PCBs into their own folders for easier management.
 
-### Pipar
+~~Currently, both Pipar and Pipar Flake are designed to be manufactured together but used separately. Both PCBs are designed to be used with Choc v1 switches and hotswap sockets. The PCBs are built to be wireless.~~
+
+### Pipar ja Sool (Pepper and Salt)
 
 > [!NOTE]
 > Pipar Miryoku builds can be found here: [[RasmusKoit/miryoku_zmk]](https://github.com/RasmusKoit/miryoku_zmk/actions/workflows/build-example-pipar.yml)
 > [![Build Example Pipar](https://github.com/RasmusKoit/miryoku_zmk/actions/workflows/build-example-pipar.yml/badge.svg)](https://github.com/RasmusKoit/miryoku_zmk/actions/workflows/build-example-pipar.yml)
 
-The **Pipar** is a 36-key split wireless keyboard with a 3x5+3 layout with a dongle. It features:
+The **Pipar ja Sool** is a 36-key split wireless keyboard with a 3x5+3 layout with a dongle. It features:
 
 - **Microcontrollers**: XIAO BLE for both halves and a dongle.
 - **Switches**: Ambients Silent Kailh Low Profile Nocturnal Choc Switches.
 - **Sockets**: Kailh Hotswap sockets for easy switch replacement.
 - **Key Layout**: Pipar uses Miryoku default key layout.
 
-#### Pipar Pictures
+#### Pipar ja Sool Pictures
 
 ![Pipar top](.extra/pipar_prod_top.jpg)
 ![Pipar side](.extra/pipar_prod_side.jpg)
 ![Pipar case](.extra/pipar_prod_case.png)
 
-#### Pipar Design Details
+#### Pipar ja Sool Design Details
 
 - **Layout**: Splayed split keyboard with a 3x5+3 layout.
   - **Thumb Cluster**: Three keys on each half.
@@ -39,7 +41,7 @@ The **Pipar** is a 36-key split wireless keyboard with a 3x5+3 layout with a don
 - **Wireless**: Uses the XIAO BLE microcontroller for both halves and a dongle.
 - **Battery**: Larger area for the battery to ensure longer usage time.
 
-#### Pipar Order List
+#### Pipar ja Sool Order List
 
 - **PCB**: 2x Pipar PCBs.
 - **Microcontroller**: 3x [XIAO BLE microcontrollers (Aliexpress)](https://www.aliexpress.com/item/1005004459618789.html?spm=a2g0o.order_list.order_list_main.20.2f8718028ReplC)
