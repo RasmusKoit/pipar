@@ -1190,6 +1190,12 @@
 		(uuid "042a6b57-f433-4096-a4ce-4e7c11a74cd1")
 	)
 	(junction
+		(at 118.11 60.96)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0537b6d4-74cf-41f9-9445-dd707bcbf081")
+	)
+	(junction
 		(at 66.04 53.34)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1298,12 +1304,6 @@
 		(uuid "9f89794c-60d7-46ad-a6c1-8af9819d1e2d")
 	)
 	(junction
-		(at 120.65 60.96)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b7766d00-854d-4f2a-8b88-da84565600cf")
-	)
-	(junction
 		(at 58.42 40.64)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1399,7 +1399,7 @@
 	)
 	(wire
 		(pts
-			(xy 91.44 40.64) (xy 91.44 27.94)
+			(xy 91.44 40.64) (xy 91.44 25.4)
 		)
 		(stroke
 			(width 0)
@@ -1409,7 +1409,17 @@
 	)
 	(wire
 		(pts
-			(xy 96.52 91.44) (xy 96.52 33.02)
+			(xy 118.11 33.02) (xy 118.11 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0c1c2642-75ee-4764-8dd1-f943748eed55")
+	)
+	(wire
+		(pts
+			(xy 96.52 91.44) (xy 96.52 30.48)
 		)
 		(stroke
 			(width 0)
@@ -1439,7 +1449,7 @@
 	)
 	(wire
 		(pts
-			(xy 93.98 30.48) (xy 166.37 30.48)
+			(xy 93.98 27.94) (xy 166.37 27.94)
 		)
 		(stroke
 			(width 0)
@@ -1539,16 +1549,6 @@
 	)
 	(wire
 		(pts
-			(xy 152.4 43.18) (xy 152.4 60.96)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "33c2a39c-cd71-4a56-99f5-ab8f181b30da")
-	)
-	(wire
-		(pts
 			(xy 71.12 40.64) (xy 83.82 40.64)
 		)
 		(stroke
@@ -1559,7 +1559,7 @@
 	)
 	(wire
 		(pts
-			(xy 114.3 60.96) (xy 120.65 60.96)
+			(xy 114.3 60.96) (xy 118.11 60.96)
 		)
 		(stroke
 			(width 0)
@@ -1576,6 +1576,16 @@
 			(type default)
 		)
 		(uuid "3f2c5784-034d-4005-9b3b-790e42e73b61")
+	)
+	(wire
+		(pts
+			(xy 118.11 60.96) (xy 120.65 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "433c4dac-2169-48ef-84b1-fe4b35630f6b")
 	)
 	(wire
 		(pts
@@ -1609,7 +1619,7 @@
 	)
 	(wire
 		(pts
-			(xy 166.37 30.48) (xy 166.37 53.34)
+			(xy 166.37 27.94) (xy 166.37 53.34)
 		)
 		(stroke
 			(width 0)
@@ -1629,7 +1639,7 @@
 	)
 	(wire
 		(pts
-			(xy 168.91 27.94) (xy 168.91 55.88)
+			(xy 168.91 25.4) (xy 168.91 55.88)
 		)
 		(stroke
 			(width 0)
@@ -1709,7 +1719,7 @@
 	)
 	(wire
 		(pts
-			(xy 93.98 66.04) (xy 93.98 30.48)
+			(xy 93.98 66.04) (xy 93.98 27.94)
 		)
 		(stroke
 			(width 0)
@@ -1769,7 +1779,7 @@
 	)
 	(wire
 		(pts
-			(xy 91.44 27.94) (xy 168.91 27.94)
+			(xy 91.44 25.4) (xy 168.91 25.4)
 		)
 		(stroke
 			(width 0)
@@ -1786,6 +1796,16 @@
 			(type default)
 		)
 		(uuid "84c7520d-8bde-46b5-afcf-6c53ec6d6a5f")
+	)
+	(wire
+		(pts
+			(xy 118.11 33.02) (xy 152.4 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "876b01d1-98f5-474e-a538-628238b1558b")
 	)
 	(wire
 		(pts
@@ -1939,6 +1959,16 @@
 	)
 	(wire
 		(pts
+			(xy 152.4 33.02) (xy 152.4 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c01e896b-adf9-43c8-8094-e362e7f1a3e7")
+	)
+	(wire
+		(pts
 			(xy 58.42 91.44) (xy 71.12 91.44)
 		)
 		(stroke
@@ -1989,7 +2019,7 @@
 	)
 	(wire
 		(pts
-			(xy 163.83 33.02) (xy 163.83 50.8)
+			(xy 163.83 30.48) (xy 163.83 50.8)
 		)
 		(stroke
 			(width 0)
@@ -2006,16 +2036,6 @@
 			(type default)
 		)
 		(uuid "dc3a81a2-24b8-46d8-8657-52592b6471e1")
-	)
-	(wire
-		(pts
-			(xy 120.65 60.96) (xy 152.4 60.96)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e019f2dd-632f-4b9b-ba96-eac2afa98f1b")
 	)
 	(wire
 		(pts
@@ -2059,7 +2079,7 @@
 	)
 	(wire
 		(pts
-			(xy 96.52 33.02) (xy 163.83 33.02)
+			(xy 96.52 30.48) (xy 163.83 30.48)
 		)
 		(stroke
 			(width 0)
@@ -3161,7 +3181,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 152.4 43.18 90)
+		(at 152.4 43.18 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3170,7 +3190,7 @@
 		(fields_autoplaced yes)
 		(uuid "59d1de1d-4b98-4be1-b8c7-84a7eb378428")
 		(property "Reference" "#PWR02"
-			(at 158.75 43.18 0)
+			(at 152.4 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3179,11 +3199,12 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 157.48 43.18 0)
+			(at 154.94 44.4499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
