@@ -1,0 +1,6 @@
+[submodule "pcb/pipar_point/keyboard_reversible.pretty"]
+	path = pcb/pipar_point/keyboard_reversible.pretty
+	url = git@github.com:50an6xy06r6n/keyboard_reversible.pretty.git
+[submodule "pcb/pipar_point/ergogen/footprints/infused-kim"]
+	path = pcb/pipar_point/ergogen/footprints/infused-kim
+	url = git@github.com:infused-kim/kb_ergogen_fp.git

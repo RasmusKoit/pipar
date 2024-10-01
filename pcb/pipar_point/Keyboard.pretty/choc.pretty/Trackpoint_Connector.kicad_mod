@@ -1,0 +1,106 @@
+(footprint "Trackpoint_Connector"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -1.7 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "ac9fabec-299f-41fb-8e57-fa24ab21eb13")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "Trackpoint_Connector"
+		(at 0 1.8 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "49fdc2ac-28e8-4cf4-a307-48b480a882e8")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 1.8 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "4653a32b-8681-4dc5-a747-92d875af08ba")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 1.8 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f80b991c-b545-49a2-a228-bac84935e186")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 1.8 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "13dea8ad-d788-4ef8-bf25-371b717bba8c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_text user "${REFERENCE}"
+		(at 0 3.3 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "0f0b6862-9296-4485-ba9c-7b9bee058f61")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "10" smd rect
+		(at 3.8 0 270)
+		(size 2.2 1.8)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "281546c4-3eca-4ee0-89c0-db32ffbcce0f")
+	)
+	(pad "11" smd rect
+		(at 1.26 0 270)
+		(size 2.2 1.8)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "845bfa6c-866a-4d0d-9238-339f9230aef1")
+	)
+	(pad "12" smd rect
+		(at -1.28 0 270)
+		(size 2.2 1.8)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "4e5ea709-e4a3-4354-b223-921b9ccd6ccb")
+	)
+	(pad "13" smd rect
+		(at -3.82 0 270)
+		(size 2.2 1.8)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "77922fca-c8c0-456d-951d-6d0ab59c0267")
+	)
+)
