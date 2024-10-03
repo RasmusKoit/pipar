@@ -146,4 +146,26 @@
 		(layers "F&B.Cu" "*.Mask")
 		(uuid "c2211e4f-cdfa-4bf3-b0de-3fd8edaa08cb")
 	)
+	(model "${EG_INFUSED_KIM_3D_MODELS}/trackpoint/TP_Cap_Red_T460S.step"
+		(offset
+			(xyz 0 0 10.5)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+	(model "${EG_INFUSED_KIM_3D_MODELS}/trackpoint/TP_Extension_Red_T460S_h10.5_md0.0_pcb1.6.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
 )

@@ -32338,7 +32338,7 @@
 		)
 		(fp_arc
 			(start 8.9 8.500001)
-			(mid 8.314204 9.914205)
+			(mid 8.314201 9.914202)
 			(end 6.9 10.500007)
 			(stroke
 				(width 0.12)
@@ -35924,10 +35924,10 @@
 		(uuid "c3be6c5d-e98e-4bfd-8cae-7c03b482e66b")
 		(at 197.514306 59.283949 -20)
 		(property "Reference" "U5"
-			(at 0 12.700001 160)
+			(at 0 12.7 -20)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "22d0f71e-3e92-410f-8fc4-86dfce09444b")
+			(uuid "e172123b-3e69-4fbc-bf7b-ee584f81c03e")
 			(effects
 				(font
 					(size 1 1)
@@ -35936,9 +35936,9 @@
 			)
 		)
 		(property "Value" "~"
-			(at 0 -12.700001 160)
+			(at 0 -12.7 -20)
 			(layer "F.Fab")
-			(uuid "9bb1119d-96f5-4230-9842-e260b110b346")
+			(uuid "0072193f-5d1f-41dd-ade4-3b499a87e25a")
 			(effects
 				(font
 					(size 1 1)
@@ -35947,10 +35947,10 @@
 			)
 		)
 		(property "Footprint" "choc:Trackpoint_T460s_Stick"
-			(at 0 0 160)
+			(at 0 0 -20)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "07f77db1-8cc9-4bf1-abbf-3dabe0ed74f2")
+			(uuid "737e0172-2b4f-4e25-ac93-9cf4dc87c617")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -35959,10 +35959,10 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 0 160)
+			(at 0 0 -20)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "6738621c-a256-46b9-a897-e71ae88b2edf")
+			(uuid "b06267fa-cdc6-43f6-bb5f-bad217251f85")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -35971,10 +35971,10 @@
 			)
 		)
 		(property "Description" ""
-			(at 0 0 160)
+			(at 0 0 -20)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "c4943a1f-eb30-4dbb-9ad6-d347ec398d1f")
+			(uuid "dd496325-ef66-4d88-a092-cb094d4f0c5e")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -35987,32 +35987,31 @@
 		(sheetfile "pipar_point.kicad_sch")
 		(attr through_hole)
 		(fp_circle
-			(center 8.549998 0)
-			(end 9.050001 -0.000001)
+			(center 8.55 0)
+			(end 9.05 0)
 			(stroke
 				(width 0)
 				(type solid)
 			)
 			(fill solid)
 			(layer "Dwgs.User")
-			(uuid "d0976edf-a2b2-4f63-932e-e39773aed6e1")
+			(uuid "4c62e698-89d4-45d4-ad8c-5b2fb5a880b2")
 		)
 		(fp_circle
-			(center 17.100004 -0.000003)
-			(end 17.599999 -0.000001)
+			(center 17.1 0)
+			(end 17.6 0)
 			(stroke
 				(width 0)
 				(type solid)
 			)
 			(fill solid)
 			(layer "Dwgs.User")
-			(uuid "0cc92dd1-e4ec-45e3-8cd0-bb4f192af863")
+			(uuid "a86b4eae-31e9-4fd9-b068-39a7c362c559")
 		)
 		(fp_poly
 			(pts
-				(xy 7.500002 -2.700006) (xy 6.299998 -1.500003) (xy 6.300003 1.500002) (xy 7.500004 2.7) (xy 22.599999 2.699995)
-				(xy 22.600002 5.500002) (xy 26.199993 5.500001) (xy 26.199996 -5.499988) (xy 22.600002 -5.499992)
-				(xy 22.599999 -2.699999)
+				(xy 7.5 -2.7) (xy 6.3 -1.5) (xy 6.3 1.5) (xy 7.5 2.7) (xy 22.6 2.7) (xy 22.6 5.5) (xy 26.2 5.5)
+				(xy 26.199999 -5.5) (xy 22.6 -5.5) (xy 22.6 -2.7)
 			)
 			(stroke
 				(width 0.12)
@@ -36020,13 +36019,12 @@
 			)
 			(fill none)
 			(layer "Dwgs.User")
-			(uuid "1b97409a-eb2b-4a03-83ff-0e2fd195dfea")
+			(uuid "e67cfcb2-096a-4d07-959a-bf91bca0391f")
 		)
 		(fp_poly
 			(pts
-				(xy -6.300002 -3.2) (xy -6.300001 3.199995) (xy -2.8 6.7) (xy -2.799994 11.500005) (xy 2.800004 11.5)
-				(xy 2.800001 6.700001) (xy 6.300002 3.2) (xy 6.300001 -3.199995) (xy 2.8 -6.7) (xy 2.799994 -11.500005)
-				(xy -2.800004 -11.5) (xy -2.800001 -6.700001)
+				(xy -6.3 -3.2) (xy -6.3 3.2) (xy -2.8 6.7) (xy -2.8 11.5) (xy 2.8 11.5) (xy 2.8 6.7) (xy 6.3 3.2)
+				(xy 6.3 -3.2) (xy 2.8 -6.7) (xy 2.8 -11.5) (xy -2.8 -11.5) (xy -2.8 -6.7)
 			)
 			(stroke
 				(width 0.2)
@@ -36034,13 +36032,12 @@
 			)
 			(fill none)
 			(layer "B.Fab")
-			(uuid "f5166c4b-4c06-4f7e-bee8-239f7d0519e1")
+			(uuid "bf8e6bbf-e0fe-4f4a-802d-abdf369b27eb")
 		)
 		(fp_poly
 			(pts
-				(xy 2.8 -6.7) (xy 6.300001 -3.199995) (xy 6.300002 3.2) (xy 2.800001 6.700001) (xy 2.800004 11.5)
-				(xy -2.799994 11.500005) (xy -2.8 6.7) (xy -6.300001 3.199995) (xy -6.300002 -3.2) (xy -2.800001 -6.700001)
-				(xy -2.800004 -11.5) (xy 2.799994 -11.500005)
+				(xy 2.8 -6.7) (xy 6.3 -3.2) (xy 6.3 3.2) (xy 2.8 6.7) (xy 2.8 11.5) (xy -2.8 11.5) (xy -2.8 6.7)
+				(xy -6.3 3.2) (xy -6.3 -3.2) (xy -2.8 -6.7) (xy -2.8 -11.5) (xy 2.8 -11.5)
 			)
 			(stroke
 				(width 0.2)
@@ -36048,14 +36045,14 @@
 			)
 			(fill none)
 			(layer "F.Fab")
-			(uuid "0042f61f-f23d-4db6-a3a3-04aa3675ea30")
+			(uuid "78938160-86fa-4b7c-a618-387f7f600287")
 		)
 		(pad "" np_thru_hole circle
-			(at -0.000004 9.500002 160)
+			(at 0 -9.5 160)
 			(size 2.2 2.2)
 			(drill 2.2)
 			(layers "F&B.Cu" "*.Mask")
-			(uuid "0ac40bb1-272b-4545-aa7d-b3de9d3b6583")
+			(uuid "ba363243-d557-4564-8b5b-7858d7d9fbf4")
 		)
 		(pad "" thru_hole circle
 			(at 0 0 160)
@@ -36063,14 +36060,36 @@
 			(drill 8.25)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(uuid "c6c13dcf-f82b-4ead-9101-81eb876ae6bb")
+			(uuid "99bb428e-4f00-418e-9719-4cd00b90e96e")
 		)
 		(pad "" np_thru_hole circle
-			(at 0.000004 -9.500002 160)
+			(at 0 9.5 160)
 			(size 2.2 2.2)
 			(drill 2.2)
 			(layers "F&B.Cu" "*.Mask")
-			(uuid "66b3cda3-37e2-493c-9c36-71b17cbb58ff")
+			(uuid "66e8bfe6-f2ac-49d6-b318-cd947b4d6a77")
+		)
+		(model "${EG_INFUSED_KIM_3D_MODELS}/trackpoint/TP_Cap_Red_T460S.step"
+			(offset
+				(xyz 0 0 10.5)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+		(model "${EG_INFUSED_KIM_3D_MODELS}/trackpoint/TP_Extension_Red_T460S_h10.5_md0.0_pcb1.6.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
 		)
 	)
 	(footprint "choc:SW_Hotswap_Kailh_Choc_V1V2_Reverse_LED_1.00u"
