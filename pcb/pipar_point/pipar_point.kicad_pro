@@ -514,7 +514,7 @@
       "plot": "",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "",
+      "step": "pipar_point.step",
       "svg": "",
       "vrml": ""
     },

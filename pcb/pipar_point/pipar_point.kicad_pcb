@@ -20906,7 +20906,7 @@
 	(footprint "choc:Solder Nut"
 		(layer "F.Cu")
 		(uuid "581f79fc-8fca-49ee-8c40-0fa6941cdc9a")
-		(at 200.763496 50.356872 5)
+		(at 200.669999 50.210003 5)
 		(property "Reference" "U4"
 			(at 0 -0.5 5)
 			(unlocked yes)
@@ -35922,7 +35922,7 @@
 	(footprint "choc:Trackpoint_T460s_Stick"
 		(layer "F.Cu")
 		(uuid "c3be6c5d-e98e-4bfd-8cae-7c03b482e66b")
-		(at 197.514306 59.283949 -20)
+		(at 197.420809 59.13708 -20)
 		(property "Reference" "U5"
 			(at 0 12.7 -20)
 			(layer "F.Fab")
@@ -40979,7 +40979,7 @@
 	(footprint "choc:Solder Nut"
 		(layer "F.Cu")
 		(uuid "dbcf6d3e-0f4c-44f8-b82b-56e7dc2e551b")
-		(at 194.265111 68.211063 5)
+		(at 194.171614 68.064194 5)
 		(property "Reference" "U6"
 			(at 0 -0.5 5)
 			(unlocked yes)

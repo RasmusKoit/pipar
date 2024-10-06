@@ -450,7 +450,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "pipar_point.kicad_pro",
+    "filename": "pipar_point_plate.kicad_pro",
     "version": 1
   },
   "net_settings": {
@@ -514,7 +514,7 @@
       "plot": "",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "",
+      "step": "pipar_point_plate.step",
       "svg": "",
       "vrml": ""
     },
