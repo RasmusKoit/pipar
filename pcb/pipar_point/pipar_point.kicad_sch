@@ -13315,6 +13315,44 @@
 			)
 		)
 	)
+	(sheet
+		(at 134.62 93.98)
+		(size 52.07 43.18)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "245fb2d6-3aec-4da3-8055-e042f1b9e474")
+		(property "Sheetname" "T460S Trackpoint schematic"
+			(at 134.62 93.2684 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "t460s_trackpoint.kicad_sch"
+			(at 134.62 137.7446 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "pipar_point"
+				(path "/a3c92014-e327-4265-9fa8-d88c7e42ce9f"
+					(page "2")
+				)
+			)
+		)
+	)
 	(sheet_instances
 		(path "/"
 			(page "1")
