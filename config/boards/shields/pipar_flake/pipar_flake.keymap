@@ -38,7 +38,7 @@
             &kp LEFT &kp DOWN   &kp RIGHT
         >;
 
-      sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOLUME_DOWN>;
+      sensor-bindings = <&inc_dec_kp C_VOL_DN  C_VOL_UP>;
     };
 
     function_layer {
@@ -53,7 +53,7 @@
         &sys_reset  &bootloader &bt BT_CLR
         >;
 
-      sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOLUME_DOWN>;
+      sensor-bindings = <&inc_dec_kp C_VOL_DN  C_VOL_UP>;
     };
   };
 };
