@@ -12,10 +12,6 @@
 #define BASE        0
 #define FUNC        1
 
-&encoder_1 {
-    status = "okay";
-};
-
 / {
   
   sensors: sensors {
@@ -38,7 +34,7 @@
             &kp LEFT &kp DOWN   &kp RIGHT
         >;
 
-      sensor-bindings = <&inc_dec_kp C_VOL_DN  C_VOL_UP>;
+      sensor-bindings = <&inc_dec_kp PG_UP PAGE_DOWN>;
     };
 
     function_layer {
