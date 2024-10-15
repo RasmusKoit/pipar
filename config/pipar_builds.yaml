@@ -28,4 +28,3 @@ include:
     shield: settings_reset
   - board: nice_nano_v2
     shield: pipar_flake
-    snippet: zmk-usb-logging
