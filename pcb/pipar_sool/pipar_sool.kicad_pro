@@ -469,9 +469,9 @@
       "plot": "",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "",
+      "step": "pipar_sool.step",
       "svg": "",
-      "vrml": ""
+      "vrml": "pipar_sool_render.wrl"
     },
     "page_layout_descr_file": ""
   },

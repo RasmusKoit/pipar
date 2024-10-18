@@ -58,9 +58,7 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [
-        "drill_out_of_range|199095110|60105373|99bb428e-4f00-418e-9719-4cd00b90e96e|00000000-0000-0000-0000-000000000000"
-      ],
+      "drc_exclusions": [],
       "meta": {
         "version": 2
       },
@@ -73,7 +71,7 @@
         "courtyards_overlap": "ignore",
         "diff_pair_gap_out_of_range": "error",
         "diff_pair_uncoupled_length_too_long": "error",
-        "drill_out_of_range": "error",
+        "drill_out_of_range": "ignore",
         "duplicate_footprints": "warning",
         "extra_footprint": "warning",
         "footprint": "error",
@@ -435,7 +433,7 @@
       "no_connect_dangling": "warning",
       "pin_not_connected": "error",
       "pin_not_driven": "error",
-      "pin_to_pin": "warning",
+      "pin_to_pin": "error",
       "power_pin_not_driven": "error",
       "similar_labels": "warning",
       "simulation_model_issue": "ignore",
@@ -518,7 +516,7 @@
       "specctra_dsn": "",
       "step": "pipar_point.step",
       "svg": "",
-      "vrml": ""
+      "vrml": "pipar_point.wrl"
     },
     "page_layout_descr_file": ""
   },
@@ -597,6 +595,48 @@
           "group_by": false,
           "label": "Description",
           "name": "Description",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "MPN",
+          "name": "MPN",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Manufacturer",
+          "name": "Manufacturer",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Part Number",
+          "name": "Part Number",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Display",
+          "name": "Display",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "JLCPCB ID",
+          "name": "JLCPCB ID",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Specifications",
+          "name": "Specifications",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "LCSC Part Number",
+          "name": "LCSC Part Number",
           "show": false
         }
       ],

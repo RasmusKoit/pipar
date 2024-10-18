@@ -657,6 +657,141 @@
 				)
 			)
 		)
+		(symbol "Device:C_Small"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0.254) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 0.254 1.778 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "C_Small"
+				(at 0.254 -2.032 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Unpolarized capacitor, small symbol"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "capacitor cap"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "C_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "C_Small_0_1"
+				(polyline
+					(pts
+						(xy -1.524 -0.508) (xy 1.524 -0.508)
+					)
+					(stroke
+						(width 0.3302)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.524 0.508) (xy 1.524 0.508)
+					)
+					(stroke
+						(width 0.3048)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "C_Small_1_1"
+				(pin passive line
+					(at 0 2.54 270)
+					(length 2.032)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 90)
+					(length 2.032)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Device:D"
 			(pin_numbers hide)
 			(pin_names
@@ -1385,6 +1520,93 @@
 						)
 					)
 					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "PCM_4ms_Power-symbol:GND"
+			(power)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "GND"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "GND_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "GND_1_1"
+				(pin power_in line
+					(at 0 0 270)
+					(length 0) hide
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3217,6 +3439,12 @@
 		(uuid "26411c55-ab94-46c7-b8a2-161f3715d556")
 	)
 	(junction
+		(at 101.6 99.06)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "28c51dc5-0429-4bb4-bb25-43eff68d140a")
+	)
+	(junction
 		(at 43.18 43.18)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3884,6 +4112,16 @@
 	)
 	(wire
 		(pts
+			(xy 116.84 99.06) (xy 113.03 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "38fdb842-d4f3-4a9a-8e64-90f2ea5f2f50")
+	)
+	(wire
+		(pts
 			(xy 104.14 33.02) (xy 104.14 53.34)
 		)
 		(stroke
@@ -4191,6 +4429,16 @@
 			(type default)
 		)
 		(uuid "77fb2301-86d1-4fab-8a45-95662aaa1611")
+	)
+	(wire
+		(pts
+			(xy 101.6 97.79) (xy 101.6 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7c216c69-ab52-4a03-a0ba-35e72bf71fd9")
 	)
 	(wire
 		(pts
@@ -4751,6 +4999,16 @@
 			(type default)
 		)
 		(uuid "e6ae387c-1dff-4342-8a70-a0efe74e822f")
+	)
+	(wire
+		(pts
+			(xy 107.95 99.06) (xy 101.6 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e85ba673-c8d3-49db-a942-adfdf7222b79")
 	)
 	(wire
 		(pts
@@ -7189,7 +7447,7 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 101.6 99.06 0)
+		(at 101.6 97.79 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7197,7 +7455,7 @@
 		(dnp no)
 		(uuid "3ce9ff70-81c4-430d-8f57-ef6bb9e9b721")
 		(property "Reference" "#PWR011"
-			(at 101.6 102.87 0)
+			(at 101.6 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7206,7 +7464,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 105.156 99.06 0)
+			(at 105.156 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7214,7 +7472,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 101.6 99.06 0)
+			(at 101.6 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7223,7 +7481,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 101.6 99.06 0)
+			(at 101.6 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7232,7 +7490,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 101.6 99.06 0)
+			(at 101.6 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9896,6 +10154,73 @@
 			(project "pipar_point"
 				(path "/a3c92014-e327-4265-9fa8-d88c7e42ce9f"
 					(reference "D17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 110.49 99.06 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7f696a9d-a5ec-45d5-8505-839d17cb34c9")
+		(property "Reference" "C3"
+			(at 110.49 96.774 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0.1uF"
+			(at 110.4963 95.25 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+			(at 110.49 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 110.49 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 110.49 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "4b745f14-4f68-4b14-9962-64451d5e6847")
+		)
+		(pin "1"
+			(uuid "8b51268e-d341-4522-bd7c-d8c5ecf00e5d")
+		)
+		(instances
+			(project ""
+				(path "/a3c92014-e327-4265-9fa8-d88c7e42ce9f"
+					(reference "C3")
 					(unit 1)
 				)
 			)
@@ -12855,6 +13180,72 @@
 			(project "pipar_point"
 				(path "/a3c92014-e327-4265-9fa8-d88c7e42ce9f"
 					(reference "LED2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_4ms_Power-symbol:GND")
+		(at 116.84 99.06 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ee20300a-9c5e-4719-88b4-ba648021f309")
+		(property "Reference" "#PWR021"
+			(at 116.84 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 116.84 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 116.84 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 116.84 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 116.84 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4eacf7c1-6526-4735-b39d-ae4b2c4373a6")
+		)
+		(instances
+			(project ""
+				(path "/a3c92014-e327-4265-9fa8-d88c7e42ce9f"
+					(reference "#PWR021")
 					(unit 1)
 				)
 			)
