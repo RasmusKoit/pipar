@@ -14481,7 +14481,7 @@
 		)
 		(fp_arc
 			(start 2.500004 2.199999)
-			(mid 2.060661 3.26066)
+			(mid 2.06066 3.260659)
 			(end 0.999998 3.699998)
 			(stroke
 				(width 0.15)
@@ -15035,7 +15035,7 @@
 		)
 		(fp_arc
 			(start 2.500004 2.199999)
-			(mid 2.060661 3.26066)
+			(mid 2.06066 3.260659)
 			(end 0.999998 3.699998)
 			(stroke
 				(width 0.15)
@@ -19862,7 +19862,7 @@
 		)
 		(fp_arc
 			(start 8.9 8.5)
-			(mid 8.314211 9.914215)
+			(mid 8.31421 9.914211)
 			(end 6.899998 10.500006)
 			(stroke
 				(width 0.12)
@@ -28837,7 +28837,7 @@
 		)
 		(fp_arc
 			(start 2.500004 2.199999)
-			(mid 2.060661 3.26066)
+			(mid 2.06066 3.260659)
 			(end 0.999998 3.699998)
 			(stroke
 				(width 0.15)
@@ -29391,7 +29391,7 @@
 		)
 		(fp_arc
 			(start 2.500004 2.199999)
-			(mid 2.060661 3.26066)
+			(mid 2.06066 3.260659)
 			(end 0.999998 3.699998)
 			(stroke
 				(width 0.15)
@@ -44558,6 +44558,18 @@
 			(justify left bottom mirror)
 		)
 	)
+	(gr_text "|"
+		(at 193.23 62.91 -25)
+		(layer "B.SilkS")
+		(uuid "48aa787a-f5be-4300-b4aa-684806991f45")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.1)
+			)
+			(justify left bottom mirror)
+		)
+	)
 	(gr_text "-"
 		(at 184.71 59.25 65)
 		(layer "B.SilkS")
@@ -44570,10 +44582,34 @@
 			(justify left bottom mirror)
 		)
 	)
+	(gr_text "O"
+		(at 202.59 67.55 -25)
+		(layer "B.SilkS")
+		(uuid "60c4227e-be1d-432b-8c38-6dee954680d6")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.1)
+			)
+			(justify left bottom mirror)
+		)
+	)
 	(gr_text "Right Side"
 		(at 131.98 92.01 0)
 		(layer "F.SilkS")
 		(uuid "818cf160-8e43-4e1d-8fcf-acfc97480465")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "|"
+		(at 203.22 66.02 155)
+		(layer "F.SilkS")
+		(uuid "93807136-094e-465b-9da0-b9efb6cf013f")
 		(effects
 			(font
 				(size 1.5 1.5)
@@ -44598,6 +44634,18 @@
 		(at 183.89 61.02 65)
 		(layer "F.SilkS")
 		(uuid "cc05ba14-ad2e-4407-9829-c491f02aee7a")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "O"
+		(at 193.997091 61.44393 155)
+		(layer "F.SilkS")
+		(uuid "d9fd6ab2-024e-49ba-b285-468146ad9258")
 		(effects
 			(font
 				(size 1.5 1.5)
