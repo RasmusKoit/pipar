@@ -20,7 +20,7 @@ Currently, the following PCBs are available:
 
 ### Pipar ja Sool (Pepper and Salt)
 
-> [!NOTE]
+> [!TIP]
 > Pipar Miryoku builds can be found here: [[RasmusKoit/miryoku_zmk]](https://github.com/RasmusKoit/miryoku_zmk/actions/workflows/build-example-pipar.yml)
 > [![Build Example Pipar](https://github.com/RasmusKoit/miryoku_zmk/actions/workflows/build-example-pipar.yml/badge.svg)](https://github.com/RasmusKoit/miryoku_zmk/actions/workflows/build-example-pipar.yml)
 
@@ -65,8 +65,12 @@ The **Pipar ja Sool** is a 36-key split wireless keyboard with a 3x5+3 layout wi
 
 > [!NOTE]
 > I am happy to announce that for the Pipar Point project, I have partnered with [PCBWay](https://www.pcbway.com/) to provide the PCBs for the project. PCBWay is a professional PCB manufacturer with over 10 years of experience in the industry. They offer a wide range of services, including PCB manufacturing, PCB assembly, and PCB design. I am excited to be working with PCBWay on this project, and I am confident that they will deliver high-quality PCBs that meet my specifications.
->
-> *Currently in development.*
+
+*Currently in design phase.*
+
+> [!TIP]
+> Pipar Miryoku builds can be found here: [[RasmusKoit/miryoku_zmk]](https://github.com/RasmusKoit/miryoku_zmk/actions/workflows/build-example-pipar.yml)
+> [![Build Example Pipar](https://github.com/RasmusKoit/miryoku_zmk/actions/workflows/build-example-pipar.yml/badge.svg)](https://github.com/RasmusKoit/miryoku_zmk/actions/workflows/build-example-pipar.yml)
 
 The **Pipar Point** is a 36-key split wireless keyboard with a 3x5+3 layout, trackpoint, LEDs and a dongle. It includes:
 
@@ -75,9 +79,27 @@ The **Pipar Point** is a 36-key split wireless keyboard with a 3x5+3 layout, tra
 - **Sockets**: Kailh Hotswap v1/v2 sockets for easy switch replacement.
 - **Trackpoint**: Lenovo T460S Trackpoint for mouse control on the right side.
 - **LEDs**: White LEDs for visual feedback.
-- **Components**: Uses smaller components like 0805/SOD-323 for resistors, capacitors.
+- **Components**: Uses smaller components in 0805/SOD-323 package for resistors, capacitors.
 - **Top Plate**: Designed to be used with a top plate for a more rigid build.
-- **Batteries**: Massive 2500mAh to compensate for the power usage of the trackpoint and LEDs.
+- **Batteries**: Massive 2500mAh to compensate for the power draw of the trackpoint and LEDs.
+
+#### Pipar Point Pictures
+
+![Pipar Point front 3D](.extra/pipar_point_front_3d.jpg)
+![Pipar Point Schematic](.extra/pipar_point_schematic.jpg)
+
+#### Pipar Point Design Details
+
+- **Layout**: Splayed split keyboard with a 3x5+3 layout.
+  - **Thumb Cluster**: Three keys on each half.
+  - **Outer Columns**: Split to reduce the distance to the keys.
+- **Wireless**: Uses the XIAO BLE microcontroller for both halves and a dongle.
+- **Battery**: Larger area for the battery to ensure longer usage time.
+- **Trackpoint**: Lenovo T460S Trackpoint for mouse control on the right side.
+- **LEDs**: I sometimes miss the visual feedback of the LEDs, so I added them to the design.
+- **Top Plate**: Designed to be used with a top plate for a more rigid build.
+
+Idea was to iterate on the Pipar ja Sool design and add a trackpoint for mouse control. The design is still in the early stages and will be updated as the project progresses. Because of the trackpoint, LEDs and the battery size has been increased to 2500mAh to compensate for the power draw of the trackpoint and LEDs. With this design, I am aiming to challege myself to design a more complex PCB by using more components which will also be smaller in size. The design will also include a top plate to make the build more rigid, because the possibility of using choc v1/v2 switches. Instead of just holes for mounting with M2 screws, the design will include M2 solder nuts for mounting the PCB.
 
 ### Pipar Flake
 
@@ -90,8 +112,8 @@ The **Pipar Flake** is an 8+1 key wireless keypad with a rotary encoder and a sc
 
 #### Pipar Flake Pictures
 
-![Pipar Flake side](.extra/pipar_flake_side.jpg)
 ![Pipar Flake in a Case](.extra/pipar_flake_case.jpg)
+![Pipar Flake side](.extra/pipar_flake_side.jpg)
 
 #### Pipar Flake Design Details
 
