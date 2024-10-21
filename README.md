@@ -10,9 +10,13 @@ All builds:
 
 ## Designed PCBs
 
-Seperated all the PCBs into their own folders for easier management.
+PCB Files for each keyboard/project has been seperated into their own folders. The PCBs are designed in KiCad v8.0
 
-~~Currently, both Pipar and Pipar Flake are designed to be manufactured together but used separately. Both PCBs are designed to be used with Choc v1 switches and hotswap sockets. The PCBs are built to be wireless.~~
+Currently, the following PCBs are available:
+
+- [Pipar & Sool](#pipar-ja-sool-pepper-and-salt) - 36-key split wireless keyboard with a 3x5+3 layout and a dongle.
+- [Pipar Point](#pipar-point) - 36-key split wireless keyboard with a 3x5+3 layout, trackpoint, LEDs and a dongle.
+- [Pipar Flake](#pipar-flake) - 8+1 key wireless keypad with a rotary encoder and a screen.
 
 ### Pipar ja Sool (Pepper and Salt)
 
@@ -29,8 +33,8 @@ The **Pipar ja Sool** is a 36-key split wireless keyboard with a 3x5+3 layout wi
 
 #### Pipar ja Sool Pictures
 
-![Pipar top](.extra/pipar_prod_top.jpg)
-![Pipar side](.extra/pipar_prod_side.jpg)
+![Pipar front](.extra/pipar_sool_front.jpg)
+![Pipar right](.extra/pipar_sool_right.jpg)
 ![Pipar case](.extra/pipar_prod_case.png)
 
 #### Pipar ja Sool Design Details
@@ -53,7 +57,27 @@ The **Pipar ja Sool** is a 36-key split wireless keyboard with a 3x5+3 layout wi
 - **Diodes**: 36x [1N4148/SOD-123 Diodes (SplitKB)](https://splitkb.com/products/smd-diodes?variant=42283984027907)
 - **Battery**: 2x [320mAh 3x30x40mm (Oomipood)](https://www.oomipood.ee/product/accu_lp303040_cl). Case is designed for 3mm height batteries with some extra space.
 - **Case**: 1x [Pipar Case](https://cad.onshape.com/documents/b447867a8ef38c5c4b3f03a8/w/fa3f83cbdca5dabb6eda5ba8/e/aa2f21b7f0fc9dfb83784403?renderMode=0&uiState=66ebfb933005041fa7950d33)
-- **Keycaps**: 1x [Kailh Choc Keycaps (FKCaps)](https://fkcaps.com/custom/KYTMMA)
+- **Keycaps**: 1x [Kailh Choc Keycaps **Colemak-DH** (FKCaps)](https://fkcaps.com/custom/KYTMMA)
+
+### Pipar Point
+
+![PCBWay](.extra/pcbway.png)
+
+> [!NOTE]
+> I am happy to announce that for the Pipar Point project, I have partnered with [PCBWay](https://www.pcbway.com/) to provide the PCBs for the project. PCBWay is a professional PCB manufacturer with over 10 years of experience in the industry. They offer a wide range of services, including PCB manufacturing, PCB assembly, and PCB design. I am excited to be working with PCBWay on this project, and I am confident that they will deliver high-quality PCBs that meet my specifications.
+>
+> *Currently in development.*
+
+The **Pipar Point** is a 36-key split wireless keyboard with a 3x5+3 layout, trackpoint, LEDs and a dongle. It includes:
+
+- **Microcontrollers**: XIAO BLE for both halves and a dongle.
+- **Switches**: Ambients Silent Kailh Low Profile Nocturnal Choc Switches.
+- **Sockets**: Kailh Hotswap v1/v2 sockets for easy switch replacement.
+- **Trackpoint**: Lenovo T460S Trackpoint for mouse control on the right side.
+- **LEDs**: White LEDs for visual feedback.
+- **Components**: Uses smaller components like 0805/SOD-323 for resistors, capacitors.
+- **Top Plate**: Designed to be used with a top plate for a more rigid build.
+- **Batteries**: Massive 2500mAh to compensate for the power usage of the trackpoint and LEDs.
 
 ### Pipar Flake
 
@@ -67,6 +91,7 @@ The **Pipar Flake** is an 8+1 key wireless keypad with a rotary encoder and a sc
 #### Pipar Flake Pictures
 
 ![Pipar Flake side](.extra/pipar_flake_side.jpg)
+![Pipar Flake in a Case](.extra/pipar_flake_case.jpg)
 
 #### Pipar Flake Design Details
 
@@ -76,21 +101,3 @@ The **Pipar Flake** is an 8+1 key wireless keypad with a rotary encoder and a sc
 - **Rotary Encoder**:  
   - **Function**: Can control volume.
   - **Push Button**: Can be used to change layers.
-
-## Schematic
-
-Here is the schematic for the Pipar PCBs:
-
-![Schematic](.extra/pipar_schematic.png)
-
-## Layout
-
-The layout of the Pipar PCBs is shown below:
-
-![Layout](.extra/pipar_layout.png)
-
-## Render
-
-A render of the Pipar PCB design:
-
-![Render](.extra/pipar_pcb.png)
