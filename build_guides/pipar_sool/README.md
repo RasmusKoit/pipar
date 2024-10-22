@@ -40,6 +40,9 @@ TODO
 
 ### How to assemble
 
+> [!NOTE]
+> If you are new to soldering, you can check out a quick video guide on how to solder [**here**](https://youtu.be/HycbZviKKUg)
+
 1. Unscrew the 10 screws attaching the PCBs to the case.
 2. Remove the PCBs from the case.
 3. Solder the diodes to the bottom of the PCB on each half (diodes should be mounted inside the case).
