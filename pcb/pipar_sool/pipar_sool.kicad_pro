@@ -52,7 +52,14 @@
         }
       },
       "diff_pair_dimensions": [],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        "text_thickness|131980000|92010000|818cf160-8e43-4e1d-8fcf-acfc97480465|00000000-0000-0000-0000-000000000000",
+        "text_thickness|142950000|92020000|1beaccdc-2374-4f68-a274-d3432d267f2e|00000000-0000-0000-0000-000000000000",
+        "text_thickness|183890000|61020000|cc05ba14-ad2e-4407-9829-c491f02aee7a|00000000-0000-0000-0000-000000000000",
+        "text_thickness|184710000|59250000|5fea8691-c53d-4ace-afcf-1b2e5ff618c0|00000000-0000-0000-0000-000000000000",
+        "text_thickness|187720000|62850000|243a034c-b3b1-4cb2-9504-a26434021285|00000000-0000-0000-0000-000000000000",
+        "text_thickness|189100000|63490000|a0b86cde-3429-4737-895f-44c552731d18|00000000-0000-0000-0000-000000000000"
+      ],
       "meta": {
         "version": 2
       },
@@ -470,7 +477,7 @@
       "pos_files": "",
       "specctra_dsn": "",
       "step": "pipar_sool.step",
-      "svg": "",
+      "svg": "./",
       "vrml": "pipar_sool_render.wrl"
     },
     "page_layout_descr_file": ""

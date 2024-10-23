@@ -2,8 +2,6 @@
 
 ZMK firmware for the Pipar PCBs.
 
-All builds:
-
 [![.github/workflows/build_pipar_firmwares.yml](https://github.com/RasmusKoit/pipar/actions/workflows/build_pipar_firmwares.yml/badge.svg)](https://github.com/RasmusKoit/pipar/actions/workflows/build_pipar_firmwares.yml)
 
 **Pipar** is a collection of different keyboards and keypads that I have designed. Each PCB in the series has unique features tailored to different needs and preferences.
@@ -19,6 +17,8 @@ Currently, the following PCBs are available:
 - [Pipar Flake](#pipar-flake) - 8+1 key wireless keypad with a rotary encoder and a screen.
 
 ### Pipar ja Sool (Pepper and Salt)
+
+Get your own Pipar & Sool from my [Etsy Store](https://piparkeyboards.etsy.com).
 
 > [!TIP]
 > Pipar Miryoku builds can be found here: [[RasmusKoit/miryoku_zmk]](https://github.com/RasmusKoit/miryoku_zmk/actions/workflows/build-example-pipar.yml)
@@ -36,6 +36,7 @@ The **Pipar ja Sool** is a 36-key split wireless keyboard with a 3x5+3 layout wi
 ![Pipar front](.extra/pipar_sool_front.jpg)
 ![Pipar right](.extra/pipar_sool_right.jpg)
 ![Pipar case](.extra/pipar_prod_case.png)
+![Pipar trace](pcb/pipar_sool/pipar_sool-brd.svg)
 
 #### Pipar ja Sool Design Details
 
