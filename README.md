@@ -18,11 +18,10 @@ Currently, the following PCBs are available:
 
 ### Pipar ja Sool (Pepper and Salt)
 
-Get your own Pipar & Sool from my [Etsy Store](https://piparkeyboards.etsy.com).
+> ![TIP] Get your own Pipar & Sool from my [Etsy Store](https://piparkeyboards.etsy.com).
 
-> [!TIP]
-> Pipar Miryoku builds can be found here: [[RasmusKoit/miryoku_zmk]](https://github.com/RasmusKoit/miryoku_zmk/actions/workflows/build-example-pipar.yml)
-> [![Build Example Pipar](https://github.com/RasmusKoit/miryoku_zmk/actions/workflows/build-example-pipar.yml/badge.svg)](https://github.com/RasmusKoit/miryoku_zmk/actions/workflows/build-example-pipar.yml)
+Pipar Miryoku builds can be found here: [[RasmusKoit/miryoku_zmk]](https://github.com/RasmusKoit/miryoku_zmk/actions/workflows/build-example-pipar.yml)
+[![Build Example Pipar](https://github.com/RasmusKoit/miryoku_zmk/actions/workflows/build-example-pipar.yml/badge.svg)](https://github.com/RasmusKoit/miryoku_zmk/actions/workflows/build-example-pipar.yml)
 
 The **Pipar ja Sool** is a 36-key split wireless keyboard with a 3x5+3 layout with a dongle. It features:
 
