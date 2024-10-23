@@ -18,7 +18,8 @@ Currently, the following PCBs are available:
 
 ### Pipar ja Sool (Pepper and Salt)
 
-> ![TIP] Get your own Pipar & Sool from my [Etsy Store](https://piparkeyboards.etsy.com).
+> [!TIP]
+> Get your own Pipar & Sool from my [Etsy Store](https://piparkeyboards.etsy.com).
 
 Pipar Miryoku builds can be found here: [[RasmusKoit/miryoku_zmk]](https://github.com/RasmusKoit/miryoku_zmk/actions/workflows/build-example-pipar.yml)
 [![Build Example Pipar](https://github.com/RasmusKoit/miryoku_zmk/actions/workflows/build-example-pipar.yml/badge.svg)](https://github.com/RasmusKoit/miryoku_zmk/actions/workflows/build-example-pipar.yml)
