@@ -104,12 +104,13 @@ Idea was to iterate on the Pipar ja Sool design and add a trackpoint for mouse c
 
 ### Pipar Flake
 
-The **Pipar Flake** is an 8+1 key wireless keypad with a rotary encoder and a screen. It includes:
+The **Pipar Flake** is an 8+1 key wireless keypad with a rotary encoder (optional) and a screen. It includes:
 
 - **Microcontroller**: SuperMini NRF52840.
 - **Display**: Tiny OLED display.
 - **Switches**: Ambients Silent Kailh Low Profile Nocturnal Choc Switches.
 - **Sockets**: Kailh Hotswap sockets for easy switch replacement.
+- **LEDs**: White LEDs for backlighting.
 
 #### Pipar Flake Pictures
 
