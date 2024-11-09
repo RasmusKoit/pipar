@@ -22643,6 +22643,17 @@
 		(layer "Edge.Cuts")
 		(uuid "d1f2c4c6-de64-4256-857b-9b6ce7188752")
 	)
+	(gr_rect
+		(start 21.37 17.69)
+		(end 80.57 95.73)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill none)
+		(layer "User.1")
+		(uuid "f912b5a8-ca5b-447e-9417-6b8e22c1a14b")
+	)
 	(gr_text "Left side"
 		(at 42.979028 81.372779 0)
 		(layer "B.SilkS")

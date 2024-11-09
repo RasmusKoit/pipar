@@ -9,3 +9,18 @@
 &encoder_1 {
     status = "okay";
 };
+
+&pinctrl {
+    // Other pinctrl definitions for other hardware
+    pwm0_default: pwm0_default {
+        group1 {
+            psels = <NRF_PSEL(PWM_OUT0, 1, 13)>;
+        };
+    };
+    pwm0_sleep: pwm0_sleep {
+        group1 {
+            psels = <NRF_PSEL(PWM_OUT0, 1, 13)>;
+            low-power-enable;
+        };
+    };
+};
