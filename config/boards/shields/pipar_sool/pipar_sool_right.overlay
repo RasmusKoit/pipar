@@ -1,4 +1,4 @@
-#include "pipar_sool.dtsi"
+#include "pipar_sool-matrix.dtsi"
 
 &default_transform {
     col-offset = <6>;

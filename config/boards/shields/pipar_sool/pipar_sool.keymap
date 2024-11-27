@@ -2,12 +2,11 @@
 #include <behaviors.dtsi>
 #include <dt-bindings/zmk/keys.h>
 #include <dt-bindings/zmk/bt.h>
-#include <dt-bindings/zmk/rgb.h>
+
 
 / {
         keymap {
                 compatible = "zmk,keymap";
-
                 default_layer {
 // -----------------------------------------------------------------------------------------
 // |  BT_CLR    |  Q  |  W  |  E  |  R  |  T   |   |  BT_CLR    |  Y  |  U   |  I  |  O  |  P  |
