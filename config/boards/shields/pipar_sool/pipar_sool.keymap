@@ -9,15 +9,11 @@
                 compatible = "zmk,keymap";
 
                 default_layer {
-// -----------------------------------------------------------------------------------------
-// |  BT_CLR    |  Q  |  W  |  E  |  R  |  T   |   |  BT_CLR    |  Y  |  U   |  I  |  O  |  P  |
-// |  BT_SEL 0  |  A  |  S  |  D  |  F  |  G   |   |  BT_SEL 0  |  H  |  J   |  K  |  L  |  ;  |
-// |  BT_SEL 1  |  Z  |  X  |  C  |  V  |  B   |   |  BT_SEL 1  |  N  |  M   |  ,  |  .  |  /  |
                         bindings = <
-&bt BT_CLR      &kp Q       &kp W       &kp F          &kp P          &kp B                &kp J          &kp L         &kp U          &kp Y         &kp SQT     &trans
-&bootloader     &mt LGUI A  &mt LALT R  &mt LCTRL S    &mt LSHFT T    &kp G                &kp M          &mt LSHFT N   &mt LCTRL E    &mt LALT I    &mt LGUI O  &trans
-&sys_reset      &kp Z       &mt RALT X  &kp C          &kp D          &kp V                &kp K          &kp H         &kp CMMA       &mt RALT DOT  &kp FSLH    &trans
-                                        &kp ESC        &kp SPACE      &kp TAB              &kp ENTER      &kp BSPC      &kp DEL
+        &kp Q           &kp W           &kp F           &kp P           &kp B                           &kp J           &kp L          &kp U          &kp Y           &kp SQT
+        &kp A           &kp R           &kp S           &kp T           &kp G                           &kp M           &kp N          &kp E          &kp I           &kp O
+        &kp Z           &kp X           &kp C           &kp D           &kp V                           &kp K           &kp H          &kp CMMA       &mt RALT DOT    &kp SEMI
+                                        &kp ESC         &kp SPACE       &kp TAB                         &kp ENTER       &kp BSPC       &kp DEL
                         >;
                 };
         };
