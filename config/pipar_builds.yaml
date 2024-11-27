@@ -19,11 +19,11 @@
 ---
 include:
   - board: seeeduino_xiao_ble
-    shield: pipar_left
+    shield: pipar_sool_left
   - board: seeeduino_xiao_ble
-    shield: pipar_right
+    shield: pipar_sool_right
   - board: seeeduino_xiao_ble
-    shield: pipar_dongle
+    shield: pipar_sool_dongle
   - board: seeeduino_xiao_ble
     shield: settings_reset
   - board: nice_nano_v2
