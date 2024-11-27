@@ -1,16 +1,16 @@
 # Dongle 
 
-if SHIELD_PIPAR_DONGLE
+if SHIELD_PIPAR_SOOL_DONGLE
 
 config ZMK_KEYBOARD_NAME
-    default "Pipar"
+    default "Pipar & Sool"
 
 config ZMK_SPLIT_ROLE_CENTRAL
     default y
 
 endif
 
-if SHIELD_PIPAR_DONGLE || SHIELD_PIPAR_RIGHT || SHIELD_PIPAR_LEFT
+if SHIELD_PIPAR_SOOL_DONGLE || SHIELD_PIPAR_SOOL_RIGHT || SHIELD_PIPAR_SOOL_LEFT
 
 config ZMK_SPLIT
     default y

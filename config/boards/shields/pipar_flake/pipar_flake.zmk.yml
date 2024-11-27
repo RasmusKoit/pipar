@@ -2,7 +2,7 @@ file_format: "1"
 id: pipar_flake
 name: PiparFlake
 type: shield
-url: https://github.com/RasmusKoit/zmk-pipar
+url: https://github.com/RasmusKoit/pipar
 requires: [pro_micro]
 exposes: [i2c_oled]
 features:

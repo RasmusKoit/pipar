@@ -1,0 +1,12 @@
+file_format: "1"
+id: pipar_sool
+name: pipar_sool
+type: shield
+url: https://github.com/RasmusKoit/pipar
+requires: [seeed_xiao]
+features:
+  - keys
+siblings:
+  - pipar_sool_dongle
+  - pipar_sool_left
+  - pipar_sool_right
