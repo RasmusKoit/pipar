@@ -3,6 +3,7 @@
 
 &physical_layout0 {
     transform = <&default_transform>;
+    zmk,kscan = &kscan0;
 };
 
 / {
