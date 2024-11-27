@@ -13,7 +13,6 @@
 / {
     chosen {
         zmk,kscan = &mock_kscan;
-        // zmk,kscan = &kscan0;
         zmk,physical-layout = &physical_layout0;
     };
 
@@ -31,7 +30,7 @@
         
     };
 
-    mock_kscan: kscan_0 {
+    mock_kscan: kscan0 {
         compatible = "zmk,kscan-mock";
         columns = <0>;
         rows = <0>;
