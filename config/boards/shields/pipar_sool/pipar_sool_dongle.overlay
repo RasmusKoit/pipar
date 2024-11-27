@@ -8,7 +8,7 @@
 
 &physical_layout0 {
     transform = <&default_transform>;
-    zmk,kscan = &mock_kscan;
+    // zmk,kscan = &mock_kscan;
 };
 
 / {
