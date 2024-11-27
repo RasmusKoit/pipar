@@ -4,12 +4,17 @@
  * SPDX-License-Identifier: MIT
  */
 #include <dt-bindings/zmk/matrix_transform.h>
+#include "pipar_sool-layouts.dtsi"
+
+&physical_layout0 {
+    transform = <&default_transform>;
+    // zmk,kscan = &mock_kscan;
+};
 
 / {
     chosen {
         zmk,kscan = &mock_kscan;
-        // zmk,kscan = &kscan0;
-        zmk,matrix-transform = &default_transform;
+        zmk,physical-layout = &physical_layout0;
     };
 
     default_transform: keymap_transform_0 {
@@ -25,8 +30,7 @@
         >;
         
     };
-
-    mock_kscan: kscan_0 {
+    mock_kscan: kscan0 {
         compatible = "zmk,kscan-mock";
         columns = <0>;
         rows = <0>;

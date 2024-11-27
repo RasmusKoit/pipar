@@ -1,9 +1,15 @@
 #include <dt-bindings/zmk/matrix_transform.h>
+#include "pipar_sool-layouts.dtsi"
+
+&physical_layout0 {
+    transform = <&default_transform>;
+    // zmk,kscan = &kscan0;
+};
 
 / {
     chosen {
         zmk,kscan = &kscan0;
-        zmk,matrix_transform = &default_transform;
+        zmk,physical-layout = &physical_layout0;
     };
 
     default_transform: keymap_transform_0 {
