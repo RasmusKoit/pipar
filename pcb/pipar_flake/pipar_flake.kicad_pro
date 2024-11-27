@@ -472,7 +472,7 @@
       "plot": "",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "",
+      "step": "pipar_flake.step",
       "svg": "",
       "vrml": ""
     },
