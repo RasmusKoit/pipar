@@ -22,14 +22,14 @@ Currently, the following PCBs are available:
 > Get your own Pipar & Sool from my [Etsy Store](https://piparkeyboards.etsy.com).
 
 Pipar Miryoku builds can be found here: [[RasmusKoit/miryoku_zmk]](https://github.com/RasmusKoit/miryoku_zmk/actions/workflows/build-example-pipar.yml)
-[![Build Example Pipar](https://github.com/RasmusKoit/miryoku_zmk/actions/workflows/build-example-pipar.yml/badge.svg)](https://github.com/RasmusKoit/miryoku_zmk/actions/workflows/build-example-pipar.yml)
+[![Build Example Pipar Sool](https://github.com/RasmusKoit/miryoku_zmk/actions/workflows/build-example-pipar_sool.yml/badge.svg)](https://github.com/RasmusKoit/miryoku_zmk/actions/workflows/build-example-pipar_sool.yml)
 
 The **Pipar ja Sool** is a 36-key split wireless keyboard with a 3x5+3 layout with a dongle. It features:
 
 - **Microcontrollers**: XIAO BLE for both halves and a dongle.
 - **Switches**: Ambients Silent Kailh Low Profile Nocturnal Choc Switches.
 - **Sockets**: Kailh Hotswap sockets for easy switch replacement.
-- **Key Layout**: Pipar uses Miryoku default key layout.
+- **Key Layout**: Pipar & Sool uses Miryoku default key layout.
 
 #### Pipar ja Sool Pictures
 
@@ -48,6 +48,8 @@ The **Pipar ja Sool** is a 36-key split wireless keyboard with a 3x5+3 layout wi
 
 #### Pipar ja Sool Order List
 
+Consider supporting me by purchasing Pipar & Sool Kit from my [Etsy Store](https://piparkeyboards.etsy.com).
+
 - **PCB**: 2x Pipar PCBs.
 - **Microcontroller**: 3x [XIAO BLE microcontrollers (Aliexpress)](https://www.aliexpress.com/item/1005004459618789.html?spm=a2g0o.order_list.order_list_main.20.2f8718028ReplC)
 - **On/Off Switch**: 2x [On/Off Switch (Aliexpress)](https://www.aliexpress.com/item/1005006710234187.html?spm=a2g0o.order_list.order_list_main.15.2f8718028ReplC)
@@ -57,7 +59,7 @@ The **Pipar ja Sool** is a 36-key split wireless keyboard with a 3x5+3 layout wi
 - **Sockets**: 36x [Kailh Hotswap sockets (SplitKB)](https://splitkb.com/products/kailh-hotswap-sockets?variant=39472161456205)
 - **Diodes**: 36x [1N4148/SOD-123 Diodes (SplitKB)](https://splitkb.com/products/smd-diodes?variant=42283984027907)
 - **Battery**: 2x [320mAh 3x30x40mm (Oomipood)](https://www.oomipood.ee/product/accu_lp303040_cl). Case is designed for 3mm height batteries with some extra space.
-- **Case**: 1x [Pipar Case](https://cad.onshape.com/documents/b447867a8ef38c5c4b3f03a8/w/fa3f83cbdca5dabb6eda5ba8/e/aa2f21b7f0fc9dfb83784403?renderMode=0&uiState=66ebfb933005041fa7950d33)
+- **Case**: 1x [Pipar Case V2](https://cad.onshape.com/documents/0618546ffe3fe295af383a46/w/2cb3b1882647ac70cde86ee4/e/379ba082d1ffd285c3cab9c2)
 - **Keycaps**: 1x [Kailh Choc Keycaps **Colemak-DH** (FKCaps)](https://fkcaps.com/custom/KYTMMA)
 
 ### Pipar Point
