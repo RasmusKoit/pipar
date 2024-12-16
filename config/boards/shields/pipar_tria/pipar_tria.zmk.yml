@@ -1,0 +1,8 @@
+file_format: "1"
+id: pipar_tria
+name: PiparTria
+type: shield
+url: https://github.com/RasmusKoit/pipar
+requires: [pro_micro]
+features:
+  - keys

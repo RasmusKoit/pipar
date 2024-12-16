@@ -1,0 +1,6 @@
+if SHIELD_PIPAR_TRIA
+
+config ZMK_KEYBOARD_NAME
+    default "Pipar Tria"
+
+endif
