@@ -1,10 +1,7 @@
-#include <physical_layouts.dtsi>
-
 / {
     physical_layout0: physical_layout_0 {
         compatible = "zmk,physical-layout";
         display-name = "pipar_sool-layout";
-
         transform = <&matrix_transform0>;
 
         keys  //                     w   h    x    y     rot    rx    ry
@@ -38,12 +35,21 @@
             , <&key_physical_attrs 100 100 1350  225       0     0     0>
             , <&key_physical_attrs 100 100 1475  300     500  1775   200>
             , <&key_physical_attrs 100 100 1675  400    2500  1775   200>
-            , <&key_physical_attrs 100 100  575   50    3500     0   200>
-            , <&key_physical_attrs 100 100  675   50    3500     0   200>
-            , <&key_physical_attrs 100 100  775   50    3500     0   200>
+            , <&key_physical_attrs 100 100  575   50    3500     1   200>
+            , <&key_physical_attrs 100 100  675   50    3500     1   200>
+            , <&key_physical_attrs 100 100  775   50    3500     1   200>
             , <&key_physical_attrs 100 100  900   50 (-3500)  1775   200>
             , <&key_physical_attrs 100 100 1000   50 (-3500)  1775   200>
             , <&key_physical_attrs 100 100 1100   50 (-3500)  1775   200>
             ;
+    };
+
+    position_map {
+        compatible = "zmk,physical-layout-position-map";
+
+        physical_layout0 {
+            physical-layout = <&physical_layout0>;
+            positions = <>;
+        };
     };
 };
