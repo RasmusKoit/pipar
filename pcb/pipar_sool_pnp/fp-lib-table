@@ -1,0 +1,5 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "Keyboard")(type "KiCad")(uri "F:/PCBs/pipar/pcb/Footprints-Symbols/Footprints/Keyboard.pretty")(options "")(descr ""))
+  (lib (name "Art")(type "KiCad")(uri "F:/PCBs/pipar/pcb/Footprints-Symbols/Footprints/Art.pretty")(options "")(descr ""))
+)
