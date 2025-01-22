@@ -15,6 +15,7 @@
     chosen {
         zmk,kscan = &mock_kscan;
         zmk,physical-layout = &physical_layout0;
+        zephyr,display = &st7789;
     };
 
     default_transform: keymap_transform_0 {
@@ -36,4 +37,5 @@
         rows = <0>;
         events = <0>;
     };
+    
 };
