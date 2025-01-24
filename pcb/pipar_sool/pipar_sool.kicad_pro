@@ -51,15 +51,14 @@
           "min_clearance": 0.5
         }
       },
-      "diff_pair_dimensions": [],
-      "drc_exclusions": [
-        "text_thickness|131980000|92010000|818cf160-8e43-4e1d-8fcf-acfc97480465|00000000-0000-0000-0000-000000000000",
-        "text_thickness|142950000|92020000|1beaccdc-2374-4f68-a274-d3432d267f2e|00000000-0000-0000-0000-000000000000",
-        "text_thickness|183890000|61020000|cc05ba14-ad2e-4407-9829-c491f02aee7a|00000000-0000-0000-0000-000000000000",
-        "text_thickness|184710000|59250000|5fea8691-c53d-4ace-afcf-1b2e5ff618c0|00000000-0000-0000-0000-000000000000",
-        "text_thickness|187720000|62850000|243a034c-b3b1-4cb2-9504-a26434021285|00000000-0000-0000-0000-000000000000",
-        "text_thickness|189100000|63490000|a0b86cde-3429-4737-895f-44c552731d18|00000000-0000-0000-0000-000000000000"
+      "diff_pair_dimensions": [
+        {
+          "gap": 0.0,
+          "via_gap": 0.0,
+          "width": 0.0
+        }
       ],
+      "drc_exclusions": [],
       "meta": {
         "version": 2
       },
@@ -104,7 +103,7 @@
         "solder_mask_bridge": "ignore",
         "starved_thermal": "error",
         "text_height": "warning",
-        "text_thickness": "warning",
+        "text_thickness": "ignore",
         "through_hole_pad_without_hole": "error",
         "too_many_vias": "error",
         "track_dangling": "warning",
@@ -178,7 +177,9 @@
           "td_width_to_size_filter_ratio": 0.9
         }
       ],
-      "track_widths": [],
+      "track_widths": [
+        0.0
+      ],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
           "corner_radius_percentage": 80,
@@ -205,7 +206,12 @@
           "spacing": 0.6
         }
       },
-      "via_dimensions": [],
+      "via_dimensions": [
+        {
+          "diameter": 0.0,
+          "drill": 0.0
+        }
+      ],
       "zones_allow_external_fillets": false
     },
     "ipc2581": {
@@ -609,6 +615,18 @@
     [
       "a3c92014-e327-4265-9fa8-d88c7e42ce9f",
       "Root"
+    ],
+    [
+      "dd44a428-828f-4c5e-bc4e-c7d925685e56",
+      "KeyMatrix"
+    ],
+    [
+      "060bd6c0-b62b-4b42-a181-999d7e8154dd",
+      "PickAndPlaceDuplicates"
+    ],
+    [
+      "b0f90b5f-24e6-4923-8deb-db0c68ffd7f3",
+      "KeyMatrix1"
     ]
   ],
   "text_variables": {}
