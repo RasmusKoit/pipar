@@ -50,13 +50,15 @@
 &pinctrl {
 	spi0_default: spi0_default {
 		group1 {
-			psels = <NRF_PSEL(SPIM_SCK, 0, 4)>,<NRF_PSEL(SPIM_MOSI, 0, 5)>;
+			psels = <NRF_PSEL(SPIM_SCK, 0, 4)>,
+                <NRF_PSEL(SPIM_MOSI, 0, 5)>;
 		};
 	};
 
 	spi0_sleep: spi0_sleep {
 		group1 {
-			psels = <NRF_PSEL(SPIM_SCK, 0, 4)>,<NRF_PSEL(SPIM_MOSI, 0, 5)>;
+			psels = <NRF_PSEL(SPIM_SCK, 0, 4)>,
+                <NRF_PSEL(SPIM_MOSI, 0, 5)>;
 			low-power-enable;
 		};
 	};
@@ -83,15 +85,15 @@
 	status = "okay";
 	pinctrl-0 = <&spi0_default>;
 	pinctrl-1 = <&spi0_sleep>;
-	cs-gpios = <&gpio0 11 GPIO_ACTIVE_LOW>;
+	// cs-gpios = <&gpio0 11 GPIO_ACTIVE_LOW>;
 	pinctrl-names = "default", "sleep";
 	
 	st7789v: st7789v@0 {
 		compatible = "sitronix,st7789v";
 		spi-max-frequency = <20000000>;
 		reg = <0>;
-		cmd-data-gpios = <&gpio1 12 GPIO_ACTIVE_LOW>;
-		reset-gpios = <&gpio0 29 GPIO_ACTIVE_LOW>;
+		cmd-data-gpios = <&xiao_d 7 GPIO_ACTIVE_LOW>;
+		reset-gpios = <&xiao_d 3 GPIO_ACTIVE_LOW>;
 		width = <240>;
 		height = <240>;
 		x-offset = <0>;
