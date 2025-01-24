@@ -91,7 +91,7 @@ disp_spi: &spi3 {
 	pinctrl-names = "default", "sleep";
 //    cs-gpios = <&xiao_d 9 GPIO_ACTIVE_LOW>;
 
-   st7789: st7789v@0 {
+   st7789v: st7789v@0 {
        compatible = "sitronix,st7789v";
        spi-max-frequency = <31000000>;
        reg = <0>;
