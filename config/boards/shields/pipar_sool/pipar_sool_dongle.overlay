@@ -70,7 +70,7 @@
 		cmd-data-gpios = <&gpio1 12 GPIO_ACTIVE_LOW>;
 		reset-gpios = <&gpio0 29 GPIO_ACTIVE_LOW>;
 		width = <240>;
-		height = <320>;
+		height = <240>;
 		x-offset = <0>;
 		y-offset = <0>;
 		vcom = <0x19>;
