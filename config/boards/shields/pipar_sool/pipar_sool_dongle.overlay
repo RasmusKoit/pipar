@@ -47,23 +47,29 @@
     
 };
 
+&spi2 {
+   status = "disabled";
+};
+
 &pinctrl {
-	spi0_default: spi0_default {
+   spi3_default: spi3_default {
 		group1 {
-			psels = <NRF_PSEL(SPIM_SCK, 0, 4)>,
-                <NRF_PSEL(SPIM_MOSI, 0, 5)>;
+			psels = <NRF_PSEL(SPIM_SCK, 0, 5)>,
+				<NRF_PSEL(SPIM_MOSI, 0, 4)>,
+				<NRF_PSEL(SPIM_MISO, 1, 10)>;
 		};
 	};
 
-	spi0_sleep: spi0_sleep {
+	spi3_sleep: spi3_sleep {
 		group1 {
-			psels = <NRF_PSEL(SPIM_SCK, 0, 4)>,
-                <NRF_PSEL(SPIM_MOSI, 0, 5)>;
+			psels = <NRF_PSEL(SPIM_SCK, 0, 5)>,
+				<NRF_PSEL(SPIM_MOSI, 0, 4)>,
+				<NRF_PSEL(SPIM_MISO, 1, 10)>;
 			low-power-enable;
 		};
 	};
 
-    pwm1_default: pwm1_default {
+   pwm1_default: pwm1_default {
       group1 {
          psels = <NRF_PSEL(PWM_OUT0, 1, 11)>;
          nordic,invert;
@@ -76,44 +82,41 @@
          low-power-enable;
       };
    };
-
-
 };
 
-&spi0 {
-	compatible = "nordic,nrf-spim";
-	status = "okay";
-	pinctrl-0 = <&spi0_default>;
-	pinctrl-1 = <&spi0_sleep>;
-	// cs-gpios = <&gpio0 11 GPIO_ACTIVE_LOW>;
+disp_spi: &spi3 {
+   status = "okay";
+   pinctrl-0 = <&spi3_default>;
+	pinctrl-1 = <&spi3_sleep>;
 	pinctrl-names = "default", "sleep";
-	
-	st7789v: st7789v@0 {
-		compatible = "sitronix,st7789v";
-		spi-max-frequency = <20000000>;
-		reg = <0>;
-		cmd-data-gpios = <&xiao_d 7 GPIO_ACTIVE_LOW>;
-		reset-gpios = <&xiao_d 3 GPIO_ACTIVE_LOW>;
-		width = <240>;
-		height = <240>;
-		x-offset = <0>;
-		y-offset = <0>;
-		vcom = <0x19>;
-		gctrl = <0x35>;
-		vrhs = <0x12>;
-		vdvs = <0x20>;
-		mdac = <0x00>;
-		lcm = <0x2c>;
-		colmod = <0x05>;
-		gamma = <0x01>;
-		porch-param = [0c 0c 00 33 33];
-		cmd2en-param = [5a 69 02 01];
-		pwctrl1-param = [a4 a1];
-		pvgam-param = [D0 04 0D 11 13 2B 3F 54 4C 18 0D 0B 1F 23];
-		nvgam-param = [D0 04 0C 11 13 2C 3F 44 51 2F 1F 1F 20 23];
-		ram-param = [00 F0];
-		rgb-param = [CD 08 14];
-	};
+//    cs-gpios = <&xiao_d 9 GPIO_ACTIVE_LOW>;
+
+   st7789: st7789v@0 {
+       compatible = "sitronix,st7789v";
+       spi-max-frequency = <31000000>;
+       reg = <0>;
+       cmd-data-gpios = <&xiao_d 7 GPIO_ACTIVE_LOW>;
+       reset-gpios = <&xiao_d 3 GPIO_ACTIVE_LOW>;
+       width = <240>;
+       height = <240>;
+       x-offset = <0>;
+       y-offset = <20>;
+       vcom = <0x19>;
+       gctrl = <0x35>;
+       vrhs = <0x12>;
+       vdvs = <0x20>;
+       mdac = <0x00>;
+       gamma = <0x01>;
+       colmod = <0x05>;
+       lcm = <0x2c>;
+       porch-param = [ 0c 0c 00 33 33  ];
+       cmd2en-param = [ 5a 69 02 01  ];
+       pwctrl1-param = [ a4 a1  ];
+       pvgam-param = [ D0 04 0D 11 13 2B 3F 54 4C 18 0D 0B 1F 23  ];
+       nvgam-param = [ D0 04 0C 11 13 2C 3F 44 51 2F 1F 1F 20 23  ];
+       ram-param = [ 00 F0  ];
+       rgb-param = [ CD 08 14  ];
+   };
 };
 
 &pwm1 {
