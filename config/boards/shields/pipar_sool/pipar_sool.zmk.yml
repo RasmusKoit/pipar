@@ -6,7 +6,7 @@ url: https://github.com/RasmusKoit/pipar
 requires: [seeed_xiao]
 features:
   - keys
-  - studio
+  # - studio
 siblings:
   - pipar_sool_dongle
   - pipar_sool_left
