@@ -2019,7 +2019,7 @@
 			)
 		)
 	)
-	(global_label "LEDTrigger"
+	(global_label "LEDTrig"
 		(shape input)
 		(at 83.82 33.02 0)
 		(fields_autoplaced yes)
@@ -2029,9 +2029,9 @@
 			)
 			(justify left)
 		)
-		(uuid "efda7b9d-218c-490a-b713-0586e6b8d0a9")
+		(uuid "f26d025f-3f74-4ea7-9ff8-0020ee775a8f")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 92.4295 33.02 0)
+			(at 93.7599 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)

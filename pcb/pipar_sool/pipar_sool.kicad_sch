@@ -2228,28 +2228,6 @@
 			)
 		)
 	)
-	(global_label "LEDTrigger"
-		(shape input)
-		(at 53.34 66.04 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "976adbbe-f791-478d-bb00-8ccf3cbb5784")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 66.3037 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "RST"
 		(shape input)
 		(at 43.18 53.34 90)
@@ -2263,6 +2241,28 @@
 		(uuid "a3d8b3c3-f8cf-4449-b07b-b62761fb4d2e")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 43.18 46.9077 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "LEDTrig"
+		(shape input)
+		(at 53.34 66.04 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "ca160789-9a0f-4aaa-bbf3-917a709b0d77")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 63.2799 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
