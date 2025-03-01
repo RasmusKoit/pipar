@@ -33,22 +33,45 @@ The **Pipar ja Sool** is a 36-key split wireless keyboard with a 3x5+3 layout wi
 
 #### Pipar ja Sool Pictures
 
-![Pipar front](.extra/pipar_sool_front.jpg)
-![Pipar right](.extra/pipar_sool_right.jpg)
-![Pipar case](.extra/pipar_prod_case.png)
-![Pipar trace](pcb/pipar_sool/pipar_sool-brd.svg)
+Pictures from version V1
+
+![Pipar & Sool front](.extra/pipar_sool_front.jpg)
+![Pipar & Sool right](.extra/pipar_sool_right.jpg)
+![Pipar & Sool case](.extra/pipar_prod_case.png)
+
+<!-- markdownlint-disable MD033 -->
+<details>
+  <summary>More Pictures V3</summary>
+
+  ![Pipar & Sool right](./pcb/pipar_sool/pipar_sool_right.png)
+  ![Pipar & Sool left](./pcb/pipar_sool/pipar_sool.png)
+  ![Pipar & Sool traces](./pcb/pipar_sool/pipar_sool_traces.png)
+
+</details>
 
 #### Pipar ja Sool Design Details
+
+> [!NOTE]
+> The V3 design is compatible with the V2 case.
 
 - **Layout**: Splayed split keyboard with a 3x5+3 layout.
   - **Thumb Cluster**: Three keys on each half.
   - **Outer Columns**: Split to reduce the distance to the keys.
 - **Wireless**: Uses the XIAO BLE microcontroller for both halves and a dongle.
 - **Battery**: Larger area for the battery to ensure longer usage time.
+- **LEDs**: I sometimes miss the visual feedback of the LEDs, so I added them to the design.
+
+Changenotes:
+
+V3 version has went with the route of using smaller components with the 0403/SOD-323 package for resistors and diodes. The design is also compatible with the V2 case, so the case can be used with the V3 PCB.
+V3 also has the added benefit of using solder nuts for mounting the PCB to the case, instead of just holes for M2 screws. This adds more possibilities for mounting the PCB to the case.
 
 #### Pipar ja Sool Order List
 
 Consider supporting me by purchasing Pipar & Sool Kit from my [Etsy Store](https://piparkeyboards.etsy.com).
+
+The components list is for V2 version of the Pipar & Sool which uses larger components in 0805/SOD-123 package.
+V3 version uses smaller components in 0403/SOD-323 package.
 
 - **PCB**: 2x Pipar PCBs.
 - **Microcontroller**: 3x [XIAO BLE microcontrollers (Aliexpress)](https://www.aliexpress.com/item/1005004459618789.html?spm=a2g0o.order_list.order_list_main.20.2f8718028ReplC)
