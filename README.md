@@ -30,6 +30,7 @@ The **Pipar ja Sool** is a 36-key split wireless keyboard with a 3x5+3 layout wi
 - **Switches**: Ambients Silent Kailh Low Profile Nocturnal Choc Switches.
 - **Sockets**: Kailh Hotswap sockets for easy switch replacement.
 - **Key Layout**: Pipar & Sool uses Miryoku default key layout.
+- **LEDs**: White LEDs for backlight.
 
 #### Pipar ja Sool Pictures
 
@@ -66,14 +67,16 @@ Changenotes:
 V3 version has went with the route of using smaller components with the 0403/SOD-323 package for resistors and diodes. The design is also compatible with the V2 case, so the case can be used with the V3 PCB.
 V3 also has the added benefit of using solder nuts for mounting the PCB to the case, instead of just holes for M2 screws. This adds more possibilities for mounting the PCB to the case.
 
-#### Pipar ja Sool Order List
+#### Pipar ja Sool V2 Order List
 
-Consider supporting me by purchasing Pipar & Sool Kit from my [Etsy Store](https://piparkeyboards.etsy.com).
+Consider supporting me by purchasing Pipar & Sool V3 Kit from my [Etsy Store](https://piparkeyboards.etsy.com).
 
 The components list is for V2 version of the Pipar & Sool which uses larger components in 0805/SOD-123 package.
 V3 version uses smaller components in 0403/SOD-323 package.
 
-- **PCB**: 2x Pipar PCBs.
+If you are interested in building the V2 version, here is a list of components you will need:
+
+- **PCB**: 2x Pipar V2 PCBs [Gerber files here](./.extra/pipar_sool_v2.zip).
 - **Microcontroller**: 3x [XIAO BLE microcontrollers (Aliexpress)](https://www.aliexpress.com/item/1005004459618789.html?spm=a2g0o.order_list.order_list_main.20.2f8718028ReplC)
 - **On/Off Switch**: 2x [On/Off Switch (Aliexpress)](https://www.aliexpress.com/item/1005006710234187.html?spm=a2g0o.order_list.order_list_main.15.2f8718028ReplC)
 - **Thread inserts**: 36x [M2 Thread Inserts (Aliexpress)](https://www.aliexpress.com/item/1005003582355741.html?spm=a2g0o.order_list.order_list_main.10.2f8718028ReplC)
