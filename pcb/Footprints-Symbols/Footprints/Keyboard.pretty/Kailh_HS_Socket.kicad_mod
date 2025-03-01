@@ -1,12 +1,13 @@
 (footprint "Kailh_HS_Socket"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(property "Reference" "REF**"
-		(at -2.575 2.275 0)
+		(at 2.5 -2 0)
 		(unlocked yes)
 		(layer "F.SilkS")
+		(hide yes)
 		(uuid "18275d89-4af1-417f-b099-6450cadc56b6")
 		(effects
 			(font
@@ -20,19 +21,6 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(uuid "790ba012-c7d9-4bca-8cac-c693d46fbe51")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.15)
-			)
-		)
-	)
-	(property "Footprint" ""
-		(at 2.5 -4.85 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "4426266a-449f-41d9-acf3-81fd36776805")
 		(effects
 			(font
 				(size 1 1)
@@ -494,13 +482,14 @@
 	(pad "1" smd rect
 		(at 5.775 1.1)
 		(size 2.6 2.6)
-		(layers "B.Cu" "B.Paste" "B.Mask")
+		(layers "B.Cu" "B.Mask" "B.Paste")
 		(uuid "03f74282-0ca4-4d16-9e06-dafeec37c6b7")
 	)
 	(pad "2" smd rect
 		(at -5.775 -1.1)
 		(size 2.6 2.6)
-		(layers "B.Cu" "B.Paste" "B.Mask")
+		(layers "B.Cu" "B.Mask" "B.Paste")
 		(uuid "d37e30c1-c5a1-40bc-9304-3919b2d8b009")
 	)
+	(embedded_fonts no)
 )

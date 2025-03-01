@@ -865,6 +865,131 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "power:+4V"
+			(power)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "+4V"
+				(at 0 3.556 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"+4V\""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "+4V_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "+4V_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "power:GND"
 			(power)
 			(pin_numbers
@@ -1595,28 +1720,6 @@
 		)
 		(uuid "f6f7fdd6-689b-4c05-917f-83f352973cf2")
 	)
-	(global_label "BAT+"
-		(shape input)
-		(at 71.12 71.12 90)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "0ca805ce-d72b-40c7-b8b3-8e45d6d0521a")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 71.12 63.2362 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "LEDOut"
 		(shape input)
 		(at 40.64 85.09 0)
@@ -1969,28 +2072,6 @@
 			)
 		)
 	)
-	(global_label "BAT+"
-		(shape input)
-		(at 58.42 48.26 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "a2836723-bd0e-49c2-a21c-b948cccc95d2")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 50.5362 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "COL1"
 		(shape input)
 		(at 58.42 38.1 180)
@@ -2220,7 +2301,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "692b6950-d6e3-4957-8e10-ab67def897f3")
-		(property "Reference" "R38"
+		(property "Reference" "R40"
 			(at 25.4 71.12 90)
 			(effects
 				(font
@@ -2322,7 +2403,7 @@
 		(instances
 			(project "pipar_sool"
 				(path "/a3c92014-e327-4265-9fa8-d88c7e42ce9f/060bd6c0-b62b-4b42-a181-999d7e8154dd"
-					(reference "R38")
+					(reference "R40")
 					(unit 1)
 				)
 			)
@@ -2544,6 +2625,73 @@
 			(project "pipar_sool"
 				(path "/a3c92014-e327-4265-9fa8-d88c7e42ce9f/060bd6c0-b62b-4b42-a181-999d7e8154dd"
 					(reference "Q2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+4V")
+		(at 58.42 48.26 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8be26db5-3598-46ef-a08a-7032b184414c")
+		(property "Reference" "#PWR014"
+			(at 62.23 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+4V"
+			(at 54.61 48.2599 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 58.42 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 58.42 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+4V\""
+			(at 58.42 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c00c4761-2981-472c-84a7-ccf3ce558056")
+		)
+		(instances
+			(project "pipar_sool"
+				(path "/a3c92014-e327-4265-9fa8-d88c7e42ce9f/060bd6c0-b62b-4b42-a181-999d7e8154dd"
+					(reference "#PWR014")
 					(unit 1)
 				)
 			)
@@ -2889,6 +3037,72 @@
 			(project "pipar_sool"
 				(path "/a3c92014-e327-4265-9fa8-d88c7e42ce9f/060bd6c0-b62b-4b42-a181-999d7e8154dd"
 					(reference "#PWR08")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+4V")
+		(at 71.12 71.12 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f1983f16-8bf7-49a9-80d5-4fe204b7202e")
+		(property "Reference" "#PWR015"
+			(at 71.12 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+4V"
+			(at 71.12 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 71.12 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 71.12 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+4V\""
+			(at 71.12 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "41a1d378-d9c8-4790-b820-31ca81dedd5c")
+		)
+		(instances
+			(project "pipar_sool"
+				(path "/a3c92014-e327-4265-9fa8-d88c7e42ce9f/060bd6c0-b62b-4b42-a181-999d7e8154dd"
+					(reference "#PWR015")
 					(unit 1)
 				)
 			)
