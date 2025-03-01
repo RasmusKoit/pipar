@@ -528,7 +528,7 @@
       "specctra_dsn": "",
       "step": "pipar_sool.step",
       "svg": "./",
-      "vrml": "pipar_sool_render.wrl"
+      "vrml": "pipar_sool.wrl"
     },
     "page_layout_descr_file": ""
   },
