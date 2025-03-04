@@ -1,0 +1,94 @@
+(footprint "Trackpointer_4pin"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "U3"
+		(at 0 -1.700001 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "0486da42-6b86-496b-bc3b-229c92a5968b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "~"
+		(at -0.000006 1.800004 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "df330db5-db07-4b69-b0e5-219454bd99fe")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at -0.000006 1.800004 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "55791f9c-f24a-4a3f-b140-b212b04bb186")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at -0.000006 1.800004 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "33fca289-c3d5-4368-879f-d0137799030c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_text user "${REFERENCE}"
+		(at 0.000002 3.3 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "f0f7c904-347a-4da2-ac89-5f1731ab8c0d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "10" smd rect
+		(at 3.800001 0.000001 270)
+		(size 2.2 1.8)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "5983cb2f-71cd-4122-96d8-cfce95b63c86")
+	)
+	(pad "11" smd rect
+		(at 1.259995 -0.000001 270)
+		(size 2.2 1.8)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "05e29234-1600-4a1d-8b2d-f1f482cf13b2")
+	)
+	(pad "12" smd rect
+		(at -1.28 0 270)
+		(size 2.2 1.8)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "9852dc7c-f59c-4e1e-874c-9bec7cf04a4a")
+	)
+	(pad "13" smd rect
+		(at -3.82 0 270)
+		(size 2.2 1.8)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "5e8dc127-6589-4995-a6e0-1f539a7585cd")
+	)
+	(embedded_fonts no)
+)

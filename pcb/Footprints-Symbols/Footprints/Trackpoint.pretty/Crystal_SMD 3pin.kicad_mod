@@ -1,0 +1,105 @@
+(footprint "Crystal_SMD 3pin"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -1.75 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "ef27f293-e461-4071-9ce4-d91253b6cc2b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "Crystal_SMD 3pin"
+		(at 0 1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "2b7d8cde-99de-4721-86b7-b681f34be6b0")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "43e4f647-7764-457b-ab5a-740c10cd2d2a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "8e32b935-d4c8-4eca-b796-838c6e59e18a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_rect
+		(start -1.64 -1.17)
+		(end 1.62 1.15)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "Dwgs.User")
+		(uuid "a1583641-e9a2-46b5-8999-e7326b7912a4")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 2.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "13adbfe9-594e-4333-ad72-4f280697bd9a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd roundrect
+		(at -1.2 0)
+		(size 0.45 2)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.15)
+		(thermal_bridge_angle 45)
+		(uuid "e27a6b5e-13cb-48ec-b17a-cad1b8709932")
+	)
+	(pad "2" smd roundrect
+		(at 0 0)
+		(size 0.45 2)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.15)
+		(thermal_bridge_angle 45)
+		(uuid "ca7567c7-873e-44cf-a64c-d6edb9ddd879")
+	)
+	(pad "3" smd roundrect
+		(at 1.2 0)
+		(size 0.45 2)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.15)
+		(thermal_bridge_angle 45)
+		(uuid "11b3db1b-b619-494b-a57c-374baabb06a5")
+	)
+	(embedded_fonts no)
+)

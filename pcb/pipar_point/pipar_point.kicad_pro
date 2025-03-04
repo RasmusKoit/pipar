@@ -20,9 +20,9 @@
           "arrow_length": 1270000,
           "extension_offset": 500000,
           "keep_text_aligned": true,
-          "suppress_zeroes": false,
+          "suppress_zeroes": true,
           "text_position": 0,
-          "units_format": 1
+          "units_format": 0
         },
         "fab_line_width": 0.1,
         "fab_text_italic": false,
@@ -37,9 +37,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 1.0922,
-          "height": 1.7526,
-          "width": 1.7526
+          "drill": 0.8,
+          "height": 1.27,
+          "width": 2.54
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -51,46 +51,39 @@
           "min_clearance": 0.5
         }
       },
-      "diff_pair_dimensions": [
-        {
-          "gap": 0.0,
-          "via_gap": 0.0,
-          "width": 0.0
-        }
-      ],
+      "diff_pair_dimensions": [],
       "drc_exclusions": [],
       "meta": {
         "version": 2
       },
       "rule_severities": {
         "annular_width": "error",
-        "clearance": "warning",
+        "clearance": "error",
         "connection_width": "warning",
-        "copper_edge_clearance": "ignore",
+        "copper_edge_clearance": "error",
         "copper_sliver": "warning",
-        "courtyards_overlap": "ignore",
+        "courtyards_overlap": "error",
         "creepage": "error",
         "diff_pair_gap_out_of_range": "error",
         "diff_pair_uncoupled_length_too_long": "error",
-        "drill_out_of_range": "ignore",
+        "drill_out_of_range": "error",
         "duplicate_footprints": "warning",
         "extra_footprint": "warning",
         "footprint": "error",
         "footprint_filters_mismatch": "ignore",
         "footprint_symbol_mismatch": "warning",
         "footprint_type_mismatch": "ignore",
-        "hole_clearance": "ignore",
-        "hole_near_hole": "warning",
+        "hole_clearance": "error",
         "hole_to_hole": "warning",
-        "holes_co_located": "ignore",
+        "holes_co_located": "warning",
         "invalid_outline": "error",
         "isolated_copper": "warning",
         "item_on_disabled_layer": "error",
         "items_not_allowed": "error",
         "length_out_of_range": "error",
         "lib_footprint_issues": "warning",
-        "lib_footprint_mismatch": "ignore",
-        "malformed_courtyard": "ignore",
+        "lib_footprint_mismatch": "warning",
+        "malformed_courtyard": "error",
         "microvia_drill_out_of_range": "error",
         "mirrored_text_on_front_layer": "warning",
         "missing_courtyard": "ignore",
@@ -102,13 +95,13 @@
         "pth_inside_courtyard": "ignore",
         "shorting_items": "error",
         "silk_edge_clearance": "warning",
-        "silk_over_copper": "ignore",
-        "silk_overlap": "ignore",
+        "silk_over_copper": "warning",
+        "silk_overlap": "warning",
         "skew_out_of_range": "error",
-        "solder_mask_bridge": "ignore",
+        "solder_mask_bridge": "error",
         "starved_thermal": "error",
         "text_height": "warning",
-        "text_thickness": "ignore",
+        "text_thickness": "warning",
         "through_hole_pad_without_hole": "error",
         "too_many_vias": "error",
         "track_angle": "error",
@@ -116,7 +109,7 @@
         "track_segment_length": "error",
         "track_width": "error",
         "tracks_crossing": "error",
-        "unconnected_items": "warning",
+        "unconnected_items": "error",
         "unresolved_variable": "error",
         "via_dangling": "warning",
         "zones_intersect": "error"
@@ -139,7 +132,7 @@
         "min_track_width": 0.0,
         "min_via_annular_width": 0.1,
         "min_via_diameter": 0.5,
-        "solder_mask_to_copper_clearance": 0.005,
+        "solder_mask_to_copper_clearance": 0.0,
         "use_height_for_length_calcs": true
       },
       "teardrop_options": [
@@ -186,9 +179,7 @@
           "td_width_to_size_filter_ratio": 0.9
         }
       ],
-      "track_widths": [
-        0.0
-      ],
+      "track_widths": [],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
           "corner_radius_percentage": 80,
@@ -215,12 +206,7 @@
           "spacing": 0.6
         }
       },
-      "via_dimensions": [
-        {
-          "diameter": 0.0,
-          "drill": 0.0
-        }
-      ],
+      "via_dimensions": [],
       "zones_allow_external_fillets": false
     },
     "ipc2581": {
@@ -418,7 +404,6 @@
       "bus_entry_needed": "error",
       "bus_to_bus_conflict": "error",
       "bus_to_net_conflict": "error",
-      "conflicting_netclasses": "error",
       "different_unit_footprint": "error",
       "different_unit_net": "error",
       "duplicate_reference": "error",
@@ -444,7 +429,7 @@
       "no_connect_dangling": "warning",
       "pin_not_connected": "error",
       "pin_not_driven": "error",
-      "pin_to_pin": "error",
+      "pin_to_pin": "warning",
       "power_pin_not_driven": "error",
       "same_local_global_label": "warning",
       "similar_label_and_power": "warning",
@@ -460,9 +445,7 @@
     }
   },
   "libraries": {
-    "pinned_footprint_libs": [
-      "choc"
-    ],
+    "pinned_footprint_libs": [],
     "pinned_symbol_libs": []
   },
   "meta": {
@@ -488,24 +471,6 @@
         "via_diameter": 0.6,
         "via_drill": 0.3,
         "wire_width": 6
-      },
-      {
-        "bus_width": 12,
-        "clearance": 0.2,
-        "diff_pair_gap": 0.25,
-        "diff_pair_via_gap": 0.25,
-        "diff_pair_width": 0.2,
-        "line_style": 0,
-        "microvia_diameter": 0.3,
-        "microvia_drill": 0.1,
-        "name": "Power",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 0,
-        "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.3,
-        "via_diameter": 0.6,
-        "via_drill": 0.3,
-        "wire_width": 6
       }
     ],
     "meta": {
@@ -513,16 +478,7 @@
     },
     "net_colors": null,
     "netclass_assignments": null,
-    "netclass_patterns": [
-      {
-        "netclass": "Power",
-        "pattern": "GND"
-      },
-      {
-        "netclass": "Power",
-        "pattern": "+3V3"
-      }
-    ]
+    "netclass_patterns": []
   },
   "pcbnew": {
     "last_paths": {
@@ -532,15 +488,15 @@
       "plot": "",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "pipar_point.step",
+      "step": "",
       "svg": "",
-      "vrml": "pipar_point.wrl"
+      "vrml": ""
     },
     "page_layout_descr_file": ""
   },
   "schematic": {
-    "annotate_start_num": 0,
-    "bom_export_filename": "",
+    "annotate_start_num": 49,
+    "bom_export_filename": "${PROJECTNAME}.csv",
     "bom_fmt_presets": [],
     "bom_fmt_settings": {
       "field_delimiter": ",",
@@ -562,27 +518,15 @@
           "show": true
         },
         {
-          "group_by": true,
-          "label": "Value",
-          "name": "Value",
-          "show": true
-        },
-        {
-          "group_by": false,
-          "label": "Datasheet",
-          "name": "Datasheet",
-          "show": true
-        },
-        {
-          "group_by": false,
-          "label": "Footprint",
-          "name": "Footprint",
-          "show": true
-        },
-        {
           "group_by": false,
           "label": "Qty",
           "name": "${QUANTITY}",
+          "show": true
+        },
+        {
+          "group_by": true,
+          "label": "Value",
+          "name": "Value",
           "show": true
         },
         {
@@ -592,76 +536,34 @@
           "show": true
         },
         {
-          "group_by": false,
-          "label": "#",
-          "name": "${ITEM_NUMBER}",
-          "show": false
+          "group_by": true,
+          "label": "Exclude from BOM",
+          "name": "${EXCLUDE_FROM_BOM}",
+          "show": true
+        },
+        {
+          "group_by": true,
+          "label": "Exclude from Board",
+          "name": "${EXCLUDE_FROM_BOARD}",
+          "show": true
+        },
+        {
+          "group_by": true,
+          "label": "Footprint",
+          "name": "Footprint",
+          "show": true
         },
         {
           "group_by": false,
-          "label": "Sim.Device",
-          "name": "Sim.Device",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Sim.Pins",
-          "name": "Sim.Pins",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Description",
-          "name": "Description",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "MPN",
-          "name": "MPN",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Manufacturer",
-          "name": "Manufacturer",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Part Number",
-          "name": "Part Number",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Display",
-          "name": "Display",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "JLCPCB ID",
-          "name": "JLCPCB ID",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Specifications",
-          "name": "Specifications",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "LCSC Part Number",
-          "name": "LCSC Part Number",
-          "show": false
+          "label": "Datasheet",
+          "name": "Datasheet",
+          "show": true
         }
       ],
       "filter_string": "",
       "group_symbols": true,
-      "include_excluded_from_bom": false,
-      "name": "",
+      "include_excluded_from_bom": true,
+      "name": "Default Editing",
       "sort_asc": true,
       "sort_field": "Reference"
     },
@@ -707,12 +609,12 @@
   },
   "sheets": [
     [
-      "a3c92014-e327-4265-9fa8-d88c7e42ce9f",
+      "33180bf6-a8cb-4957-933e-07c9e2251da8",
       "Root"
     ],
     [
-      "245fb2d6-3aec-4da3-8055-e042f1b9e474",
-      "T460S Trackpoint schematic"
+      "930406af-22ba-4f53-a172-cd44f6260fd4",
+      "Trackpointer"
     ]
   ],
   "text_variables": {}
