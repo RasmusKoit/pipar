@@ -2,4 +2,6 @@
   (version 7)
   (lib (name "Trackpoint")(type "KiCad")(uri "F:/PCBs/pipar/pcb/Footprints-Symbols/Symbols/Trackpoint.kicad_sym")(options "")(descr ""))
   (lib (name "xiao_ble")(type "KiCad")(uri "F:/PCBs/pipar/pcb/Footprints-Symbols/Symbols/xiao_ble.kicad_sym")(options "")(descr ""))
+  (lib (name "NRF52840-QIAA")(type "KiCad")(uri "F:/PCBs/pipar/pcb/Footprints-Symbols/Symbols/NRF52840-QIAA-R7.kicad_sym")(options "")(descr ""))
+  (lib (name "Keyboard")(type "KiCad")(uri "F:/PCBs/pipar/pcb/Footprints-Symbols/Symbols/Keyboard.kicad_sym")(options "")(descr ""))
 )

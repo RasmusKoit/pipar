@@ -3,4 +3,5 @@
   (lib (name "Art")(type "KiCad")(uri "F:/PCBs/pipar/pcb/Footprints-Symbols/Footprints/Art.pretty")(options "")(descr ""))
   (lib (name "Keyboard")(type "KiCad")(uri "F:/PCBs/pipar/pcb/Footprints-Symbols/Footprints/Keyboard.pretty")(options "")(descr ""))
   (lib (name "Trackpoint")(type "KiCad")(uri "F:/PCBs/pipar/pcb/Footprints-Symbols/Footprints/Trackpoint.pretty")(options "")(descr ""))
+  (lib (name "Mikoto")(type "KiCad")(uri "F:/PCBs/pipar/pcb/Footprints-Symbols/Footprints/Mikoto.pretty")(options "")(descr ""))
 )

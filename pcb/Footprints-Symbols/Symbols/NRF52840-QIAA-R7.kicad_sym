@@ -1,0 +1,657 @@
+
+(kicad_symbol_lib (version 20211014) (generator kicad_symbol_editor)
+  (symbol "NRF52840-QIAA-R7" (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
+    (property "Reference" "U" (id 0) (at -15.2507 35.9661 0)
+      (effects (font (size 1.27 1.27)) (justify bottom left))
+    )
+    (property "Value" "NRF52840-QIAA-R7" (id 1) (at -15.2792 -38.58 0)
+      (effects (font (size 1.27 1.27)) (justify bottom left))
+    )
+    (property "Footprint" "NRF52840-QIAA-R7:NORDIC_NRF52840-QIAA-R7" (id 2) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "MF" "Nordic Semiconductor" (id 4) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "MAXIMUM_PACKAGE_HEIGHT" "0.85mm" (id 5) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "Package" "QFN-73 Nordic Semiconductor" (id 6) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "Price" "None" (id 7) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "Check_prices" "https://www.snapeda.com/parts/NRF52840-QIAA-R7/Nordic+Power/view-part/?ref=eda" (id 8) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "STANDARD" "IPC 7351B" (id 9) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "PARTREV" "1.2" (id 10) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "SnapEDA_Link" "https://www.snapeda.com/parts/NRF52840-QIAA-R7/Nordic+Power/view-part/?ref=snap" (id 11) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "MP" "NRF52840-QIAA-R7" (id 12) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "Description" "\n                        \n                            IC RF TxRx + MCU 802.15.4, Bluetooth Bluetooth v5.0, Thread, Zigbee® 2.4GHz 73-VFQFN Dual Rows, Exposed Pad\n                        \n" (id 13) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "Availability" "In Stock" (id 14) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "MANUFACTURER" "Nordic Semiconductor" (id 15) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (symbol "NRF52840-QIAA-R7_1_0"
+      (rectangle (start -15.24 -35.56) (end 15.24 35.56)
+        (stroke (width 0.254)) (fill (type background))
+      )
+      (pin bidirectional line (at -20.32 33.02 0) (length 5.08)
+        (name "P0.00/XL1"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "D2"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at -20.32 30.48 0) (length 5.08)
+        (name "P0.01/XL2"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "F2"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at -20.32 27.94 0) (length 5.08)
+        (name "P0.02/AIN0"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "A12"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at -20.32 25.4 0) (length 5.08)
+        (name "P0.03/AIN1"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "B13"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at -20.32 22.86 0) (length 5.08)
+        (name "P0.04/AIN2"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "J1"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at -20.32 20.32 0) (length 5.08)
+        (name "P0.05/AIN3"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "K2"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at -20.32 17.78 0) (length 5.08)
+        (name "P0.06"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "L1"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at -20.32 15.24 0) (length 5.08)
+        (name "P0.07"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "M2"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at -20.32 12.7 0) (length 5.08)
+        (name "P0.08"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "N1"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at -20.32 10.16 0) (length 5.08)
+        (name "P0.09/NFC1"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "L24"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at -20.32 7.62 0) (length 5.08)
+        (name "P0.10/NFC2"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "J24"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at -20.32 5.08 0) (length 5.08)
+        (name "P0.11"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "T2"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at -20.32 2.54 0) (length 5.08)
+        (name "P0.12"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "U1"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at -20.32 0.0 0) (length 5.08)
+        (name "P0.13"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "AD8"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at -20.32 -2.54 0) (length 5.08)
+        (name "P0.14"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "AC9"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at -20.32 -5.08 0) (length 5.08)
+        (name "P0.15"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "AD10"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at -20.32 -7.62 0) (length 5.08)
+        (name "P0.16"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "AC11"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at -20.32 -10.16 0) (length 5.08)
+        (name "P0.17"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "AD12"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at -20.32 -12.7 0) (length 5.08)
+        (name "P0.18/~{RESET}"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "AC13"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at -20.32 -15.24 0) (length 5.08)
+        (name "P0.19"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "AC15"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at -20.32 -17.78 0) (length 5.08)
+        (name "P0.20"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "AD16"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at -20.32 -20.32 0) (length 5.08)
+        (name "P0.21"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "AC17"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at -20.32 -22.86 0) (length 5.08)
+        (name "P0.22"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "AD18"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at -20.32 -25.4 0) (length 5.08)
+        (name "P0.23"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "AC19"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at -20.32 -27.94 0) (length 5.08)
+        (name "P0.24"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "AD20"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at -20.32 -30.48 0) (length 5.08)
+        (name "P0.25"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "AC21"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at -20.32 -33.02 0) (length 5.08)
+        (name "P0.26"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "G1"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at 20.32 -22.86 180.0) (length 5.08)
+        (name "P0.27"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "H2"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at 20.32 -25.4 180.0) (length 5.08)
+        (name "P0.28/AIN4"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "B11"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at 20.32 -27.94 180.0) (length 5.08)
+        (name "P0.29/AIN5"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "A10"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at 20.32 -30.48 180.0) (length 5.08)
+        (name "P0.30/AIN6"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "B9"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at 20.32 -33.02 180.0) (length 5.08)
+        (name "P0.31/AIN7"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "A8"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at 20.32 20.32 180.0) (length 5.08)
+        (name "P1.00"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "AD22"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at 20.32 17.78 180.0) (length 5.08)
+        (name "P1.01"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "Y23"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at 20.32 15.24 180.0) (length 5.08)
+        (name "P1.02"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "W24"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at 20.32 12.7 180.0) (length 5.08)
+        (name "P1.03"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "V23"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at 20.32 10.16 180.0) (length 5.08)
+        (name "P1.04"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "U24"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at 20.32 7.62 180.0) (length 5.08)
+        (name "P1.05"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "T23"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at 20.32 5.08 180.0) (length 5.08)
+        (name "P1.06"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "R24"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at 20.32 2.54 180.0) (length 5.08)
+        (name "P1.07"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "P23"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at 20.32 0.0 180.0) (length 5.08)
+        (name "P1.08"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "P2"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at 20.32 -2.54 180.0) (length 5.08)
+        (name "P1.09"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "R1"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at 20.32 -5.08 180.0) (length 5.08)
+        (name "P1.10"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "A20"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at 20.32 -7.62 180.0) (length 5.08)
+        (name "P1.11"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "B19"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at 20.32 -10.16 180.0) (length 5.08)
+        (name "P1.12"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "B17"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at 20.32 -12.7 180.0) (length 5.08)
+        (name "P1.13"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "A16"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at 20.32 -15.24 180.0) (length 5.08)
+        (name "P1.14"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "B15"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at 20.32 -17.78 180.0) (length 5.08)
+        (name "P1.15"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "A14"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at 20.32 33.02 180.0) (length 5.08)
+        (name "ANT"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "H23"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at 20.32 27.94 180.0) (length 5.08)
+        (name "D-"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "AD4"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at 20.32 25.4 180.0) (length 5.08)
+        (name "D+"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "AD6"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+    )
+    (symbol "NRF52840-QIAA-R7_2_0"
+      (rectangle (start -10.16 -12.7) (end 10.16 12.7)
+        (stroke (width 0.254)) (fill (type background))
+      )
+      (pin power_in line (at -15.24 0.0 0) (length 5.08)
+        (name "DEC2"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "A18"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin power_in line (at 15.24 7.62 180.0) (length 5.08)
+        (name "VDD"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "A22"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin power_in line (at 15.24 7.62 180.0) (length 5.08)
+        (name "VDD"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "AD14"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin power_in line (at 15.24 7.62 180.0) (length 5.08)
+        (name "VDD"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "AD23"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin power_in line (at 15.24 7.62 180.0) (length 5.08)
+        (name "VDD"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "B1"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin power_in line (at 15.24 7.62 180.0) (length 5.08)
+        (name "VDD"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "W1"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin power_in line (at -15.24 10.16 0) (length 5.08)
+        (name "DCC"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "B3"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin power_in line (at -15.24 2.54 0) (length 5.08)
+        (name "DEC1"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "C1"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin power_in line (at -15.24 -2.54 0) (length 5.08)
+        (name "DEC3"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "D23"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin power_in line (at -15.24 -5.08 0) (length 5.08)
+        (name "DEC4"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "B5"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin power_in line (at 15.24 -5.08 180.0) (length 5.08)
+        (name "VSS"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "B7"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin power_in line (at 15.24 -7.62 180.0) (length 5.08)
+        (name "VSS_PA"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "F23"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin power_in line (at -15.24 -7.62 0) (length 5.08)
+        (name "DEC5"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "N24"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin power_in line (at 15.24 5.08 180.0) (length 5.08)
+        (name "VDDH"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "Y2"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin power_in line (at -15.24 5.08 0) (length 5.08)
+        (name "DCCH"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "AB2"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin power_in line (at -15.24 7.62 0) (length 5.08)
+        (name "DECUSB"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "AC5"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin power_in line (at 15.24 10.16 180.0) (length 5.08)
+        (name "VBUS"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "AD2"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin power_in line (at 15.24 -10.16 180.0) (length 5.08)
+        (name "EXP"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "EXP"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin power_in line (at -15.24 -10.16 0) (length 5.08)
+        (name "DEC6"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "E24"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+    )
+    (symbol "NRF52840-QIAA-R7_3_0"
+      (rectangle (start -10.16 -5.08) (end 10.16 2.54)
+        (stroke (width 0.254)) (fill (type background))
+      )
+      (pin input line (at 15.24 -2.54 180.0) (length 5.08)
+        (name "XC2"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "A23"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin input line (at 15.24 0.0 180.0) (length 5.08)
+        (name "XC1"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "B24"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin input line (at -15.24 0.0 0) (length 5.08)
+        (name "SWDCLK"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "AA24"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin input line (at -15.24 -2.54 0) (length 5.08)
+        (name "SWDIO"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "AC24"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+    )
+  )
+)

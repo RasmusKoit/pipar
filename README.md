@@ -130,6 +130,8 @@ The **Pipar Point** is a 36-key split wireless keyboard with a 3x5+3 layout, tra
 
 Idea was to iterate on the Pipar ja Sool design and add a trackpoint for mouse control. The design is still in the early stages and will be updated as the project progresses. Because of the trackpoint, LEDs and the battery size has been increased to 2500mAh to compensate for the power draw of the trackpoint and LEDs. With this design, I am aiming to challege myself to design a more complex PCB by using more components which will also be smaller in size. The design will also include a top plate to make the build more rigid, because the possibility of using choc v1/v2 switches. Instead of just holes for mounting with M2 screws, the design will include M2 solder nuts for mounting the PCB.
 
+I want to thank [zhiayang/Mikoto](https://github.com/zhiayang/mikoto) and [Hello9999901/laptop](https://github.com/Hello9999901/laptop/tree/main/keyboard) for making this project possible. As the schematic & NRF52840 placement is based on their work.
+
 ### Pipar Flake
 
 The **Pipar Flake** is an 8+1 key wireless keypad with a rotary encoder (optional) and a screen. It includes:

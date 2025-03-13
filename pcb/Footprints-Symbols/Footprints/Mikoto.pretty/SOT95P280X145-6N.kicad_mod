@@ -1,0 +1,506 @@
+(footprint "SOT95P280X145-6N"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "U1"
+		(at -3.9 -0.4 180)
+		(layer "F.SilkS")
+		(uuid "3742ee3c-83ef-41ef-9083-c0bde5207dc5")
+		(effects
+			(font
+				(face "JetBrains Mono")
+				(size 1 1)
+				(thickness 0.2)
+				(bold yes)
+			)
+		)
+		(render_cache "U1" 0
+			(polygon
+				(pts
+					(xy -3.944818 -0.353806) (xy -3.949967 -0.278086) (xy -3.964574 -0.212898) (xy -3.987791 -0.156586)
+					(xy -4.019358 -0.107807) (xy -4.059612 -0.0656) (xy -4.106089 -0.031789) (xy -4.161511 -0.004346)
+					(xy -4.227352 0.016423) (xy -4.305399 0.029771) (xy -4.397705 0.034539) (xy -4.490027 0.029767)
+					(xy -4.568041 0.016414) (xy -4.633811 -0.004359) (xy -4.689135 -0.031799) (xy -4.735493 -0.0656)
+					(xy -4.775631 -0.107797) (xy -4.8071 -0.156515) (xy -4.830239 -0.212706) (xy -4.844792 -0.277699)
+					(xy -4.849921 -0.353135) (xy -4.849921 -1.00105) (xy -4.586261 -1.00105) (xy -4.586261 -0.366629)
+					(xy -4.580482 -0.297256) (xy -4.565076 -0.246102) (xy -4.541869 -0.208848) (xy -4.50863 -0.181428)
+					(xy -4.462095 -0.16361) (xy -4.397705 -0.156946) (xy -4.334066 -0.163331) (xy -4.287559 -0.180448)
+					(xy -4.253907 -0.206772) (xy -4.230347 -0.242952) (xy -4.2145 -0.294514) (xy -4.208478 -0.366629)
+					(xy -4.208478 -1.00105) (xy -3.944818 -1.00105)
+				)
+			)
+			(polygon
+				(pts
+					(xy -2.968457 0.015) (xy -3.647452 0.015) (xy -3.647452 -0.160854) (xy -3.432946 -0.160854) (xy -3.432946 -0.700143)
+					(xy -3.647452 -0.700143) (xy -3.647452 -0.864274) (xy -3.553174 -0.870013) (xy -3.510315 -0.878255)
+					(xy -3.478009 -0.889858) (xy -3.4463 -0.909775) (xy -3.424764 -0.933639) (xy -3.411048 -0.963021)
+					(xy -3.404247 -1.00105) (xy -3.178139 -1.00105) (xy -3.178139 -0.160854) (xy -2.968457 -0.160854)
+				)
+			)
+		)
+	)
+	(property "Value" "BQ21040DBVR"
+		(at 7.26 2.365 180)
+		(layer "F.Fab")
+		(uuid "93744526-09d2-4da8-a6ab-a6411e04feab")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 180)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "9d135bcc-0573-4646-9fd3-280df00aefcf")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 180)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "8d977496-645b-47de-9959-de25f6468bda")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "MF" "Texas Instruments"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "2d7b5c46-8f9c-4662-8487-7e13ba714c0c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description_1" "\n1-cell, 0.8-A Li-ion and Li-polymer battery charger\n"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "1de85b4c-0449-4dc6-b74c-7ab764b25c5d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Package" "SOT-23-6 Texas Instruments"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "2412071f-3c73-45e6-b9aa-da30bf387656")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Price" "None"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "4dead0aa-8b7f-4ac5-9dbf-6082a8729721")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "SnapEDA_Link" "https://www.snapeda.com/parts/BQ21040DBVR/Texas+Instruments/view-part/?ref=snap"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "90260b75-582f-41d2-84d0-ddf94faddbc0")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "MP" "BQ21040DBVR"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e9666195-6327-4ada-80e1-4bfab6f2fa3a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Purchase-URL" "https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=505197&manufacturer=Texas Instruments&part_name=BQ21040DBVR&search_term=None"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "935c7393-ac9a-4c08-8716-29f15518e05b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Availability" "In Stock"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "4cfc4ca6-879b-47f5-83a1-42c850949342")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Check_prices" "https://www.snapeda.com/parts/BQ21040DBVR/Texas+Instruments/view-part/?ref=eda"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "dc81135e-e05d-483d-afe0-7d5ae9259334")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Sim.Device" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c092fe35-becf-44af-9d7c-28fcec7658d6")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Sim.Pins" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "5657f75e-b074-4bbb-8b03-181cb3fd2d98")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "LCSC" "C202311"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c8bbeee8-289e-45a9-9da8-f535af3e8ba0")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -0.8 1.56)
+		(end 0.8 1.56)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(net 7798903)
+		(uuid "adf09524-ff3a-4ab8-9445-5d029b31af5f")
+	)
+	(fp_line
+		(start 0.8 -1.56)
+		(end -0.8 -1.56)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(net 7798903)
+		(uuid "b3603a5b-8d0e-49e9-8f07-5191495243aa")
+	)
+	(fp_circle
+		(center -2.5 -0.95)
+		(end -2.4 -0.95)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(net 7798903)
+		(uuid "dd96ebbd-d17d-4a47-867a-bf06a1a9f6a7")
+	)
+	(fp_line
+		(start -2.11 -1.49)
+		(end -2.11 1.49)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(net 7798903)
+		(uuid "462daad0-2410-4b8e-b18f-5a2a0fe93a10")
+	)
+	(fp_line
+		(start -2.11 -1.49)
+		(end -1.05 -1.49)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(net 7798903)
+		(uuid "e360dd1a-d6a1-4c21-837f-49d96f640cc7")
+	)
+	(fp_line
+		(start -2.11 1.49)
+		(end -1.05 1.49)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(net 7798903)
+		(uuid "471bc113-30ba-4c00-bf5b-007813cf5fba")
+	)
+	(fp_line
+		(start -1.05 -1.49)
+		(end -1.05 -1.7)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(net 7798903)
+		(uuid "c0123a80-f2c7-4f83-98a8-2c5bb9d7bb6f")
+	)
+	(fp_line
+		(start -1.05 1.49)
+		(end -1.05 1.7)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(net 7798903)
+		(uuid "f3403c96-4819-42e5-8329-9e8dd656e1e8")
+	)
+	(fp_line
+		(start -1.05 1.7)
+		(end 1.05 1.7)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(net 7798903)
+		(uuid "9d45e62e-5f71-4ce5-b397-386babdaba51")
+	)
+	(fp_line
+		(start 1.05 -1.7)
+		(end -1.05 -1.7)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(net 7798903)
+		(uuid "cbf9b8e5-757a-4e37-bc26-5390ee947f42")
+	)
+	(fp_line
+		(start 1.05 -1.49)
+		(end 1.05 -1.7)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(net 7798903)
+		(uuid "8e18e3c5-5b55-4839-8988-eec722e255ae")
+	)
+	(fp_line
+		(start 1.05 1.49)
+		(end 1.05 1.7)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(net 7798903)
+		(uuid "87e7842c-77c1-4019-a66e-38cafdb25285")
+	)
+	(fp_line
+		(start 2.11 -1.49)
+		(end 1.05 -1.49)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(net 7798903)
+		(uuid "a99dbe35-d15a-489a-8fc1-fca1b7e0041f")
+	)
+	(fp_line
+		(start 2.11 1.49)
+		(end 1.05 1.49)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(net 7798903)
+		(uuid "77f8d3b1-cfa6-4769-b661-b2304ab33eae")
+	)
+	(fp_line
+		(start 2.11 1.49)
+		(end 2.11 -1.49)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(net 7798903)
+		(uuid "ae76c020-8199-40a1-8606-5583fcde5651")
+	)
+	(fp_line
+		(start -0.8 -1.45)
+		(end -0.8 1.45)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(net 7798903)
+		(uuid "11b22ba9-ebd2-4c2a-85c8-fac78265d420")
+	)
+	(fp_line
+		(start -0.8 1.45)
+		(end 0.8 1.45)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(net 7798903)
+		(uuid "5f4c6390-eb44-43d6-9024-b679dd47df49")
+	)
+	(fp_line
+		(start 0.8 -1.45)
+		(end -0.8 -1.45)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(net 7798903)
+		(uuid "17e5a4a4-8c0c-4491-9260-69417f7932e0")
+	)
+	(fp_line
+		(start 0.8 1.45)
+		(end 0.8 -1.45)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(net 7798903)
+		(uuid "a27ddf0e-8a51-4db9-bb5c-638dad04c86d")
+	)
+	(fp_circle
+		(center -2.5 -0.95)
+		(end -2.4 -0.95)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(net 7798903)
+		(uuid "cfc7acd9-35ac-4d7f-922f-8fb21f93fcad")
+	)
+	(pad "1" smd roundrect
+		(at -1.255 -0.95)
+		(size 1.21 0.58)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.125)
+		(solder_mask_margin 0.102)
+		(uuid "874e9605-9531-44ab-ae89-89f36fdce7e5")
+	)
+	(pad "2" smd roundrect
+		(at -1.255 0)
+		(size 1.21 0.58)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.125)
+		(solder_mask_margin 0.102)
+		(uuid "a462bbc1-0d97-4aba-84ad-d00f40a52711")
+	)
+	(pad "3" smd roundrect
+		(at -1.255 0.95)
+		(size 1.21 0.58)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.125)
+		(solder_mask_margin 0.102)
+		(uuid "1fca4688-d9f5-4e4e-a27b-2094cc233a54")
+	)
+	(pad "4" smd roundrect
+		(at 1.255 0.95)
+		(size 1.21 0.58)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.125)
+		(solder_mask_margin 0.102)
+		(uuid "98a8e951-3c02-47a0-a07c-966251405bbc")
+	)
+	(pad "5" smd roundrect
+		(at 1.255 0)
+		(size 1.21 0.58)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.125)
+		(solder_mask_margin 0.102)
+		(uuid "224339a3-69cf-4949-b4da-33b6207d083d")
+	)
+	(pad "6" smd roundrect
+		(at 1.255 -0.95)
+		(size 1.21 0.58)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.125)
+		(solder_mask_margin 0.102)
+		(uuid "672607be-4175-47ec-a0a2-20b1c10eead1")
+	)
+	(embedded_fonts no)
+)

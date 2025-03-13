@@ -1,0 +1,235 @@
+(footprint "UDFN-6_1.2x1.0mm_P0.4mm"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "U3"
+		(at 0.05 -1.61 180)
+		(layer "F.SilkS")
+		(uuid "01b84b75-37e6-442d-b27b-f7c0175da4d6")
+		(effects
+			(font
+				(face "JetBrains Mono")
+				(size 1 1)
+				(thickness 0.06)
+				(bold yes)
+			)
+		)
+		(render_cache "U3" 0
+			(polygon
+				(pts
+					(xy 0.005181 -1.563806) (xy 0.000032 -1.488086) (xy -0.014574 -1.422898) (xy -0.037791 -1.366586)
+					(xy -0.069358 -1.317807) (xy -0.109612 -1.2756) (xy -0.156089 -1.241789) (xy -0.211511 -1.214346)
+					(xy -0.277352 -1.193576) (xy -0.355399 -1.180228) (xy -0.447705 -1.17546) (xy -0.540027 -1.180232)
+					(xy -0.618041 -1.193585) (xy -0.683811 -1.214359) (xy -0.739135 -1.241799) (xy -0.785493 -1.2756)
+					(xy -0.825631 -1.317797) (xy -0.8571 -1.366515) (xy -0.880239 -1.422706) (xy -0.894792 -1.487699)
+					(xy -0.899921 -1.563135) (xy -0.899921 -2.21105) (xy -0.636261 -2.21105) (xy -0.636261 -1.576629)
+					(xy -0.630482 -1.507256) (xy -0.615076 -1.456102) (xy -0.591869 -1.418848) (xy -0.55863 -1.391428)
+					(xy -0.512095 -1.37361) (xy -0.447705 -1.366946) (xy -0.384066 -1.373331) (xy -0.337559 -1.390448)
+					(xy -0.303907 -1.416772) (xy -0.280347 -1.452952) (xy -0.2645 -1.504514) (xy -0.258478 -1.576629)
+					(xy -0.258478 -2.21105) (xy 0.005181 -2.21105)
+				)
+			)
+			(polygon
+				(pts
+					(xy 0.946066 -1.672983) (xy 0.976182 -1.641855) (xy 0.999311 -1.606121) (xy 1.013675 -1.564154)
+					(xy 1.019155 -1.504394) (xy 1.011974 -1.434762) (xy 0.990762 -1.370671) (xy 0.968757 -1.331622)
+					(xy 0.939945 -1.296235) (xy 0.90369 -1.264181) (xy 0.842253 -1.226706) (xy 0.768745 -1.198297)
+					(xy 0.686853 -1.181654) (xy 0.580556 -1.17546) (xy 0.458692 -1.180854) (xy 0.363669 -1.195366)
+					(xy 0.27776 -1.217658) (xy 0.216451 -1.240001) (xy 0.216451 -1.464644) (xy 0.243074 -1.464644)
+					(xy 0.305563 -1.43148) (xy 0.383452 -1.401446) (xy 0.463891 -1.381028) (xy 0.532746 -1.374762)
+					(xy 0.61878 -1.381296) (xy 0.662569 -1.392118) (xy 0.697365 -1.410055) (xy 0.720233 -1.429311)
+					(xy 0.737666 -1.451882) (xy 0.748444 -1.479713) (xy 0.752686 -1.522834) (xy 0.747089 -1.564267)
+					(xy 0.73217 -1.592383) (xy 0.708767 -1.613235) (xy 0.678253 -1.62737) (xy 0.642908 -1.635684) (xy 0.597653 -1.63946)
+					(xy 0.510214 -1.640498) (xy 0.454222 -1.640498) (xy 0.454222 -1.816353) (xy 0.51229 -1.816353)
+					(xy 0.606507 -1.819712) (xy 0.645716 -1.825615) (xy 0.676238 -1.835343) (xy 0.70317 -1.850827)
+					(xy 0.721301 -1.869537) (xy 0.732095 -1.894019) (xy 0.736322 -1.932308) (xy 0.732155 -1.960517)
+					(xy 0.720569 -1.9814) (xy 0.703006 -1.998) (xy 0.681001 -2.010954) (xy 0.652806 -2.020894) (xy 0.618109 -2.027196)
+					(xy 0.555949 -2.031287) (xy 0.490807 -2.026026) (xy 0.416608 -2.009122) (xy 0.343018 -1.982249)
+					(xy 0.271101 -1.945314) (xy 0.245822 -1.945314) (xy 0.245822 -2.166292) (xy 0.307178 -2.187086)
+					(xy 0.398107 -2.209706) (xy 0.495079 -2.225363) (xy 0.593501 -2.230589) (xy 0.686759 -2.226147)
+					(xy 0.762273 -2.213981) (xy 0.83076 -2.193667) (xy 0.88183 -2.169528) (xy 0.931546 -2.131864) (xy 0.965117 -2.088806)
+					(xy 0.985371 -2.038341) (xy 0.992472 -1.977615) (xy 0.986585 -1.923385) (xy 0.969196 -1.873727)
+					(xy 0.939838 -1.827405) (xy 0.901174 -1.788713) (xy 0.855425 -1.760739) (xy 0.80123 -1.742958)
+					(xy 0.80123 -1.733738) (xy 0.836327 -1.726779) (xy 0.874991 -1.714626) (xy 0.912173 -1.697079)
+				)
+			)
+		)
+	)
+	(property "Value" "ESDR0502NMUTAG"
+		(at 0 -2 180)
+		(layer "Dwgs.User")
+		(hide yes)
+		(uuid "4ea27c57-bdfd-4a44-929d-9e30b3b8da2d")
+		(effects
+			(font
+				(size 0.3 0.3)
+				(thickness 0.05)
+			)
+		)
+	)
+	(property "Datasheet" "http://www.onsemi.cn/pub_link/Collateral/ESDR0502N-D.PDF"
+		(at 0 0 180)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "5063d65f-496d-469d-9957-39afbdc7a81d")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 180)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "58cd374d-d1ea-4073-b39b-cd9412b8f921")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Manufacturer Part" "ESDR0502NMUTBG"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "0f12b637-e05d-4ee9-a56f-41acff20ff9b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Sim.Device" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "fa45ee20-1ff9-4f60-be34-9db2194d96d9")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Sim.Pins" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "fd7aa02d-1eaf-4164-bd5d-913efcaa0865")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "LCSC" "C327480"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d0657efe-c0eb-40e2-a706-8e093d271d89")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_line
+		(start -0.559999 -0.624999)
+		(end -0.559999 0.625001)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "26ba1654-84c2-48cd-8457-f64f6533f5c8")
+	)
+	(fp_line
+		(start -0.559999 0.625001)
+		(end 0.560001 0.625001)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "d54b72df-1865-4c55-a6a7-44c5482fe0ed")
+	)
+	(fp_line
+		(start 0.560001 -0.624999)
+		(end -0.559999 -0.624999)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "86ed3268-d811-437a-984d-1ffc54e9ebcc")
+	)
+	(fp_line
+		(start 0.560001 0.625001)
+		(end 0.560001 -0.624999)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "4023bd6d-b32a-474a-9931-82751df400dc")
+	)
+	(pad "1" smd rect
+		(at -0.325001 -0.399998 270)
+		(size 0.22 0.419999)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "db86da8a-157a-46e2-95d2-a64bd4b16868")
+	)
+	(pad "2" smd rect
+		(at -0.325001 0 270)
+		(size 0.22 0.419999)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "5ee95919-df35-4f42-b60f-6927c4283cd1")
+	)
+	(pad "3" smd rect
+		(at -0.325001 0.400002 270)
+		(size 0.22 0.419999)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "e93e814c-6a15-4218-ac38-cb0bac7f6c5b")
+	)
+	(pad "4" smd rect
+		(at 0.325001 0.400002 270)
+		(size 0.22 0.419999)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "78e1791d-8bec-4988-b04a-0b9666bc0fad")
+	)
+	(pad "5" smd rect
+		(at 0.325001 0 270)
+		(size 0.22 0.419999)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "3b902319-09c2-4540-9aa2-bf9f351ffdaa")
+	)
+	(pad "6" smd rect
+		(at 0.325001 -0.399998 270)
+		(size 0.22 0.419999)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "c6120e9d-e0a4-4d49-919b-57256a56d6f6")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/footprints.pretty/3d/On_Semiconductor_-_ESDR0502NMUTAG.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

@@ -1,0 +1,137 @@
+(footprint "net-tie-2-tiny"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(tags "net tie")
+	(property "Reference" "NT1"
+		(at 0 -0.855 0)
+		(layer "Eco2.User")
+		(uuid "8b0268a0-215c-451d-8d70-a40204cd18cc")
+		(effects
+			(font
+				(face "JetBrains Mono")
+				(size 0.3 0.3)
+				(thickness 0.06)
+				(bold yes)
+			)
+		)
+		(render_cache "NT1" 0
+			(polygon
+				(pts
+					(xy -0.153543 -0.7305) (xy -0.22938 -0.7305) (xy -0.35889 -0.939712) (xy -0.35889 -0.7305) (xy -0.431027 -0.7305)
+					(xy -0.431027 -1.035315) (xy -0.336963 -1.035315) (xy -0.22568 -0.860687) (xy -0.22568 -1.035315)
+					(xy -0.153543 -1.035315)
+				)
+			)
+			(polygon
+				(pts
+					(xy 0.163233 -0.976696) (xy 0.067942 -0.976696) (xy 0.067942 -0.7305) (xy -0.010752 -0.7305) (xy -0.010752 -0.976696)
+					(xy -0.106044 -0.976696) (xy -0.106044 -1.035315) (xy 0.163233 -1.035315)
+				)
+			)
+			(polygon
+				(pts
+					(xy 0.429818 -0.7305) (xy 0.22612 -0.7305) (xy 0.22612 -0.783256) (xy 0.290471 -0.783256) (xy 0.290471 -0.945042)
+					(xy 0.22612 -0.945042) (xy 0.22612 -0.994282) (xy 0.254403 -0.996004) (xy 0.267261 -0.998476) (xy 0.276953 -1.001957)
+					(xy 0.286465 -1.007932) (xy 0.292926 -1.015091) (xy 0.297041 -1.023906) (xy 0.299081 -1.035315)
+					(xy 0.366913 -1.035315) (xy 0.366913 -0.783256) (xy 0.429818 -0.783256)
+				)
+			)
+		)
+	)
+	(property "Value" "NetTie_2"
+		(at 0 -0.5 0)
+		(layer "F.Fab")
+		(uuid "fd127f30-3d54-4406-b6ce-9032a7c6c753")
+		(effects
+			(font
+				(size 0.3 0.3)
+				(thickness 0.05)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b49912f3-1ac7-44ea-ac7a-423b89ffc38b")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "40eec1ec-86ee-45e4-90cd-3e8718a104b7")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Sim.Device" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c0e64933-11cd-4aef-9612-63e510aee7e5")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Sim.Pins" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "de1f50d5-c0f7-46df-8711-2081d49837ff")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(clearance 0.000001)
+	(zone_connect 0)
+	(attr exclude_from_pos_files)
+	(net_tie_pad_groups "1, 2")
+	(fp_poly
+		(pts
+			(xy 0.15 0.075) (xy -0.15 0.075) (xy -0.15 -0.075) (xy 0.15 -0.075)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.Cu")
+		(uuid "f4da523b-1fa9-483c-bc52-05925c429ad0")
+	)
+	(pad "1" smd circle
+		(at -0.15 0)
+		(size 0.15 0.15)
+		(layers "F.Cu")
+		(clearance 0.000001)
+		(zone_connect 0)
+		(uuid "6bcf7445-e69b-4e3c-8fe9-e53af951dd6f")
+	)
+	(pad "2" smd circle
+		(at 0.15 0)
+		(size 0.15 0.15)
+		(layers "F.Cu")
+		(clearance 0.000001)
+		(zone_connect 0)
+		(uuid "fada7a5f-f70a-4918-99b1-8343d73083e0")
+	)
+	(embedded_fonts no)
+)

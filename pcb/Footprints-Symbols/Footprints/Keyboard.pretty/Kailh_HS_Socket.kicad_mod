@@ -390,16 +390,6 @@
 		(uuid "a85f2cf7-b6af-49e9-a180-0321ce6bdd1b")
 	)
 	(fp_line
-		(start -2.5 -1.1)
-		(end 2.5 1.1)
-		(stroke
-			(width 0.1)
-			(type default)
-		)
-		(layer "F.Fab")
-		(uuid "8e909cf8-0017-4bc4-803a-a631bd3a3414")
-	)
-	(fp_line
 		(start 0 0)
 		(end 0 0)
 		(stroke
@@ -466,18 +456,18 @@
 		)
 	)
 	(pad "" np_thru_hole circle
-		(at -2.5 -1.1)
-		(size 3 3)
-		(drill 3)
+		(at -2.5 -1.11 180)
+		(size 3.05 3.05)
+		(drill 3.05)
 		(layers "*.Cu" "*.Mask")
-		(uuid "4b635b01-40ad-4abe-a4ea-73bab0de6ace")
+		(uuid "94fc8fe6-58a0-49f8-8a52-5696f3404f9f")
 	)
 	(pad "" np_thru_hole circle
-		(at 2.5 1.1)
-		(size 3 3)
-		(drill 3)
+		(at 2.5 0.99 180)
+		(size 3.05 3.05)
+		(drill 3.05)
 		(layers "*.Cu" "*.Mask")
-		(uuid "80ad425d-8ee5-4dca-8f0c-a16aa265c35b")
+		(uuid "152cabfb-306b-4613-a35a-4a1e0f312ed9")
 	)
 	(pad "1" smd rect
 		(at 5.775 1.1)
@@ -492,4 +482,15 @@
 		(uuid "d37e30c1-c5a1-40bc-9304-3919b2d8b009")
 	)
 	(embedded_fonts no)
+	(model "${KICAD6_3RD_PARTY}/3dmodels/com_github_perigoso_keyswitch-kicad-library/3d-library.3dshapes/SW_Hotswap_Kailh_Choc_V1.wrl"
+		(offset
+			(xyz 2.5 4.89 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 -180)
+		)
+	)
 )
