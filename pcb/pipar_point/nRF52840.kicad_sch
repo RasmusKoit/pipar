@@ -11305,6 +11305,16 @@
 		)
 		(uuid "4174fab1-a930-4e3d-89d6-9451b3d55090")
 	)
+	(label "W_VBUS"
+		(at 156.21 39.37 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "4323f229-22e9-4c1b-a79f-a162720e6b73")
+	)
 	(label "RESET"
 		(at 186.69 133.35 0)
 		(effects
@@ -11444,6 +11454,16 @@
 			(justify left bottom)
 		)
 		(uuid "92475ce8-965c-495a-a0a6-104cabcc149f")
+	)
+	(label "W_VBUS"
+		(at 91.44 203.2 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "945dae68-c654-460a-8b75-86f58c0556f3")
 	)
 	(label "VBUS"
 		(at 292.1 160.02 0)
@@ -11585,16 +11605,6 @@
 		)
 		(uuid "de74e744-b9dd-48f5-8de0-e0d1eca31961")
 	)
-	(label "VBUS"
-		(at 156.21 39.37 90)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "df179eaf-60bc-41e5-82f2-84ef92347366")
-	)
 	(label "VBAT"
 		(at 321.31 130.81 0)
 		(effects
@@ -11624,16 +11634,6 @@
 			(justify right bottom)
 		)
 		(uuid "e58c38e5-1e66-405e-a0cc-232c5c31c5b7")
-	)
-	(label "VBUS"
-		(at 91.44 203.2 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "e83b9bcc-4ed8-4520-9011-5f24ca1791bf")
 	)
 	(label "VBAT"
 		(at 213.36 224.79 0)
