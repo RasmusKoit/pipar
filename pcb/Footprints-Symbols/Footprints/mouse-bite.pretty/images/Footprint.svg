@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_1" xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 24.1 24">
+  <!-- Generator: Adobe Illustrator 29.0.1, SVG Export Plug-In . SVG Version: 2.1.0 Build 192)  -->
+  <defs>
+    <style>
+      .st0 {
+        fill: #4bb8e7;
+      }
+
+      .st1 {
+        fill: #fff;
+      }
+    </style>
+  </defs>
+  <path class="st1" d="M.5,15.3c-.3,0-.5-.2-.5-.5s.2-.5.5-.5c1.3,0,2.3-1,2.3-2.3s-1-2.3-2.3-2.3-.5-.2-.5-.5.2-.5.5-.5c1.8,0,3.3,1.5,3.3,3.3s-1.5,3.3-3.3,3.3Z"/>
+  <path class="st1" d="M23.6,21.1H.5c-.3,0-.5-.2-.5-.5v-5.8c0-.3.2-.5.5-.5s.5.2.5.5v5.3h22.1V3.9H1v5.3c0,.3-.2.5-.5.5s-.5-.2-.5-.5V3.4c0-.3.2-.5.5-.5h23.1c.3,0,.5.2.5.5v17.2c0,.3-.2.5-.5.5Z"/>
+  <rect class="st0" x="2.7" width="4.7" height="6.8"/>
+  <rect class="st0" x="9.7" width="4.7" height="6.8"/>
+  <rect class="st0" x="16.7" width="4.7" height="6.8"/>
+  <rect class="st0" x="2.7" y="17.2" width="4.7" height="6.8"/>
+  <rect class="st0" x="9.7" y="17.2" width="4.7" height="6.8"/>
+  <rect class="st0" x="16.7" y="17.2" width="4.7" height="6.8"/>
+</svg>

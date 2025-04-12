@@ -4,4 +4,5 @@
   (lib (name "Keyboard")(type "KiCad")(uri "F:/PCBs/pipar/pcb/Footprints-Symbols/Footprints/Keyboard.pretty")(options "")(descr ""))
   (lib (name "Trackpoint")(type "KiCad")(uri "F:/PCBs/pipar/pcb/Footprints-Symbols/Footprints/Trackpoint.pretty")(options "")(descr ""))
   (lib (name "Mikoto")(type "KiCad")(uri "F:/PCBs/pipar/pcb/Footprints-Symbols/Footprints/Mikoto.pretty")(options "")(descr ""))
+  (lib (name "mouse-bite")(type "KiCad")(uri "F:/PCBs/pipar/pcb/Footprints-Symbols/Footprints/mouse-bite.pretty")(options "")(descr ""))
 )

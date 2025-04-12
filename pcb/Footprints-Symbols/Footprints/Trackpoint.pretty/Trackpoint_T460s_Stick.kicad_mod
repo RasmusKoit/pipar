@@ -1,0 +1,160 @@
+(footprint "Trackpoint_T460s_Stick"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 12.7 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "2f8fc6af-ede0-477c-af1d-6226b2c72f08")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "Trackpoint_T460s_Stick"
+		(at 0 -12.7 0)
+		(layer "F.Fab")
+		(uuid "5caec7fd-d4c7-429e-9ce4-a98d9932fb8a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "66fbfe1e-dabf-4b2f-9679-39f6b09ca37b")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "91272205-7bf1-426c-81bc-65aaad218982")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_circle
+		(center 8.55 0)
+		(end 9.05 0)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill yes)
+		(layer "Dwgs.User")
+		(uuid "ff6e060d-c7ce-4079-b68b-4c0007f02e96")
+	)
+	(fp_circle
+		(center 17.1 0)
+		(end 17.6 0)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill yes)
+		(layer "Dwgs.User")
+		(uuid "25a71497-d847-4cec-9897-5637501e3184")
+	)
+	(fp_poly
+		(pts
+			(xy 7.5 -2.7) (xy 6.3 -1.5) (xy 6.3 1.5) (xy 7.5 2.7) (xy 22.6 2.7) (xy 22.6 5.5) (xy 26.2 5.5) (xy 26.2 -5.5)
+			(xy 22.6 -5.5) (xy 22.6 -2.7)
+		)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(fill no)
+		(layer "Dwgs.User")
+		(uuid "3b5c079c-37d9-47ce-9c10-f8fe7ba49107")
+	)
+	(fp_poly
+		(pts
+			(xy -6.3 -3.2) (xy -6.3 3.2) (xy -2.8 6.7) (xy -2.8 11.5) (xy 2.8 11.5) (xy 2.8 6.7) (xy 6.3 3.2)
+			(xy 6.3 -3.2) (xy 2.8 -6.7) (xy 2.8 -11.5) (xy -2.8 -11.5) (xy -2.8 -6.7)
+		)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(fill no)
+		(layer "B.Fab")
+		(uuid "9dbf3d03-d18c-4c78-857c-05459a463c60")
+	)
+	(fp_poly
+		(pts
+			(xy 2.8 -6.7) (xy 6.3 -3.2) (xy 6.3 3.2) (xy 2.8 6.7) (xy 2.8 11.5) (xy -2.8 11.5) (xy -2.8 6.7)
+			(xy -6.3 3.2) (xy -6.3 -3.2) (xy -2.8 -6.7) (xy -2.8 -11.5) (xy 2.8 -11.5)
+		)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "b923e39b-b8db-4adf-94b3-e8e470bbbc10")
+	)
+	(pad "" np_thru_hole circle
+		(at 0 -9.5 180)
+		(size 2.2 2.2)
+		(drill 2.2)
+		(layers "F&B.Cu" "*.Mask")
+		(uuid "9b6ed2ee-bcb9-4eec-a2db-9ddb759dee6d")
+	)
+	(pad "" thru_hole circle
+		(at 0 0 180)
+		(size 12 12)
+		(drill 8.25)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "92f8a9d5-5503-4dda-8117-c142bbf7ccae")
+	)
+	(pad "" np_thru_hole circle
+		(at 0 9.5 180)
+		(size 2.2 2.2)
+		(drill 2.2)
+		(layers "F&B.Cu" "*.Mask")
+		(uuid "c2211e4f-cdfa-4bf3-b0de-3fd8edaa08cb")
+	)
+	(embedded_fonts no)
+	(model "${EG_INFUSED_KIM_3D_MODELS}/trackpoint/TP_Cap_Red_T460S.step"
+		(offset
+			(xyz 0 0 10.5)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+	(model "${EG_INFUSED_KIM_3D_MODELS}/trackpoint/TP_Extension_Red_T460S_h10.5_md0.0_pcb1.6.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)
