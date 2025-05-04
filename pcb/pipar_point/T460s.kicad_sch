@@ -7254,7 +7254,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c3f1092a-bd47-4aac-ba7b-45ef5d0172e3")
-		(property "Reference" "U55"
+		(property "Reference" "U53"
 			(at 251.46 40.0049 0)
 			(effects
 				(font
@@ -7302,7 +7302,7 @@
 		(instances
 			(project ""
 				(path "/33180bf6-a8cb-4957-933e-07c9e2251da8/930406af-22ba-4f53-a172-cd44f6260fd4"
-					(reference "U55")
+					(reference "U53")
 					(unit 1)
 				)
 			)
