@@ -1,0 +1,18 @@
+** Drc report for pipar_point.kicad_pcb **
+** Created on 2025-05-10T23:58:56+0300 **
+
+** Found 0 DRC violations **
+
+** Found 2 unconnected pads **
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(235.3404 mm, -3.3500 mm): Zone [GND] on F.Cu and B.Cu
+    @(235.3404 mm, -3.3500 mm): Zone [GND] on F.Cu and B.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(235.3404 mm, -3.3500 mm): Zone [GND] on F.Cu and B.Cu
+    @(232.3584 mm, 180.5462 mm): Pad 2 on F.Cu
+
+** Found 0 Footprint errors **
+
+** End of Report **

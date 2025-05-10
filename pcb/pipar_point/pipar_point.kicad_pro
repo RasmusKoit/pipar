@@ -60,15 +60,27 @@
       ],
       "drc_exclusions": [
         [
-          "track_width|156939767|137352759|120b7020-a2a0-4352-a60c-355d1dccdb2a|00000000-0000-0000-0000-000000000000",
+          "net_conflict|188952519|120609465|f68ea523-3722-47fb-b63f-2d1633ee2313|00000000-0000-0000-0000-000000000000",
           ""
         ],
         [
-          "track_width|158122131|137392363|f2aa51fe-43fa-49d7-aa4a-a860043edb27|00000000-0000-0000-0000-000000000000",
+          "shorting_items|162927240|131717532|e1dc4e63-8526-4900-bf66-8cf555a0a355|f96fb40d-9e20-4dcd-8b73-0922c9ffec89",
           ""
         ],
         [
-          "track_width|159440204|137217051|d15c36d0-e370-46d7-867a-5be33ef82eb2|00000000-0000-0000-0000-000000000000",
+          "shorting_items|162966987|131771676|2ed615be-5d87-47f7-846f-ec69d53a41ff|e1dc4e63-8526-4900-bf66-8cf555a0a355",
+          ""
+        ],
+        [
+          "shorting_items|232031985|126431663|94251060-1ec9-4327-a628-e761ca94950f|da8695d3-e2dd-4e4c-90ff-3ac7082031eb",
+          ""
+        ],
+        [
+          "via_diameter|152677532|133177851|7c2abee3-c470-4e38-82cc-b523e7f9712e|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "via_diameter|241067523|125041346|d49e230c-ca12-4d25-a483-effa8063c001|00000000-0000-0000-0000-000000000000",
           ""
         ]
       ],
@@ -83,15 +95,15 @@
         "copper_sliver": "warning",
         "courtyards_overlap": "ignore",
         "creepage": "error",
-        "diff_pair_gap_out_of_range": "ignore",
+        "diff_pair_gap_out_of_range": "warning",
         "diff_pair_uncoupled_length_too_long": "error",
         "drill_out_of_range": "ignore",
-        "duplicate_footprints": "ignore",
+        "duplicate_footprints": "warning",
         "extra_footprint": "warning",
         "footprint": "error",
         "footprint_filters_mismatch": "ignore",
         "footprint_symbol_mismatch": "warning",
-        "footprint_type_mismatch": "ignore",
+        "footprint_type_mismatch": "error",
         "hole_clearance": "ignore",
         "hole_to_hole": "ignore",
         "holes_co_located": "warning",
@@ -101,7 +113,7 @@
         "items_not_allowed": "error",
         "length_out_of_range": "error",
         "lib_footprint_issues": "warning",
-        "lib_footprint_mismatch": "ignore",
+        "lib_footprint_mismatch": "error",
         "malformed_courtyard": "error",
         "microvia_drill_out_of_range": "error",
         "mirrored_text_on_front_layer": "warning",
@@ -111,8 +123,8 @@
         "nonmirrored_text_on_back_layer": "warning",
         "npth_inside_courtyard": "ignore",
         "padstack": "warning",
-        "pth_inside_courtyard": "ignore",
-        "shorting_items": "ignore",
+        "pth_inside_courtyard": "warning",
+        "shorting_items": "error",
         "silk_edge_clearance": "ignore",
         "silk_over_copper": "ignore",
         "silk_overlap": "ignore",
@@ -120,7 +132,7 @@
         "solder_mask_bridge": "ignore",
         "starved_thermal": "ignore",
         "text_height": "warning",
-        "text_thickness": "ignore",
+        "text_thickness": "warning",
         "through_hole_pad_without_hole": "error",
         "too_many_vias": "error",
         "track_angle": "error",
@@ -130,7 +142,7 @@
         "tracks_crossing": "error",
         "unconnected_items": "error",
         "unresolved_variable": "error",
-        "via_dangling": "ignore",
+        "via_dangling": "warning",
         "zones_intersect": "error"
       },
       "rules": {

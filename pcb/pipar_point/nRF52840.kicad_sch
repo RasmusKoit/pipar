@@ -19184,7 +19184,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_USB:USB_C_Receptacle_HRO_TYPE-C-31-M-12"
+		(property "Footprint" "Keyboard:USB_C_Receptacle_HRO_TYPE-C-31-M-16"
 			(at 274.32 175.26 0)
 			(effects
 				(font

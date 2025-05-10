@@ -2,7 +2,7 @@
 	(version 20250114)
 	(generator "eeschema")
 	(generator_version "9.0")
-	(uuid "0cf499e8-be98-4060-a76b-5e330db22426")
+	(uuid "67f201af-5327-467b-b851-0486725a5eb2")
 	(paper "A4")
 	(lib_symbols
 		(symbol "Connector:TestPoint"
@@ -1446,6 +1446,14 @@
 		(color 0 0 0 0)
 		(uuid "800ab3ab-0155-4ec7-b5bb-0a2b64107eca")
 	)
+	(no_connect
+		(at 124.46 97.79)
+		(uuid "4eaa32e3-0d27-4d03-9865-7fbac7ed9adc")
+	)
+	(no_connect
+		(at 121.92 97.79)
+		(uuid "e7499263-7e97-42b5-a5ef-acadbec1d457")
+	)
 	(polyline
 		(pts
 			(xy 212.725 100.33) (xy 212.725 58.42)
@@ -1803,7 +1811,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Keyboard:XIAO-nRF52840-Sense-14P-2.54-21X17.8MM"
+		(property "Footprint" "Keyboard:XIAO-nRF52840-Sense-14P-2.54-21X17.8MM-noNFC"
 			(at 116.84 114.3 0)
 			(effects
 				(font
