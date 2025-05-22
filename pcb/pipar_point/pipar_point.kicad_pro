@@ -60,7 +60,11 @@
       ],
       "drc_exclusions": [
         [
-          "net_conflict|188952519|120609465|f68ea523-3722-47fb-b63f-2d1633ee2313|00000000-0000-0000-0000-000000000000",
+          "track_dangling|247951234|110993534|41660f0f-7b7d-4b61-bfa4-f71a5bb12633|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "via_dangling|249573261|180888748|0f167e18-b917-43e9-9c9f-4382bdbe6a7c|00000000-0000-0000-0000-000000000000",
           ""
         ]
       ],
@@ -92,8 +96,8 @@
         "item_on_disabled_layer": "error",
         "items_not_allowed": "error",
         "length_out_of_range": "error",
-        "lib_footprint_issues": "warning",
-        "lib_footprint_mismatch": "error",
+        "lib_footprint_issues": "ignore",
+        "lib_footprint_mismatch": "ignore",
         "malformed_courtyard": "error",
         "microvia_drill_out_of_range": "error",
         "mirrored_text_on_front_layer": "warning",
