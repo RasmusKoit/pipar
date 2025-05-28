@@ -9,5 +9,6 @@ features:
   - studio
 siblings:
   - pipar_sool_dongle
+  - pipar_sool_left_central
   - pipar_sool_left
   - pipar_sool_right
