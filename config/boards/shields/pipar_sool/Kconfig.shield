@@ -7,8 +7,8 @@ config SHIELD_PIPAR_SOOL_DONGLE
     select ZMK_SPLIT
     select SHIELD_PIPAR_SOOL
 
-config SHIELD_PIPAR_SOOL_LEFT_CENTRAL
-    def_bool $(shields_list_contains,pipar_sool_left_central)
+config SHIELD_PIPAR_SOOL_CENTRAL
+    def_bool $(shields_list_contains,pipar_sool_central)
     select ZMK_SPLIT_ROLE_CENTRAL
     select ZMK_SPLIT
     select SHIELD_PIPAR_SOOL
