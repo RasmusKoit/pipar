@@ -107,10 +107,11 @@ The **Pipar Point** is a 40-key split wireless keyboard with a 3x5+3 layout, tra
 - **Switches**: Ambients Silent Kailh Low Profile Nocturnal Choc Switches.
 - **Sockets**: Kailh Hotswap v1/v2 sockets for easy switch replacement.
 - **Trackpoint**: Lenovo T460S Trackpoint for mouse control on the right side.
-- **LEDs**: White LEDs for visual feedback.
+- **LEDs**: White LEDs for visual feedback. Charging and CAPS Word LEDs added with one extra LED that is yet to be decided
 - **Components**: Uses smaller components in 0402/SOD-523 package for resistors, capacitors etc.
 - **Top Plate**: Designed to be used with a top plate for a more rigid build.
 - **Batteries**: Massive 2500mAh to compensate for the power draw of the trackpoint and LEDs.
+- **Wireless Charging**: Includes a possibility to add wireless charging
 
 #### Pipar Point Pictures
 
