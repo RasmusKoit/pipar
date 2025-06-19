@@ -11371,16 +11371,6 @@
 		)
 		(uuid "2cab7fb0-6975-4a83-b538-8968c3ea6f52")
 	)
-	(label "USB_D-"
-		(at 289.56 200.66 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "2efc0d34-2481-46e4-98f0-3336b873c1d6")
-	)
 	(label "CC2"
 		(at 297.18 167.64 0)
 		(effects
@@ -11451,16 +11441,6 @@
 		)
 		(uuid "5141ac26-1974-4eaf-a295-f6ae668dd12a")
 	)
-	(label "VBUS"
-		(at 289.56 198.12 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "52bf72c9-34c4-4957-9c07-c284d7c9caf3")
-	)
 	(label "VDDH"
 		(at 327.66 161.29 180)
 		(effects
@@ -11530,6 +11510,16 @@
 			(justify left bottom)
 		)
 		(uuid "80981e62-c0ad-4cbe-b657-5f43214620be")
+	)
+	(label "USB_D-"
+		(at 289.56 198.12 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "86887703-205a-47e2-b0f6-d0717c677c40")
 	)
 	(label "CAPS_LED"
 		(at 186.69 135.89 0)
@@ -11630,6 +11620,16 @@
 			(justify left bottom)
 		)
 		(uuid "a0daceb1-7f6b-4b3a-b9eb-a6ac126a022b")
+	)
+	(label "VBUS"
+		(at 289.56 200.66 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "a1ceca8c-976c-4696-bf71-ab7d9171c19b")
 	)
 	(label "USB_D-"
 		(at 292.1 172.72 0)
