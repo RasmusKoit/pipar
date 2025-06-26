@@ -1,0 +1,36 @@
+/*
+ * Copyright (c) 2022 The ZMK Contributors
+ *
+ * SPDX-License-Identifier: MIT
+ */
+
+#include <behaviors.dtsi>
+#include <dt-bindings/zmk/keys.h>
+#include <dt-bindings/zmk/bt.h>
+#include <dt-bindings/zmk/outputs.h>
+
+#define BASE        0
+#define FUNC        1
+
+/ {
+
+
+  keymap {
+    compatible = "zmk,keymap";
+
+    default_layer {
+        // ---------------------------//
+        // | ESC  | SPACE | Layer 2 | //
+        // | BSPC | UP    |  ENTER  | //
+        // | LEFT | DOWN  | RIGHT   | //
+        display-name = "default";
+        bindings = <
+            &kp Q         &kp W         &kp E
+            &kp A         &kp S         &kp D
+            &kp LCTRL     &kp LALT      &kp SPACE
+            &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3
+        >;
+
+    };
+  };
+};
