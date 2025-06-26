@@ -6,10 +6,6 @@
 
 #include "pipar_chip.dtsi"
 
-&encoder_1 {
-    status = "okay";
-};
-
 &pinctrl {
     // Other pinctrl definitions for other hardware
     pwm0_default: pwm0_default {
