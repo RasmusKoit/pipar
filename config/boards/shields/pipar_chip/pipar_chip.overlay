@@ -4,7 +4,7 @@
  * SPDX-License-Identifier: MIT
  */
 
-#include "pipar_flake.dtsi"
+#include "pipar_chip.dtsi"
 
 &encoder_1 {
     status = "okay";
