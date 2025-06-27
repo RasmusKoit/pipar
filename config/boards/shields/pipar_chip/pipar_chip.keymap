@@ -91,7 +91,7 @@
       tapping-term-ms = <200>;
       bindings = <&kp UP>, <&kp LCTRL>, <&kp LALT>;
     };
-  }
+  };
 
 
   keymap {
