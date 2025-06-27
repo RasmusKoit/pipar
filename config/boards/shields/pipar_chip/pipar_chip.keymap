@@ -107,7 +107,7 @@
           &sltd0                &td0                &td1
           &td2                  &td3                &td4
           &td5                  &td6                &td7
-          &mt DELETE BACKSPACE  &mt caps_word SPACE &mt ENTER DOT
+          &mt DELETE BACKSPACE  &kp SPACE &mt ENTER DOT
         >;
     };
 
