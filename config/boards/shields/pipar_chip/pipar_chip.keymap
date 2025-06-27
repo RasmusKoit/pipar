@@ -104,12 +104,11 @@
         // | LEFT | DOWN  | RIGHT   | //
         display-name = "default";
         bindings = <
-          &td_num0, &td_num1,  &td_num2
-          &td_num3, &td_num4,  &td_num5
-          &td_num6, &td_num7,  &td_num8
-          &td_num9, &td_num10, &td_num11
+          &td_num0 &td_num1  &td_num2
+          &td_num3 &td_num4  &td_num5
+          &td_num6 &td_num7  &td_num8
+          &td_num9 &td_num10 &td_num11
         >;
-
     };
   };
 };
