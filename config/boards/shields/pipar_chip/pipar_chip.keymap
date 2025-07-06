@@ -13,17 +13,12 @@
 
 #define BASE  0
 #define LSYMBOLS 1
+#define GAMING 2
 
 
 / {
   behaviors {
-    // implement 3x4 matrix using the old alpha-numeric layout
-    // [ . , ? ! / H-Symbols ]   [ A B C / H-Shift ]    [ D E F / H-Alt ]
-    // [ G H I / H-GUI ]         [ J K L / H-Ctrl ]     [ M N O / H-Nav ]
-    // [ P Q R S / H-Delete ]    [ T U V / H-Tab ]      [ W X Y Z / H-Enter ]
-    // [ Symbols / H-Emoji ]     [ Space / H-Layer ]    [ Enter / H-Caps ]
 
-    // &sl is sticky layer, I want to access symbols layers only for one keycode
     slt: sticky_layer_tap {
       compatible = "zmk,behavior-hold-tap";
       #binding-cells = <2>;
@@ -118,6 +113,16 @@
         &kp COLON       &kp PERCENT     &kp CARET
         &kp AMPERSAND   &kp ASTERISK    &kp QUESTION
         &kp MINUS       &kp UNDERSCORE  &kp EQUAL
+      >;
+    };
+
+    gaming_layer {
+      display-name = "gaming"
+      bindings = <
+        &mt NUMBER_4 NUMBER_1 &mt NUMBER_5 NUMBER_2 &mt NUMBER_6 NUMBER_3
+        &mt R Q               &kp W                 &mt T E
+        &kp A                 &kp S                 &kp D
+        &mt LCTRL Z           &mt SPACE X           &mt LALT C
       >;
     };
   };
