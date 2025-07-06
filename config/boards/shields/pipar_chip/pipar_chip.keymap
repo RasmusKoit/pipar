@@ -198,10 +198,10 @@
     numbers_layer {
       display-name = "numbers";
       bindings = <
-        &kp NUMPAD_7        &kp NUMPAD_8      &kp NUMPAD_9
-        &kp NUMPAD_4        &kp NUMPAD_5      &kp NUMPAD_6
-        &kp NUMPAD_1        &kp NUMPAD_2      &kp NUMPAD_3
-        &mt LCTRL NUMPAD_0  &mt LALT COMMA    &mt RCTRL PERIOD
+        &kp NUMBER_7        &kp NUMBER_8      &kp NUMBER_9
+        &kp NUMBER_4        &kp NUMBER_5      &kp NUMBER_6
+        &kp NUMBER_1        &kp NUMBER_2      &kp NUMBER_3
+        &mt LCTRL NUMBER_0  &mt LALT COMMA    &mt RCTRL PERIOD
       >;
     };
   };
