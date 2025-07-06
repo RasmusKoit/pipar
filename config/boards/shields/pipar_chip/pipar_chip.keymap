@@ -23,7 +23,7 @@
       compatible = "zmk,behavior-hold-tap";
       #binding-cells = <2>;
       flavor = "tap-preferred";
-      tapping-term-ms = <200>;
+      tapping-term-ms = <300>;
       bindings = <&sl>, <&kp>;
       display-name = "Sticky-Layer-Tap";
     };
@@ -31,63 +31,63 @@
     sltd0: sticky_layer_tap_dance {
       compatible = "zmk,behavior-tap-dance";
       #binding-cells = <0>;
-      tapping-term-ms = <200>;
+      tapping-term-ms = <300>;
       bindings = <&slt LSYMBOLS DOT>, <&kp COMMA>, <&kp QUESTION>, <&kp EXCLAMATION>;
     };
 
     td0: tap_dance0 {
       compatible = "zmk,behavior-tap-dance";
       #binding-cells = <0>;
-      tapping-term-ms = <200>;
+      tapping-term-ms = <300>;
       bindings = <&mt UP A>, <&kp B>, <&kp C>;
     };
 
     td1: tap_dance1 {
       compatible = "zmk,behavior-tap-dance";
       #binding-cells = <0>;
-      tapping-term-ms = <200>;
+      tapping-term-ms = <300>;
       bindings = <&kp D>, <&kp E>, <&kp F>;
     };
 
     td2: tap_dance2 {
       compatible = "zmk,behavior-tap-dance";
       #binding-cells = <0>;
-      tapping-term-ms = <200>;
+      tapping-term-ms = <300>;
       bindings = <&mt LEFT G>, <&kp H>, <&kp I>;
     };
 
     td3: tap_dance3 {
       compatible = "zmk,behavior-tap-dance";
       #binding-cells = <0>;
-      tapping-term-ms = <200>;
+      tapping-term-ms = <300>;
       bindings = <&mt DOWN J>, <&kp K>, <&kp L>;
     };
 
     td4: tap_dance4 {
       compatible = "zmk,behavior-tap-dance";
       #binding-cells = <0>;
-      tapping-term-ms = <200>;
+      tapping-term-ms = <300>;
       bindings = <&mt RIGHT M>, <&kp N>, <&kp O>;
     };
 
     td5: tap_dance5 {
       compatible = "zmk,behavior-tap-dance";
       #binding-cells = <0>;
-      tapping-term-ms = <200>;
+      tapping-term-ms = <300>;
       bindings = <&kp P>, <&kp Q>, <&kp R>, <&kp S>;
     };
 
     td6: tap_dance6 {
       compatible = "zmk,behavior-tap-dance";
       #binding-cells = <0>;
-      tapping-term-ms = <200>;
+      tapping-term-ms = <300>;
       bindings = <&mt TAB T>, <&kp U>, <&kp V>;
     };
 
     td7: tap_dance7 {
       compatible = "zmk,behavior-tap-dance";
       #binding-cells = <0>;
-      tapping-term-ms = <200>;
+      tapping-term-ms = <300>;
       bindings = <&kp W>, <&kp X>, <&kp Y>, <&kp Z>;
     };
   };
@@ -114,7 +114,28 @@
       bindings = <&to BASE>;
       require-prior-idle-ms = <300>;
       layers = <LSYMBOLS GAMING>;
-    }; 
+    };
+    combo_bt_clr_all {
+      timeout-ms = <50>;
+      key-positions = <0 1 2>;
+      bindings = <&bt BT_CLR_ALL>;
+      require-prior-idle-ms = <300>;
+      layers = <LSYMBOLS>;
+    };
+    combo_bt_prev {
+      timeout-ms = <50>;
+      key-positions = <0 1>;
+      bindings = <&bt BT_PREV>;
+      require-prior-idle-ms = <300>;
+      layers = <LSYMBOLS>;
+    };
+    combo_bt_next {
+      timeout-ms = <50>;
+      key-positions = <1 2>;
+      bindings = <&bt BT_NEXT>;
+      require-prior-idle-ms = <300>;
+      layers = <LSYMBOLS>;
+    };
   };
 
   keymap {
