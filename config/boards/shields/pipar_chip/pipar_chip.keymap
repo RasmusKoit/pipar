@@ -139,7 +139,7 @@
     combo_bt_prev {
       timeout-ms = <50>;
       key-positions = <0 1>;
-      bindings = <&bt BT_PREV>;
+      bindings = <&bt BT_PRV>;
       require-prior-idle-ms = <300>;
       layers = <LSYMBOLS>;
     };
@@ -147,7 +147,7 @@
     combo_bt_next {
       timeout-ms = <50>;
       key-positions = <1 2>;
-      bindings = <&bt BT_NEXT>;
+      bindings = <&bt BT_NXT>;
       require-prior-idle-ms = <300>;
       layers = <LSYMBOLS>;
     };
