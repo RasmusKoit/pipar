@@ -11,8 +11,8 @@ manifest:
       remote: zmkfirmware
       revision: main
       import: app/west.yml
-    - name: prospector-zmk-module
-      remote: rasmuskoit
+    - name: zmk-dongle-screen
+      remote: janpfischer
       revision: main
   self:
     path: config
