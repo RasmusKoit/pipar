@@ -27,10 +27,10 @@ layers:
     - {t: X, h: SPACE}
     - {t: C, h: LALT}
   numbers:
-  - [NUMPAD 7, NUMPAD 8, NUMPAD 9]
-  - [NUMPAD 4, NUMPAD 5, NUMPAD 6]
-  - [NUMPAD 1, NUMPAD 2, NUMPAD 3]
-  - - {t: NUMPAD 0, h: LCTRL}
+  - [7, 8, 9]
+  - [4, 5, 6]
+  - [1, 2, 3]
+  - - {t: 0, h: LCTRL}
     - {t: ',', h: LALT}
     - {t: ., h: RCTRL}
 combos:
