@@ -1,0 +1,6804 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "e3fcf90f-1eb1-4247-ae09-9fa5a1b7e219")
+	(paper "A4")
+	(lib_symbols
+		(symbol "Connector:TestPoint_Probe"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.762)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "TP"
+				(at 1.651 5.842 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "TestPoint_Probe"
+				(at 1.651 4.064 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "test point (alternative probe-style design)"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "test point tp"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Pin* Test*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "TestPoint_Probe_0_1"
+				(polyline
+					(pts
+						(xy 1.27 0.762) (xy 0 0) (xy 0.762 1.27) (xy 1.27 0.762)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.397 0.635) (xy 0.635 1.397) (xy 2.413 3.175) (xy 3.175 2.413) (xy 1.397 0.635)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "TestPoint_Probe_1_1"
+				(pin passive line
+					(at 0 0 90)
+					(length 0)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Device:D_Small"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.254)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at -1.27 2.032 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "D_Small"
+				(at -3.81 -2.032 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Diode, small symbol"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Sim.Device" "D"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Sim.Pins" "1=K 2=A"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "diode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "TO-???* *_Diode_* *SingleDiode* D_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "D_Small_0_1"
+				(polyline
+					(pts
+						(xy -0.762 0) (xy 0.762 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.762 -1.016) (xy -0.762 1.016)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 -1.016) (xy -0.762 0) (xy 0.762 1.016) (xy 0.762 -1.016)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "D_Small_1_1"
+				(pin passive line
+					(at -2.54 0 0)
+					(length 1.778)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 0 180)
+					(length 1.778)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Device:LED_Small"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.254)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at -1.27 3.175 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "LED_Small"
+				(at -4.445 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Light emitting diode, small symbol"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Sim.Pin" "1=K 2=A"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "LED diode light-emitting-diode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "LED* LED_SMD:* LED_THT:*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "LED_Small_0_1"
+				(polyline
+					(pts
+						(xy -0.762 -1.016) (xy -0.762 1.016)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0.762) (xy -0.508 1.27) (xy -0.254 1.27) (xy -0.508 1.27) (xy -0.508 1.016)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.508 1.27) (xy 0 1.778) (xy 0.254 1.778) (xy 0 1.778) (xy 0 1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 -1.016) (xy -0.762 0) (xy 0.762 1.016) (xy 0.762 -1.016)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.016 0) (xy -0.762 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "LED_Small_1_1"
+				(pin passive line
+					(at -2.54 0 0)
+					(length 1.778)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 0 180)
+					(length 1.778)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Keyboard:choc_v1_SW_HS_CPG135001S30"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "KHS1"
+				(at 0 7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "KHS"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Keyboard:Kailh_HS_Socket"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Push button switch, normally open, two pins, 45° tilted"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "switch normally-open pushbutton push-button"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "choc_v1_SW_HS_CPG135001S30_0_1"
+				(polyline
+					(pts
+						(xy -2.54 2.54) (xy -1.524 1.524) (xy -1.524 1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center -1.1684 1.1684)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.508 2.54) (xy 2.54 -0.508)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.016 1.016) (xy 2.032 2.032)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 1.143 -1.1938)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.524 -1.524) (xy 2.54 -2.54) (xy 2.54 -2.54) (xy 2.54 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -2.54 2.54 0)
+					(length 0)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 -2.54 180)
+					(length 0)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "R_Small_1"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.254)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 0 0 90)
+				(effects
+					(font
+						(size 1.016 1.016)
+					)
+				)
+			)
+			(property "Value" "R_Small"
+				(at 1.778 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Resistor, small symbol"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "R resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "R_Small_1_0_1"
+				(rectangle
+					(start -0.762 1.778)
+					(end 0.762 -1.778)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_Small_1_1_1"
+				(pin passive line
+					(at 0 2.54 270)
+					(length 0.762)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 90)
+					(length 0.762)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Transistor_FET:AO3400A"
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "Q"
+				(at 5.08 1.905 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "AO3400A"
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+				(at 5.08 -1.905 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "http://www.aosmd.com/pdfs/datasheet/AO3400A.pdf"
+				(at 5.08 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Description" "30V Vds, 5.7A Id, N-Channel MOSFET, SOT-23"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "N-Channel MOSFET"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "SOT?23*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "AO3400A_0_1"
+				(polyline
+					(pts
+						(xy 0.254 1.905) (xy 0.254 -1.905)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.254 0) (xy -2.54 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 2.286) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 0.508) (xy 0.762 -0.508)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 -1.27) (xy 0.762 -2.286)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 -1.778) (xy 3.302 -1.778) (xy 3.302 1.778) (xy 0.762 1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.016 0) (xy 2.032 0.381) (xy 2.032 -0.381) (xy 1.016 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 1.651 0)
+					(radius 2.794)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 2.54) (xy 2.54 1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.54 1.778)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 2.54 -1.778)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -2.54) (xy 2.54 0) (xy 0.762 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.921 0.381) (xy 3.683 0.381)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.302 0.381) (xy 2.921 -0.254) (xy 3.683 -0.254) (xy 3.302 0.381)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "AO3400A_1_1"
+				(pin input line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "G"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 5.08 270)
+					(length 2.54)
+					(name "D"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 -5.08 90)
+					(length 2.54)
+					(name "S"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "power:GND"
+			(power)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "GND"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "GND_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "GND_1_1"
+				(pin power_in line
+					(at 0 0 270)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(rectangle
+		(start 158.75 114.3)
+		(end 180.34 135.89)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 08f5b85d-0eb2-4621-9068-dfb0be58497c)
+	)
+	(rectangle
+		(start 113.03 68.58)
+		(end 134.62 90.17)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 2c3feb6f-5371-4b65-9f20-952a40df86b9)
+	)
+	(rectangle
+		(start 135.89 91.44)
+		(end 157.48 113.03)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 35650738-84f5-42c4-beb2-95796f6de379)
+	)
+	(rectangle
+		(start 113.03 91.44)
+		(end 134.62 113.03)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 3a696789-c275-48a9-a917-4dd18fa0533c)
+	)
+	(rectangle
+		(start 135.89 68.58)
+		(end 157.48 90.17)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 4c6607a7-9d7e-4210-9a24-ed87d29e21f8)
+	)
+	(rectangle
+		(start 158.75 91.44)
+		(end 180.34 113.03)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 4d287b32-c618-49b3-bd9b-f52471282744)
+	)
+	(rectangle
+		(start 113.03 114.3)
+		(end 134.62 135.89)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 52604b83-c1aa-4554-add6-2b84af79bfca)
+	)
+	(rectangle
+		(start 90.17 114.3)
+		(end 111.76 135.89)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 55149e7e-e072-42a1-8e20-35c6e2120f6f)
+	)
+	(rectangle
+		(start 90.17 91.44)
+		(end 111.76 113.03)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 9568bb34-a889-4748-86fe-0a5751e3b8ba)
+	)
+	(rectangle
+		(start 135.89 114.3)
+		(end 157.48 135.89)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 9c8f5ce2-99bf-4828-9acf-2ab422781c5e)
+	)
+	(rectangle
+		(start 158.75 68.58)
+		(end 180.34 90.17)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid a1b2cf3a-3764-4844-88c9-57ba96d7b65a)
+	)
+	(rectangle
+		(start 90.17 68.58)
+		(end 111.76 90.17)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid b3e79b3b-ff3e-40d7-8cfb-554a32515c76)
+	)
+	(text "Index"
+		(exclude_from_sim no)
+		(at 137.16 65.786 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "26b628a9-a7a7-4bfc-a1fd-14a098da160e")
+	)
+	(text "Key"
+		(exclude_from_sim no)
+		(at 116.332 92.964 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "288734d2-dce7-4623-b89d-45f69bcc50d3")
+	)
+	(text "Thumbs\n"
+		(exclude_from_sim no)
+		(at 91.694 66.294 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "2a3de3c3-a30a-477f-be52-2d0a568ff118")
+	)
+	(text "Key"
+		(exclude_from_sim no)
+		(at 93.472 70.104 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "3591bfc3-cddb-4f53-8372-3625dc28360f")
+	)
+	(text "Key"
+		(exclude_from_sim no)
+		(at 93.472 115.824 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "4778ba8f-b39e-4471-b7aa-b4542b08785a")
+	)
+	(text "Key"
+		(exclude_from_sim no)
+		(at 139.192 70.104 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "4d191ee8-a93b-4360-8c57-dd98d64c0682")
+	)
+	(text "Middle"
+		(exclude_from_sim no)
+		(at 160.02 65.786 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "7972f383-0879-43bb-9c27-604b19515ccc")
+	)
+	(text "Key"
+		(exclude_from_sim no)
+		(at 116.332 115.824 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "907ef81a-d6cb-44e3-8476-64c3944b48af")
+	)
+	(text "100R * N Leds"
+		(exclude_from_sim no)
+		(at 81.026 80.772 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "912cce5a-5f8c-4bb9-8713-31f3dffa4934")
+	)
+	(text "Key"
+		(exclude_from_sim no)
+		(at 162.052 70.104 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "9175c663-7edb-413d-9c39-8304134b1a8f")
+	)
+	(text "OuterIndex\n"
+		(exclude_from_sim no)
+		(at 113.538 66.04 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "9914946a-6bb1-4d40-854b-f0bb6f0cf997")
+	)
+	(text "Key"
+		(exclude_from_sim no)
+		(at 116.332 70.104 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "a79c6366-db48-4fa3-99ee-6d8019a59bda")
+	)
+	(text "Key"
+		(exclude_from_sim no)
+		(at 93.472 92.964 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "ba110e8f-6caf-4052-972b-9d0abee6ab3e")
+	)
+	(text "Key"
+		(exclude_from_sim no)
+		(at 162.052 115.824 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "bd4c6641-a515-4a30-991b-1ec887acbe77")
+	)
+	(text "Key"
+		(exclude_from_sim no)
+		(at 162.052 92.964 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "cd34aa79-285a-4c8e-b7ca-1bba3c5b78cf")
+	)
+	(text "Key"
+		(exclude_from_sim no)
+		(at 139.192 92.964 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "d875e136-f162-4dcf-bd7e-bc0b6ddaa36b")
+	)
+	(text "Key"
+		(exclude_from_sim no)
+		(at 139.192 115.824 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "f6a69245-ea08-4870-a91f-b669019bbf28")
+	)
+	(junction
+		(at 143.51 88.9)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "03ad5cdb-3e44-4529-bd9a-d3ef0b0fa773")
+	)
+	(junction
+		(at 81.28 59.69)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0c0d6aaf-9481-4020-9cde-ff4044b07291")
+	)
+	(junction
+		(at 88.9 67.31)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0c48a86d-8b69-45d4-a9af-dd81833a4451")
+	)
+	(junction
+		(at 143.51 111.76)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0e4df5c8-54a9-4697-b3de-dbe38f5ed130")
+	)
+	(junction
+		(at 167.64 100.33)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "11d7ae0f-9935-4208-8852-66289c98aaec")
+	)
+	(junction
+		(at 121.92 100.33)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1bd7c534-a278-49b9-af49-9feae30a2caf")
+	)
+	(junction
+		(at 114.3 67.31)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1e2562c9-7914-45ad-938a-ad29b6f8c67d")
+	)
+	(junction
+		(at 97.79 88.9)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3040a990-9936-43c1-b079-35de18f77164")
+	)
+	(junction
+		(at 127 110.49)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3171659e-c010-49ec-af1a-e3cff409987b")
+	)
+	(junction
+		(at 91.44 80.01)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3660d94f-8f97-49ce-bb71-dacd9f5d8ee9")
+	)
+	(junction
+		(at 167.64 123.19)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3f4a9789-c34d-49ea-8f22-1d6700605aa6")
+	)
+	(junction
+		(at 97.79 111.76)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4494d5dc-85d2-4027-b4fd-a4a8e579dfcf")
+	)
+	(junction
+		(at 172.72 133.35)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4a3c52b7-02e8-4ef7-917a-08d89eb20e6b")
+	)
+	(junction
+		(at 91.44 116.84)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4e00a91e-739d-4a61-8456-b3883362b525")
+	)
+	(junction
+		(at 120.65 88.9)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "566a53df-d5e1-499c-8982-1df502c9d947")
+	)
+	(junction
+		(at 172.72 110.49)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5f908820-a9d2-42b2-a094-92ed95168990")
+	)
+	(junction
+		(at 149.86 133.35)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "63abe647-45d6-4641-a224-1bb1d52149e5")
+	)
+	(junction
+		(at 127 133.35)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "69494521-2579-4165-91bc-e28a60e7f58e")
+	)
+	(junction
+		(at 121.92 123.19)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "725289ff-d110-4e57-b93a-dbb1d455c6a0")
+	)
+	(junction
+		(at 91.44 93.98)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "74453e82-539e-4ff5-a1f8-f11b02a22453")
+	)
+	(junction
+		(at 114.3 93.98)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7601ac55-ae9a-439e-aaf6-61d03cde3ce0")
+	)
+	(junction
+		(at 114.3 80.01)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "78209b09-b91a-4d71-acdf-ed770165d682")
+	)
+	(junction
+		(at 143.51 134.62)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7ee4e3c8-c765-4f9b-9b7c-ff6f08753d83")
+	)
+	(junction
+		(at 137.16 67.31)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "826581aa-0cae-4b46-b5e7-7ec7be99ffcb")
+	)
+	(junction
+		(at 137.16 116.84)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "83293085-2014-488f-9c8d-0ecf91e3eea6")
+	)
+	(junction
+		(at 91.44 102.87)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "85e96518-16ef-4883-a742-04ceb5f06243")
+	)
+	(junction
+		(at 120.65 111.76)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "85ed80a6-56fa-4f92-91a5-4f4c0c22759e")
+	)
+	(junction
+		(at 97.79 134.62)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "90301cac-3b40-49aa-82c0-f980a14114b6")
+	)
+	(junction
+		(at 114.3 116.84)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "90c391d7-8f66-4c7f-a8f8-3b4cca84504c")
+	)
+	(junction
+		(at 127 87.63)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "96b2f0e7-33ba-4600-af3b-81dffd3f04a7")
+	)
+	(junction
+		(at 137.16 93.98)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9796d4e1-e51d-4976-9f9a-b4b4554e91c3")
+	)
+	(junction
+		(at 76.2 67.31)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9858ec08-9e17-4bdd-bc3e-2f48e790a6bc")
+	)
+	(junction
+		(at 88.9 111.76)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9ea5f271-2bcb-41c2-b4ae-6b825e75a739")
+	)
+	(junction
+		(at 137.16 102.87)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a3955661-5a33-4e4c-8ad0-f51ff2c34980")
+	)
+	(junction
+		(at 120.65 134.62)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a6c15659-73f5-413b-bcc3-0f1033f6672e")
+	)
+	(junction
+		(at 99.06 100.33)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a854ad57-b6f2-4a82-83e4-5b2b22abd949")
+	)
+	(junction
+		(at 144.78 100.33)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a9124d8b-c061-4b09-b049-7217fab7d84c")
+	)
+	(junction
+		(at 99.06 123.19)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b3d95ab9-812d-4120-a74f-60d78f926e6c")
+	)
+	(junction
+		(at 160.02 80.01)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c24213c6-7fea-4f68-9798-59c9936d15d2")
+	)
+	(junction
+		(at 160.02 116.84)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c40ffdbb-63d5-4de8-97fa-960e4d98fa83")
+	)
+	(junction
+		(at 160.02 93.98)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c6d8a3cf-d281-4a33-9093-fbc83be836e9")
+	)
+	(junction
+		(at 144.78 123.19)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c8b0c223-dc74-4d22-b479-efa46a872f75")
+	)
+	(junction
+		(at 149.86 87.63)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ce1ac504-778a-4e6e-a109-2ca6e94c0c41")
+	)
+	(junction
+		(at 160.02 102.87)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d0eeb383-147e-45b6-a9ae-1ebb096a5b2d")
+	)
+	(junction
+		(at 91.44 67.31)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d1d07412-5755-407a-906a-294e3ecefda1")
+	)
+	(junction
+		(at 88.9 88.9)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e4c3b3e3-c2b6-45a9-9d6a-fe5a15b686bf")
+	)
+	(junction
+		(at 114.3 102.87)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e638a1dd-3113-4e46-bdb8-9d61d0255780")
+	)
+	(junction
+		(at 172.72 87.63)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f57d98cd-0a8f-4fb9-8474-25e31557c012")
+	)
+	(junction
+		(at 149.86 110.49)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fa3c783e-5008-411b-bbda-ebb5e0c2dc11")
+	)
+	(junction
+		(at 137.16 80.01)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fdba9b34-b2cd-40c5-9e85-f730e30351b9")
+	)
+	(wire
+		(pts
+			(xy 88.9 111.76) (xy 88.9 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "01a031f5-953d-4f3c-8678-7d36b0f3c40e")
+	)
+	(wire
+		(pts
+			(xy 120.65 102.87) (xy 120.65 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "05b10788-04a0-464b-81aa-3e6a052e3714")
+	)
+	(wire
+		(pts
+			(xy 143.51 125.73) (xy 142.24 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0a761574-0c90-4703-9d68-f44b23f54bd4")
+	)
+	(wire
+		(pts
+			(xy 120.65 125.73) (xy 119.38 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0acfc393-bb0b-48e8-9fc2-4082b50c4840")
+	)
+	(wire
+		(pts
+			(xy 97.79 134.62) (xy 120.65 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0b920133-b587-4613-a91a-287380aa54b1")
+	)
+	(wire
+		(pts
+			(xy 91.44 67.31) (xy 91.44 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0daf0566-3f95-41da-8073-f3390be88bdd")
+	)
+	(wire
+		(pts
+			(xy 99.06 123.19) (xy 99.06 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0e54b70c-8fef-43cd-bbf0-a63a1a61e875")
+	)
+	(wire
+		(pts
+			(xy 143.51 102.87) (xy 143.51 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0f50361d-a5a5-40e9-b521-6ff2f0c346c9")
+	)
+	(wire
+		(pts
+			(xy 76.2 69.85) (xy 76.2 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "11b1d0ed-23b7-4e0a-83a0-a08295685ddd")
+	)
+	(wire
+		(pts
+			(xy 143.51 80.01) (xy 143.51 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "13e85359-6025-4e4e-b19f-cc28fa873e0b")
+	)
+	(wire
+		(pts
+			(xy 91.44 80.01) (xy 91.44 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "14e1c9d3-dfd9-47bb-807f-12afcf41d193")
+	)
+	(wire
+		(pts
+			(xy 97.79 80.01) (xy 97.79 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1b0b2451-dce7-4e8d-916c-f685017c01a9")
+	)
+	(wire
+		(pts
+			(xy 97.79 125.73) (xy 96.52 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1d8be5d1-c8d2-4e35-8345-c786e89326b9")
+	)
+	(wire
+		(pts
+			(xy 91.44 93.98) (xy 91.44 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1e026e0b-c7a9-4962-b3f8-3c7f0233459b")
+	)
+	(wire
+		(pts
+			(xy 99.06 77.47) (xy 99.06 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2e94ed43-c1a8-4185-be31-67466c62c51d")
+	)
+	(wire
+		(pts
+			(xy 166.37 102.87) (xy 166.37 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "31b13c92-9fe0-4e29-8c21-6bd7f1e56092")
+	)
+	(wire
+		(pts
+			(xy 167.64 123.19) (xy 167.64 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "31ef89ed-be8e-49d1-821e-d2ac161e719e")
+	)
+	(wire
+		(pts
+			(xy 143.51 134.62) (xy 166.37 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3213786c-a06c-4993-a64f-397582382f91")
+	)
+	(wire
+		(pts
+			(xy 167.64 77.47) (xy 167.64 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "332d667e-a4f8-43c5-95f2-c17576f1732c")
+	)
+	(wire
+		(pts
+			(xy 160.02 67.31) (xy 160.02 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3605f0d8-bfad-41d9-ae8e-6b44c0871edd")
+	)
+	(wire
+		(pts
+			(xy 149.86 110.49) (xy 172.72 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "39174ae8-faed-41aa-b071-f27da02dba1f")
+	)
+	(wire
+		(pts
+			(xy 114.3 93.98) (xy 114.3 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3afb8f62-91e8-411f-a125-5445decb3e76")
+	)
+	(wire
+		(pts
+			(xy 88.9 88.9) (xy 88.9 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3ff111ba-9fd5-43e3-81f3-a833424a35ae")
+	)
+	(wire
+		(pts
+			(xy 149.86 87.63) (xy 172.72 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "42028559-9856-4600-b8d8-1383510754f8")
+	)
+	(wire
+		(pts
+			(xy 127 133.35) (xy 149.86 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4205138e-2943-4cb0-b53d-8f42ad09b65e")
+	)
+	(wire
+		(pts
+			(xy 120.65 80.01) (xy 120.65 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "43c9a0dd-f476-4bec-a86b-a7e1e0c97835")
+	)
+	(wire
+		(pts
+			(xy 114.3 67.31) (xy 137.16 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "47fa5354-8d9e-474a-8fbf-93d8b9b6cda7")
+	)
+	(wire
+		(pts
+			(xy 127 87.63) (xy 149.86 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "52e71e81-ad44-43b6-b09b-b7fb1de04f22")
+	)
+	(wire
+		(pts
+			(xy 97.79 88.9) (xy 120.65 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "575d81f5-2c9b-4883-b902-e28e1732a51a")
+	)
+	(wire
+		(pts
+			(xy 97.79 102.87) (xy 96.52 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "586f525a-aa76-49fc-8c5e-1b809a4e857b")
+	)
+	(wire
+		(pts
+			(xy 85.09 116.84) (xy 91.44 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "59f30161-b38a-4548-9d3f-bdc5433c3895")
+	)
+	(wire
+		(pts
+			(xy 137.16 102.87) (xy 137.16 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5c21ee88-bdb9-4e1d-96e8-09a958c026a1")
+	)
+	(wire
+		(pts
+			(xy 160.02 93.98) (xy 160.02 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "60896099-849b-4ce0-9266-ee17a21381ff")
+	)
+	(wire
+		(pts
+			(xy 144.78 77.47) (xy 144.78 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "60ea484f-3bfd-4a39-a179-dda420fd07e2")
+	)
+	(wire
+		(pts
+			(xy 166.37 102.87) (xy 165.1 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "60ec10cd-30d4-4275-b44a-2995392b672c")
+	)
+	(wire
+		(pts
+			(xy 172.72 110.49) (xy 182.88 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "61dc912d-0f0c-493d-a4fc-2d3ae41fa001")
+	)
+	(wire
+		(pts
+			(xy 99.06 100.33) (xy 99.06 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6506940a-2431-405e-9a0d-0ab9ac7e5739")
+	)
+	(wire
+		(pts
+			(xy 143.51 125.73) (xy 143.51 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "664f19ab-cb51-479f-9d7f-d2ac7ae0ee9f")
+	)
+	(wire
+		(pts
+			(xy 114.3 102.87) (xy 114.3 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "67e53686-8b61-4468-9c94-8ce8e3dfa2bf")
+	)
+	(wire
+		(pts
+			(xy 172.72 87.63) (xy 182.88 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6891e24d-a1c6-4828-8d78-eb7e0dd64595")
+	)
+	(wire
+		(pts
+			(xy 121.92 77.47) (xy 121.92 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6a3026b3-d454-43d2-bb4e-486a06719a9c")
+	)
+	(wire
+		(pts
+			(xy 143.51 88.9) (xy 166.37 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6b6558ff-b2aa-47f5-878b-73f23fcc140e")
+	)
+	(wire
+		(pts
+			(xy 91.44 116.84) (xy 91.44 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "711a3c81-96e0-4dcb-80c1-7155ff2ee73e")
+	)
+	(wire
+		(pts
+			(xy 91.44 93.98) (xy 114.3 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7839bc56-0cb2-4706-8fdc-101c66db9c02")
+	)
+	(wire
+		(pts
+			(xy 120.65 134.62) (xy 143.51 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "791151e6-cdb4-4ec6-8b1d-7374bbcf46ea")
+	)
+	(wire
+		(pts
+			(xy 120.65 125.73) (xy 120.65 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7b7ff409-0945-40f3-98f0-d50480527b92")
+	)
+	(wire
+		(pts
+			(xy 144.78 123.19) (xy 144.78 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "807eb14b-0bf6-462b-b6c4-f2b7bc80f70d")
+	)
+	(wire
+		(pts
+			(xy 143.51 80.01) (xy 142.24 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "80d2eeec-38df-42b8-b02a-10cd94f459c9")
+	)
+	(wire
+		(pts
+			(xy 97.79 80.01) (xy 96.52 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "81bd2c6f-894b-4ec5-8fe0-69496430623c")
+	)
+	(wire
+		(pts
+			(xy 167.64 100.33) (xy 167.64 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "82f1000f-2895-4a2a-9ff9-d4df666aced9")
+	)
+	(wire
+		(pts
+			(xy 88.9 88.9) (xy 97.79 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "838b079d-eb1f-4aab-b7a6-416367962181")
+	)
+	(wire
+		(pts
+			(xy 91.44 63.5) (xy 91.44 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8689bc58-22f6-45a4-8ccc-51c7edce137e")
+	)
+	(wire
+		(pts
+			(xy 149.86 133.35) (xy 172.72 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "86e84ace-9e5e-43be-acd7-67319d4122ce")
+	)
+	(wire
+		(pts
+			(xy 76.2 59.69) (xy 76.2 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "87ca43a9-7079-46f3-85cd-7d0127a53a33")
+	)
+	(wire
+		(pts
+			(xy 127 110.49) (xy 149.86 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "87dee680-4909-4c0d-8b97-e6eb3fff9124")
+	)
+	(wire
+		(pts
+			(xy 137.16 67.31) (xy 137.16 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8879154f-9530-4d65-8cbb-a4136a1d5e24")
+	)
+	(wire
+		(pts
+			(xy 143.51 102.87) (xy 142.24 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "895ad2b8-df6c-4d4b-b9a5-cef76f27b94a")
+	)
+	(wire
+		(pts
+			(xy 88.9 134.62) (xy 97.79 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8d724b40-90f9-4603-8924-24953c941b25")
+	)
+	(wire
+		(pts
+			(xy 144.78 100.33) (xy 144.78 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8df23408-16f6-4934-9048-872c403d2006")
+	)
+	(wire
+		(pts
+			(xy 91.44 67.31) (xy 114.3 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9281e82e-880a-4de7-b1c4-3b833210ede0")
+	)
+	(wire
+		(pts
+			(xy 121.92 123.19) (xy 121.92 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "950b2053-f71e-4191-8286-62bac2a95549")
+	)
+	(wire
+		(pts
+			(xy 81.28 57.15) (xy 81.28 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9708a74c-0d1a-43f9-8ff8-0a0864cbb1e4")
+	)
+	(wire
+		(pts
+			(xy 86.36 67.31) (xy 88.9 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "97d9f116-ca89-47ea-a2cf-e38031bbaf34")
+	)
+	(wire
+		(pts
+			(xy 137.16 67.31) (xy 160.02 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "983f5722-d7a3-4cdf-87c2-0a5efaba8d11")
+	)
+	(wire
+		(pts
+			(xy 91.44 116.84) (xy 114.3 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9c552d77-9ade-4142-aab5-6313c6973a45")
+	)
+	(wire
+		(pts
+			(xy 137.16 93.98) (xy 160.02 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9c8460d2-486a-4c8c-b9fd-cb9539d0b750")
+	)
+	(wire
+		(pts
+			(xy 166.37 80.01) (xy 165.1 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9d1d3dab-bc69-4e03-a05e-5b5a7e71d038")
+	)
+	(wire
+		(pts
+			(xy 104.14 87.63) (xy 127 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9f553414-cbff-4a99-88ab-6d00ffa4116c")
+	)
+	(wire
+		(pts
+			(xy 120.65 102.87) (xy 119.38 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a10332b3-bced-44f9-8887-96ec77f3c8ec")
+	)
+	(wire
+		(pts
+			(xy 120.65 88.9) (xy 143.51 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a624c514-feb3-4b3c-a209-1afab3675372")
+	)
+	(wire
+		(pts
+			(xy 114.3 116.84) (xy 114.3 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a93eb1a6-104e-4218-b92b-d02d701bcdf4")
+	)
+	(wire
+		(pts
+			(xy 88.9 111.76) (xy 97.79 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a97d8f63-041c-48ba-966d-2e3a25e31685")
+	)
+	(wire
+		(pts
+			(xy 172.72 133.35) (xy 182.88 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ad5c588b-fa97-4b64-a1b8-a9c925a08264")
+	)
+	(wire
+		(pts
+			(xy 104.14 110.49) (xy 127 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ada356c8-66aa-45c8-95b0-2135e987f157")
+	)
+	(wire
+		(pts
+			(xy 88.9 63.5) (xy 88.9 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "af2921f7-ef2c-4671-855c-617b7714735d")
+	)
+	(wire
+		(pts
+			(xy 114.3 80.01) (xy 114.3 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b0f4105b-8afc-4e34-8ed0-948de05d8c99")
+	)
+	(wire
+		(pts
+			(xy 91.44 102.87) (xy 91.44 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b3588c10-d056-4cd1-8b48-4a2e561b059f")
+	)
+	(wire
+		(pts
+			(xy 88.9 86.36) (xy 88.9 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b51f0b84-3b7e-4e3c-8288-d51912b4dfcd")
+	)
+	(wire
+		(pts
+			(xy 137.16 116.84) (xy 137.16 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b6c872d5-62ce-4bb2-aa83-3034a387a516")
+	)
+	(wire
+		(pts
+			(xy 120.65 80.01) (xy 119.38 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "be263453-64b2-4b4f-9988-55f3f6f38df4")
+	)
+	(wire
+		(pts
+			(xy 104.14 133.35) (xy 127 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bfc467f8-2b68-4341-bf31-c0cfe0f9da8e")
+	)
+	(wire
+		(pts
+			(xy 166.37 80.01) (xy 166.37 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c1df892d-d289-4502-afe3-a843f02878f6")
+	)
+	(wire
+		(pts
+			(xy 160.02 102.87) (xy 160.02 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c1e96d06-245d-4663-9e0f-7cb850e21600")
+	)
+	(wire
+		(pts
+			(xy 166.37 125.73) (xy 165.1 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d2da24ac-5d3c-4e81-ba3e-2066048de5d3")
+	)
+	(wire
+		(pts
+			(xy 88.9 81.28) (xy 88.9 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d5d114a7-ac76-4ba7-9322-920fe3e8547e")
+	)
+	(wire
+		(pts
+			(xy 121.92 100.33) (xy 121.92 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "da1cdb3e-fb18-4593-81b7-c03a58b3f942")
+	)
+	(wire
+		(pts
+			(xy 114.3 93.98) (xy 137.16 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "db09303c-2dd9-4bab-a076-3d80c0cbcb4c")
+	)
+	(wire
+		(pts
+			(xy 137.16 80.01) (xy 137.16 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "db862a26-8e85-4902-acc8-e80f327ab7a0")
+	)
+	(wire
+		(pts
+			(xy 97.79 111.76) (xy 120.65 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dcfd061f-7fbb-4a68-a6e4-8e5a64a0df99")
+	)
+	(wire
+		(pts
+			(xy 166.37 125.73) (xy 166.37 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e6467ad6-93d8-4b3c-a154-75d153c36dd5")
+	)
+	(wire
+		(pts
+			(xy 114.3 116.84) (xy 137.16 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e85a300a-24c0-4254-9a4e-4709317c2a9c")
+	)
+	(wire
+		(pts
+			(xy 97.79 102.87) (xy 97.79 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f4a46ff2-5a00-42d2-85bc-c90ccc2ea73c")
+	)
+	(wire
+		(pts
+			(xy 160.02 116.84) (xy 160.02 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f5191712-fbc5-4a88-be3f-20aad011be3a")
+	)
+	(wire
+		(pts
+			(xy 97.79 125.73) (xy 97.79 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f5d4c845-d9d4-4fe0-ad6a-6c3305e2fdbd")
+	)
+	(wire
+		(pts
+			(xy 114.3 67.31) (xy 114.3 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f6aa26bf-30e4-4ef6-a90e-1b8e382c1fc4")
+	)
+	(wire
+		(pts
+			(xy 120.65 111.76) (xy 143.51 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f7e25dd3-c0ea-4dbe-91f4-210036b4c50e")
+	)
+	(wire
+		(pts
+			(xy 143.51 111.76) (xy 166.37 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fba96dff-00ad-4043-ac50-b2235edec3ef")
+	)
+	(wire
+		(pts
+			(xy 160.02 80.01) (xy 160.02 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fcbad4fb-87b0-4f6e-a1ff-40ec990f5c90")
+	)
+	(wire
+		(pts
+			(xy 137.16 116.84) (xy 160.02 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fdea1dba-9229-4259-821b-b326b2fd97c3")
+	)
+	(wire
+		(pts
+			(xy 137.16 93.98) (xy 137.16 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ff2a289d-2e56-4cdd-bf19-277afe360d11")
+	)
+	(label "LEDOut"
+		(at 88.9 63.5 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "88ce23c0-5bda-4620-87cc-4609bf294cac")
+	)
+	(hierarchical_label "Col1"
+		(shape input)
+		(at 121.92 138.43 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "26be0083-dc35-4fdb-92fd-7086d1cd50ad")
+	)
+	(hierarchical_label "Backlight"
+		(shape input)
+		(at 81.28 57.15 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "4fe5e893-80ed-42ed-a415-dc55c11ee6af")
+	)
+	(hierarchical_label "Col3"
+		(shape input)
+		(at 167.64 138.43 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "7617190a-fc52-4a00-a5c4-69a5d100539b")
+	)
+	(hierarchical_label "Row2"
+		(shape input)
+		(at 182.88 133.35 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "853efd46-5bd3-4080-b784-d12d47a3cac9")
+	)
+	(hierarchical_label "Row0"
+		(shape input)
+		(at 182.88 87.63 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "ad9f702f-d191-4ecf-bc59-d54d8989a18c")
+	)
+	(hierarchical_label "Col2"
+		(shape input)
+		(at 144.78 138.43 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "b72bb44c-5f32-4930-b6a7-cf9d5a102226")
+	)
+	(hierarchical_label "Row1"
+		(shape input)
+		(at 182.88 110.49 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "f92c1f77-287e-4252-9aa0-dbe234602f75")
+	)
+	(hierarchical_label "Vcc"
+		(shape input)
+		(at 91.44 63.5 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "ff42f198-8dcd-4834-b5d6-47a35554c963")
+	)
+	(hierarchical_label "Col0"
+		(shape input)
+		(at 99.06 138.43 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "ff5a99a0-945d-49a2-aff4-151707479c57")
+	)
+	(symbol
+		(lib_id "Keyboard:choc_v1_SW_HS_CPG135001S30")
+		(at 124.46 102.87 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "05a8ccb4-ff98-4790-af06-fefafa8cb99a")
+		(property "Reference" "KHS5"
+			(at 130.556 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "KHS"
+			(at 124.206 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Keyboard:CPG1316S01D02_front_mikefives"
+			(at 124.46 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 124.46 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
+			(at 124.46 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "bbda6092-33df-483d-88be-0b07efa9f06f")
+		)
+		(pin "2"
+			(uuid "dde7fabc-b822-48c5-a07a-512eacf300f4")
+		)
+		(instances
+			(project "pipar_chip"
+				(path "/d1142a1b-d63f-4838-8682-40c268ae0e67/192022fc-c208-4a6d-944e-f74a4d1a81d1"
+					(reference "KHS5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D_Small")
+		(at 127 130.81 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0620f7a9-5bd7-40ef-8806-007d02ab1110")
+		(property "Reference" "D11"
+			(at 128.524 130.556 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "D_Small"
+			(at 129.54 132.0799 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-523"
+			(at 127 130.81 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 127 130.81 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diode, small symbol"
+			(at 127 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 127 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 127 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Diodes Incorporated"
+			(at 127 130.81 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "1N4148WT-7 "
+			(at 127 130.81 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "621-1N4148WT "
+			(at 127 130.81 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c8480552-f8e5-4391-80ae-7a4100a66e4e")
+		)
+		(pin "2"
+			(uuid "e082893c-09ab-4e11-83a5-a6eac32424d6")
+		)
+		(instances
+			(project "pipar_chip"
+				(path "/d1142a1b-d63f-4838-8682-40c268ae0e67/192022fc-c208-4a6d-944e-f74a4d1a81d1"
+					(reference "D11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_FET:AO3400A")
+		(at 81.28 64.77 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0d5c165e-3e25-49be-9e34-9cca90dbd708")
+		(property "Reference" "Q1"
+			(at 81.28 71.12 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "AO3400A"
+			(at 81.28 73.66 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(at 79.375 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.aosmd.com/pdfs/datasheet/AO3400A.pdf"
+			(at 77.47 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "30V Vds, 5.7A Id, N-Channel MOSFET, SOT-23"
+			(at 81.28 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Infineon Technologies"
+			(at 81.28 64.77 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "IRLML6344TRPBF "
+			(at 81.28 64.77 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "942-IRLML6344TRPBF"
+			(at 81.28 64.77 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "d2cd55b7-3aed-494d-9db2-6bef3a1cf924")
+		)
+		(pin "1"
+			(uuid "8f90cda3-6345-4ec8-9d2a-65a9f755d5ee")
+		)
+		(pin "2"
+			(uuid "5de0bd48-e421-4923-b289-ff5c22830bec")
+		)
+		(instances
+			(project "pipar_chip"
+				(path "/d1142a1b-d63f-4838-8682-40c268ae0e67/192022fc-c208-4a6d-944e-f74a4d1a81d1"
+					(reference "Q1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D_Small")
+		(at 104.14 107.95 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "127985df-6569-4428-90f3-5fa136d910a7")
+		(property "Reference" "D7"
+			(at 105.664 107.696 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "D_Small"
+			(at 106.68 109.2199 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-523"
+			(at 104.14 107.95 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 104.14 107.95 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diode, small symbol"
+			(at 104.14 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 104.14 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 104.14 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Diodes Incorporated"
+			(at 104.14 107.95 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "1N4148WT-7 "
+			(at 104.14 107.95 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "621-1N4148WT "
+			(at 104.14 107.95 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3f944fab-d05e-410c-9b77-5414afd002db")
+		)
+		(pin "2"
+			(uuid "8c7b3e6f-5d06-476e-a96c-90d9ec0ec0d2")
+		)
+		(instances
+			(project "pipar_chip"
+				(path "/d1142a1b-d63f-4838-8682-40c268ae0e67/192022fc-c208-4a6d-944e-f74a4d1a81d1"
+					(reference "D7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED_Small")
+		(at 93.98 102.87 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1552f457-90e8-4641-9102-7ffb85a27724")
+		(property "Reference" "LED2"
+			(at 94.488 100.838 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LED_Small"
+			(at 93.98 100.838 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
+			(at 93.98 102.87 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 93.98 102.87 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode, small symbol"
+			(at 93.98 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pin" "1=K 2=A"
+			(at 93.98 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Inolux"
+			(at 93.98 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "IN-S63BT5UW"
+			(at 93.98 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "743-IN-S63BT5UW"
+			(at 93.98 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4b4f6921-8aae-4b25-9560-72cf4d12ee32")
+		)
+		(pin "2"
+			(uuid "f14946e0-17af-49a1-85fe-eb9727742bd0")
+		)
+		(instances
+			(project "pipar_chip"
+				(path "/d1142a1b-d63f-4838-8682-40c268ae0e67/192022fc-c208-4a6d-944e-f74a4d1a81d1"
+					(reference "LED2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 76.2 69.85 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1ae957ca-51ab-49b1-8394-010ffad9fc4f")
+		(property "Reference" "#PWR019"
+			(at 76.2 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 76.2 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 76.2 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 76.2 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 76.2 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "11b5ca92-4056-4fad-a177-c33d347bf279")
+		)
+		(instances
+			(project "pipar_chip"
+				(path "/d1142a1b-d63f-4838-8682-40c268ae0e67/192022fc-c208-4a6d-944e-f74a4d1a81d1"
+					(reference "#PWR019")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED_Small")
+		(at 162.56 125.73 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1f26cc33-8c98-4e7d-a7e2-dc3535c693dd")
+		(property "Reference" "LED12"
+			(at 163.068 123.698 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LED_Small"
+			(at 162.56 123.698 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
+			(at 162.56 125.73 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 162.56 125.73 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode, small symbol"
+			(at 162.56 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pin" "1=K 2=A"
+			(at 162.56 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Inolux"
+			(at 162.56 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "IN-S63BT5UW"
+			(at 162.56 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "743-IN-S63BT5UW"
+			(at 162.56 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "70f50713-3df2-48ed-8974-c94a7a3a9a82")
+		)
+		(pin "2"
+			(uuid "8471b07d-d138-443b-8640-1121c2d9fb05")
+		)
+		(instances
+			(project "pipar_chip"
+				(path "/d1142a1b-d63f-4838-8682-40c268ae0e67/192022fc-c208-4a6d-944e-f74a4d1a81d1"
+					(reference "LED12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED_Small")
+		(at 93.98 80.01 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "205ee277-7945-4b88-99fd-b075c09703d3")
+		(property "Reference" "LED1"
+			(at 94.488 77.978 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LED_Small"
+			(at 93.98 77.978 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
+			(at 93.98 80.01 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 93.98 80.01 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode, small symbol"
+			(at 93.98 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pin" "1=K 2=A"
+			(at 93.98 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Inolux"
+			(at 93.98 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "IN-S63BT5UW"
+			(at 93.98 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "743-IN-S63BT5UW"
+			(at 93.98 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e674465b-3480-4a38-8a1c-92516c77b900")
+		)
+		(pin "2"
+			(uuid "7a8e480c-7b4e-45ae-a3a0-96e4c8278b07")
+		)
+		(instances
+			(project "pipar_chip"
+				(path "/d1142a1b-d63f-4838-8682-40c268ae0e67/192022fc-c208-4a6d-944e-f74a4d1a81d1"
+					(reference "LED1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D_Small")
+		(at 104.14 85.09 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "28144636-913d-46ec-961a-30ff1de94247")
+		(property "Reference" "D6"
+			(at 105.664 84.836 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "D_Small"
+			(at 106.68 86.3599 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-523"
+			(at 104.14 85.09 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 104.14 85.09 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diode, small symbol"
+			(at 104.14 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 104.14 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 104.14 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Diodes Incorporated"
+			(at 104.14 85.09 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "1N4148WT-7 "
+			(at 104.14 85.09 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "621-1N4148WT "
+			(at 104.14 85.09 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b627460a-3f3a-4244-92fd-639bb757a1ad")
+		)
+		(pin "2"
+			(uuid "66b85ae2-45ec-43ce-80f2-ab14c1a1a8b4")
+		)
+		(instances
+			(project "pipar_chip"
+				(path "/d1142a1b-d63f-4838-8682-40c268ae0e67/192022fc-c208-4a6d-944e-f74a4d1a81d1"
+					(reference "D6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED_Small")
+		(at 162.56 102.87 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "2d932d61-d4ab-4d23-9587-fd3f9def691d")
+		(property "Reference" "LED11"
+			(at 163.068 100.838 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LED_Small"
+			(at 162.56 100.838 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
+			(at 162.56 102.87 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 162.56 102.87 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode, small symbol"
+			(at 162.56 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pin" "1=K 2=A"
+			(at 162.56 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Inolux"
+			(at 162.56 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "IN-S63BT5UW"
+			(at 162.56 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "743-IN-S63BT5UW"
+			(at 162.56 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "89ca9f21-3218-46f8-908f-6083eb75f867")
+		)
+		(pin "2"
+			(uuid "69bdbc6a-2e73-4f5c-b1b2-31f079287182")
+		)
+		(instances
+			(project "pipar_chip"
+				(path "/d1142a1b-d63f-4838-8682-40c268ae0e67/192022fc-c208-4a6d-944e-f74a4d1a81d1"
+					(reference "LED11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Keyboard:choc_v1_SW_HS_CPG135001S30")
+		(at 124.46 125.73 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3b1acee6-e7fd-42fb-a5a3-f74b4d46a103")
+		(property "Reference" "KHS6"
+			(at 130.556 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "KHS"
+			(at 124.206 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Keyboard:CPG1316S01D02_front_mikefives"
+			(at 124.46 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 124.46 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
+			(at 124.46 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2cd1e16e-7bd5-44c0-8b7f-eee5c0e7d841")
+		)
+		(pin "2"
+			(uuid "e455132b-c749-4a91-a9fe-943916cf69bf")
+		)
+		(instances
+			(project "pipar_chip"
+				(path "/d1142a1b-d63f-4838-8682-40c268ae0e67/192022fc-c208-4a6d-944e-f74a4d1a81d1"
+					(reference "KHS6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Keyboard:choc_v1_SW_HS_CPG135001S30")
+		(at 147.32 125.73 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4aadaab8-ba9a-4217-b1c0-a909248e8e15")
+		(property "Reference" "KHS9"
+			(at 153.416 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "KHS"
+			(at 147.066 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Keyboard:CPG1316S01D02_front_mikefives"
+			(at 147.32 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 147.32 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
+			(at 147.32 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c0a82082-633f-46db-b7f1-fbdbbf181c9d")
+		)
+		(pin "2"
+			(uuid "8fa9a139-35af-4e9d-a2ae-ee3132fe465b")
+		)
+		(instances
+			(project "pipar_chip"
+				(path "/d1142a1b-d63f-4838-8682-40c268ae0e67/192022fc-c208-4a6d-944e-f74a4d1a81d1"
+					(reference "KHS9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D_Small")
+		(at 127 107.95 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4b01265b-7a06-4644-b594-1e0f2f5f9aae")
+		(property "Reference" "D10"
+			(at 128.524 107.696 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "D_Small"
+			(at 129.54 109.2199 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-523"
+			(at 127 107.95 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 127 107.95 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diode, small symbol"
+			(at 127 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 127 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 127 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Diodes Incorporated"
+			(at 127 107.95 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "1N4148WT-7 "
+			(at 127 107.95 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "621-1N4148WT "
+			(at 127 107.95 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fa5e42c7-6f71-4984-90b5-826ac64a53e1")
+		)
+		(pin "2"
+			(uuid "0fda141f-3a8f-4467-bcdc-0639449f3854")
+		)
+		(instances
+			(project "pipar_chip"
+				(path "/d1142a1b-d63f-4838-8682-40c268ae0e67/192022fc-c208-4a6d-944e-f74a4d1a81d1"
+					(reference "D10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED_Small")
+		(at 139.7 102.87 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4b3e2dd7-64db-4fdd-8846-86f1f26f064f")
+		(property "Reference" "LED8"
+			(at 140.208 100.838 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LED_Small"
+			(at 139.7 100.838 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
+			(at 139.7 102.87 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 139.7 102.87 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode, small symbol"
+			(at 139.7 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pin" "1=K 2=A"
+			(at 139.7 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Inolux"
+			(at 139.7 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "IN-S63BT5UW"
+			(at 139.7 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "743-IN-S63BT5UW"
+			(at 139.7 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "aadaa776-9bfe-401d-87ea-bc48d8cd88fc")
+		)
+		(pin "2"
+			(uuid "7bafff36-4449-4b75-a467-8d8a5e13e569")
+		)
+		(instances
+			(project "pipar_chip"
+				(path "/d1142a1b-d63f-4838-8682-40c268ae0e67/192022fc-c208-4a6d-944e-f74a4d1a81d1"
+					(reference "LED8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Keyboard:choc_v1_SW_HS_CPG135001S30")
+		(at 170.18 102.87 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4e69c8d4-f65c-455a-9b34-8010853092b9")
+		(property "Reference" "KHS11"
+			(at 176.276 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "KHS"
+			(at 169.926 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Keyboard:CPG1316S01D02_front_mikefives"
+			(at 170.18 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 170.18 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
+			(at 170.18 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "04fed487-69fd-4043-b55c-5cb3f33b9c84")
+		)
+		(pin "2"
+			(uuid "f34831d8-297c-4f67-a0e5-4ec4bf6b04a5")
+		)
+		(instances
+			(project "pipar_chip"
+				(path "/d1142a1b-d63f-4838-8682-40c268ae0e67/192022fc-c208-4a6d-944e-f74a4d1a81d1"
+					(reference "KHS11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Keyboard:choc_v1_SW_HS_CPG135001S30")
+		(at 147.32 102.87 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4f0fa952-e24b-4795-a262-edc1be24b204")
+		(property "Reference" "KHS8"
+			(at 153.416 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "KHS"
+			(at 147.066 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Keyboard:CPG1316S01D02_front_mikefives"
+			(at 147.32 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 147.32 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
+			(at 147.32 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4b228f93-4f2b-4ce3-bbfa-ef9fb11a4078")
+		)
+		(pin "2"
+			(uuid "29e52285-1573-4b0d-88c2-e1bced8ba415")
+		)
+		(instances
+			(project "pipar_chip"
+				(path "/d1142a1b-d63f-4838-8682-40c268ae0e67/192022fc-c208-4a6d-944e-f74a4d1a81d1"
+					(reference "KHS8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED_Small")
+		(at 116.84 80.01 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "545b2db5-c36a-4136-a997-5a2f3c7f90ec")
+		(property "Reference" "LED4"
+			(at 117.348 77.978 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LED_Small"
+			(at 116.84 77.978 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
+			(at 116.84 80.01 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 116.84 80.01 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode, small symbol"
+			(at 116.84 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pin" "1=K 2=A"
+			(at 116.84 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Inolux"
+			(at 116.84 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "IN-S63BT5UW"
+			(at 116.84 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "743-IN-S63BT5UW"
+			(at 116.84 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8e964cef-474c-4892-97f9-b99de6310c1f")
+		)
+		(pin "2"
+			(uuid "6df8573b-055a-4d23-94bf-59f85557d363")
+		)
+		(instances
+			(project "pipar_chip"
+				(path "/d1142a1b-d63f-4838-8682-40c268ae0e67/192022fc-c208-4a6d-944e-f74a4d1a81d1"
+					(reference "LED4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D_Small")
+		(at 172.72 107.95 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "56c763d7-5b1b-48c2-a5df-f67f3f04e908")
+		(property "Reference" "D16"
+			(at 174.244 107.696 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "D_Small"
+			(at 175.26 109.2199 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-523"
+			(at 172.72 107.95 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 172.72 107.95 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diode, small symbol"
+			(at 172.72 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 172.72 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 172.72 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Diodes Incorporated"
+			(at 172.72 107.95 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "1N4148WT-7 "
+			(at 172.72 107.95 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "621-1N4148WT "
+			(at 172.72 107.95 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d88c2f48-5e18-414e-9012-ddddaf826c19")
+		)
+		(pin "2"
+			(uuid "a1c0513f-a0bb-4bb5-992d-0dee4c9241d1")
+		)
+		(instances
+			(project "pipar_chip"
+				(path "/d1142a1b-d63f-4838-8682-40c268ae0e67/192022fc-c208-4a6d-944e-f74a4d1a81d1"
+					(reference "D16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D_Small")
+		(at 104.14 130.81 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "598068bc-46cd-436d-be2f-e6704775adbb")
+		(property "Reference" "D8"
+			(at 105.664 130.556 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "D_Small"
+			(at 106.68 132.0799 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-523"
+			(at 104.14 130.81 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 104.14 130.81 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diode, small symbol"
+			(at 104.14 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 104.14 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 104.14 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Diodes Incorporated"
+			(at 104.14 130.81 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "1N4148WT-7 "
+			(at 104.14 130.81 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "621-1N4148WT "
+			(at 104.14 130.81 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "cccc065b-a8a2-4597-9107-1b064c2f374a")
+		)
+		(pin "2"
+			(uuid "cb08ba91-e375-4b09-b175-bfb0f8284de2")
+		)
+		(instances
+			(project "pipar_chip"
+				(path "/d1142a1b-d63f-4838-8682-40c268ae0e67/192022fc-c208-4a6d-944e-f74a4d1a81d1"
+					(reference "D8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED_Small")
+		(at 139.7 80.01 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5d5e650e-1d1c-4c9e-8947-28dcbdbfe3cc")
+		(property "Reference" "LED7"
+			(at 140.208 77.978 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LED_Small"
+			(at 139.7 77.978 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
+			(at 139.7 80.01 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 139.7 80.01 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode, small symbol"
+			(at 139.7 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pin" "1=K 2=A"
+			(at 139.7 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Inolux"
+			(at 139.7 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "IN-S63BT5UW"
+			(at 139.7 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "743-IN-S63BT5UW"
+			(at 139.7 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "eb36b421-a0be-4e57-83d2-d419df57f10e")
+		)
+		(pin "2"
+			(uuid "2a7f6828-8692-4750-85ea-e51333ec4f1e")
+		)
+		(instances
+			(project "pipar_chip"
+				(path "/d1142a1b-d63f-4838-8682-40c268ae0e67/192022fc-c208-4a6d-944e-f74a4d1a81d1"
+					(reference "LED7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED_Small")
+		(at 116.84 102.87 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5df4306a-e3fc-472d-b94e-c239f757a046")
+		(property "Reference" "LED5"
+			(at 117.348 100.838 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LED_Small"
+			(at 116.84 100.838 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
+			(at 116.84 102.87 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 116.84 102.87 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode, small symbol"
+			(at 116.84 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pin" "1=K 2=A"
+			(at 116.84 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Inolux"
+			(at 116.84 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "IN-S63BT5UW"
+			(at 116.84 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "743-IN-S63BT5UW"
+			(at 116.84 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7d461681-c827-4e8b-8d55-4f5ee5058e2d")
+		)
+		(pin "2"
+			(uuid "f7ae590b-5dcb-4f44-94fe-015b3fa5091d")
+		)
+		(instances
+			(project "pipar_chip"
+				(path "/d1142a1b-d63f-4838-8682-40c268ae0e67/192022fc-c208-4a6d-944e-f74a4d1a81d1"
+					(reference "LED5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D_Small")
+		(at 172.72 130.81 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5e92be38-a4e2-4425-93b5-950c1eb61906")
+		(property "Reference" "D17"
+			(at 174.244 130.556 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "D_Small"
+			(at 175.26 132.0799 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-523"
+			(at 172.72 130.81 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 172.72 130.81 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diode, small symbol"
+			(at 172.72 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 172.72 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 172.72 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Diodes Incorporated"
+			(at 172.72 130.81 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "1N4148WT-7 "
+			(at 172.72 130.81 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "621-1N4148WT "
+			(at 172.72 130.81 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "beecdbb0-e5b6-4cf0-93e0-1dc0ed96c14b")
+		)
+		(pin "2"
+			(uuid "73744ed5-df21-49e8-b336-aca5a9907c83")
+		)
+		(instances
+			(project "pipar_chip"
+				(path "/d1142a1b-d63f-4838-8682-40c268ae0e67/192022fc-c208-4a6d-944e-f74a4d1a81d1"
+					(reference "D17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Keyboard:choc_v1_SW_HS_CPG135001S30")
+		(at 170.18 125.73 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6204320a-1c89-44ec-b0ac-35743667bb29")
+		(property "Reference" "KHS12"
+			(at 176.276 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "KHS"
+			(at 169.926 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Keyboard:CPG1316S01D02_front_mikefives"
+			(at 170.18 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 170.18 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
+			(at 170.18 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a1bd64e0-d693-4298-b460-a80a3ae11bd8")
+		)
+		(pin "2"
+			(uuid "8b9abbdc-ff64-4373-ad87-8e3684e44045")
+		)
+		(instances
+			(project "pipar_chip"
+				(path "/d1142a1b-d63f-4838-8682-40c268ae0e67/192022fc-c208-4a6d-944e-f74a4d1a81d1"
+					(reference "KHS12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D_Small")
+		(at 172.72 85.09 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "656860be-7625-4128-92d4-c38fe4d9dbf0")
+		(property "Reference" "D15"
+			(at 174.244 84.836 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "D_Small"
+			(at 175.26 86.3599 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-523"
+			(at 172.72 85.09 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 172.72 85.09 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diode, small symbol"
+			(at 172.72 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 172.72 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 172.72 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Diodes Incorporated"
+			(at 172.72 85.09 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "1N4148WT-7 "
+			(at 172.72 85.09 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "621-1N4148WT "
+			(at 172.72 85.09 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "40d4bbd8-5598-4021-97a5-3016a245a393")
+		)
+		(pin "2"
+			(uuid "86274fb2-cef5-427d-95ab-6ecb88185edc")
+		)
+		(instances
+			(project "pipar_chip"
+				(path "/d1142a1b-d63f-4838-8682-40c268ae0e67/192022fc-c208-4a6d-944e-f74a4d1a81d1"
+					(reference "D15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "R_Small_1")
+		(lib_id "Device:R_Small")
+		(at 78.74 59.69 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "683ea40f-b524-4889-b1b6-7e4a45bccae8")
+		(property "Reference" "R10"
+			(at 78.74 54.61 90)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Value" "5.1k"
+			(at 78.74 57.15 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 78.74 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 78.74 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 78.74 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "YAGEO"
+			(at 78.74 59.69 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "603-RC0603FR-075K1L"
+			(at 78.74 59.69 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "603-RC0603FR-075K1L "
+			(at 78.74 59.69 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6f325ca1-f4e1-47ab-b87b-a1a500d94f49")
+		)
+		(pin "2"
+			(uuid "1ab10f02-b66c-4aeb-941c-b525ccabd2fa")
+		)
+		(instances
+			(project "pipar_chip"
+				(path "/d1142a1b-d63f-4838-8682-40c268ae0e67/192022fc-c208-4a6d-944e-f74a4d1a81d1"
+					(reference "R10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D_Small")
+		(at 149.86 130.81 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "791d5a3a-59da-4464-b50a-09dc1a452f18")
+		(property "Reference" "D14"
+			(at 151.384 130.556 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "D_Small"
+			(at 152.4 132.0799 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-523"
+			(at 149.86 130.81 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 149.86 130.81 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diode, small symbol"
+			(at 149.86 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 149.86 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 149.86 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Diodes Incorporated"
+			(at 149.86 130.81 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "1N4148WT-7 "
+			(at 149.86 130.81 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "621-1N4148WT "
+			(at 149.86 130.81 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2acbdfe5-537a-474c-a9fb-6c32581b05a6")
+		)
+		(pin "2"
+			(uuid "38439b35-4b37-4391-abc8-d249be37aaee")
+		)
+		(instances
+			(project "pipar_chip"
+				(path "/d1142a1b-d63f-4838-8682-40c268ae0e67/192022fc-c208-4a6d-944e-f74a4d1a81d1"
+					(reference "D14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Keyboard:choc_v1_SW_HS_CPG135001S30")
+		(at 101.6 80.01 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8e3ad6df-8b61-46a3-9b40-c5c64a7f102d")
+		(property "Reference" "KHS1"
+			(at 107.696 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "KHS"
+			(at 101.346 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Keyboard:CPG1316S01D02_front_mikefives"
+			(at 101.6 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 101.6 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
+			(at 101.6 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6ce57d7b-ed69-40c1-a61e-59267670627f")
+		)
+		(pin "2"
+			(uuid "19e9eb92-dda1-4a12-943d-de15e41b9506")
+		)
+		(instances
+			(project "pipar_chip"
+				(path "/d1142a1b-d63f-4838-8682-40c268ae0e67/192022fc-c208-4a6d-944e-f74a4d1a81d1"
+					(reference "KHS1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED_Small")
+		(at 93.98 125.73 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9de44ded-1145-4879-b48e-da5f0ef6201a")
+		(property "Reference" "LED3"
+			(at 94.488 123.698 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LED_Small"
+			(at 93.98 123.698 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
+			(at 93.98 125.73 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 93.98 125.73 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode, small symbol"
+			(at 93.98 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pin" "1=K 2=A"
+			(at 93.98 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Inolux"
+			(at 93.98 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "IN-S63BT5UW"
+			(at 93.98 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "743-IN-S63BT5UW"
+			(at 93.98 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "aa4596af-5e94-4cbd-9fd0-cb2fb43fac33")
+		)
+		(pin "2"
+			(uuid "5f341636-4c51-405d-af21-c1eb1e068580")
+		)
+		(instances
+			(project "pipar_chip"
+				(path "/d1142a1b-d63f-4838-8682-40c268ae0e67/192022fc-c208-4a6d-944e-f74a4d1a81d1"
+					(reference "LED3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED_Small")
+		(at 139.7 125.73 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9e60902d-9443-486b-a51b-5a255db10d00")
+		(property "Reference" "LED9"
+			(at 140.208 123.698 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LED_Small"
+			(at 139.7 123.698 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
+			(at 139.7 125.73 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 139.7 125.73 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode, small symbol"
+			(at 139.7 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pin" "1=K 2=A"
+			(at 139.7 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Inolux"
+			(at 139.7 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "IN-S63BT5UW"
+			(at 139.7 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "743-IN-S63BT5UW"
+			(at 139.7 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e66b71fd-f02e-43a5-9daf-2d988782c8e8")
+		)
+		(pin "2"
+			(uuid "aa416309-1059-4420-8bc2-aaf99f21cad3")
+		)
+		(instances
+			(project "pipar_chip"
+				(path "/d1142a1b-d63f-4838-8682-40c268ae0e67/192022fc-c208-4a6d-944e-f74a4d1a81d1"
+					(reference "LED9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Keyboard:choc_v1_SW_HS_CPG135001S30")
+		(at 170.18 80.01 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a1eb44ee-a8d7-4ca3-a1c6-8b746cf5da4b")
+		(property "Reference" "KHS10"
+			(at 176.276 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "KHS"
+			(at 169.926 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Keyboard:CPG1316S01D02_front_mikefives"
+			(at 170.18 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 170.18 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
+			(at 170.18 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "afde117b-6735-4535-a83b-c06ec620deec")
+		)
+		(pin "2"
+			(uuid "1100e53b-fe83-462a-9199-1bde7062afde")
+		)
+		(instances
+			(project "pipar_chip"
+				(path "/d1142a1b-d63f-4838-8682-40c268ae0e67/192022fc-c208-4a6d-944e-f74a4d1a81d1"
+					(reference "KHS10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED_Small")
+		(at 116.84 125.73 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "aade90fe-c252-4e92-a4a5-0e90e646b22b")
+		(property "Reference" "LED6"
+			(at 117.348 123.698 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LED_Small"
+			(at 116.84 123.698 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
+			(at 116.84 125.73 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 116.84 125.73 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode, small symbol"
+			(at 116.84 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pin" "1=K 2=A"
+			(at 116.84 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Inolux"
+			(at 116.84 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "IN-S63BT5UW"
+			(at 116.84 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "743-IN-S63BT5UW"
+			(at 116.84 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e167a9a5-a41a-4629-8276-7b5026442ef5")
+		)
+		(pin "2"
+			(uuid "d9a2935f-7752-405b-9cb1-cb2c8104f38c")
+		)
+		(instances
+			(project "pipar_chip"
+				(path "/d1142a1b-d63f-4838-8682-40c268ae0e67/192022fc-c208-4a6d-944e-f74a4d1a81d1"
+					(reference "LED6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Keyboard:choc_v1_SW_HS_CPG135001S30")
+		(at 124.46 80.01 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b5c989f5-e300-423a-9f6c-7933d6e95956")
+		(property "Reference" "KHS4"
+			(at 130.556 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "KHS"
+			(at 124.206 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Keyboard:CPG1316S01D02_front_mikefives"
+			(at 124.46 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 124.46 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
+			(at 124.46 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b789a592-41e8-4d62-88d9-070d9995a1c1")
+		)
+		(pin "2"
+			(uuid "31691344-4b7d-4f05-9d2e-c780e5282095")
+		)
+		(instances
+			(project "pipar_chip"
+				(path "/d1142a1b-d63f-4838-8682-40c268ae0e67/192022fc-c208-4a6d-944e-f74a4d1a81d1"
+					(reference "KHS4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint_Probe")
+		(at 85.09 116.84 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c35a46aa-f15d-4790-bcc1-422d6ee19cd5")
+		(property "Reference" "TP9"
+			(at 83.5025 109.22 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TestPoint_Probe"
+			(at 83.5025 111.76 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 85.09 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 85.09 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point (alternative probe-style design)"
+			(at 85.09 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "bfeb365c-ff37-4a5f-894d-3a8bd96e1657")
+		)
+		(instances
+			(project "pipar_chip"
+				(path "/d1142a1b-d63f-4838-8682-40c268ae0e67/192022fc-c208-4a6d-944e-f74a4d1a81d1"
+					(reference "TP9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Keyboard:choc_v1_SW_HS_CPG135001S30")
+		(at 147.32 80.01 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d30518bf-5d28-463a-854a-49b5a3b768db")
+		(property "Reference" "KHS7"
+			(at 153.416 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "KHS"
+			(at 147.066 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Keyboard:CPG1316S01D02_front_mikefives"
+			(at 147.32 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 147.32 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
+			(at 147.32 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e6562024-f1b9-4032-abbe-96df7ed1f0e4")
+		)
+		(pin "2"
+			(uuid "1ba1c116-6152-4b3b-8cfa-b2372ffead02")
+		)
+		(instances
+			(project "pipar_chip"
+				(path "/d1142a1b-d63f-4838-8682-40c268ae0e67/192022fc-c208-4a6d-944e-f74a4d1a81d1"
+					(reference "KHS7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Keyboard:choc_v1_SW_HS_CPG135001S30")
+		(at 101.6 102.87 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d540dd8d-51ea-4399-a1d2-a2fbc03b32ae")
+		(property "Reference" "KHS2"
+			(at 107.696 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "KHS"
+			(at 101.346 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Keyboard:CPG1316S01D02_front_mikefives"
+			(at 101.6 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 101.6 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
+			(at 101.6 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1dca8f31-cd52-4eb0-8e35-4209b8c4342f")
+		)
+		(pin "2"
+			(uuid "3236ad46-977f-4dcc-9bac-4cef93b880e3")
+		)
+		(instances
+			(project "pipar_chip"
+				(path "/d1142a1b-d63f-4838-8682-40c268ae0e67/192022fc-c208-4a6d-944e-f74a4d1a81d1"
+					(reference "KHS2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED_Small")
+		(at 162.56 80.01 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "df5bd9e9-f0b6-405d-82ee-35acf84fca54")
+		(property "Reference" "LED10"
+			(at 163.068 77.978 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LED_Small"
+			(at 162.56 77.978 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
+			(at 162.56 80.01 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 162.56 80.01 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode, small symbol"
+			(at 162.56 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pin" "1=K 2=A"
+			(at 162.56 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Inolux"
+			(at 162.56 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "IN-S63BT5UW"
+			(at 162.56 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "743-IN-S63BT5UW"
+			(at 162.56 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8a1fed93-f366-4df0-a06d-f5d2a9faf8f8")
+		)
+		(pin "2"
+			(uuid "d6354d2a-acf1-4961-90af-1f49caac5991")
+		)
+		(instances
+			(project "pipar_chip"
+				(path "/d1142a1b-d63f-4838-8682-40c268ae0e67/192022fc-c208-4a6d-944e-f74a4d1a81d1"
+					(reference "LED10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D_Small")
+		(at 127 85.09 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e77f9fda-859f-476d-a34a-443553367306")
+		(property "Reference" "D9"
+			(at 128.524 84.836 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "D_Small"
+			(at 129.54 86.3599 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-523"
+			(at 127 85.09 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 127 85.09 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diode, small symbol"
+			(at 127 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 127 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 127 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Diodes Incorporated"
+			(at 127 85.09 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "1N4148WT-7 "
+			(at 127 85.09 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "621-1N4148WT "
+			(at 127 85.09 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4f88d4d5-63c6-4471-b83e-41daf0837b58")
+		)
+		(pin "2"
+			(uuid "da26e544-10fd-44ac-84c3-0994bb57866f")
+		)
+		(instances
+			(project "pipar_chip"
+				(path "/d1142a1b-d63f-4838-8682-40c268ae0e67/192022fc-c208-4a6d-944e-f74a4d1a81d1"
+					(reference "D9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Keyboard:choc_v1_SW_HS_CPG135001S30")
+		(at 101.6 125.73 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "eb0a3fc0-6771-4e82-b3e2-593d3ac41693")
+		(property "Reference" "KHS3"
+			(at 107.696 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "KHS"
+			(at 101.346 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Keyboard:CPG1316S01D02_front_mikefives"
+			(at 101.6 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 101.6 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
+			(at 101.6 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "44f7c053-0753-4295-8a36-54ef17ee2449")
+		)
+		(pin "2"
+			(uuid "c18919d1-993d-4c3e-81ba-320d52f41203")
+		)
+		(instances
+			(project "pipar_chip"
+				(path "/d1142a1b-d63f-4838-8682-40c268ae0e67/192022fc-c208-4a6d-944e-f74a4d1a81d1"
+					(reference "KHS3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D_Small")
+		(at 149.86 107.95 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "eb9728a4-8d00-4ad8-ab5c-fac0738e6ff8")
+		(property "Reference" "D13"
+			(at 151.384 107.696 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "D_Small"
+			(at 152.4 109.2199 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-523"
+			(at 149.86 107.95 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 149.86 107.95 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diode, small symbol"
+			(at 149.86 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 149.86 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 149.86 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Diodes Incorporated"
+			(at 149.86 107.95 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "1N4148WT-7 "
+			(at 149.86 107.95 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "621-1N4148WT "
+			(at 149.86 107.95 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7df1a952-8d94-4ed3-97b4-824b90aadaa9")
+		)
+		(pin "2"
+			(uuid "d590568e-7ae1-4d6e-a1aa-a54617ccf2c4")
+		)
+		(instances
+			(project "pipar_chip"
+				(path "/d1142a1b-d63f-4838-8682-40c268ae0e67/192022fc-c208-4a6d-944e-f74a4d1a81d1"
+					(reference "D13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D_Small")
+		(at 149.86 85.09 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f5da288f-79a4-4d66-be81-4854c8d6b7e5")
+		(property "Reference" "D12"
+			(at 151.384 84.836 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "D_Small"
+			(at 152.4 86.3599 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-523"
+			(at 149.86 85.09 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 149.86 85.09 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diode, small symbol"
+			(at 149.86 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 149.86 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 149.86 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Diodes Incorporated"
+			(at 149.86 85.09 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "1N4148WT-7 "
+			(at 149.86 85.09 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "621-1N4148WT "
+			(at 149.86 85.09 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8407b400-8c83-41f1-a9d1-20277d233d5c")
+		)
+		(pin "2"
+			(uuid "65777851-e64c-47ce-b4aa-92248a99541f")
+		)
+		(instances
+			(project "pipar_chip"
+				(path "/d1142a1b-d63f-4838-8682-40c268ae0e67/192022fc-c208-4a6d-944e-f74a4d1a81d1"
+					(reference "D12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "R_Small_1")
+		(lib_id "Device:R_Small")
+		(at 88.9 83.82 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f6126d63-14fc-49f5-86ab-8f0bd8340d04")
+		(property "Reference" "R11"
+			(at 86.36 82.5499 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "1.5k"
+			(at 86.36 85.0899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 88.9 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 88.9 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 88.9 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "YAGEO"
+			(at 88.9 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "RC0603FR-071K5L"
+			(at 88.9 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "603-RC0603FR-071K5L "
+			(at 88.9 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7530eef6-f830-4205-860c-c84070d074c2")
+		)
+		(pin "2"
+			(uuid "63c71380-92a0-41ed-8d69-78faa8ce7c84")
+		)
+		(instances
+			(project "pipar_chip"
+				(path "/d1142a1b-d63f-4838-8682-40c268ae0e67/192022fc-c208-4a6d-944e-f74a4d1a81d1"
+					(reference "R11")
+					(unit 1)
+				)
+			)
+		)
+	)
+)

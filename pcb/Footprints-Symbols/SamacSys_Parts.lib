@@ -1,0 +1,80 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#SamacSys ECAD Model NE555DR
+#/6648/2/2.37/8/4/Integrated Circuit
+DEF NE555DR IC 0 30 Y Y 1 F N
+F0 "IC" 1050 600 50 H V L CNN
+F1 "NE555DR" 1050 500 50 H V L CNN
+F2 "SOIC127P600X175-8N" 1050 400 50 H I L CNN
+F3 "http://www.ti.com/lit/ds/symlink/ne555.pdf" 1050 300 50 H I L CNN
+F4 "Single Precision Timer" 1050 200 50 H I L CNN "Description"
+F5 "1.75" 1050 100 50 H I L CNN "Height"
+F6 "Texas Instruments" 1050 0 50 H I L CNN "Manufacturer_Name"
+F7 "NE555DR" 1050 -100 50 H I L CNN "Manufacturer_Part_Number"
+F8 "595-NE555DR" 1050 -200 50 H I L CNN "Mouser Part Number"
+F9 "https://www.mouser.com/Search/Refine.aspx?Keyword=595-NE555DR" 1050 -300 50 H I L CNN "Mouser Price/Stock"
+F10 "1218414" 1050 -400 50 H I L CNN "RS Part Number"
+F11 "http//uk.rs-online.com/web/p/products/1218414" 1050 -500 50 H I L CNN "RS Price/Stock"
+DRAW
+X GND 1 600 -1000 200 U 50 50 0 0 B
+X TRIG 2 0 -400 200 R 50 50 0 0 B
+X OUT 3 1200 -200 200 L 50 50 0 0 B
+X ~RESET 4 0 0 200 R 50 50 0 0 B
+X CONT 5 500 600 200 D 50 50 0 0 B
+X THRES 6 0 -300 200 R 50 50 0 0 B
+X DISCH 7 0 -100 200 R 50 50 0 0 B
+X VCC 8 700 600 200 D 50 50 0 0 B
+P 5 0 1 6 200 400 1000 400 1000 -800 200 -800 200 400 N
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model MCP1700T-3302E_MAY
+#/576636/1732518/2.50/7/3/Integrated Circuit
+DEF MCP1700T-3302E_MAY IC 0 30 Y Y 1 F N
+F0 "IC" 1050 300 50 H V L CNN
+F1 "MCP1700T-3302E_MAY" 1050 200 50 H V L CNN
+F2 "SON65P200X200X90-7N" 1050 100 50 H I L CNN
+F3 "https://datasheet.datasheetarchive.com/originals/distributors/Datasheets-DGA25/1767215.pdf" 1050 0 50 H I L CNN
+F4 "LDO Regulator Pos 3.3V 0.25A Automotive 6-Pin DFN EP T/R" 1050 -100 50 H I L CNN "Description"
+F5 "0.9" 1050 -200 50 H I L CNN "Height"
+F6 "Microchip" 1050 -300 50 H I L CNN "Manufacturer_Name"
+F7 "MCP1700T-3302E/MAY" 1050 -400 50 H I L CNN "Manufacturer_Part_Number"
+F8 "579-MCP1700T3302EMAY" 1050 -500 50 H I L CNN "Mouser Part Number"
+F9 "https://www.mouser.co.uk/ProductDetail/Microchip-Technology/MCP1700T-3302E-MAY?qs=98WN%2FnWUQiT%252B8kkJEG8McA%3D%3D" 1050 -600 50 H I L CNN "Mouser Price/Stock"
+F10 "MCP1700T-3302E/MAY" 1050 -700 50 H I L CNN "Arrow Part Number"
+F11 "https://www.arrow.com/en/products/mcp1700t-3302emay/microchip-technology?utm_currency=USD&region=nac" 1050 -800 50 H I L CNN "Arrow Price/Stock"
+DRAW
+X VIN 1 0 0 200 R 50 50 0 0 P
+X NC_1 2 0 -100 200 R 50 50 0 0 P
+X GND 3 0 -200 200 R 50 50 0 0 P
+X EP 7 600 -700 200 U 50 50 0 0 P
+X VOUT 6 1200 0 200 L 50 50 0 0 P
+X NC_3 5 1200 -100 200 L 50 50 0 0 P
+X NC_2 4 1200 -200 200 L 50 50 0 0 P
+P 5 0 1 6 200 100 1000 100 1000 -500 200 -500 200 100 N
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model EVP-BB1AAB000
+#/1252199/1732518/2.50/4/4/Switch
+DEF EVP-BB1AAB000 S 0 30 Y Y 1 F N
+F0 "S" 1050 300 50 H V L CNN
+F1 "EVP-BB1AAB000" 1050 200 50 H V L CNN
+F2 "EVPBB2A9B000" 1050 100 50 H I L CNN
+F3 "" 1050 0 50 H I L CNN
+F4 "Tactile Switches 2.6x1.6x0.5mm 1N 0.08mm Travel" 1050 -100 50 H I L CNN "Description"
+F5 "0" 1050 -200 50 H I L CNN "Height"
+F6 "667-EVP-BB1AAB000" 1050 -300 50 H I L CNN "Mouser Part Number"
+F7 "https://www.mouser.co.uk/ProductDetail/Panasonic/EVP-BB1AAB000?qs=f9yNj16SXrKiqfR0eFFobA%3D%3D" 1050 -400 50 H I L CNN "Mouser Price/Stock"
+F8 "Panasonic" 1050 -500 50 H I L CNN "Manufacturer_Name"
+F9 "EVP-BB1AAB000" 1050 -600 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+X NO_1 1 0 0 200 R 50 50 0 0 P
+X NO_2 2 0 -100 200 R 50 50 0 0 P
+X COM_1 3 1200 -100 200 L 50 50 0 0 P
+X COM_2 4 1200 0 200 L 50 50 0 0 P
+P 5 0 1 6 200 100 1000 100 1000 -200 200 -200 200 100 N
+ENDDRAW
+ENDDEF
+#
+#End Library

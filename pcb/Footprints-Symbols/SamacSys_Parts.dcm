@@ -1,0 +1,21 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP NE555DR
+D Single Precision Timer
+K
+F http://www.ti.com/lit/ds/symlink/ne555.pdf
+$ENDCMP
+#
+$CMP MCP1700T-3302E_MAY
+D LDO Regulator Pos 3.3V 0.25A Automotive 6-Pin DFN EP T/R
+K
+F https://datasheet.datasheetarchive.com/originals/distributors/Datasheets-DGA25/1767215.pdf
+$ENDCMP
+#
+$CMP EVP-BB1AAB000
+D Tactile Switches 2.6x1.6x0.5mm 1N 0.08mm Travel
+K
+F 
+$ENDCMP
+#
+#End Doc Library
