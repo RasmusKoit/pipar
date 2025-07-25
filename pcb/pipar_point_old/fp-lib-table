@@ -1,9 +1,0 @@
-(fp_lib_table
-  (version 7)
-  (lib (name "Art")(type "KiCad")(uri "${KIPRJMOD}/Art.pretty")(options "")(descr ""))
-  (lib (name "Infused_Kim")(type "KiCad")(uri "${EG_INFUSED_KIM_FOOTPRINT_DIR}/ergogen_fp.pretty")(options "")(descr ""))
-  (lib (name "Reversible-KB")(type "KiCad")(uri "${KIPRJMOD}/keyboard_reversible.pretty")(options "")(descr ""))
-  (lib (name "choc")(type "KiCad")(uri "${KIPRJMOD}/Keyboard.pretty/choc.pretty")(options "")(descr ""))
-  (lib (name "Keyboard")(type "KiCad")(uri "F:/PCBs/pipar/pcb/Footprints-Symbols/Footprints/Keyboard.pretty")(options "")(descr ""))
-  (lib (name "Trackpoint")(type "KiCad")(uri "F:/PCBs/pipar/pcb/Footprints-Symbols/Footprints/Trackpoint.pretty")(options "")(descr ""))
-)

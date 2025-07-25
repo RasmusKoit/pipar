@@ -5114,6 +5114,7 @@
 		(property "Value" "USB_C_Receptacle_USB2.0_14P"
 			(at -0.000002 5.099999 0)
 			(layer "F.Fab")
+			(hide yes)
 			(uuid "2a5463a3-d131-40bc-932e-0c24d66274d1")
 			(effects
 				(font
@@ -11826,6 +11827,7 @@
 		(property "Value" "SW_SPDT"
 			(at 0 4.25 0)
 			(layer "F.Fab")
+			(hide yes)
 			(uuid "5e32a52f-85fe-4ad0-8e31-e4c8400f6e03")
 			(effects
 				(font
@@ -32252,6 +32254,7 @@
 		(property "Value" "TestPoint"
 			(at -2.45 -1.75 90)
 			(layer "B.Fab")
+			(hide yes)
 			(uuid "c87523b4-2680-4158-9408-46c0f15ba0d4")
 			(effects
 				(font
