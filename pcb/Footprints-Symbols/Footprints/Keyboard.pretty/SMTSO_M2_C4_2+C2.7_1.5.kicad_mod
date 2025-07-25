@@ -1,4 +1,4 @@
-(footprint "SMTSO_M2_C4*2+C2.7*1.5"
+(footprint "SMTSO_M2_C4_2+C2.7_1.5"
 	(version 20241229)
 	(generator "pcbnew")
 	(generator_version "9.0")
@@ -430,30 +430,6 @@
 			)
 		)
 		(uuid "b2c29495-10b8-4c77-ba06-92cfe9de9c69")
-	)
-	(pad "1" smd circle
-		(at -1.995821 0)
-		(size 0.999352 0.999352)
-		(layers "F.Cu")
-		(uuid "c5eb3ebc-fbf9-4bcc-973e-16d618733f93")
-	)
-	(pad "1" smd circle
-		(at 0 -1.995821)
-		(size 0.642 0.642)
-		(layers "F.Cu")
-		(uuid "3a2023c3-0152-4fb1-a80f-ba8ef822d21e")
-	)
-	(pad "1" smd circle
-		(at 0 1.995821)
-		(size 1.099916 1.099916)
-		(layers "F.Cu")
-		(uuid "7de74e24-062b-4bda-9fd3-8abb3d6dfcb5")
-	)
-	(pad "1" smd circle
-		(at 1.995821 0)
-		(size 1 1)
-		(layers "F.Cu")
-		(uuid "9e5f87da-0c58-49f6-bbb9-8ab36b848777")
 	)
 	(embedded_fonts no)
 	(model "${KICAD9_3DMODEL_DIR}/Mounting_Wuerth.3dshapes/Mounting_Wuerth_WA-SMST-2.7mm_H1.5mm_9774015951.wrl"

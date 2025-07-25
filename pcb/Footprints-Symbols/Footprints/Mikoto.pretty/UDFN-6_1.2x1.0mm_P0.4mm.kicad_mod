@@ -144,6 +144,17 @@
 			)
 		)
 	)
+	(fp_circle
+		(center -0.75 -0.41)
+		(end -0.7 -0.41)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "45dc9a87-1153-451a-a9db-cc6b4ade0d6d")
+	)
 	(fp_line
 		(start -0.559999 -0.624999)
 		(end -0.559999 0.625001)
@@ -221,7 +232,7 @@
 		(uuid "c6120e9d-e0a4-4d49-919b-57256a56d6f6")
 	)
 	(embedded_fonts no)
-	(model "${KIPRJMOD}/footprints.pretty/3d/On_Semiconductor_-_ESDR0502NMUTAG.step"
+	(model "F:/PCBs/pipar/pcb/Footprints-Symbols/Footprints/Keyboard.pretty/UDFN6_1P2X1_ONS.step"
 		(offset
 			(xyz 0 0 0)
 		)
