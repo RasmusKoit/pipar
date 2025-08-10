@@ -4,8 +4,8 @@
 #include <dt-bindings/led/led.h>
 #include <dt-bindings/zmk/matrix_transform.h>
 
-#include <pipar_chip_isp1807-pinctrl.dtsi>
-#include <pipar_chip_isp1807-layouts.dtsi>
+#include "pipar_chip_isp1807-pinctrl.dtsi"
+#include "pipar_chip_isp1807-layouts.dtsi"
 
 &physical_layout0 {
     transform = <&matrix_transform0>;
