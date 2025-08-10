@@ -21,6 +21,7 @@
         zephyr,flash = &flash0;
         zmk,kscan = &kscan0;
         zmk,physical-layout = &physical_layout0;
+        zmk,backlight = &backlight;
     };
 
     matrix_transform0: keymap_transform_0 {
