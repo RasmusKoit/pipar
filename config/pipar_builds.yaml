@@ -30,6 +30,7 @@ include:
     snippet: studio-rpc-usb-uart
   - board: seeeduino_xiao_ble
     shield: pipar_chip
+  - board: pipar_chip_isp1807
   - board: seeeduino_xiao_ble
     shield: settings_reset
   - board: nice_nano_v2

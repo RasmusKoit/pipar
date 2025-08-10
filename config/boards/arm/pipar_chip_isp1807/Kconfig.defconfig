@@ -1,0 +1,16 @@
+if BOARD_PIPAR_CHIP_ISP1807
+
+config ZMK_KEYBOARD_NAME
+    default "Pipar Chip ISP1807"
+
+if USB_DEVICE_STACK
+
+config USB_NRFX
+    default y
+
+endif # USB_DEVICE_STACK
+
+config BT_CTLR
+    default BT
+
+endif # BOARD_PIPAR_CHIP_ISP1807

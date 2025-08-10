@@ -1,0 +1,14 @@
+identifier: pipar_chip_isp1807
+name: Pipar Chip ISP1807
+type: mcu
+arch: arm
+toolchain:
+  - zephyr
+  - gnuarmemb
+supported:
+  - adc
+  - usb_device
+  - ble
+  - ieee802154
+  - pwm
+  - watchdog
