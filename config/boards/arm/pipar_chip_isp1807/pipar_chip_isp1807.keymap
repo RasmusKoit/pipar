@@ -168,40 +168,36 @@
     default_layer {
         display-name = "default";
         bindings = <
-          &sltd0                &td0                &td1
-          &td2                  &td3                &td4
-          &td5                  &td6                &td7
-          &mt DELETE BACKSPACE  &kp SPACE &mt ENTER DOT
+          &sltd0  &td0                  &td1      &td2
+          &td3    &td4                  &td5      &td6
+          &td7    &mt DELETE BACKSPACE  &kp SPACE &mt ENTER DOT
         >;
     };
 
     symbols_layer {
       display-name = "symbols";
       bindings = <
-        &kp EXCLAMATION &kp AT          &kp HASH
-        &kp COLON       &kp PERCENT     &kp CARET
-        &kp AMPERSAND   &kp ASTERISK    &kp QUESTION
-        &kp MINUS       &kp UNDERSCORE  &kp EQUAL
+        &kp EXCLAMATION &kp AT    &kp HASH        &kp COLON
+        &kp PERCENT     &kp CARET &kp AMPERSAND   &kp ASTERISK
+        &kp QUESTION    &kp MINUS &kp UNDERSCORE  &kp EQUAL
       >;
     };
 
     gaming_layer {
       display-name = "gaming";
       bindings = <
-        &mt NUMBER_4 NUMBER_1 &mt NUMBER_5 NUMBER_2 &mt NUMBER_6 NUMBER_3
-        &mt R Q               &kp W                 &mt T E
-        &kp A                 &kp S                 &kp D
-        &mt LCTRL Z           &mt SPACE X           &mt LALT C
+        &mt NUMBER_4 NUMBER_1 &mt NUMBER_5 NUMBER_2 &mt NUMBER_6 NUMBER_3 &mt R Q
+        &kp W                 &mt T E               &kp A                 &kp S
+        &kp D                 &mt LCTRL Z           &mt SPACE X           &mt LALT C
       >;
     };
 
     numbers_layer {
       display-name = "numbers";
       bindings = <
-        &kp NUMBER_7        &kp NUMBER_8      &kp NUMBER_9
-        &kp NUMBER_4        &kp NUMBER_5      &kp NUMBER_6
-        &kp NUMBER_1        &kp NUMBER_2      &kp NUMBER_3
-        &mt LCTRL NUMBER_0  &mt LALT COMMA    &mt RCTRL PERIOD
+        &kp NUMBER_7 &kp NUMBER_8       &kp NUMBER_9    &kp NUMBER_4
+        &kp NUMBER_5 &kp NUMBER_6       &kp NUMBER_1    &kp NUMBER_2
+        &kp NUMBER_3 &mt LCTRL NUMBER_0 &mt LALT COMMA  &mt RCTRL PERIOD
       >;
     };
   };
