@@ -1,5 +1,5 @@
 identifier: pipar_chip_isp1807
-name: Pipar Chip ISP1807
+name: Pipar Chip V2
 type: mcu
 arch: arm
 toolchain:

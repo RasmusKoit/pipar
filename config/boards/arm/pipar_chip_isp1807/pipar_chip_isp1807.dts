@@ -12,7 +12,7 @@
 };
 
 / {
-    model = "Pipar Chip ISP1807";
+    model = "Pipar Chip V2";
     compatible = "pipar_chip_isp1807";
 
     chosen {

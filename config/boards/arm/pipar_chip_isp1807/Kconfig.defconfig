@@ -1,7 +1,7 @@
 if BOARD_PIPAR_CHIP_ISP1807
 
 config ZMK_KEYBOARD_NAME
-    default "Pipar Chip ISP1807"
+    default "Pipar Chip V2"
 
 if USB_DEVICE_STACK
 
