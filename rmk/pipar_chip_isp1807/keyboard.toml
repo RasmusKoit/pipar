@@ -18,7 +18,7 @@ layers = 1
 keymap = [
     [
         ["A", "B", "C", "D"],
-        ["E", "F", "G", "BacklightToggle"],
+        ["E", "F", "G", "blt"],
         ["I", "J", "K", "CapsLock"],
     ],
 ]
