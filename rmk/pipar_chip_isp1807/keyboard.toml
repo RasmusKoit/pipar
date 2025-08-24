@@ -15,25 +15,12 @@ row2col = false # using col2row
 rows = 3
 cols = 4
 layers = 1
-matrix_map = """
-    (0,0) (0,1) (0,2) (0,3)
-    (1,0) (1,1) (1,2) (1,3)
-    (2,0) (2,1) (2,2) (2,3)
-"""
-
-[[layer]]
-name = "base"
-keys = """
-    R    B    C    D
-    E    F    G    H
-    I    J    K    CapsLock
-"""
-
-[behavior.combo]
-timeout = "150ms"
-combos = [
-  # Press J and K keys simultaneously to output Backspace key
-  { actions = ["J", "K"], output = "Backspace" }
+keymap = [
+    [
+        ["A", "B", "C", "D"],
+        ["E", "F", "G", "BacklightToggle"],
+        ["I", "J", "K", "CapsLock"],
+    ],
 ]
 
 [storage]
@@ -41,6 +28,7 @@ clear_storage = true
 
 [light]
 capslock = { pin = "P1_00", low_active = false }
+backlight = { pin = "P1_09", low_active = true }
 
 [ble]
 enabled = true
