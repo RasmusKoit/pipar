@@ -18,7 +18,7 @@ layers = 1
 keymap = [
     [
         ["A", "B", "C", "D"],
-        ["E", "F", "G", "blt"],
+        ["E", "F", "G", "BacklightToggle"],
         ["I", "J", "K", "CapsLock"],
     ],
 ]
@@ -28,7 +28,9 @@ clear_storage = true
 
 [light]
 capslock = { pin = "P1_00", low_active = false }
-backlight = { pin = "P1_09", low_active = true }
+
+[backlight]
+backlight = { pin = "P1_09", low_active = true}
 
 [ble]
 enabled = true
