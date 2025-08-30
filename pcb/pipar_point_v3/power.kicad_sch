@@ -3446,8 +3446,8 @@
 		(uuid "1b019220-a552-4697-b209-ca38b1dd48b3")
 	)
 	(no_connect
-		(at 71.12 73.66)
-		(uuid "5e49d266-ee69-41c7-a2cb-d1eb09e24954")
+		(at 71.12 71.12)
+		(uuid "2b7f9194-89ab-49e4-b45e-6f35e39d0eb5")
 	)
 	(no_connect
 		(at 45.72 63.5)
@@ -3458,8 +3458,8 @@
 		(uuid "bbe63f57-10aa-4a99-9323-f7cad6a4c607")
 	)
 	(no_connect
-		(at 71.12 71.12)
-		(uuid "c4c5dee8-477d-47d9-98ab-2bc109d68d7c")
+		(at 71.12 73.66)
+		(uuid "dff2fc94-1169-4fde-bf2d-1a2c3ab21cf2")
 	)
 	(no_connect
 		(at 217.17 58.42)
@@ -4121,7 +4121,7 @@
 	)
 	(wire
 		(pts
-			(xy 198.12 85.09) (xy 198.12 121.92)
+			(xy 198.12 86.36) (xy 198.12 121.92)
 		)
 		(stroke
 			(width 0)
@@ -4481,7 +4481,7 @@
 	)
 	(wire
 		(pts
-			(xy 198.12 77.47) (xy 198.12 80.01)
+			(xy 198.12 77.47) (xy 198.12 81.28)
 		)
 		(stroke
 			(width 0)
@@ -4531,7 +4531,7 @@
 	)
 	(wire
 		(pts
-			(xy 208.28 85.09) (xy 208.28 124.46)
+			(xy 208.28 86.36) (xy 208.28 124.46)
 		)
 		(stroke
 			(width 0)
@@ -4831,7 +4831,7 @@
 	)
 	(wire
 		(pts
-			(xy 208.28 77.47) (xy 208.28 80.01)
+			(xy 208.28 77.47) (xy 208.28 81.28)
 		)
 		(stroke
 			(width 0)
@@ -7836,7 +7836,7 @@
 	(symbol
 		(lib_name "LED_Small_1")
 		(lib_id "Device:LED_Small")
-		(at 198.12 82.55 90)
+		(at 198.12 83.82 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7845,7 +7845,7 @@
 		(fields_autoplaced yes)
 		(uuid "967a465f-d912-4de2-a0b7-78804ff7eae8")
 		(property "Reference" "D21"
-			(at 200.66 81.2164 90)
+			(at 200.66 82.4864 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7854,7 +7854,7 @@
 			)
 		)
 		(property "Value" "LED_Small"
-			(at 200.66 83.7564 90)
+			(at 200.66 85.0264 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7863,7 +7863,7 @@
 			)
 		)
 		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
-			(at 198.12 82.55 90)
+			(at 198.12 83.82 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7872,7 +7872,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 198.12 82.55 90)
+			(at 198.12 83.82 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7881,7 +7881,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode, small symbol"
-			(at 198.12 82.55 0)
+			(at 198.12 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7890,7 +7890,7 @@
 			)
 		)
 		(property "Sim.Pin" "1=K 2=A"
-			(at 198.12 82.55 0)
+			(at 198.12 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7899,7 +7899,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Inolux"
-			(at 198.12 82.55 90)
+			(at 198.12 83.82 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7908,7 +7908,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "IN-PIS63BTPR"
-			(at 198.12 82.55 90)
+			(at 198.12 83.82 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7917,7 +7917,7 @@
 			)
 		)
 		(property "Mouser Part Number" "743-IN-PIS63BTPR"
-			(at 198.12 82.55 90)
+			(at 198.12 83.82 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8646,7 +8646,7 @@
 	(symbol
 		(lib_name "LED_Small_1")
 		(lib_id "Device:LED_Small")
-		(at 208.28 82.55 90)
+		(at 208.28 83.82 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8655,7 +8655,7 @@
 		(fields_autoplaced yes)
 		(uuid "d6f52b7f-cd51-4b76-afa2-69db0248c422")
 		(property "Reference" "D22"
-			(at 210.82 81.2164 90)
+			(at 210.82 82.4864 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8664,7 +8664,7 @@
 			)
 		)
 		(property "Value" "LED_Small"
-			(at 210.82 83.7564 90)
+			(at 210.82 85.0264 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8673,7 +8673,7 @@
 			)
 		)
 		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
-			(at 208.28 82.55 90)
+			(at 208.28 83.82 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8682,7 +8682,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 208.28 82.55 90)
+			(at 208.28 83.82 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8691,7 +8691,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode, small symbol"
-			(at 208.28 82.55 0)
+			(at 208.28 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8700,7 +8700,7 @@
 			)
 		)
 		(property "Sim.Pin" "1=K 2=A"
-			(at 208.28 82.55 0)
+			(at 208.28 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8709,7 +8709,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Inolux"
-			(at 208.28 82.55 90)
+			(at 208.28 83.82 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8718,7 +8718,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "IN-PIS63BTPG"
-			(at 208.28 82.55 90)
+			(at 208.28 83.82 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8727,7 +8727,7 @@
 			)
 		)
 		(property "Mouser Part Number" "743-IN-PIS63BTPG"
-			(at 208.28 82.55 90)
+			(at 208.28 83.82 90)
 			(effects
 				(font
 					(size 1.27 1.27)
