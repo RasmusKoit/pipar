@@ -1,0 +1,14 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "4eeb60c7-034e-4dd2-80f9-2ce00f8695b3")
+	(paper "A4")
+	(title_block
+		(title "Pipar Point")
+		(date "2025-08-29")
+		(rev "V3")
+		(company "Pipar Keyboards")
+	)
+	(lib_symbols)
+)

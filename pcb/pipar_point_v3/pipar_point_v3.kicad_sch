@@ -343,7 +343,7 @@
 			(color 0 0 0 0.0000)
 		)
 		(uuid "b65bf892-a9b9-431e-af85-efaa63e657b0")
-		(property "Sheetname" "Side-Right"
+		(property "Sheetname" "Side-RightDup"
 			(at 179.07 24.6884 0)
 			(effects
 				(font
@@ -365,6 +365,48 @@
 			(project "pipar_point_v3"
 				(path "/ae2abdf3-be75-4a01-9d2e-db16842fefd9"
 					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 116.84 25.4)
+		(size 58.42 101.6)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "c6044893-9a9b-4a27-b16b-74c20208ffe4")
+		(property "Sheetname" "Side-Right"
+			(at 116.84 24.6884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "side-right.kicad_sch"
+			(at 116.84 127.5846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "pipar_point_v3"
+				(path "/ae2abdf3-be75-4a01-9d2e-db16842fefd9"
+					(page "8")
 				)
 			)
 		)

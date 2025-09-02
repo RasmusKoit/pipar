@@ -668,7 +668,7 @@
     ],
     [
       "b65bf892-a9b9-431e-af85-efaa63e657b0",
-      "Side-Right"
+      "Side-RightDup"
     ],
     [
       "6751e6d0-327c-47c9-b89a-8842ebcc672e",
@@ -677,6 +677,10 @@
     [
       "70e08d6b-7700-49a1-a6c2-1f04ae3c26db",
       "Power"
+    ],
+    [
+      "c6044893-9a9b-4a27-b16b-74c20208ffe4",
+      "Side-Right"
     ],
     [
       "70e08d6b-7700-49a1-a6c2-1f04ae3c26db",
