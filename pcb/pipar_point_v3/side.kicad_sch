@@ -4391,20 +4391,20 @@
 		(uuid "08fa8544-70f6-43e0-aec0-64cb2c05cabb")
 	)
 	(no_connect
-		(at 234.95 57.15)
-		(uuid "09d711e6-0c6a-4e1d-b32b-cce2911ee9a1")
-	)
-	(no_connect
 		(at 234.95 87.63)
 		(uuid "10cda13b-9aab-4d62-979e-14b626a86fe9")
 	)
 	(no_connect
 		(at 234.95 54.61)
-		(uuid "19bac9f6-624d-41b7-bb9c-7ec4e465b4ba")
+		(uuid "1a2da027-1a3e-408f-aa54-9b04bef3a997")
 	)
 	(no_connect
 		(at 143.51 90.17)
 		(uuid "1e2dac8e-72fc-4415-a456-c3241a60fde1")
+	)
+	(no_connect
+		(at 143.51 97.79)
+		(uuid "2d3b704a-5dc4-4b26-b249-41f1c2dde3ab")
 	)
 	(no_connect
 		(at 234.95 72.39)
@@ -4415,16 +4415,12 @@
 		(uuid "47628bb0-727b-424b-b3f6-d343b7b0b6fa")
 	)
 	(no_connect
-		(at 143.51 97.79)
-		(uuid "48769d20-868f-4778-9a03-f0b33a1037dc")
-	)
-	(no_connect
-		(at 234.95 49.53)
-		(uuid "660a7289-1138-4432-a5ac-899387c28dca")
-	)
-	(no_connect
 		(at 143.51 29.21)
 		(uuid "6c3178d8-f329-4635-b20d-548d4a019987")
+	)
+	(no_connect
+		(at 234.95 57.15)
+		(uuid "71301b54-7ee9-4545-8641-2ea9675c6f49")
 	)
 	(no_connect
 		(at 234.95 90.17)
@@ -4447,10 +4443,6 @@
 		(uuid "89c8ecda-a973-4eb4-81f9-f29979a9f563")
 	)
 	(no_connect
-		(at 234.95 59.69)
-		(uuid "a9790185-d8b0-40b6-8043-f34e26294ecb")
-	)
-	(no_connect
 		(at 234.95 82.55)
 		(uuid "b69d4d16-c402-4898-8b70-fc710c113476")
 	)
@@ -4465,10 +4457,6 @@
 	(no_connect
 		(at 143.51 64.77)
 		(uuid "cb9b9d62-b060-4720-9318-c520bf3d7786")
-	)
-	(no_connect
-		(at 234.95 64.77)
-		(uuid "ce33920b-efa7-4841-881f-3402361ba733")
 	)
 	(no_connect
 		(at 234.95 69.85)
@@ -5128,6 +5116,16 @@
 		)
 		(uuid "974d6af9-da97-478d-b9b5-7c5dade62c3f")
 	)
+	(label "3.3V"
+		(at 54.61 53.34 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "97a3157c-b287-40d6-bca2-8690bcef9b5f")
+	)
 	(label "SWDIO"
 		(at 143.51 100.33 180)
 		(effects
@@ -5307,6 +5305,50 @@
 			(justify right bottom)
 		)
 		(uuid "fcb317d0-17a6-457f-9048-13932dd3541c")
+	)
+	(hierarchical_label "3.3V"
+		(shape bidirectional)
+		(at 54.61 53.34 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "245dd82b-a2bc-4ded-a64a-e61184618110")
+	)
+	(hierarchical_label "TPClock"
+		(shape bidirectional)
+		(at 234.95 64.77 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "3508f13e-ad4c-45d5-a402-956ebee090d8")
+	)
+	(hierarchical_label "TPData"
+		(shape bidirectional)
+		(at 234.95 59.69 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "3cb8ef0e-ca37-459b-a13b-045b896cf5c1")
+	)
+	(hierarchical_label "TPRST"
+		(shape bidirectional)
+		(at 234.95 49.53 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "f6d37139-b47e-481b-adbd-35a29110c2bc")
 	)
 	(symbol
 		(lib_id "power:GND")
