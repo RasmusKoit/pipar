@@ -3446,20 +3446,12 @@
 		(uuid "1b019220-a552-4697-b209-ca38b1dd48b3")
 	)
 	(no_connect
-		(at 71.12 71.12)
-		(uuid "2b7f9194-89ab-49e4-b45e-6f35e39d0eb5")
-	)
-	(no_connect
 		(at 45.72 63.5)
 		(uuid "94e8e102-3d2f-4dd4-a911-32c338072f67")
 	)
 	(no_connect
 		(at 247.65 58.42)
 		(uuid "bbe63f57-10aa-4a99-9323-f7cad6a4c607")
-	)
-	(no_connect
-		(at 71.12 73.66)
-		(uuid "dff2fc94-1169-4fde-bf2d-1a2c3ab21cf2")
 	)
 	(no_connect
 		(at 217.17 58.42)
@@ -3471,7 +3463,7 @@
 	)
 	(wire
 		(pts
-			(xy 46.99 76.2) (xy 53.34 76.2)
+			(xy 46.99 76.2) (xy 52.07 76.2)
 		)
 		(stroke
 			(width 0)
@@ -4641,26 +4633,6 @@
 	)
 	(wire
 		(pts
-			(xy 72.39 76.2) (xy 71.12 76.2)
-		)
-		(stroke
-			(width 0)
-			(type solid)
-		)
-		(uuid "d317f0db-e966-49d1-b7ca-ef29ee0c84d4")
-	)
-	(wire
-		(pts
-			(xy 52.07 71.12) (xy 53.34 71.12)
-		)
-		(stroke
-			(width 0)
-			(type solid)
-		)
-		(uuid "d4179d57-3424-41dd-977b-b813e7c2dcb8")
-	)
-	(wire
-		(pts
 			(xy 45.72 53.34) (xy 52.07 53.34)
 		)
 		(stroke
@@ -4751,7 +4723,7 @@
 	)
 	(wire
 		(pts
-			(xy 49.53 73.66) (xy 53.34 73.66)
+			(xy 49.53 73.66) (xy 52.07 73.66)
 		)
 		(stroke
 			(width 0)
@@ -4771,7 +4743,7 @@
 	)
 	(wire
 		(pts
-			(xy 72.39 77.47) (xy 72.39 76.2)
+			(xy 69.85 77.47) (xy 69.85 76.2)
 		)
 		(stroke
 			(width 0)
@@ -4879,6 +4851,16 @@
 		)
 		(uuid "090fe3fe-4302-4414-add2-e62391c0fbc3")
 	)
+	(label "USB_D-"
+		(at 69.85 73.66 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "37478003-b263-4019-b5a0-66efa2c47f1b")
+	)
 	(label "CC2"
 		(at 54.61 43.18 0)
 		(effects
@@ -4978,6 +4960,16 @@
 			(justify left bottom)
 		)
 		(uuid "ae6c94c6-5dce-47ba-98fc-900e4b476721")
+	)
+	(label "USB_D+"
+		(at 69.85 71.12 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "bd6acd61-a99f-46d2-a24c-a62e9326fba9")
 	)
 	(label "VBAT"
 		(at 25.4 101.6 0)
@@ -7302,7 +7294,7 @@
 	)
 	(symbol
 		(lib_id "mikoto:ESDR0502NMUTAG")
-		(at 62.23 73.66 0)
+		(at 60.96 73.66 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7311,7 +7303,7 @@
 		(fields_autoplaced yes)
 		(uuid "6f4dab3f-f98b-4d98-992c-87dd8e78bd2d")
 		(property "Reference" "U4"
-			(at 57.15 79.9804 0)
+			(at 55.88 79.9804 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7319,7 +7311,7 @@
 			)
 		)
 		(property "Value" "ESDR0502NMUTAG"
-			(at 62.23 66.8805 0)
+			(at 60.96 66.8805 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7327,7 +7319,7 @@
 			)
 		)
 		(property "Footprint" "Mikoto:UDFN-6_1.2x1.0mm_P0.4mm"
-			(at 62.23 63.5 0)
+			(at 60.96 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7337,7 +7329,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.onsemi.cn/pub_link/Collateral/ESDR0502N-D.PDF"
-			(at 62.23 60.96 0)
+			(at 60.96 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7347,7 +7339,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 62.23 73.66 0)
+			(at 60.96 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7355,7 +7347,7 @@
 			)
 		)
 		(property "Manufacturer Part" "ESDR0502NMUTBG"
-			(at 62.23 73.66 0)
+			(at 60.96 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7364,7 +7356,7 @@
 			)
 		)
 		(property "Sim.Device" ""
-			(at 62.23 73.66 0)
+			(at 60.96 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7372,7 +7364,7 @@
 			)
 		)
 		(property "Sim.Pins" ""
-			(at 62.23 73.66 0)
+			(at 60.96 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7380,7 +7372,7 @@
 			)
 		)
 		(property "LCSC" "C327480"
-			(at 57.15 79.9804 0)
+			(at 55.88 79.9804 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8048,7 +8040,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 72.39 77.47 0)
+		(at 69.85 77.47 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8057,7 +8049,7 @@
 		(fields_autoplaced yes)
 		(uuid "ad5f3789-7f6d-4aa8-9779-267fd9ee2633")
 		(property "Reference" "#PWR012"
-			(at 72.39 83.82 0)
+			(at 69.85 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8066,7 +8058,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 72.39 82.55 0)
+			(at 69.85 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8074,7 +8066,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 72.39 77.47 0)
+			(at 69.85 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8083,7 +8075,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 72.39 77.47 0)
+			(at 69.85 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8092,7 +8084,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 72.39 77.47 0)
+			(at 69.85 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
