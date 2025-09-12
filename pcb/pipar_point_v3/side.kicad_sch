@@ -4439,6 +4439,10 @@
 		(uuid "8320703d-3b1f-47b1-9d91-9892d5160cee")
 	)
 	(no_connect
+		(at 143.51 72.39)
+		(uuid "83b74737-c60e-493c-b747-45263a8c84a0")
+	)
+	(no_connect
 		(at 43.18 48.26)
 		(uuid "89c8ecda-a973-4eb4-81f9-f29979a9f563")
 	)
@@ -4492,16 +4496,6 @@
 	)
 	(wire
 		(pts
-			(xy 46.99 129.54) (xy 46.99 132.08)
-		)
-		(stroke
-			(width 0)
-			(type solid)
-		)
-		(uuid "004d11f0-427c-4d1d-a3d9-3ce83795718f")
-	)
-	(wire
-		(pts
 			(xy 25.4 137.16) (xy 25.4 139.7)
 		)
 		(stroke
@@ -4529,16 +4523,6 @@
 			(type default)
 		)
 		(uuid "041d9fa0-34a1-49e3-8bd3-95f29b2c4500")
-	)
-	(wire
-		(pts
-			(xy 193.04 138.43) (xy 193.04 146.05)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "054223e2-d07e-4b6f-9cf0-b12b2566ca1b")
 	)
 	(wire
 		(pts
@@ -4692,16 +4676,6 @@
 	)
 	(wire
 		(pts
-			(xy 46.99 137.16) (xy 46.99 139.7)
-		)
-		(stroke
-			(width 0)
-			(type solid)
-		)
-		(uuid "79b11bcc-c0e7-42df-af11-8429a08ef998")
-	)
-	(wire
-		(pts
 			(xy 223.52 138.43) (xy 223.52 140.97)
 		)
 		(stroke
@@ -4762,16 +4736,6 @@
 	)
 	(wire
 		(pts
-			(xy 46.99 121.92) (xy 46.99 124.46)
-		)
-		(stroke
-			(width 0)
-			(type solid)
-		)
-		(uuid "d1701e6a-b57e-41b7-b122-127e2e94b7e0")
-	)
-	(wire
-		(pts
 			(xy 203.2 138.43) (xy 205.74 138.43)
 		)
 		(stroke
@@ -4789,16 +4753,6 @@
 			(type dash)
 		)
 		(uuid "ea8b9afe-504e-43f2-8b20-431d571b0e20")
-	)
-	(wire
-		(pts
-			(xy 35.56 139.7) (xy 46.99 139.7)
-		)
-		(stroke
-			(width 0)
-			(type solid)
-		)
-		(uuid "ed951123-4d5d-4f77-8709-7d4dc5babbce")
 	)
 	(wire
 		(pts
@@ -4979,16 +4933,6 @@
 			(justify right bottom)
 		)
 		(uuid "59d2e058-b635-4190-8c7e-81f2c488f900")
-	)
-	(label "LED_3"
-		(at 143.51 72.39 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "65997fdd-ff16-488d-9b81-d9486a49f55a")
 	)
 	(label "Backlight"
 		(at 143.51 85.09 180)
@@ -5181,7 +5125,7 @@
 		(uuid "b29747c5-aefc-4eb2-8bbd-544f53380f73")
 	)
 	(label "VBUS"
-		(at 193.04 139.7 270)
+		(at 193.04 138.43 270)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5249,16 +5193,6 @@
 			(justify left bottom)
 		)
 		(uuid "e9b828dc-5b6e-4989-8cfd-64ee02382b45")
-	)
-	(label "LED_3"
-		(at 46.99 121.92 90)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "ea2dd2d3-e323-4478-9122-9e71351c9931")
 	)
 	(label "SWDIO"
 		(at 78.74 24.13 0)
@@ -5419,108 +5353,6 @@
 				)
 				(path "/ae2abdf3-be75-4a01-9d2e-db16842fefd9/b65bf892-a9b9-431e-af85-efaa63e657b0"
 					(reference "#PWR03")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_name "R_Small_1")
-		(lib_id "Device:R_Small")
-		(at 46.99 134.62 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "38714195-a355-49a5-8c16-15c62ef46eba")
-		(property "Reference" "R17"
-			(at 49.53 133.3499 0)
-			(effects
-				(font
-					(size 1.016 1.016)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "1.5k"
-			(at 49.53 135.8899 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 46.99 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 46.99 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, small symbol"
-			(at 46.99 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "YAGEO"
-			(at 46.99 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "RC0603FR-071K5L"
-			(at 46.99 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "603-RC0603FR-071K5L "
-			(at 46.99 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "1834fe60-fec6-4127-8bca-800c4b420cb9")
-		)
-		(pin "2"
-			(uuid "bb40de4b-037f-418c-8179-6586f81fa63c")
-		)
-		(instances
-			(project "pipar_point_v3"
-				(path "/ae2abdf3-be75-4a01-9d2e-db16842fefd9/a463a46f-5d6b-469c-a0de-58044b881b04"
-					(reference "R17")
-					(unit 1)
-				)
-				(path "/ae2abdf3-be75-4a01-9d2e-db16842fefd9/b65bf892-a9b9-431e-af85-efaa63e657b0"
-					(reference "R20")
 					(unit 1)
 				)
 			)
@@ -5734,6 +5566,7 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
@@ -5813,117 +5646,6 @@
 				)
 				(path "/ae2abdf3-be75-4a01-9d2e-db16842fefd9/b65bf892-a9b9-431e-af85-efaa63e657b0"
 					(reference "D49")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_name "LED_Small_1")
-		(lib_id "Device:LED_Small")
-		(at 46.99 127 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "7f5e36ee-540f-4437-b727-4c97758a08e2")
-		(property "Reference" "D47"
-			(at 49.53 125.6664 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "LED_Small"
-			(at 49.53 128.2064 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
-			(at 46.99 127 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 46.99 127 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Light emitting diode, small symbol"
-			(at 46.99 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pin" "1=K 2=A"
-			(at 46.99 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "Inolux"
-			(at 46.99 127 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "IN-PIS63BTPB"
-			(at 46.99 127 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "743-IN-PIS63BTPB"
-			(at 46.99 127 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "4a217cba-e1e2-46be-9099-a8f1d26e91ee")
-		)
-		(pin "2"
-			(uuid "c82cd80b-7ccb-4046-a6b7-9edbc702ab2e")
-		)
-		(instances
-			(project "pipar_point_v3"
-				(path "/ae2abdf3-be75-4a01-9d2e-db16842fefd9/a463a46f-5d6b-469c-a0de-58044b881b04"
-					(reference "D47")
-					(unit 1)
-				)
-				(path "/ae2abdf3-be75-4a01-9d2e-db16842fefd9/b65bf892-a9b9-431e-af85-efaa63e657b0"
-					(reference "D50")
 					(unit 1)
 				)
 			)
@@ -7291,75 +7013,6 @@
 				)
 				(path "/ae2abdf3-be75-4a01-9d2e-db16842fefd9/b65bf892-a9b9-431e-af85-efaa63e657b0"
 					(reference "#PWR04")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint_Probe")
-		(at 193.04 146.05 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "ef315a2f-6346-4ab2-9292-70f3dbdc8c34")
-		(property "Reference" "TP1"
-			(at 191.008 149.098 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "TestPoint_Probe"
-			(at 185.166 147.066 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
-			(at 193.04 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 193.04 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point (alternative probe-style design)"
-			(at 193.04 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "22a8b25f-dc6b-4730-a847-a54d4c1ec6d7")
-		)
-		(instances
-			(project "pipar_point_v3"
-				(path "/ae2abdf3-be75-4a01-9d2e-db16842fefd9/a463a46f-5d6b-469c-a0de-58044b881b04"
-					(reference "TP1")
-					(unit 1)
-				)
-				(path "/ae2abdf3-be75-4a01-9d2e-db16842fefd9/b65bf892-a9b9-431e-af85-efaa63e657b0"
-					(reference "TP3")
 					(unit 1)
 				)
 			)
