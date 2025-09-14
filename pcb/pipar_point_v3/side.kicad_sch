@@ -5527,7 +5527,7 @@
 	(symbol
 		(lib_name "MountingHole_1")
 		(lib_id "Mechanical:MountingHole")
-		(at 76.2 128.27 0)
+		(at 76.2 127 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -5536,7 +5536,7 @@
 		(fields_autoplaced yes)
 		(uuid "371c4961-d463-4f82-bf07-a34ab9d4370e")
 		(property "Reference" "H43"
-			(at 78.74 126.9999 0)
+			(at 78.74 125.7299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5545,7 +5545,7 @@
 			)
 		)
 		(property "Value" "MouseBite"
-			(at 78.74 129.5399 0)
+			(at 78.74 128.2699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5554,7 +5554,7 @@
 			)
 		)
 		(property "Footprint" "mouse-bite:mouse-bite-3mm-6mm"
-			(at 76.2 128.27 0)
+			(at 76.2 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5563,7 +5563,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 76.2 128.27 0)
+			(at 76.2 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5572,7 +5572,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
-			(at 76.2 128.27 0)
+			(at 76.2 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5596,7 +5596,7 @@
 	(symbol
 		(lib_name "MountingHole_1")
 		(lib_id "Mechanical:MountingHole")
-		(at 76.2 148.59 0)
+		(at 76.2 147.32 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -5605,7 +5605,7 @@
 		(fields_autoplaced yes)
 		(uuid "5100d2aa-4e84-4928-9290-8437b6a9bb04")
 		(property "Reference" "H65"
-			(at 78.74 147.3199 0)
+			(at 78.74 146.0499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5614,7 +5614,7 @@
 			)
 		)
 		(property "Value" "MouseBite"
-			(at 78.74 149.8599 0)
+			(at 78.74 148.5899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5623,7 +5623,7 @@
 			)
 		)
 		(property "Footprint" "mouse-bite:mouse-bite-3mm-6mm"
-			(at 76.2 148.59 0)
+			(at 76.2 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5632,7 +5632,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 76.2 148.59 0)
+			(at 76.2 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5641,7 +5641,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
-			(at 76.2 148.59 0)
+			(at 76.2 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5735,7 +5735,7 @@
 	(symbol
 		(lib_name "MountingHole_1")
 		(lib_id "Mechanical:MountingHole")
-		(at 76.2 133.35 0)
+		(at 76.2 132.08 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -5744,7 +5744,7 @@
 		(fields_autoplaced yes)
 		(uuid "64db4095-cb23-4993-ba20-12ad95d5342b")
 		(property "Reference" "H45"
-			(at 78.74 132.0799 0)
+			(at 78.74 130.8099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5753,7 +5753,7 @@
 			)
 		)
 		(property "Value" "MouseBite"
-			(at 78.74 134.6199 0)
+			(at 78.74 133.3499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5762,7 +5762,7 @@
 			)
 		)
 		(property "Footprint" "mouse-bite:mouse-bite-3mm-6mm"
-			(at 76.2 133.35 0)
+			(at 76.2 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5771,7 +5771,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 76.2 133.35 0)
+			(at 76.2 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5780,7 +5780,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
-			(at 76.2 133.35 0)
+			(at 76.2 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6458,7 +6458,7 @@
 	(symbol
 		(lib_name "MountingHole_1")
 		(lib_id "Mechanical:MountingHole")
-		(at 76.2 138.43 0)
+		(at 76.2 137.16 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -6467,7 +6467,7 @@
 		(fields_autoplaced yes)
 		(uuid "adaf5323-c565-4ae6-ad1c-b11633013773")
 		(property "Reference" "H47"
-			(at 78.74 137.1599 0)
+			(at 78.74 135.8899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6476,7 +6476,7 @@
 			)
 		)
 		(property "Value" "MouseBite"
-			(at 78.74 139.6999 0)
+			(at 78.74 138.4299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6485,7 +6485,7 @@
 			)
 		)
 		(property "Footprint" "mouse-bite:mouse-bite-3mm-6mm"
-			(at 76.2 138.43 0)
+			(at 76.2 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6494,7 +6494,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 76.2 138.43 0)
+			(at 76.2 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6503,7 +6503,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
-			(at 76.2 138.43 0)
+			(at 76.2 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7186,7 +7186,7 @@
 	(symbol
 		(lib_name "MountingHole_1")
 		(lib_id "Mechanical:MountingHole")
-		(at 76.2 143.51 0)
+		(at 76.2 142.24 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -7195,7 +7195,7 @@
 		(fields_autoplaced yes)
 		(uuid "be2cea7c-7ab0-488a-b3c0-794e2f92dd5a")
 		(property "Reference" "H49"
-			(at 78.74 142.2399 0)
+			(at 78.74 140.9699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7204,7 +7204,7 @@
 			)
 		)
 		(property "Value" "MouseBite"
-			(at 78.74 144.7799 0)
+			(at 78.74 143.5099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7213,7 +7213,7 @@
 			)
 		)
 		(property "Footprint" "mouse-bite:mouse-bite-3mm-6mm"
-			(at 76.2 143.51 0)
+			(at 76.2 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7222,7 +7222,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 76.2 143.51 0)
+			(at 76.2 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7231,7 +7231,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
-			(at 76.2 143.51 0)
+			(at 76.2 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
