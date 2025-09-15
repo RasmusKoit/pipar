@@ -3996,7 +3996,7 @@
 		(at 170.18 120.65 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -4137,7 +4137,7 @@
 		(at 215.9 120.65 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -4210,7 +4210,7 @@
 		(at 147.32 74.93 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -4457,6 +4457,15 @@
 				(hide yes)
 			)
 		)
+		(property "Mouser Part Number" "621-1N4148WT"
+			(at 127 80.01 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "3fb317f1-cd93-414a-9973-7897056a834f")
 		)
@@ -4531,6 +4540,15 @@
 			)
 		)
 		(property "Sim.Pin" "1=K 2=A"
+			(at 208.28 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "743-IN-S63AT5UW"
 			(at 208.28 97.79 0)
 			(effects
 				(font
@@ -4632,6 +4650,15 @@
 				(hide yes)
 			)
 		)
+		(property "Mouser Part Number" "621-1N4148WT"
+			(at 127 125.73 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "ce4d50f2-49c3-40f8-8c44-1df674a9e012")
 		)
@@ -4714,6 +4741,15 @@
 				(hide yes)
 			)
 		)
+		(property "Mouser Part Number" "743-IN-S63AT5UW"
+			(at 162.56 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "e7b085e6-5236-4ca8-a5e6-3eae9047415a")
 		)
@@ -4788,6 +4824,15 @@
 			)
 		)
 		(property "Sim.Pin" "1=K 2=A"
+			(at 71.12 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "743-IN-S63AT5UW"
 			(at 71.12 97.79 0)
 			(effects
 				(font
@@ -4888,7 +4933,7 @@
 		(at 193.04 74.93 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -5019,6 +5064,15 @@
 				(hide yes)
 			)
 		)
+		(property "Mouser Part Number" "743-IN-S63AT5UW"
+			(at 116.84 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "5169cd73-c0fe-4638-a50b-e0473a5d02ce")
 		)
@@ -5112,6 +5166,15 @@
 				(hide yes)
 			)
 		)
+		(property "Mouser Part Number" "621-1N4148WT"
+			(at 127 102.87 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "89bce25e-2557-4f0e-b870-1234c492b0e5")
 		)
@@ -5136,7 +5199,7 @@
 		(at 101.6 120.65 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -5267,6 +5330,15 @@
 				(hide yes)
 			)
 		)
+		(property "Mouser Part Number" "743-IN-S63AT5UW"
+			(at 185.42 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "80d0269e-e140-4aae-9571-9140b4c97962")
 		)
@@ -5360,6 +5432,15 @@
 				(hide yes)
 			)
 		)
+		(property "Mouser Part Number" "621-1N4148WT"
+			(at 172.72 125.73 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "580a25de-9006-4f1b-88ea-34992655c3ba")
 		)
@@ -5434,6 +5515,15 @@
 			)
 		)
 		(property "Sim.Pin" "1=K 2=A"
+			(at 71.12 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "743-IN-S63AT5UW"
 			(at 71.12 74.93 0)
 			(effects
 				(font
@@ -5534,7 +5624,7 @@
 		(at 101.6 74.93 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -5676,6 +5766,15 @@
 				(hide yes)
 			)
 		)
+		(property "Mouser Part Number" "621-1N4148WT"
+			(at 172.72 80.01 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "a63d1616-ad34-49d5-ac7e-518bff5796ce")
 		)
@@ -5700,7 +5799,7 @@
 		(at 147.32 97.79 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -5831,6 +5930,15 @@
 				(hide yes)
 			)
 		)
+		(property "Mouser Part Number" "743-IN-S63AT5UW"
+			(at 116.84 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "9be26c51-858d-436c-986d-69be0b940dcc")
 		)
@@ -5924,6 +6032,15 @@
 				(hide yes)
 			)
 		)
+		(property "Mouser Part Number" "621-1N4148WT"
+			(at 218.44 102.87 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "d36f4e2b-a945-42bb-94b3-a57a5a31f763")
 		)
@@ -6006,6 +6123,15 @@
 				(hide yes)
 			)
 		)
+		(property "Mouser Part Number" "743-IN-S63AT5UW"
+			(at 93.98 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "ef5fb18b-bc65-4499-baa3-1dab8feb639e")
 		)
@@ -6030,7 +6156,7 @@
 		(at 124.46 97.79 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -6172,6 +6298,15 @@
 				(hide yes)
 			)
 		)
+		(property "Mouser Part Number" "621-1N4148WT"
+			(at 81.28 102.87 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "31f6caf5-82c4-4739-ab9a-19dda41f59bd")
 		)
@@ -6258,6 +6393,15 @@
 		)
 		(property "Sim.Pins" "1=K 2=A"
 			(at 172.72 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "621-1N4148WT"
+			(at 172.72 102.87 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6459,6 +6603,15 @@
 				(hide yes)
 			)
 		)
+		(property "Mouser Part Number" "621-1N4148WT"
+			(at 195.58 80.01 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "18f1692f-8d54-487a-aeac-39792100170f")
 		)
@@ -6483,7 +6636,7 @@
 		(at 101.6 97.79 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -6614,6 +6767,15 @@
 				(hide yes)
 			)
 		)
+		(property "Mouser Part Number" "743-IN-S63AT5UW"
+			(at 139.7 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "d6cacf8c-d549-4cd9-a3fb-eb9a1f67c513")
 		)
@@ -6638,7 +6800,7 @@
 		(at 124.46 74.93 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -6897,6 +7059,15 @@
 			)
 		)
 		(property "Sim.Pin" "1=K 2=A"
+			(at 139.7 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "743-IN-S63AT5UW"
 			(at 139.7 74.93 0)
 			(effects
 				(font
@@ -7191,6 +7362,15 @@
 				(hide yes)
 			)
 		)
+		(property "Mouser Part Number" "743-IN-S63AT5UW"
+			(at 185.42 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "a07f56b1-d8a6-4a86-9135-8ee3e9b8449d")
 		)
@@ -7215,7 +7395,7 @@
 		(at 215.9 97.79 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -7356,7 +7536,7 @@
 		(at 78.74 97.79 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -7429,7 +7609,7 @@
 		(at 193.04 120.65 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -7764,6 +7944,15 @@
 				(hide yes)
 			)
 		)
+		(property "Mouser Part Number" "743-IN-S63AT5UW"
+			(at 162.56 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "a1970154-0a82-4668-9109-1749e0df90f3")
 		)
@@ -7850,6 +8039,15 @@
 		)
 		(property "Sim.Pins" "1=K 2=A"
 			(at 149.86 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "621-1N4148WT"
+			(at 149.86 102.87 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8009,6 +8207,15 @@
 				(hide yes)
 			)
 		)
+		(property "Mouser Part Number" "743-IN-S63AT5UW"
+			(at 71.12 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "9c456358-bad4-411b-8428-0733438d79dc")
 		)
@@ -8033,7 +8240,7 @@
 		(at 78.74 120.65 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -8175,6 +8382,15 @@
 				(hide yes)
 			)
 		)
+		(property "Mouser Part Number" "621-1N4148WT"
+			(at 149.86 125.73 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "4222d5d6-0f16-4a4e-9c4f-322ddcc33681")
 		)
@@ -8199,7 +8415,7 @@
 		(at 193.04 97.79 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -8341,6 +8557,15 @@
 				(hide yes)
 			)
 		)
+		(property "Mouser Part Number" "621-1N4148WT"
+			(at 218.44 125.73 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "a1351144-8ee9-4f28-9909-204657030432")
 		)
@@ -8415,6 +8640,15 @@
 			)
 		)
 		(property "Sim.Pin" "1=K 2=A"
+			(at 116.84 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "743-IN-S63AT5UW"
 			(at 116.84 74.93 0)
 			(effects
 				(font
@@ -8509,6 +8743,15 @@
 		)
 		(property "Sim.Pins" "1=K 2=A"
 			(at 104.14 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "621-1N4148WT"
+			(at 104.14 125.73 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8708,7 +8951,7 @@
 		(at 170.18 97.79 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -8918,6 +9161,15 @@
 				(hide yes)
 			)
 		)
+		(property "Mouser Part Number" "621-1N4148WT"
+			(at 104.14 102.87 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "d5334d29-9844-4730-af8d-83ddbd52918b")
 		)
@@ -8942,7 +9194,7 @@
 		(at 78.74 74.93 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -9141,6 +9393,15 @@
 				(hide yes)
 			)
 		)
+		(property "Mouser Part Number" "743-IN-S63AT5UW"
+			(at 139.7 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "f1040368-b218-4171-b89b-b783b6f24be2")
 		)
@@ -9165,7 +9426,7 @@
 		(at 170.18 74.93 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -9296,6 +9557,15 @@
 				(hide yes)
 			)
 		)
+		(property "Mouser Part Number" "743-IN-S63AT5UW"
+			(at 93.98 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "0eafa21e-1431-4661-ba68-f604e02019d8")
 		)
@@ -9378,6 +9648,15 @@
 				(hide yes)
 			)
 		)
+		(property "Mouser Part Number" "743-IN-S63AT5UW"
+			(at 185.42 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "bb83721e-b009-4805-b9f4-ed9e45de617f")
 		)
@@ -9402,7 +9681,7 @@
 		(at 124.46 120.65 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -9612,6 +9891,15 @@
 				(hide yes)
 			)
 		)
+		(property "Mouser Part Number" "621-1N4148WT"
+			(at 104.14 80.01 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "5720f1e6-99ed-4280-a31f-1102bb7d2fc0")
 		)
@@ -9686,6 +9974,15 @@
 			)
 		)
 		(property "Sim.Pin" "1=K 2=A"
+			(at 208.28 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "743-IN-S63AT5UW"
 			(at 208.28 120.65 0)
 			(effects
 				(font
@@ -9787,6 +10084,15 @@
 				(hide yes)
 			)
 		)
+		(property "Mouser Part Number" "621-1N4148WT"
+			(at 81.28 80.01 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "450fcc90-cc63-4ef3-ba2f-0782a9ede213")
 		)
@@ -9880,6 +10186,15 @@
 				(hide yes)
 			)
 		)
+		(property "Mouser Part Number" "621-1N4148WT"
+			(at 81.28 125.73 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "e4e654c6-c38a-4974-9b46-b6728ed0bc98")
 		)
@@ -9904,7 +10219,7 @@
 		(at 147.32 120.65 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -10035,6 +10350,15 @@
 				(hide yes)
 			)
 		)
+		(property "Mouser Part Number" "743-IN-S63AT5UW"
+			(at 93.98 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "6e81e4e9-7221-41e8-9b44-11e9430e75d3")
 		)
@@ -10109,6 +10433,15 @@
 			)
 		)
 		(property "Sim.Pin" "1=K 2=A"
+			(at 162.56 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "743-IN-S63AT5UW"
 			(at 162.56 120.65 0)
 			(effects
 				(font
@@ -10278,6 +10611,15 @@
 				(hide yes)
 			)
 		)
+		(property "Mouser Part Number" "621-1N4148WT"
+			(at 149.86 80.01 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "f358dfe3-8f07-4f59-89ca-6e2dd5c0d17b")
 		)
@@ -10364,6 +10706,15 @@
 		)
 		(property "Sim.Pins" "1=K 2=A"
 			(at 195.58 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "621-1N4148WT"
+			(at 195.58 125.73 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10525,6 +10876,15 @@
 		)
 		(property "Sim.Pins" "1=K 2=A"
 			(at 195.58 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "621-1N4148WT"
+			(at 195.58 102.87 90)
 			(effects
 				(font
 					(size 1.27 1.27)
