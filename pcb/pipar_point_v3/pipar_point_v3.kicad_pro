@@ -58,32 +58,7 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [
-        [
-          "solder_mask_bridge|373571566|82149436|771fd551-f96a-4975-9007-6d5fd9b3565a|98b0d93e-ef04-4eb5-909c-25bf2f536090",
-          ""
-        ],
-        [
-          "solder_mask_bridge|373830642|81182544|73e797b1-64e0-4895-888c-783ca6ef1774|98b0d93e-ef04-4eb5-909c-25bf2f536090",
-          ""
-        ],
-        [
-          "solder_mask_bridge|48903752|198980201|51bf897b-6844-4658-bccf-642c0ec48b43|2d0e7a84-70f4-4955-96bb-7f5deb65912e",
-          ""
-        ],
-        [
-          "solder_mask_bridge|48903752|198980201|fb2ec4d3-427c-4b6f-ae67-2c78e9d35e5b|2d0e7a84-70f4-4955-96bb-7f5deb65912e",
-          ""
-        ],
-        [
-          "unconnected_items|145741042|79666490|2d0e7a84-70f4-4955-96bb-7f5deb65912e|c4c8bbc2-2a8c-42c7-9ffc-ff25c7419112",
-          ""
-        ],
-        [
-          "unconnected_items|212233389|187220156|2d0e7a84-70f4-4955-96bb-7f5deb65912e|f2d6f73e-f038-4a8a-bb4b-ddd274b4b2e0",
-          ""
-        ]
-      ],
+      "drc_exclusions": [],
       "meta": {
         "version": 2
       },
@@ -675,10 +650,10 @@
           "show": false
         },
         {
-          "group_by": false,
+          "group_by": true,
           "label": "Manufacturer_Part_Number",
           "name": "Manufacturer_Part_Number",
-          "show": false
+          "show": true
         },
         {
           "group_by": true,

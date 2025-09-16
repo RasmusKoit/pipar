@@ -4334,7 +4334,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Name" "Infineon Technologies"
+		(property "Manufacturer_Name" ""
 			(at 58.42 58.42 90)
 			(effects
 				(font
@@ -4343,7 +4343,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" "IRLML6344TRPBF "
+		(property "Manufacturer_Part_Number" "IRLML6344TRPBF"
 			(at 58.42 58.42 90)
 			(effects
 				(font
@@ -4352,7 +4352,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" "942-IRLML6344TRPBF"
+		(property "Mouser Part Number" " 942-IRLML6344TRPBF"
 			(at 58.42 58.42 90)
 			(effects
 				(font
@@ -4466,6 +4466,15 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer_Part_Number" "1N4148WT-7"
+			(at 127 80.01 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "3fb317f1-cd93-414a-9973-7897056a834f")
 		)
@@ -4549,6 +4558,15 @@
 			)
 		)
 		(property "Mouser Part Number" "743-IN-S63AT5UW"
+			(at 208.28 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "IN-S63AT5UW"
 			(at 208.28 97.79 0)
 			(effects
 				(font
@@ -4659,6 +4677,15 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer_Part_Number" "1N4148WT-7"
+			(at 127 125.73 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "ce4d50f2-49c3-40f8-8c44-1df674a9e012")
 		)
@@ -4750,6 +4777,15 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer_Part_Number" "IN-S63AT5UW"
+			(at 162.56 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "e7b085e6-5236-4ca8-a5e6-3eae9047415a")
 		)
@@ -4833,6 +4869,15 @@
 			)
 		)
 		(property "Mouser Part Number" "743-IN-S63AT5UW"
+			(at 71.12 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "IN-S63AT5UW"
 			(at 71.12 97.79 0)
 			(effects
 				(font
@@ -5073,6 +5118,15 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer_Part_Number" "IN-S63AT5UW"
+			(at 116.84 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "5169cd73-c0fe-4638-a50b-e0473a5d02ce")
 		)
@@ -5167,6 +5221,15 @@
 			)
 		)
 		(property "Mouser Part Number" "621-1N4148WT"
+			(at 127 102.87 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "1N4148WT-7"
 			(at 127 102.87 90)
 			(effects
 				(font
@@ -5339,6 +5402,15 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer_Part_Number" "IN-S63AT5UW"
+			(at 185.42 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "80d0269e-e140-4aae-9571-9140b4c97962")
 		)
@@ -5441,6 +5513,15 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer_Part_Number" "1N4148WT-7"
+			(at 172.72 125.73 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "580a25de-9006-4f1b-88ea-34992655c3ba")
 		)
@@ -5524,6 +5605,15 @@
 			)
 		)
 		(property "Mouser Part Number" "743-IN-S63AT5UW"
+			(at 71.12 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "IN-S63AT5UW"
 			(at 71.12 74.93 0)
 			(effects
 				(font
@@ -5775,6 +5865,15 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer_Part_Number" "1N4148WT-7"
+			(at 172.72 80.01 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "a63d1616-ad34-49d5-ac7e-518bff5796ce")
 		)
@@ -5939,6 +6038,15 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer_Part_Number" "IN-S63AT5UW"
+			(at 116.84 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "9be26c51-858d-436c-986d-69be0b940dcc")
 		)
@@ -6041,6 +6149,15 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer_Part_Number" "1N4148WT-7"
+			(at 218.44 102.87 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "d36f4e2b-a945-42bb-94b3-a57a5a31f763")
 		)
@@ -6124,6 +6241,15 @@
 			)
 		)
 		(property "Mouser Part Number" "743-IN-S63AT5UW"
+			(at 93.98 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "IN-S63AT5UW"
 			(at 93.98 97.79 0)
 			(effects
 				(font
@@ -6307,6 +6433,15 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer_Part_Number" "1N4148WT-7"
+			(at 81.28 102.87 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "31f6caf5-82c4-4739-ab9a-19dda41f59bd")
 		)
@@ -6409,6 +6544,15 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer_Part_Number" "1N4148WT-7"
+			(at 172.72 102.87 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "b893c5f4-ecf9-41fb-8372-d9b4bbac3294")
 		)
@@ -6483,7 +6627,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Name" "YAGEO"
+		(property "Manufacturer_Name" ""
 			(at 66.04 68.58 0)
 			(effects
 				(font
@@ -6501,7 +6645,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" "603-RC0603FR-071K5L "
+		(property "Mouser Part Number" " 603-RC0603FR-071K5L"
 			(at 66.04 68.58 0)
 			(effects
 				(font
@@ -6604,6 +6748,15 @@
 			)
 		)
 		(property "Mouser Part Number" "621-1N4148WT"
+			(at 195.58 80.01 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "1N4148WT-7"
 			(at 195.58 80.01 90)
 			(effects
 				(font
@@ -6768,6 +6921,15 @@
 			)
 		)
 		(property "Mouser Part Number" "743-IN-S63AT5UW"
+			(at 139.7 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "IN-S63AT5UW"
 			(at 139.7 120.65 0)
 			(effects
 				(font
@@ -7076,6 +7238,15 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer_Part_Number" "IN-S63AT5UW"
+			(at 139.7 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "5f6b8da1-750a-4c73-9c7f-347e3d151fc4")
 		)
@@ -7363,6 +7534,15 @@
 			)
 		)
 		(property "Mouser Part Number" "743-IN-S63AT5UW"
+			(at 185.42 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "IN-S63AT5UW"
 			(at 185.42 97.79 0)
 			(effects
 				(font
@@ -7953,6 +8133,15 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer_Part_Number" "IN-S63AT5UW"
+			(at 162.56 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "a1970154-0a82-4668-9109-1749e0df90f3")
 		)
@@ -8047,6 +8236,15 @@
 			)
 		)
 		(property "Mouser Part Number" "621-1N4148WT"
+			(at 149.86 102.87 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "1N4148WT-7"
 			(at 149.86 102.87 90)
 			(effects
 				(font
@@ -8208,6 +8406,15 @@
 			)
 		)
 		(property "Mouser Part Number" "743-IN-S63AT5UW"
+			(at 71.12 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "IN-S63AT5UW"
 			(at 71.12 120.65 0)
 			(effects
 				(font
@@ -8391,6 +8598,15 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer_Part_Number" "1N4148WT-7"
+			(at 149.86 125.73 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "4222d5d6-0f16-4a4e-9c4f-322ddcc33681")
 		)
@@ -8566,6 +8782,15 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer_Part_Number" "1N4148WT-7"
+			(at 218.44 125.73 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "a1351144-8ee9-4f28-9909-204657030432")
 		)
@@ -8649,6 +8874,15 @@
 			)
 		)
 		(property "Mouser Part Number" "743-IN-S63AT5UW"
+			(at 116.84 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "IN-S63AT5UW"
 			(at 116.84 74.93 0)
 			(effects
 				(font
@@ -8751,6 +8985,15 @@
 			)
 		)
 		(property "Mouser Part Number" "621-1N4148WT"
+			(at 104.14 125.73 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "1N4148WT-7"
 			(at 104.14 125.73 90)
 			(effects
 				(font
@@ -8900,7 +9143,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Name" "YAGEO"
+		(property "Manufacturer_Name" ""
 			(at 54.61 53.34 90)
 			(effects
 				(font
@@ -8909,7 +9152,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" "603-RC0603FR-075K1L"
+		(property "Manufacturer_Part_Number" "RC0603FR-075K1L"
 			(at 54.61 53.34 90)
 			(effects
 				(font
@@ -8918,7 +9161,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" "603-RC0603FR-075K1L "
+		(property "Mouser Part Number" "603-RC0603FR-075K1L"
 			(at 54.61 53.34 90)
 			(effects
 				(font
@@ -9170,6 +9413,15 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer_Part_Number" "1N4148WT-7"
+			(at 104.14 102.87 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "d5334d29-9844-4730-af8d-83ddbd52918b")
 		)
@@ -9402,6 +9654,15 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer_Part_Number" "IN-S63AT5UW"
+			(at 139.7 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "f1040368-b218-4171-b89b-b783b6f24be2")
 		)
@@ -9566,6 +9827,15 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer_Part_Number" "IN-S63AT5UW"
+			(at 93.98 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "0eafa21e-1431-4661-ba68-f604e02019d8")
 		)
@@ -9649,6 +9919,15 @@
 			)
 		)
 		(property "Mouser Part Number" "743-IN-S63AT5UW"
+			(at 185.42 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "IN-S63AT5UW"
 			(at 185.42 120.65 0)
 			(effects
 				(font
@@ -9900,6 +10179,15 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer_Part_Number" "1N4148WT-7"
+			(at 104.14 80.01 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "5720f1e6-99ed-4280-a31f-1102bb7d2fc0")
 		)
@@ -9983,6 +10271,15 @@
 			)
 		)
 		(property "Mouser Part Number" "743-IN-S63AT5UW"
+			(at 208.28 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "IN-S63AT5UW"
 			(at 208.28 120.65 0)
 			(effects
 				(font
@@ -10093,6 +10390,15 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer_Part_Number" "1N4148WT-7"
+			(at 81.28 80.01 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "450fcc90-cc63-4ef3-ba2f-0782a9ede213")
 		)
@@ -10187,6 +10493,15 @@
 			)
 		)
 		(property "Mouser Part Number" "621-1N4148WT"
+			(at 81.28 125.73 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "1N4148WT-7"
 			(at 81.28 125.73 90)
 			(effects
 				(font
@@ -10359,6 +10674,15 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer_Part_Number" "IN-S63AT5UW"
+			(at 93.98 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "6e81e4e9-7221-41e8-9b44-11e9430e75d3")
 		)
@@ -10442,6 +10766,15 @@
 			)
 		)
 		(property "Mouser Part Number" "743-IN-S63AT5UW"
+			(at 162.56 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "IN-S63AT5UW"
 			(at 162.56 120.65 0)
 			(effects
 				(font
@@ -10620,6 +10953,15 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer_Part_Number" "1N4148WT-7"
+			(at 149.86 80.01 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "f358dfe3-8f07-4f59-89ca-6e2dd5c0d17b")
 		)
@@ -10714,6 +11056,15 @@
 			)
 		)
 		(property "Mouser Part Number" "621-1N4148WT"
+			(at 195.58 125.73 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "1N4148WT-7"
 			(at 195.58 125.73 90)
 			(effects
 				(font
@@ -10884,6 +11235,15 @@
 			)
 		)
 		(property "Mouser Part Number" "621-1N4148WT"
+			(at 195.58 102.87 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "1N4148WT-7"
 			(at 195.58 102.87 90)
 			(effects
 				(font

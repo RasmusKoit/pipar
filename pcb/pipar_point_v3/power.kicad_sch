@@ -5489,7 +5489,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" "603-CC603KRX7R5BB105"
+		(property "Mouser Part Number" "810-CGA3E1X7R1V105KC"
 			(at 113.03 52.07 90)
 			(effects
 				(font
@@ -5498,7 +5498,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Name" "YAGEO"
+		(property "Manufacturer_Name" ""
 			(at 113.03 52.07 90)
 			(effects
 				(font
@@ -5507,7 +5507,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" "CC0603KRX7R5BB105"
+		(property "Manufacturer_Part_Number" "CGA3E1X7R1V105K080AC"
 			(at 113.03 52.07 90)
 			(effects
 				(font
@@ -5610,7 +5610,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Name" "Microchip"
+		(property "Manufacturer_Name" ""
 			(at 243.84 63.5 0)
 			(effects
 				(font
@@ -5774,7 +5774,16 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" "700-MAX17048G+T10"
+		(property "Mouser Part Number" " 700-MAX17048G+T10"
+			(at 46.99 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" " MAX17048G+T10"
 			(at 46.99 105.41 0)
 			(effects
 				(font
@@ -6026,7 +6035,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Name" "TDK"
+		(property "Manufacturer_Name" ""
 			(at 161.29 83.82 0)
 			(effects
 				(font
@@ -6188,7 +6197,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" "603-CC603KRX7R5BB105"
+		(property "Mouser Part Number" "810-CGA3E1X7R1V105KC"
 			(at 213.36 58.42 0)
 			(effects
 				(font
@@ -6197,7 +6206,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Name" "YAGEO"
+		(property "Manufacturer_Name" ""
 			(at 213.36 58.42 0)
 			(effects
 				(font
@@ -6206,7 +6215,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" "CC0603KRX7R5BB105"
+		(property "Manufacturer_Part_Number" "CGA3E1X7R1V105K080AC"
 			(at 213.36 58.42 0)
 			(effects
 				(font
@@ -6428,7 +6437,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Name" "YAGEO"
+		(property "Manufacturer_Name" ""
 			(at 67.31 43.18 90)
 			(effects
 				(font
@@ -6437,7 +6446,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" "603-RC0603FR-075K1L"
+		(property "Manufacturer_Part_Number" "RC0603FR-075K1L"
 			(at 67.31 43.18 90)
 			(effects
 				(font
@@ -6446,7 +6455,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" "603-RC0603FR-075K1L "
+		(property "Mouser Part Number" "603-RC0603FR-075K1L"
 			(at 67.31 43.18 90)
 			(effects
 				(font
@@ -6670,7 +6679,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" "603-CC603KRX7R5BB105"
+		(property "Mouser Part Number" "810-CGA3E1X7R1V105KC"
 			(at 53.34 30.48 90)
 			(effects
 				(font
@@ -6679,7 +6688,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Name" "YAGEO"
+		(property "Manufacturer_Name" ""
 			(at 53.34 30.48 90)
 			(effects
 				(font
@@ -6688,7 +6697,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" "CC0603KRX7R5BB105"
+		(property "Manufacturer_Part_Number" "CGA3E1X7R1V105K080AC"
 			(at 53.34 30.48 90)
 			(effects
 				(font
@@ -7069,7 +7078,7 @@
 				)
 			)
 		)
-		(property "Mouser Part Number" "810-C1608X5R1H103KAA"
+		(property "Mouser Part Number" "810-CGA3E2X7R1H103K"
 			(at 22.86 77.47 0)
 			(effects
 				(font
@@ -7078,7 +7087,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Name" "TDK"
+		(property "Manufacturer_Name" ""
 			(at 22.86 77.47 0)
 			(effects
 				(font
@@ -7087,7 +7096,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" "C1608X5R1H103K080AA"
+		(property "Manufacturer_Part_Number" "CGA3E2X7R1H103K080AA"
 			(at 22.86 77.47 0)
 			(effects
 				(font
@@ -7239,7 +7248,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Name" "YAGEO"
+		(property "Manufacturer_Name" ""
 			(at 67.31 40.64 90)
 			(effects
 				(font
@@ -7248,7 +7257,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" "603-RC0603FR-075K1L"
+		(property "Manufacturer_Part_Number" "RC0603FR-075K1L"
 			(at 67.31 40.64 90)
 			(effects
 				(font
@@ -7257,7 +7266,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" "603-RC0603FR-075K1L "
+		(property "Mouser Part Number" "603-RC0603FR-075K1L"
 			(at 67.31 40.64 90)
 			(effects
 				(font
@@ -7678,7 +7687,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Name" "C&K"
+		(property "Manufacturer_Name" ""
 			(at 110.49 45.72 90)
 			(effects
 				(font
@@ -7687,7 +7696,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" "PCM12SMTBR"
+		(property "Manufacturer_Part_Number" " PCM12SMTBR"
 			(at 110.49 45.72 90)
 			(effects
 				(font
@@ -7696,7 +7705,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" "611-PCM12SMTBR "
+		(property "Mouser Part Number" " 611-PCM12SMTBR"
 			(at 110.49 45.72 90)
 			(effects
 				(font
@@ -7782,7 +7791,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" "603-CC603KRX7R5BB105"
+		(property "Mouser Part Number" "810-C1608X7R1H104K"
 			(at 27.94 106.68 0)
 			(effects
 				(font
@@ -7791,7 +7800,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Name" "YAGEO"
+		(property "Manufacturer_Name" ""
 			(at 27.94 106.68 0)
 			(effects
 				(font
@@ -7800,7 +7809,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" "CC0603KRX7R5BB105"
+		(property "Manufacturer_Part_Number" "C1608X7R1H104K080AA"
 			(at 27.94 106.68 0)
 			(effects
 				(font
@@ -7837,7 +7846,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "967a465f-d912-4de2-a0b7-78804ff7eae8")
 		(property "Reference" "D21"
 			(at 200.66 86.2964 90)
@@ -7848,8 +7856,8 @@
 				(justify right)
 			)
 		)
-		(property "Value" "LED_Small"
-			(at 200.66 88.8364 90)
+		(property "Value" "LED_Error"
+			(at 194.056 89.408 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7893,7 +7901,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Name" "Inolux"
+		(property "Manufacturer_Name" ""
 			(at 198.12 87.63 90)
 			(effects
 				(font
@@ -7902,7 +7910,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" "IN-PIS63BTPR"
+		(property "Manufacturer_Part_Number" "IN-S63AT5A"
 			(at 198.12 87.63 90)
 			(effects
 				(font
@@ -7995,7 +8003,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Name" "YAGEO"
+		(property "Manufacturer_Name" ""
 			(at 208.28 82.55 0)
 			(effects
 				(font
@@ -8013,7 +8021,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" "603-RC0603FR-071K5L "
+		(property "Mouser Part Number" " 603-RC0603FR-071K5L"
 			(at 208.28 82.55 0)
 			(effects
 				(font
@@ -8097,6 +8105,15 @@
 			)
 		)
 		(property "Mouser Part Number" "306-S2BPHSM4TBLFSN"
+			(at 93.98 34.29 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "S2B-PH-SM4-TB(LF)(SN)"
 			(at 93.98 34.29 90)
 			(effects
 				(font
@@ -8249,7 +8266,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" "603-CC603KRX7R5BB105"
+		(property "Mouser Part Number" "810-CGA3E1X7R1V105KC"
 			(at 252.73 58.42 0)
 			(effects
 				(font
@@ -8258,7 +8275,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Name" "YAGEO"
+		(property "Manufacturer_Name" ""
 			(at 252.73 58.42 0)
 			(effects
 				(font
@@ -8267,7 +8284,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" "CC0603KRX7R5BB105"
+		(property "Manufacturer_Part_Number" "CGA3E1X7R1V105K080AC"
 			(at 252.73 58.42 0)
 			(effects
 				(font
@@ -8347,7 +8364,16 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" "179-UJ20CHGSMTP16TR"
+		(property "Mouser Part Number" " 179-UJ20CHGSMTP16TR"
+			(at 30.48 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "UJ20-C-H-G-SMT-P16-TR"
 			(at 30.48 50.8 0)
 			(effects
 				(font
@@ -8475,7 +8501,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Name" "Nordic Semiconductor"
+		(property "Manufacturer_Name" ""
 			(at 123.19 83.82 0)
 			(effects
 				(font
@@ -8484,7 +8510,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" "NPM1100-QDAA-R"
+		(property "Manufacturer_Part_Number" "nPM1100-QDAA-R"
 			(at 123.19 83.82 0)
 			(effects
 				(font
@@ -8786,7 +8812,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Name" "TDK"
+		(property "Manufacturer_Name" ""
 			(at 149.86 81.28 0)
 			(effects
 				(font
@@ -8804,7 +8830,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" "810-MLZ2012A2R2WT000 "
+		(property "Mouser Part Number" " 810-MLZ2012A2R2WT000"
 			(at 149.86 81.28 0)
 			(effects
 				(font
@@ -8841,7 +8867,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "d6f52b7f-cd51-4b76-afa2-69db0248c422")
 		(property "Reference" "D22"
 			(at 210.82 86.2964 90)
@@ -8852,8 +8877,8 @@
 				(justify right)
 			)
 		)
-		(property "Value" "LED_Small"
-			(at 210.82 88.8364 90)
+		(property "Value" "LED_Green"
+			(at 204.216 89.408 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8897,7 +8922,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Name" "Inolux"
+		(property "Manufacturer_Name" ""
 			(at 208.28 87.63 90)
 			(effects
 				(font
@@ -8906,7 +8931,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" "IN-PIS63BTPG"
+		(property "Manufacturer_Part_Number" "IN-S63AT5G"
 			(at 208.28 87.63 90)
 			(effects
 				(font
@@ -9007,7 +9032,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Name" "TDK"
+		(property "Manufacturer_Name" ""
 			(at 179.07 83.82 0)
 			(effects
 				(font
@@ -9100,7 +9125,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Name" "YAGEO"
+		(property "Manufacturer_Name" ""
 			(at 91.44 105.41 0)
 			(effects
 				(font
@@ -9118,7 +9143,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" "603-RC0603FR-071K5L "
+		(property "Mouser Part Number" " 603-RC0603FR-071K5L"
 			(at 91.44 105.41 0)
 			(effects
 				(font
@@ -9210,7 +9235,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Name" "TDK"
+		(property "Manufacturer_Name" ""
 			(at 170.18 83.82 0)
 			(effects
 				(font
@@ -9303,7 +9328,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Name" "YAGEO"
+		(property "Manufacturer_Name" ""
 			(at 88.9 85.09 0)
 			(effects
 				(font
@@ -9312,7 +9337,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" "603-RC0603FR-075K1L"
+		(property "Manufacturer_Part_Number" "RC0603FR-075K1L"
 			(at 88.9 85.09 0)
 			(effects
 				(font
@@ -9321,7 +9346,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" "603-RC0603FR-075K1L "
+		(property "Mouser Part Number" "603-RC0603FR-075K1L"
 			(at 88.9 85.09 0)
 			(effects
 				(font
@@ -9405,7 +9430,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Name" "YAGEO"
+		(property "Manufacturer_Name" ""
 			(at 198.12 82.55 0)
 			(effects
 				(font
@@ -9423,7 +9448,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" "603-RC0603FR-071K5L "
+		(property "Mouser Part Number" " 603-RC0603FR-071K5L"
 			(at 198.12 82.55 0)
 			(effects
 				(font
@@ -9645,7 +9670,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Name" "YAGEO"
+		(property "Manufacturer_Name" ""
 			(at 93.98 81.28 90)
 			(effects
 				(font
@@ -9654,7 +9679,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" "603-RC0603FR-075K1L"
+		(property "Manufacturer_Part_Number" "RC0603FR-075K1L"
 			(at 93.98 81.28 90)
 			(effects
 				(font
@@ -9663,7 +9688,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" "603-RC0603FR-075K1L "
+		(property "Mouser Part Number" "603-RC0603FR-075K1L"
 			(at 93.98 81.28 90)
 			(effects
 				(font
@@ -9755,7 +9780,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Name" "TDK"
+		(property "Manufacturer_Name" ""
 			(at 127 48.26 0)
 			(effects
 				(font

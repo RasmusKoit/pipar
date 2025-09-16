@@ -5810,7 +5810,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "68a5a3c9-7f71-490d-9ae4-20ac5d8b6faa")
 		(property "Reference" "D45"
 			(at 27.94 125.6664 90)
@@ -5821,8 +5820,8 @@
 				(justify right)
 			)
 		)
-		(property "Value" "LED_Small"
-			(at 27.94 128.2064 90)
+		(property "Value" "LED_Blue"
+			(at 27.178 127.508 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5866,7 +5865,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Name" "Inolux"
+		(property "Manufacturer_Name" ""
 			(at 25.4 127 90)
 			(effects
 				(font
@@ -5875,7 +5874,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" "IN-PIS63BTPR"
+		(property "Manufacturer_Part_Number" "IN-S63AT5B"
 			(at 25.4 127 90)
 			(effects
 				(font
@@ -5921,7 +5920,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "6addf9bc-bc8e-486f-adff-e9dc5313034e")
 		(property "Reference" "D46"
 			(at 38.1 125.6664 90)
@@ -5932,14 +5930,13 @@
 				(justify right)
 			)
 		)
-		(property "Value" "LED_Small"
-			(at 38.1 128.2064 90)
+		(property "Value" "LED_Green"
+			(at 37.338 126.238 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
-				(hide yes)
 			)
 		)
 		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
@@ -5978,7 +5975,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Name" "Inolux"
+		(property "Manufacturer_Name" ""
 			(at 35.56 127 90)
 			(effects
 				(font
@@ -5987,7 +5984,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" "IN-PIS63BTPG"
+		(property "Manufacturer_Part_Number" "IN-S63AT5G"
 			(at 35.56 127 90)
 			(effects
 				(font
@@ -6580,7 +6577,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Name" "Insight SiP"
+		(property "Manufacturer_Name" ""
 			(at 157.48 138.43 90)
 			(effects
 				(font
@@ -6589,7 +6586,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" "ISP1807-LR-RS "
+		(property "Manufacturer_Part_Number" "ISP1807-LR-RS"
 			(at 157.48 138.43 90)
 			(effects
 				(font
@@ -6909,7 +6906,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Name" "Insight SiP"
+		(property "Manufacturer_Name" ""
 			(at 143.51 26.67 0)
 			(effects
 				(font
@@ -6918,7 +6915,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" "ISP1807-LR-RS "
+		(property "Manufacturer_Part_Number" "ISP1807-LR-RS"
 			(at 143.51 26.67 0)
 			(effects
 				(font
@@ -7396,7 +7393,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" "667-EVP-BB1AAB000"
+		(property "Mouser Part Number" " 667-EVP-BB1AAB000"
 			(at 271.78 82.55 0)
 			(effects
 				(font
@@ -7416,7 +7413,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Name" "Panasonic"
+		(property "Manufacturer_Name" ""
 			(at 271.78 87.63 0)
 			(effects
 				(font
@@ -7517,7 +7514,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Name" "YAGEO"
+		(property "Manufacturer_Name" ""
 			(at 35.56 134.62 0)
 			(effects
 				(font
@@ -7535,7 +7532,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" "603-RC0603FR-071K5L "
+		(property "Mouser Part Number" " 603-RC0603FR-071K5L"
 			(at 35.56 134.62 0)
 			(effects
 				(font
@@ -7619,7 +7616,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Name" "YAGEO"
+		(property "Manufacturer_Name" ""
 			(at 25.4 134.62 0)
 			(effects
 				(font
@@ -7637,7 +7634,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" "603-RC0603FR-071K5L "
+		(property "Mouser Part Number" " 603-RC0603FR-071K5L"
 			(at 25.4 134.62 0)
 			(effects
 				(font
