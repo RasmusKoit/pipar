@@ -1999,6 +1999,686 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "PCM_nordic-lib-kicad-npm:nPM1300-QEXX"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 0 0 0)
+				(do_not_autoplace)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "nPM1300-QEXX"
+				(at 0 -2.54 0)
+				(do_not_autoplace)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Package_DFN_QFN:QFN-32-1EP_5x5mm_P0.5mm_EP3.6x3.6mm_ThermalVias"
+				(at 0 -58.42 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://docs.nordicsemi.com/bundle/ps_npm1300"
+				(at 0 -55.88 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "PMIC, LED Driver, Battery Charger, QFN-32"
+				(at 0 -53.34 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "PMIC Regulator LED Driver Battery Charger"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "QFN*32*1EP*5x5mm*P0.5mm*EP3.6x3.6mm*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "nPM1300-QEXX_0_0"
+				(pin power_in line
+					(at -35.56 33.02 0)
+					(length 5.08)
+					(name "VBUS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "21"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -35.56 20.32 0)
+					(length 5.08)
+					(name "CC1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "23"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -35.56 17.78 0)
+					(length 5.08)
+					(name "CC2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "24"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin open_collector line
+					(at -35.56 12.7 0)
+					(length 5.08)
+					(name "LED0"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "25"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin open_collector line
+					(at -35.56 10.16 0)
+					(length 5.08)
+					(name "LED1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "26"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin open_collector line
+					(at -35.56 7.62 0)
+					(length 5.08)
+					(name "LED2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "27"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -35.56 2.54 0)
+					(length 5.08)
+					(name "GPIO0"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -35.56 0 0)
+					(length 5.08)
+					(name "GPIO1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -35.56 -2.54 0)
+					(length 5.08)
+					(name "GPIO2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -35.56 -5.08 0)
+					(length 5.08)
+					(name "GPIO3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -35.56 -7.62 0)
+					(length 5.08)
+					(name "GPIO4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -35.56 -12.7 0)
+					(length 5.08)
+					(name "SDA"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -35.56 -15.24 0)
+					(length 5.08)
+					(name "SCL"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -35.56 -20.32 0)
+					(length 5.08)
+					(name "VSET1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "17"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -35.56 -22.86 0)
+					(length 5.08)
+					(name "VSET2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "16"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -35.56 -27.94 0)
+					(length 5.08)
+					(name "SHPHLD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "15"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -2.54 40.64 270)
+					(length 5.08)
+					(name "VDDIO"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 40.64 270)
+					(length 5.08)
+					(name "PVDD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -40.64 90)
+					(length 5.08)
+					(name "AVSS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "33"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at 2.54 40.64 270)
+					(length 5.08)
+					(name "VSYS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "20"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at 35.56 33.02 180)
+					(length 5.08)
+					(name "VBUSOUT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "22"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at 35.56 17.78 180)
+					(length 5.08)
+					(name "VOUT1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 35.56 12.7 180)
+					(length 5.08)
+					(name "SW1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at 35.56 5.08 180)
+					(length 5.08)
+					(name "VOUT2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "32"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 35.56 0 180)
+					(length 5.08)
+					(name "SW2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 35.56 -10.16 180)
+					(length 5.08)
+					(name "LSOUT1/VOUTLDO1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "29"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 35.56 -15.24 180)
+					(length 5.08)
+					(name "LSIN2/VINLDO2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "30"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 35.56 -17.78 180)
+					(length 5.08)
+					(name "LSOUT2/VOUTLDO2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "31"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 35.56 -30.48 180)
+					(length 5.08)
+					(name "VBAT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "19"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 35.56 -33.02 180)
+					(length 5.08)
+					(name "NTC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "18"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "nPM1300-QEXX_1_0"
+				(pin power_in line
+					(at 35.56 10.16 180)
+					(length 5.08)
+					(name "PVSS1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 35.56 -2.54 180)
+					(length 5.08)
+					(name "PVSS2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 35.56 -7.62 180)
+					(length 5.08)
+					(name "LSIN1/VINLDO1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "28"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "nPM1300-QEXX_1_1"
+				(rectangle
+					(start -30.48 35.56)
+					(end 30.48 -35.56)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "R_Small_1"
 			(pin_numbers
 				(hide yes)
@@ -6478,6 +7158,173 @@
 				)
 				(path "/ae2abdf3-be75-4a01-9d2e-db16842fefd9/b65bf892-a9b9-431e-af85-efaa63e657b0/70e08d6b-7700-49a1-a6c2-1f04ae3c26db"
 					(reference "R9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_nordic-lib-kicad-npm:nPM1300-QEXX")
+		(at 137.16 243.84 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3fba4e40-92b2-4244-9646-0b66b0e7128f")
+		(property "Reference" "U11"
+			(at 137.16 243.84 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "nPM1300-QEXX"
+			(at 137.16 246.38 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_DFN_QFN:QFN-32-1EP_5x5mm_P0.5mm_EP3.6x3.6mm_ThermalVias"
+			(at 137.16 302.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://docs.nordicsemi.com/bundle/ps_npm1300"
+			(at 137.16 299.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "PMIC, LED Driver, Battery Charger, QFN-32"
+			(at 137.16 297.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "eb1bec10-92e7-4e79-913c-b90eda17e0d7")
+		)
+		(pin "23"
+			(uuid "9394ed30-4f1b-430f-b427-3419df2bb160")
+		)
+		(pin "7"
+			(uuid "f996b5c1-f68c-41fe-9943-b3b349f8a04f")
+		)
+		(pin "14"
+			(uuid "e1b85636-1c1c-4d03-bd9f-832f5647ca04")
+		)
+		(pin "24"
+			(uuid "89d489cc-167a-45cf-9f3d-333f8b5554f2")
+		)
+		(pin "17"
+			(uuid "97f03b10-e1ad-4be2-9ef0-7ae84f1bddf9")
+		)
+		(pin "32"
+			(uuid "554021a7-7a4c-4c9e-ad6a-07d8297575ec")
+		)
+		(pin "25"
+			(uuid "1c488f80-c52b-47f5-bd19-8881a5a3d55d")
+		)
+		(pin "13"
+			(uuid "8449551e-c203-4450-b536-762ddd22e72c")
+		)
+		(pin "26"
+			(uuid "c149bd06-a737-4771-99ad-eb2501fb65f9")
+		)
+		(pin "9"
+			(uuid "2cfb03af-0bbb-41fd-a122-4ecde629d12e")
+		)
+		(pin "12"
+			(uuid "b0862e39-0f9d-462f-91d2-797325cd25be")
+		)
+		(pin "20"
+			(uuid "4cb1777d-e8b9-4228-a0c7-ea9a9c826212")
+		)
+		(pin "22"
+			(uuid "881b2577-d901-4104-9369-df0bf1f01d80")
+		)
+		(pin "5"
+			(uuid "2d58a0fb-a9c3-49f8-a954-395ccc4d258a")
+		)
+		(pin "8"
+			(uuid "12fc701c-9259-43fc-8722-f2de4566bf49")
+		)
+		(pin "10"
+			(uuid "9c411fee-56b9-4dbd-81b5-234aa2fe4188")
+		)
+		(pin "27"
+			(uuid "556a397e-6f6d-4347-8b89-7f34a08f842c")
+		)
+		(pin "33"
+			(uuid "5054836f-8efa-443f-aceb-b305e5b0403c")
+		)
+		(pin "21"
+			(uuid "1df8bb40-8b93-4161-9fde-b81e2d3baa10")
+		)
+		(pin "15"
+			(uuid "fbdfdce7-4822-47e8-8cd2-ddfdf88c74c3")
+		)
+		(pin "29"
+			(uuid "904c0ce6-9e45-4a22-a4f0-fd7c791ed394")
+		)
+		(pin "30"
+			(uuid "d7eb0b1d-bfdc-46fb-b53c-d5bbf897101f")
+		)
+		(pin "16"
+			(uuid "cd3dfeba-5ebf-44be-a83e-481ba416d619")
+		)
+		(pin "4"
+			(uuid "9002fe26-349e-4b0a-babf-cf11fad1d936")
+		)
+		(pin "31"
+			(uuid "906c731a-edab-4d20-903e-33f320523989")
+		)
+		(pin "19"
+			(uuid "962aa7c0-b0ce-473f-b1f2-4444bb42baae")
+		)
+		(pin "11"
+			(uuid "08d80439-6e7c-41ec-813e-64aac7188774")
+		)
+		(pin "3"
+			(uuid "e9282719-0962-4d4f-8622-c67873558c9e")
+		)
+		(pin "1"
+			(uuid "ee1f5946-2a36-4ca3-bdb4-16c75cfc9a48")
+		)
+		(pin "18"
+			(uuid "f297a89d-ad72-4124-bf4b-27d7cd0cfbdf")
+		)
+		(pin "6"
+			(uuid "480ebf34-492e-4f06-8989-69eecff6fb16")
+		)
+		(pin "28"
+			(uuid "72c9a868-0f4d-4161-a25c-f8c6c1181e26")
+		)
+		(instances
+			(project ""
+				(path "/ae2abdf3-be75-4a01-9d2e-db16842fefd9/a463a46f-5d6b-469c-a0de-58044b881b04/70e08d6b-7700-49a1-a6c2-1f04ae3c26db"
+					(reference "U11")
+					(unit 1)
+				)
+				(path "/ae2abdf3-be75-4a01-9d2e-db16842fefd9/b65bf892-a9b9-431e-af85-efaa63e657b0/70e08d6b-7700-49a1-a6c2-1f04ae3c26db"
+					(reference "U12")
 					(unit 1)
 				)
 			)

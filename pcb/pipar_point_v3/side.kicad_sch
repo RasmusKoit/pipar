@@ -4501,12 +4501,6 @@
 		(uuid "61d4c562-9a17-443c-a846-b6e125c0c22b")
 	)
 	(junction
-		(at 35.56 139.7)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "672915d6-066f-4cb3-a5d2-b312af783e05")
-	)
-	(junction
 		(at 66.04 29.21)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4949,6 +4943,16 @@
 			(justify left bottom)
 		)
 		(uuid "122e7f41-74c0-4d6e-a530-8d75106266ef")
+	)
+	(label "3.3V"
+		(at 35.56 139.7 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "142b2883-24b2-4d6b-b84b-7fe5b3664f35")
 	)
 	(label "VBUS"
 		(at 43.18 22.86 0)
@@ -5663,76 +5667,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 35.56 139.7 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "5aa418ba-55a0-4e23-a4b4-74206ff1cc45")
-		(property "Reference" "#PWR045"
-			(at 35.56 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 35.56 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 35.56 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 35.56 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 35.56 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "cd4d5cf5-3b4d-492a-904b-cd177696f30a")
-		)
-		(instances
-			(project "pipar_point_v3"
-				(path "/ae2abdf3-be75-4a01-9d2e-db16842fefd9/a463a46f-5d6b-469c-a0de-58044b881b04"
-					(reference "#PWR045")
-					(unit 1)
-				)
-				(path "/ae2abdf3-be75-4a01-9d2e-db16842fefd9/b65bf892-a9b9-431e-af85-efaa63e657b0"
-					(reference "#PWR046")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_name "MountingHole_1")
 		(lib_id "Mechanical:MountingHole")
 		(at 76.2 132.08 0)
@@ -5804,7 +5738,7 @@
 	(symbol
 		(lib_name "LED_Small_1")
 		(lib_id "Device:LED_Small")
-		(at 25.4 127 90)
+		(at 25.4 127 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5812,7 +5746,7 @@
 		(dnp no)
 		(uuid "68a5a3c9-7f71-490d-9ae4-20ac5d8b6faa")
 		(property "Reference" "D45"
-			(at 27.94 125.6664 90)
+			(at 22.86 128.3336 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5821,7 +5755,7 @@
 			)
 		)
 		(property "Value" "LED_Blue"
-			(at 27.178 127.508 0)
+			(at 23.622 126.492 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5914,7 +5848,7 @@
 	(symbol
 		(lib_name "LED_Small_1")
 		(lib_id "Device:LED_Small")
-		(at 35.56 127 90)
+		(at 35.56 127 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5922,7 +5856,7 @@
 		(dnp no)
 		(uuid "6addf9bc-bc8e-486f-adff-e9dc5313034e")
 		(property "Reference" "D46"
-			(at 38.1 125.6664 90)
+			(at 33.02 128.3336 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5931,7 +5865,7 @@
 			)
 		)
 		(property "Value" "LED_Green"
-			(at 37.338 126.238 0)
+			(at 39.37 130.302 0)
 			(effects
 				(font
 					(size 1.27 1.27)

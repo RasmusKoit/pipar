@@ -877,4 +877,15 @@
 		(uuid "c78d6af3-56b9-4390-87d1-2d7fc88746ef")
 	)
 	(embedded_fonts no)
+	(model "${KICAD9_3RD_PARTY}/3dmodels/com_github_perigoso_keyswitch-kicad-library/3d-library.3dshapes/SW_Kailh_Choc_V1.wrl"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 -180)
+		)
+	)
 )

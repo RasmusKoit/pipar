@@ -570,7 +570,7 @@
     "last_paths": {
       "gencad": "",
       "idf": "",
-      "netlist": "",
+      "netlist": "pipar_point_v3.net",
       "plot": "",
       "pos_files": "",
       "specctra_dsn": "",
