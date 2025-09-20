@@ -542,8 +542,8 @@
       },
       {
         "clearance": 0.127,
-        "diff_pair_gap": 0.25,
-        "diff_pair_width": 0.2,
+        "diff_pair_gap": 0.2032,
+        "diff_pair_width": 0.2794,
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
         "name": "USB_DATA",
@@ -571,7 +571,7 @@
     "last_paths": {
       "gencad": "",
       "idf": "",
-      "netlist": "",
+      "netlist": "./",
       "plot": "",
       "pos_files": "",
       "specctra_dsn": "",
