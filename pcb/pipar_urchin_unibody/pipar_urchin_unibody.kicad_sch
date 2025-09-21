@@ -5551,6 +5551,113 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Mechanical:MountingHole_Pad"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom no)
+			(on_board yes)
+			(property "Reference" "H"
+				(at 0 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "MountingHole_Pad"
+				(at 0 4.445 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Mounting Hole with connection"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "mounting hole"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "MountingHole*Pad*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "MountingHole_Pad_0_1"
+				(circle
+					(center 0 1.27)
+					(radius 1.27)
+					(stroke
+						(width 1.27)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "MountingHole_Pad_1_1"
+				(pin input line
+					(at 0 -2.54 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "PCM_nordic-lib-kicad-npm:nPM1300-QEXX"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -8295,6 +8402,12 @@
 		(uuid "487eba64-0db7-48df-91b4-46765aa724b1")
 	)
 	(junction
+		(at 196.85 184.15)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "488b9cad-da28-4355-bcfe-ca191d88b936")
+	)
+	(junction
 		(at 325.12 52.07)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -8359,6 +8472,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5f85863a-5737-4816-a2c6-bb80dfd37ff1")
+	)
+	(junction
+		(at 196.85 179.07)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "60a57d3e-2aa1-41f1-9c3a-8e5cb70f606c")
 	)
 	(junction
 		(at 256.54 52.07)
@@ -8491,6 +8610,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a32d4254-477b-4b65-a972-72c67b3d51e0")
+	)
+	(junction
+		(at 196.85 189.23)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a4108e6d-6306-4ce8-a2d8-d80bb6faa677")
 	)
 	(junction
 		(at 279.4 156.21)
@@ -9382,6 +9507,16 @@
 	)
 	(wire
 		(pts
+			(xy 196.85 179.07) (xy 196.85 184.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5b1c7385-ad04-4c67-b251-7800e0a56296")
+	)
+	(wire
+		(pts
 			(xy 132.08 180.34) (xy 123.19 180.34)
 		)
 		(stroke
@@ -10072,6 +10207,16 @@
 	)
 	(wire
 		(pts
+			(xy 196.85 184.15) (xy 196.85 189.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cc114b26-9fa8-4046-b6ba-26253c0ac2dd")
+	)
+	(wire
+		(pts
 			(xy 121.92 228.6) (xy 124.46 228.6)
 		)
 		(stroke
@@ -10389,6 +10534,16 @@
 			(type default)
 		)
 		(uuid "eb6798db-4102-4a40-9285-4a4ba5c127db")
+	)
+	(wire
+		(pts
+			(xy 196.85 173.99) (xy 196.85 179.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ed7e6402-b52c-44ab-be3a-8d9faa951462")
 	)
 	(wire
 		(pts
@@ -12852,6 +13007,73 @@
 		)
 	)
 	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 199.39 179.07 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2b978dae-069b-4020-9089-613b3f404933")
+		(property "Reference" "H2"
+			(at 203.2 177.7999 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole_Pad"
+			(at 203.2 180.3399 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2_DIN965_Pad"
+			(at 199.39 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 199.39 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 199.39 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "62bb3fd1-194c-45cb-a2e0-319ecd8dfa01")
+		)
+		(instances
+			(project "pipar_urchin_unibody"
+				(path "/672cd522-5dfb-46b4-9360-f1defe1f0cfe"
+					(reference "H2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 29.21 148.59 0)
 		(unit 1)
@@ -12912,6 +13134,72 @@
 			(project "pipar_urchin_unibody"
 				(path "/672cd522-5dfb-46b4-9360-f1defe1f0cfe"
 					(reference "#PWR05")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 196.85 189.23 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3142eb4c-a983-42dc-a736-18ee0323b43e")
+		(property "Reference" "#PWR022"
+			(at 196.85 195.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 196.85 194.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 196.85 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 196.85 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 196.85 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1edeb030-6e19-4611-9d86-32c7657d7991")
+		)
+		(instances
+			(project "pipar_urchin_unibody"
+				(path "/672cd522-5dfb-46b4-9360-f1defe1f0cfe"
+					(reference "#PWR022")
 					(unit 1)
 				)
 			)
@@ -18072,6 +18360,73 @@
 		)
 	)
 	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 199.39 184.15 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7913e35a-511c-4852-93cc-317982813324")
+		(property "Reference" "H3"
+			(at 203.2 182.8799 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole_Pad"
+			(at 203.2 185.4199 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2_DIN965_Pad"
+			(at 199.39 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 199.39 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 199.39 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "bdcce52d-1672-4bd2-92a7-92a1fcf3e884")
+		)
+		(instances
+			(project "pipar_urchin_unibody"
+				(path "/672cd522-5dfb-46b4-9360-f1defe1f0cfe"
+					(reference "H3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:D_Small")
 		(at 307.34 118.11 90)
 		(unit 1)
@@ -19467,6 +19822,73 @@
 			(project "pipar_urchin_unibody"
 				(path "/672cd522-5dfb-46b4-9360-f1defe1f0cfe"
 					(reference "J1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 199.39 189.23 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9ff42c6a-1498-45f3-bd01-3c00f96f498e")
+		(property "Reference" "H4"
+			(at 203.2 187.9599 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole_Pad"
+			(at 203.2 190.4999 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2_DIN965_Pad"
+			(at 199.39 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 199.39 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 199.39 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1b4698e6-35d2-4717-a3a2-b806a9d8a4c7")
+		)
+		(instances
+			(project "pipar_urchin_unibody"
+				(path "/672cd522-5dfb-46b4-9360-f1defe1f0cfe"
+					(reference "H4")
 					(unit 1)
 				)
 			)
@@ -22146,6 +22568,73 @@
 			(project "pipar_urchin_unibody"
 				(path "/672cd522-5dfb-46b4-9360-f1defe1f0cfe"
 					(reference "KHS11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 199.39 173.99 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bce409c5-ddc0-4f44-b99a-7ea388d5c791")
+		(property "Reference" "H1"
+			(at 203.2 172.7199 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole_Pad"
+			(at 203.2 175.2599 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2_DIN965_Pad"
+			(at 199.39 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 199.39 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 199.39 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fdcc7de2-bf0d-4c2b-8043-5e8a9ff883b7")
+		)
+		(instances
+			(project ""
+				(path "/672cd522-5dfb-46b4-9360-f1defe1f0cfe"
+					(reference "H1")
 					(unit 1)
 				)
 			)
