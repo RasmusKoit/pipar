@@ -5086,6 +5086,24 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer_Part_Number" "nPM1300-QEAA-R7"
+			(at 168.91 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "949-NPM1300-QEAA-R7"
+			(at 168.91 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "eb1bec10-92e7-4e79-913c-b90eda17e0d7")
 		)

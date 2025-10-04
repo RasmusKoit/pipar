@@ -60,6 +60,14 @@
       ],
       "drc_exclusions": [
         [
+          "solder_mask_bridge|382687383|77215727|73e797b1-64e0-4895-888c-783ca6ef1774|98b0d93e-ef04-4eb5-909c-25bf2f536090",
+          ""
+        ],
+        [
+          "solder_mask_bridge|382687383|77215727|771fd551-f96a-4975-9007-6d5fd9b3565a|98b0d93e-ef04-4eb5-909c-25bf2f536090",
+          ""
+        ],
+        [
           "solder_mask_bridge|57501417|195980276|51bf897b-6844-4658-bccf-642c0ec48b43|2d0e7a84-70f4-4955-96bb-7f5deb65912e",
           ""
         ],
@@ -735,7 +743,7 @@
       ],
       "filter_string": "",
       "group_symbols": true,
-      "include_excluded_from_bom": true,
+      "include_excluded_from_bom": false,
       "name": "",
       "sort_asc": true,
       "sort_field": "Reference"
