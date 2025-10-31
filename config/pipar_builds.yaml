@@ -1,5 +1,6 @@
 
 ---
 include:
-  - board: pipar_point
+  - board: pipar_point_left
+  - board: pipar_point_right
   
