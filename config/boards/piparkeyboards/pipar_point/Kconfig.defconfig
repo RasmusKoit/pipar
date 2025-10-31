@@ -1,0 +1,34 @@
+# trackpoint is on the right, so right is central
+
+if BOARD_PIPAR_POINT_RIGHT
+
+config ZMK_KEYBOARD_NAME
+    default "Pipar Point"
+
+config ZMK_SPLIT_ROLE_CENTRAL
+    default y
+
+endif # BOARD_PIPAR_POINT_RIGHT
+
+if BOARD_PIPAR_POINT_LEFT || BOARD_PIPAR_POINT_RIGHT
+
+config BOARD
+    default "pipar_point"
+
+config ZMK_SPLIT
+    default y
+
+config BT_CTLR
+    default BT
+
+if USB
+
+config USB_NRFX
+    default y
+
+config USB_DEVICE_STACK
+    default y
+
+endif # USB
+
+endif # BOARD_PIPAR_POINT_LEFT || BOARD_PIPAR_POINT_RIGHT
