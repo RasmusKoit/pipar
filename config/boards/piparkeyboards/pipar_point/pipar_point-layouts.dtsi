@@ -5,7 +5,7 @@
         compatible = "zmk,physical-layout";
         display-name = "pipar_point-layout";
 
-        kscan = <&kscan0>;
+        input = <&pipar_matrix>;
         transform = <&matrix_transform0>;
 
         keys  //                     w   h    x    y     rot    rx    ry
