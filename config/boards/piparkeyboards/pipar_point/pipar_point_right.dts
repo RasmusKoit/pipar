@@ -2,4 +2,4 @@
 
 &matrix_transform0 {
     col-offset = <7>;
-}
+};
