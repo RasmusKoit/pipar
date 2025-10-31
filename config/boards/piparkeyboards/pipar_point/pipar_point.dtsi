@@ -8,7 +8,7 @@
 #include "pipar_point-pinctrl.dtsi"
 
 &physical_layout0 {
-    transform = <&default_transform>;
+    transform = <&matrix_transform0>;
 };
 
 / {
