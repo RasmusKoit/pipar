@@ -9,7 +9,7 @@ on:
 
 jobs:
   build:
-    uses: zmkfirmware/zmk/.github/workflows/build-user-config.yml@main
+    uses: petejohanson/zmk/.github/workflows/build-user-config.yml@core/move-to-zephyr-4-1
     with:
       config_path: 'config'
       build_matrix_path: 'config/pipar_builds.yaml'
