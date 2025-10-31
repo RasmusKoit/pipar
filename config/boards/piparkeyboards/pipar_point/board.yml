@@ -1,0 +1,21 @@
+boards:
+  - name: pipar_point_left
+    vendor: piparkeyboards
+    socs:
+      - name: nrf52840
+    revision:
+      format: major.minor.patch
+      default: 3.0.0
+      exact: false
+      revisions:
+        - name: 3.0.0
+  - name: pipar_point_right
+    vendor: piparkeyboards
+    socs:
+      - name: nrf52840
+    revision:
+      format: major.minor.patch
+      default: 3.0.0
+      exact: false
+      revisions:
+        - name: 3.0.0

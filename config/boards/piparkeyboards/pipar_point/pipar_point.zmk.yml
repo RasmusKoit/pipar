@@ -1,0 +1,18 @@
+file_format: "1"
+id: pipar_point
+name: Pipar Point
+url: https://github.com/rasmuskoit/pipar
+type: board
+arch: arm
+features:
+  - keys
+  - studio
+  - backlight
+outputs:
+  - usb
+  - ble
+revisions:
+  - 3.0.0
+siblings:
+  - pipar_point_left
+  - pipar_point_right
