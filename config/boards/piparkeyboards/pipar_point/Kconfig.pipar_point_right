@@ -1,5 +1,0 @@
-config BOARD_PIPAR_POINT_RIGHT
-    select SOC_NRF52840_QIAA
-    imply RETAINED_MEM
-    imply RETENTION
-    imply RETENTION_BOOT_MODE
