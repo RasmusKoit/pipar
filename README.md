@@ -120,7 +120,7 @@ Pipar Chip features:
 > Pipar Miryoku builds can be found here: [[RasmusKoit/miryoku_zmk]](https://github.com/RasmusKoit/miryoku_zmk/actions/workflows/build-example-pipar.yml)
 > [![Build Example Pipar](https://github.com/RasmusKoit/miryoku_zmk/actions/workflows/build-example-pipar.yml/badge.svg)](https://github.com/RasmusKoit/miryoku_zmk/actions/workflows/build-example-pipar.yml) -->
 
-The **Pipar Point** is a 40-key split wireless keyboard with a 3x5+3 layout, trackpoint and LEDs. It includes:
+The **Pipar Point** is a 40-key split wireless keyboard with a 3x5+3+2 layout, trackpoint and LEDs. It includes:
 
 - **Onboard Components**: Features NRF52840 IC and PCB antenna for BLE
 - **Switches**: Ambients Silent Kailh Low Profile Nocturnal Choc Switches.
