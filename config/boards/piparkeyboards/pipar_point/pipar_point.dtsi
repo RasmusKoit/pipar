@@ -28,18 +28,18 @@
     compatible = "gpio-kbd-matrix";
     status = "okay";
     col-gpios
-    = <&gpio0 28 GPIO_ACTIVE_HIGH>
-    , <&gpio0 29 GPIO_ACTIVE_HIGH>
-    , <&gpio0 30 GPIO_ACTIVE_HIGH>
-    , <&gpio0 31 GPIO_ACTIVE_HIGH>
-    , <&gpio0 2 GPIO_ACTIVE_HIGH>
-    , <&gpio0 3 GPIO_ACTIVE_HIGH>
-    , <&gpio0 5 GPIO_ACTIVE_HIGH>
+    = <&gpio1 9 GPIO_ACTIVE_LOW>
+    , <&gpio1 4 GPIO_ACTIVE_LOW>
+    , <&gpio1 5 GPIO_ACTIVE_LOW>
     ;
     row-gpios
-    = <&gpio1 9 (GPIO_PULL_DOWN  | GPIO_ACTIVE_HIGH)>
-    , <&gpio1 4 (GPIO_PULL_DOWN  | GPIO_ACTIVE_HIGH)>
-    , <&gpio1 5 (GPIO_PULL_DOWN  | GPIO_ACTIVE_HIGH)>
+    = <&gpio0 28 (GPIO_PULL_UP | GPIO_ACTIVE_LOW)>
+    , <&gpio0 29 (GPIO_PULL_UP | GPIO_ACTIVE_LOW)>
+    , <&gpio0 30 (GPIO_PULL_UP | GPIO_ACTIVE_LOW)>
+    , <&gpio0 31 (GPIO_PULL_UP | GPIO_ACTIVE_LOW)>
+    , <&gpio0 2 (GPIO_PULL_UP | GPIO_ACTIVE_LOW)>
+    , <&gpio0 3 (GPIO_PULL_UP | GPIO_ACTIVE_LOW)>
+    , <&gpio0 5 (GPIO_PULL_UP | GPIO_ACTIVE_LOW)>
     ;
     col-drive-inactive;
     settle-time-us = <50>;
@@ -83,10 +83,11 @@
 
 &gpio0 {
   status = "okay";
+  sense-edge-mask = < 0xffffffff >;
 };
-
 &gpio1 {
   status = "okay";
+  sense-edge-mask = < 0xffffffff >;
 };
 
 zephyr_udc0: &usbd {
