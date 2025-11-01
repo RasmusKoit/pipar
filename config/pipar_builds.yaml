@@ -9,20 +9,20 @@ include:
   # Pipar Chip
   - board: pipar_chip
   # Pipar Sool  
-  - board: seeeduino_xiao_ble
+  - board: xiao_ble
     shield: pipar_sool_dongle
     snippet: studio-rpc-usb-uart
-  # - board: seeeduino_xiao_ble
+  # - board: xiao_ble
   #   shield: pipar_sool_central
   #   snippet: studio-rpc-usb-uart
-  - board: seeeduino_xiao_ble
+  - board: xiao_ble
     shield: pipar_sool_left
-  - board: seeeduino_xiao_ble
+  - board: xiao_ble
     shield: pipar_sool_right
-  - board: seeeduino_xiao_ble
+  - board: xiao_ble
     shield: settings_reset
   # Pipar Flake
-  - board: nice_nano_v2
+  - board: nice_nano
     shield: pipar_flake
-  - board: nice_nano_v2
+  - board: nice_nano
     shield: settings_reset
