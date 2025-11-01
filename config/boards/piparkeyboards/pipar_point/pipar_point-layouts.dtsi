@@ -5,9 +5,6 @@
         compatible = "zmk,physical-layout";
         display-name = "pipar_point-layout";
 
-        input = <&pipar_matrix>;
-        transform = <&matrix_transform0>;
-
         keys  //                     w   h    x    y     rot    rx    ry
             = <&key_physical_attrs 100 100   61  166 (-2500)   111   216>
             , <&key_physical_attrs 100 100  216   35  (-500)   266    85>

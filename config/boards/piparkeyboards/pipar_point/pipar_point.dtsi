@@ -24,31 +24,25 @@
     zmk,matrix-input = &pipar_matrix;
   };
 
-  pipar_matrix: pipar-matrix {
-    compatible = "gpio-kbd-matrix";
-    status = "okay";
+  pipar_matrix: kscan {
+    compatible = "zmk,kscan-gpio-matrix";
+    wakeup-source;
+    diode-direction = "col2row";
     col-gpios
-    = <&gpio1 9 GPIO_ACTIVE_LOW>
-    , <&gpio1 4 GPIO_ACTIVE_LOW>
-    , <&gpio1 5 GPIO_ACTIVE_LOW>
+    = <&gpio0 28 GPIO_ACTIVE_HIGH>
+    , <&gpio0 29 GPIO_ACTIVE_HIGH>
+    , <&gpio0 30 GPIO_ACTIVE_HIGH>
+    , <&gpio0 31 GPIO_ACTIVE_HIGH>
+    , <&gpio0 2 GPIO_ACTIVE_HIGH>
+    , <&gpio0 3 GPIO_ACTIVE_HIGH>
+    , <&gpio0 5 GPIO_ACTIVE_HIGH>
     ;
     row-gpios
-    = <&gpio0 28 (GPIO_PULL_UP | GPIO_ACTIVE_LOW)>
-    , <&gpio0 29 (GPIO_PULL_UP | GPIO_ACTIVE_LOW)>
-    , <&gpio0 30 (GPIO_PULL_UP | GPIO_ACTIVE_LOW)>
-    , <&gpio0 31 (GPIO_PULL_UP | GPIO_ACTIVE_LOW)>
-    , <&gpio0 2 (GPIO_PULL_UP | GPIO_ACTIVE_LOW)>
-    , <&gpio0 3 (GPIO_PULL_UP | GPIO_ACTIVE_LOW)>
-    , <&gpio0 5 (GPIO_PULL_UP | GPIO_ACTIVE_LOW)>
+    = <&gpio1 9 (GPIO_PULL_DOWN  | GPIO_ACTIVE_HIGH)>
+    , <&gpio1 4 (GPIO_PULL_DOWN  | GPIO_ACTIVE_HIGH)>
+    , <&gpio1 5 (GPIO_PULL_DOWN  | GPIO_ACTIVE_HIGH)>
     ;
-    col-drive-inactive;
-    settle-time-us = <50>;
-    no-ghostkey-check;
-    debounce-down-ms = <1>;
-    debounce-up-ms = <5>;
-    wakeup-source;
-    poll-period-ms = <1>;
-    stable-poll-period-ms=<4>;
+
   };
   
   matrix_transform0: keymap_transform_0 {
@@ -83,11 +77,9 @@
 
 &gpio0 {
   status = "okay";
-  sense-edge-mask = < 0xffffffff >;
 };
 &gpio1 {
   status = "okay";
-  sense-edge-mask = < 0xffffffff >;
 };
 
 zephyr_udc0: &usbd {
