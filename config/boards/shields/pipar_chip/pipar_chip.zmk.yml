@@ -1,9 +1,0 @@
-file_format: "1"
-id: pipar_chip
-name: PiparChip
-type: shield
-url: https://github.com/RasmusKoit/pipar
-requires: [seeed_xiao]
-features:
-  - keys
-  - backlight

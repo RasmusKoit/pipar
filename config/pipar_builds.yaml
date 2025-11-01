@@ -1,7 +1,28 @@
 
 ---
 include:
+  # Pipar Point
   - board: pipar_point_left
   - board: pipar_point_right
   - board: pipar_point_right
-    shield: settings_reset  
+    shield: settings_reset
+  # Pipar Chip
+  - board: pipar_chip
+  # Pipar Sool  
+  - board: seeeduino_xiao_ble
+    shield: pipar_sool_dongle
+    snippet: studio-rpc-usb-uart
+  # - board: seeeduino_xiao_ble
+  #   shield: pipar_sool_central
+  #   snippet: studio-rpc-usb-uart
+  - board: seeeduino_xiao_ble
+    shield: pipar_sool_left
+  - board: seeeduino_xiao_ble
+    shield: pipar_sool_right
+  - board: seeeduino_xiao_ble
+    shield: settings_reset
+  # Pipar Flake
+  - board: nice_nano_v2
+    shield: pipar_flake
+  - board: nice_nano_v2
+    shield: settings_reset
