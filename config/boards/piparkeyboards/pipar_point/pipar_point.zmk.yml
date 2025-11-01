@@ -11,8 +11,6 @@ features:
 outputs:
   - usb
   - ble
-revisions:
-  - 3.0.0
 siblings:
   - pipar_point_left
   - pipar_point_right
