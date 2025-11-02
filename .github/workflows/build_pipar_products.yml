@@ -18,21 +18,30 @@ on:
 
 jobs:
   build:
+    runs-on: ubuntu-latest
     strategy:
       matrix:
         include:
           - name: 'Pipar Point'
             path: '.github/workflows/products/build_pipar_point.yaml'
+            archive_name: 'pipar-point-firmware'
           - name: 'Pipar Chip'
             path: '.github/workflows/products/build_pipar_chip.yaml'
+            archive_name: 'pipar-chip-firmware'
           - name: 'Pipar Sool'
             path: '.github/workflows/products/build_pipar_sool.yaml'
+            archive_name: 'pipar-sool-firmware'
           - name: 'Pipar Flake'
             path: '.github/workflows/products/build_pipar_flake.yaml'
+            archive_name: 'pipar-flake-firmware'
           - name: 'All Pipar Keyboards'
             path: '.github/workflows/products/build_all.yaml'
-    uses: petejohanson/zmk/.github/workflows/build-user-config.yml@core/move-to-zephyr-4-1
-    with:
-      config_path: 'config'
-      build_matrix_path: ${{ matrix.path }}
-      archive_name: 'pipar-${{ github.event.inputs.product || matrix.name }}' 
+            archive_name: 'all-pipar-firmwares'
+    steps:
+      - name: Build selected product
+        uses: petejohanson/zmk/.github/workflows/build-user-config.yml@core/move-to-zephyr-4-1
+        if: ${{ github.event.inputs.product == matrix.name }}
+        with:
+          config_path: 'config'
+          build_matrix_path: '${{ matrix.path }}'
+          archive_name: '${{ matrix.archive_name }}'
