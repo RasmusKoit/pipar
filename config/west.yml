@@ -18,9 +18,9 @@ manifest:
     - name: zmk-keyboard-pipar
       remote: RasmusKoit
       revision: main
-    - name: zmk-unicode
-      remote: urob
-      revision: v0.3
+    # - name: zmk-unicode
+    #   remote: urob
+    #   revision: v0.3
   self:
     path: config
 
