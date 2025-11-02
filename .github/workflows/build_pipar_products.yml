@@ -31,7 +31,6 @@ jobs:
             path: '.github/workflows/products/build_pipar_flake.yaml'
           - name: 'All Pipar Keyboards'
             path: '.github/workflows/products/build_all.yaml'
-    if: matrix.name == github.event.inputs.product
     uses: petejohanson/zmk/.github/workflows/build-user-config.yml@core/move-to-zephyr-4-1
     with:
       config_path: 'config'
