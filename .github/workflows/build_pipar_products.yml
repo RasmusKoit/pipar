@@ -17,26 +17,37 @@ on:
 
 
 jobs:
+  prepare-matrix:
+    runs-on: ubuntu-latest
+    outputs:
+      matrix: ${{ steps.set-matrix.outputs.matrix }}
+    steps:
+      - id: set-matrix
+        run: |
+          # define all products
+          all_products='[
+            {"name":"Pipar Point","build_file":".github/workflows/products/build_pipar_point.yaml","archive":"pipar-Pipar_Point"},
+            {"name":"Pipar Chip","build_file":".github/workflows/products/build_pipar_chip.yaml","archive":"pipar-Pipar_Chip"},
+            {"name":"Pipar Sool","build_file":".github/workflows/products/build_pipar_sool.yaml","archive":"pipar-Pipar_Sool"},
+            {"name":"Pipar Flake","build_file":".github/workflows/products/build_pipar_flake.yaml","archive":"pipar-Pipar_Flake"}
+          ]'
+
+          selected="${{ github.event.inputs.product }}"
+
+          if [ "$selected" == "All Pipar Keyboards" ]; then
+            matrix="$all_products"
+          else
+            # filter to selected product
+            matrix=$(echo "$all_products" | jq "[.[] | select(.name==\"$selected\")]")
+          fi
+
+          echo "matrix=$matrix" >> $GITHUB_OUTPUT
+
   build:
+    needs: prepare-matrix
     strategy:
-      matrix:
-        include:
-          - name: 'Pipar Point'
-            path: '.github/workflows/products/build_pipar_point.yaml'
-            archive_name: 'pipar-point-firmware'
-          - name: 'Pipar Chip'
-            path: '.github/workflows/products/build_pipar_chip.yaml'
-            archive_name: 'pipar-chip-firmware'
-          - name: 'Pipar Sool'
-            path: '.github/workflows/products/build_pipar_sool.yaml'
-            archive_name: 'pipar-sool-firmware'
-          - name: 'Pipar Flake'
-            path: '.github/workflows/products/build_pipar_flake.yaml'
-            archive_name: 'pipar-flake-firmware'
-          - name: 'All Pipar Keyboards'
-            path: '.github/workflows/products/build_all.yaml'
-            archive_name: 'all-pipar-firmwares'
-    if: ${{ matrix.name == github.event.inputs.product }}
+      fail-fast: false
+      matrix: ${{ fromJson(needs.prepare-matrix.outputs.matrix) }}
     uses: petejohanson/zmk/.github/workflows/build-user-config.yml@core/move-to-zephyr-4-1
     with:
       config_path: "config"
