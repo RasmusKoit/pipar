@@ -16,6 +16,8 @@ on:
           - 'All Pipar Keyboards'
 
 
+run-name: Building ${{ github.event.inputs.product }}
+
 jobs:
   build_pipar_point:
     if: ${{ github.event.inputs.product == 'Pipar Point' }}
