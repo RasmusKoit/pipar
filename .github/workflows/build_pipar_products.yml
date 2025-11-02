@@ -1,0 +1,39 @@
+name: Build Pipar products
+
+on: 
+  workflow_dispatch:
+    inputs:
+      product:
+        description: 'Select which keyboard(s) to build'
+        required: true
+        type: choice
+        default: 'Pipar Point'
+        options:
+          - 'Pipar Point'
+          - 'Pipar Chip'
+          - 'Pipar Sool'
+          - 'Pipar Flake'
+          - 'All Pipar Keyboards'
+
+
+jobs:
+  build:
+    strategy:
+      matrix:
+        include:
+          - name: 'Pipar Point'
+            path: '.github/workflows/products/build_pipar_point.yaml'
+          - name: 'Pipar Chip'
+            path: '.github/workflows/products/build_pipar_chip.yaml'
+          - name: 'Pipar Sool'
+            path: '.github/workflows/products/build_pipar_sool.yaml'
+          - name: 'Pipar Flake'
+            path: '.github/workflows/products/build_pipar_flake.yaml'
+          - name: 'All Pipar Keyboards'
+            path: '.github/workflows/products/build_all.yaml'
+    if: matrix.name == github.event.inputs.product
+    uses: petejohanson/zmk/.github/workflows/build-user-config.yml@core/move-to-zephyr-4-1
+    with:
+      config_path: 'config'
+      build_matrix_path: ${{ matrix.path }}
+      archive_name: 'pipar-${{ github.event.inputs.product || matrix.name | toLowerCase() | replace(" ", "-") }}'

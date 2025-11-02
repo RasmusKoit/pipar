@@ -1,0 +1,6 @@
+---
+include:
+  - board: pipar_point_left
+  - board: pipar_point_right
+  - board: pipar_point_right
+    shield: settings_reset

@@ -1,0 +1,14 @@
+---
+include:
+  - board: xiao_ble
+    shield: pipar_sool_dongle
+    snippet: studio-rpc-usb-uart
+  # - board: xiao_ble
+  #   shield: pipar_sool_central
+  #   snippet: studio-rpc-usb-uart
+  - board: xiao_ble
+    shield: pipar_sool_left
+  - board: xiao_ble
+    shield: pipar_sool_right
+  - board: xiao_ble
+    shield: settings_reset

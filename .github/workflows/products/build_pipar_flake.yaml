@@ -1,0 +1,6 @@
+---
+include:
+  - board: nice_nano
+    shield: pipar_flake
+  - board: nice_nano
+    shield: settings_reset

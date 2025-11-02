@@ -1,0 +1,5 @@
+---
+include:
+  - board: pipar_chip
+  - board: pipar_chip
+    shield: settings_reset
