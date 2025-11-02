@@ -39,8 +39,9 @@ jobs:
             archive_name: 'all-pipar-firmwares'
     steps:
       - name: Build selected product
+        if: |
+          github.event.inputs.product == matrix.name
         uses: petejohanson/zmk/.github/workflows/build-user-config.yml@core/move-to-zephyr-4-1
-        if: ${{ github.event.inputs.product == matrix.name }}
         with:
           config_path: 'config'
           build_matrix_path: '${{ matrix.path }}'
