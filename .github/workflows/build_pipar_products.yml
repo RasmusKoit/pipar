@@ -35,4 +35,4 @@ jobs:
     with:
       config_path: 'config'
       build_matrix_path: ${{ matrix.path }}
-      archive_name: 'pipar-${{ github.event.inputs.product || matrix.name | toLowerCase() | replace(" ", "-") }}'
+      archive_name: 'pipar-${{ github.event.inputs.product || matrix.name }}' 
