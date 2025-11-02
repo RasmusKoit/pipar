@@ -6,8 +6,8 @@ manifest:
       url-base: https://github.com/petejohanson
     - name: RasmusKoit
       url-base: https://github.com/RasmusKoit
-    - name: urob
-      url-base: https://github.com/urob
+    # - name: urob
+    #   url-base: https://github.com/urob
     # Additional modules containing boards/shields/custom code can be listed here as well
     # See https://docs.zephyrproject.org/3.2.0/develop/west/manifest.html#projects
   projects:
@@ -18,9 +18,6 @@ manifest:
     - name: zmk-keyboard-pipar
       remote: RasmusKoit
       revision: main
-    - name: zmk-unicode
-      remote: urob
-      revision: v0.3
   self:
     path: config
 
