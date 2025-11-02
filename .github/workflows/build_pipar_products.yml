@@ -17,39 +17,38 @@ on:
 
 
 jobs:
-  prepare-matrix:
-    runs-on: ubuntu-latest
-    outputs:
-      matrix: ${{ steps.set-matrix.outputs.matrix }}
-    steps:
-      - id: set-matrix
-        run: |
-          # define all products
-          all_products='[
-            {"name":"Pipar Point","build_file":".github/workflows/products/build_pipar_point.yaml","archive":"pipar-Pipar_Point"},
-            {"name":"Pipar Chip","build_file":".github/workflows/products/build_pipar_chip.yaml","archive":"pipar-Pipar_Chip"},
-            {"name":"Pipar Sool","build_file":".github/workflows/products/build_pipar_sool.yaml","archive":"pipar-Pipar_Sool"},
-            {"name":"Pipar Flake","build_file":".github/workflows/products/build_pipar_flake.yaml","archive":"pipar-Pipar_Flake"}
-          ]'
-
-          selected="${{ github.event.inputs.product }}"
-
-          if [ "$selected" == "All Pipar Keyboards" ]; then
-            matrix="$all_products"
-          else
-            # filter to selected product
-            matrix=$(echo "$all_products" | jq "[.[] | select(.name==\"$selected\")]")
-          fi
-
-          echo "matrix=$matrix" >> $GITHUB_OUTPUT
-
-  build:
-    needs: prepare-matrix
-    strategy:
-      fail-fast: false
-      matrix: ${{ fromJson(needs.prepare-matrix.outputs.matrix) }}
+  build_pipar_point:
+    if: ${{ github.event.inputs.product == 'Pipar Point' }}
     uses: petejohanson/zmk/.github/workflows/build-user-config.yml@core/move-to-zephyr-4-1
     with:
-      config_path: "config"
-      build_matrix_path: ${{ matrix.build_file }}
-      archive_name: ${{ matrix.archive }}
+      config_path: 'config'
+      build_matrix_path: '.github/workflows/products/build_pipar_point.yaml'
+      archive_name: 'pipar-point-firmware'
+  build_pipar_chip:
+    if: ${{ github.event.inputs.product == 'Pipar Chip' }}
+    uses: petejohanson/zmk/.github/workflows/build-user-config.yml@core/move-to-zephyr-4-1
+    with:
+      config_path: 'config'
+      build_matrix_path: '.github/workflows/products/build_pipar_chip.yaml'
+      archive_name: 'pipar-chip-firmware'
+  build_pipar_sool:
+    if: ${{ github.event.inputs.product == 'Pipar Sool' }}
+    uses: petejohanson/zmk/.github/workflows/build-user-config.yml@core/move-to-zephyr-4-1
+    with:
+      config_path: 'config'
+      build_matrix_path: '.github/workflows/products/build_pipar_sool.yaml'
+      archive_name: 'pipar-sool-firmware'
+  build_pipar_flake:
+    if: ${{ github.event.inputs.product == 'Pipar Flake' }}
+    uses: petejohanson/zmk/.github/workflows/build-user-config.yml@core/move-to-zephyr-4-1
+    with:
+      config_path: 'config'
+      build_matrix_path: '.github/workflows/products/build_pipar_flake.yaml'
+      archive_name: 'pipar-flake-firmware'
+  build_all_pipar:
+    if: ${{ github.event.inputs.product == 'All Pipar Keyboards' }}
+    uses: petejohanson/zmk/.github/workflows/build-user-config.yml@core/move-to-zephyr-4-1
+    with:
+      config_path: 'config'
+      build_matrix_path: '.github/workflows/products/build_all.yaml'
+      archive_name: 'all-pipar-firmwares'
