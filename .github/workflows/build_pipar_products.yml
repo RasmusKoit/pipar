@@ -18,7 +18,6 @@ on:
 
 jobs:
   build:
-    runs-on: ubuntu-latest
     strategy:
       matrix:
         include:
@@ -37,12 +36,9 @@ jobs:
           - name: 'All Pipar Keyboards'
             path: '.github/workflows/products/build_all.yaml'
             archive_name: 'all-pipar-firmwares'
-    steps:
-      - name: Build selected product
-        if: |
-          github.event.inputs.product == matrix.name
-        uses: petejohanson/zmk/.github/workflows/build-user-config.yml@core/move-to-zephyr-4-1
-        with:
-          config_path: 'config'
-          build_matrix_path: '${{ matrix.path }}'
-          archive_name: '${{ matrix.archive_name }}'
+    if: ${{ matrix.name == github.event.inputs.product }}
+    uses: petejohanson/zmk/.github/workflows/build-user-config.yml@core/move-to-zephyr-4-1
+    with:
+      config_path: "config"
+      build_matrix_path: ${{ matrix.build_file }}
+      archive_name: ${{ matrix.archive }}
