@@ -76,11 +76,11 @@
           ""
         ],
         [
-          "unconnected_items|154597802|83687357|c4c8bbc2-2a8c-42c7-9ffc-ff25c7419112|2d0e7a84-70f4-4955-96bb-7f5deb65912e",
+          "unconnected_items|154597802|83687357|F.Cu|4|c4c8bbc2-2a8c-42c7-9ffc-ff25c7419112|2d0e7a84-70f4-4955-96bb-7f5deb65912e",
           ""
         ],
         [
-          "unconnected_items|225593629|180099949|f2d6f73e-f038-4a8a-bb4b-ddd274b4b2e0|2d0e7a84-70f4-4955-96bb-7f5deb65912e",
+          "unconnected_items|225593629|180099949|F.Cu|4|f2d6f73e-f038-4a8a-bb4b-ddd274b4b2e0|2d0e7a84-70f4-4955-96bb-7f5deb65912e",
           ""
         ]
       ],
@@ -574,7 +574,7 @@
       "plot": "",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "pipar_point_v3.step",
+      "step": "pipar_point_v3.stl",
       "svg": "",
       "vrml": ""
     },
