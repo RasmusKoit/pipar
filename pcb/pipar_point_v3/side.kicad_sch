@@ -4428,7 +4428,7 @@
 	)
 	(text "V_{f} < 3.0V"
 		(exclude_from_sim no)
-		(at 23.114 125.984 90)
+		(at 28.194 125.984 90)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4439,7 +4439,7 @@
 	)
 	(text "V_{f} < 3.0V"
 		(exclude_from_sim no)
-		(at 44.704 135.636 90)
+		(at 49.784 135.636 90)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4461,7 +4461,7 @@
 	)
 	(text "V_{f} < 3.0V"
 		(exclude_from_sim no)
-		(at 33.528 135.382 90)
+		(at 38.608 135.382 90)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4475,6 +4475,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "088aad32-b376-4e67-b0e2-9f0989d5e573")
+	)
+	(junction
+		(at 35.56 138.43)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "09fa7be4-2c67-4ce6-ac46-056b5a69c1b8")
 	)
 	(junction
 		(at 213.36 138.43)
@@ -4652,7 +4658,7 @@
 	)
 	(wire
 		(pts
-			(xy 25.4 137.16) (xy 25.4 139.7)
+			(xy 30.48 137.16) (xy 30.48 138.43)
 		)
 		(stroke
 			(width 0)
@@ -4662,7 +4668,7 @@
 	)
 	(wire
 		(pts
-			(xy 25.4 129.54) (xy 25.4 132.08)
+			(xy 30.48 129.54) (xy 30.48 132.08)
 		)
 		(stroke
 			(width 0)
@@ -4679,6 +4685,16 @@
 			(type default)
 		)
 		(uuid "041d9fa0-34a1-49e3-8bd3-95f29b2c4500")
+	)
+	(wire
+		(pts
+			(xy 35.56 138.43) (xy 35.56 140.97)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(uuid "134db3b4-0958-4c97-ad81-a1520566202e")
 	)
 	(wire
 		(pts
@@ -4702,7 +4718,7 @@
 	)
 	(wire
 		(pts
-			(xy 35.56 121.92) (xy 35.56 124.46)
+			(xy 40.64 121.92) (xy 40.64 124.46)
 		)
 		(stroke
 			(width 0)
@@ -4732,7 +4748,7 @@
 	)
 	(wire
 		(pts
-			(xy 25.4 139.7) (xy 35.56 139.7)
+			(xy 30.48 138.43) (xy 35.56 138.43)
 		)
 		(stroke
 			(width 0)
@@ -4772,16 +4788,6 @@
 	)
 	(wire
 		(pts
-			(xy 35.56 137.16) (xy 35.56 139.7)
-		)
-		(stroke
-			(width 0)
-			(type solid)
-		)
-		(uuid "5e13e927-b2e3-42ce-99a2-0eb946df9ea3")
-	)
-	(wire
-		(pts
 			(xy 215.9 138.43) (xy 218.44 138.43)
 		)
 		(stroke
@@ -4792,7 +4798,7 @@
 	)
 	(wire
 		(pts
-			(xy 25.4 121.92) (xy 25.4 124.46)
+			(xy 30.48 121.92) (xy 30.48 124.46)
 		)
 		(stroke
 			(width 0)
@@ -4822,7 +4828,17 @@
 	)
 	(wire
 		(pts
-			(xy 35.56 129.54) (xy 35.56 132.08)
+			(xy 40.64 138.43) (xy 40.64 137.16)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(uuid "722953ed-8b09-415e-8ee7-fc84dc847882")
+	)
+	(wire
+		(pts
+			(xy 40.64 129.54) (xy 40.64 132.08)
 		)
 		(stroke
 			(width 0)
@@ -4892,6 +4908,16 @@
 	)
 	(wire
 		(pts
+			(xy 35.56 138.43) (xy 40.64 138.43)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(uuid "cf632743-7bf9-4cc3-8983-e2605b787b0d")
+	)
+	(wire
+		(pts
 			(xy 203.2 138.43) (xy 205.74 138.43)
 		)
 		(stroke
@@ -4941,7 +4967,7 @@
 		(uuid "122e7f41-74c0-4d6e-a530-8d75106266ef")
 	)
 	(label "3.3V"
-		(at 35.56 139.7 0)
+		(at 35.56 140.97 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5011,7 +5037,7 @@
 		(uuid "25518807-0ae3-4a74-8ede-4a89fae9c949")
 	)
 	(label "LED_1"
-		(at 25.4 121.92 90)
+		(at 30.48 121.92 90)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5121,7 +5147,7 @@
 		(uuid "68999240-fe4c-42b9-8539-e9a459c56570")
 	)
 	(label "LED_2"
-		(at 35.56 121.92 90)
+		(at 40.64 121.92 90)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5832,7 +5858,7 @@
 	(symbol
 		(lib_name "LED_Small_1")
 		(lib_id "Device:LED_Small")
-		(at 25.4 127 270)
+		(at 30.48 127 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5840,7 +5866,7 @@
 		(dnp no)
 		(uuid "68a5a3c9-7f71-490d-9ae4-20ac5d8b6faa")
 		(property "Reference" "D45"
-			(at 22.86 128.3336 90)
+			(at 27.94 128.3336 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5849,7 +5875,7 @@
 			)
 		)
 		(property "Value" "LED_Blue"
-			(at 23.622 126.492 0)
+			(at 28.702 126.492 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5858,7 +5884,7 @@
 			)
 		)
 		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
-			(at 25.4 127 90)
+			(at 30.48 127 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5867,7 +5893,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 25.4 127 90)
+			(at 30.48 127 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5876,7 +5902,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode, small symbol"
-			(at 25.4 127 0)
+			(at 30.48 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5885,7 +5911,7 @@
 			)
 		)
 		(property "Sim.Pin" "1=K 2=A"
-			(at 25.4 127 0)
+			(at 30.48 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5894,7 +5920,7 @@
 			)
 		)
 		(property "Manufacturer_Name" ""
-			(at 25.4 127 90)
+			(at 30.48 127 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5903,7 +5929,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "IN-S63AT5B"
-			(at 25.4 127 90)
+			(at 30.48 127 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5912,7 +5938,7 @@
 			)
 		)
 		(property "Mouser Part Number" "743-S63AT5B"
-			(at 25.4 127 90)
+			(at 30.48 127 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5921,7 +5947,7 @@
 			)
 		)
 		(property "Arrow Part Number" ""
-			(at 25.4 127 90)
+			(at 30.48 127 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5930,7 +5956,7 @@
 			)
 		)
 		(property "Arrow Price/Stock" ""
-			(at 25.4 127 90)
+			(at 30.48 127 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5939,7 +5965,7 @@
 			)
 		)
 		(property "Field4" ""
-			(at 25.4 127 90)
+			(at 30.48 127 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5948,7 +5974,7 @@
 			)
 		)
 		(property "LCSC Part" ""
-			(at 25.4 127 90)
+			(at 30.48 127 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5978,7 +6004,7 @@
 	(symbol
 		(lib_name "LED_Small_1")
 		(lib_id "Device:LED_Small")
-		(at 35.56 127 270)
+		(at 40.64 127 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5986,7 +6012,7 @@
 		(dnp no)
 		(uuid "6addf9bc-bc8e-486f-adff-e9dc5313034e")
 		(property "Reference" "D46"
-			(at 33.02 128.3336 90)
+			(at 38.1 128.3336 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5995,7 +6021,7 @@
 			)
 		)
 		(property "Value" "LED_Green"
-			(at 39.37 130.302 0)
+			(at 44.45 130.302 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6004,7 +6030,7 @@
 			)
 		)
 		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
-			(at 35.56 127 90)
+			(at 40.64 127 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6013,7 +6039,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 35.56 127 90)
+			(at 40.64 127 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6022,7 +6048,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode, small symbol"
-			(at 35.56 127 0)
+			(at 40.64 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6031,7 +6057,7 @@
 			)
 		)
 		(property "Sim.Pin" "1=K 2=A"
-			(at 35.56 127 0)
+			(at 40.64 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6040,7 +6066,7 @@
 			)
 		)
 		(property "Manufacturer_Name" ""
-			(at 35.56 127 90)
+			(at 40.64 127 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6049,7 +6075,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "IN-S63AT5G"
-			(at 35.56 127 90)
+			(at 40.64 127 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6058,7 +6084,7 @@
 			)
 		)
 		(property "Mouser Part Number" "743-IN-S63AT5G"
-			(at 35.56 127 90)
+			(at 40.64 127 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6067,7 +6093,7 @@
 			)
 		)
 		(property "Arrow Part Number" ""
-			(at 35.56 127 90)
+			(at 40.64 127 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6076,7 +6102,7 @@
 			)
 		)
 		(property "Arrow Price/Stock" ""
-			(at 35.56 127 90)
+			(at 40.64 127 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6085,7 +6111,7 @@
 			)
 		)
 		(property "Field4" ""
-			(at 35.56 127 90)
+			(at 40.64 127 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6094,7 +6120,7 @@
 			)
 		)
 		(property "LCSC Part" ""
-			(at 35.56 127 90)
+			(at 40.64 127 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7957,7 +7983,7 @@
 	(symbol
 		(lib_name "R_Small_1")
 		(lib_id "Device:R_Small")
-		(at 35.56 134.62 180)
+		(at 40.64 134.62 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7966,7 +7992,7 @@
 		(fields_autoplaced yes)
 		(uuid "c88f30a6-205b-4c2a-babb-ab5e373020be")
 		(property "Reference" "R16"
-			(at 38.1 133.3499 0)
+			(at 43.18 133.3499 0)
 			(effects
 				(font
 					(size 1.016 1.016)
@@ -7975,7 +8001,7 @@
 			)
 		)
 		(property "Value" "1.5k"
-			(at 38.1 135.8899 0)
+			(at 43.18 135.8899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7984,7 +8010,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 35.56 134.62 0)
+			(at 40.64 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7993,7 +8019,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 35.56 134.62 0)
+			(at 40.64 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8002,7 +8028,7 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
-			(at 35.56 134.62 0)
+			(at 40.64 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8011,7 +8037,7 @@
 			)
 		)
 		(property "Manufacturer_Name" ""
-			(at 35.56 134.62 0)
+			(at 40.64 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8020,7 +8046,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "RC0603FR-071K5L"
-			(at 35.56 134.62 0)
+			(at 40.64 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8029,7 +8055,7 @@
 			)
 		)
 		(property "Mouser Part Number" " 603-RC0603FR-071K5L"
-			(at 35.56 134.62 0)
+			(at 40.64 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8038,7 +8064,7 @@
 			)
 		)
 		(property "Arrow Part Number" ""
-			(at 35.56 134.62 0)
+			(at 40.64 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8047,7 +8073,7 @@
 			)
 		)
 		(property "Arrow Price/Stock" ""
-			(at 35.56 134.62 0)
+			(at 40.64 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8056,7 +8082,7 @@
 			)
 		)
 		(property "Field4" ""
-			(at 35.56 134.62 0)
+			(at 40.64 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8065,7 +8091,7 @@
 			)
 		)
 		(property "LCSC Part" ""
-			(at 35.56 134.62 0)
+			(at 40.64 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8095,7 +8121,7 @@
 	(symbol
 		(lib_name "R_Small_1")
 		(lib_id "Device:R_Small")
-		(at 25.4 134.62 180)
+		(at 30.48 134.62 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8104,7 +8130,7 @@
 		(fields_autoplaced yes)
 		(uuid "d0e05dc3-b0df-4c97-9d4e-9d1ee67f0b80")
 		(property "Reference" "R15"
-			(at 27.94 133.3499 0)
+			(at 33.02 133.3499 0)
 			(effects
 				(font
 					(size 1.016 1.016)
@@ -8113,7 +8139,7 @@
 			)
 		)
 		(property "Value" "1.5k"
-			(at 27.94 135.8899 0)
+			(at 33.02 135.8899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8122,7 +8148,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 25.4 134.62 0)
+			(at 30.48 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8131,7 +8157,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 25.4 134.62 0)
+			(at 30.48 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8140,7 +8166,7 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
-			(at 25.4 134.62 0)
+			(at 30.48 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8149,7 +8175,7 @@
 			)
 		)
 		(property "Manufacturer_Name" ""
-			(at 25.4 134.62 0)
+			(at 30.48 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8158,7 +8184,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "RC0603FR-071K5L"
-			(at 25.4 134.62 0)
+			(at 30.48 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8167,7 +8193,7 @@
 			)
 		)
 		(property "Mouser Part Number" " 603-RC0603FR-071K5L"
-			(at 25.4 134.62 0)
+			(at 30.48 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8176,7 +8202,7 @@
 			)
 		)
 		(property "Arrow Part Number" ""
-			(at 25.4 134.62 0)
+			(at 30.48 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8185,7 +8211,7 @@
 			)
 		)
 		(property "Arrow Price/Stock" ""
-			(at 25.4 134.62 0)
+			(at 30.48 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8194,7 +8220,7 @@
 			)
 		)
 		(property "Field4" ""
-			(at 25.4 134.62 0)
+			(at 30.48 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8203,7 +8229,7 @@
 			)
 		)
 		(property "LCSC Part" ""
-			(at 25.4 134.62 0)
+			(at 30.48 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
