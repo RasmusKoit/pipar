@@ -1,7 +1,5 @@
 ---
 include:
-  - board: pipar_point_left
-  - board: pipar_point_right
-    snippet: zmk-usb-logging studio-rpc-usb-uart
-  - board: pipar_point_right
-    shield: settings_reset
+  - board: pipar_point@left
+  - board: pipar_point@right
+    snippet: trackpoint studio-rpc-usb-uart
