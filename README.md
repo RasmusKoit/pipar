@@ -2,7 +2,7 @@
 
 ZMK firmware for the Pipar PCBs.
 
-[![.github/workflows/build_pipar_firmwares.yml](https://github.com/RasmusKoit/pipar/actions/workflows/build_pipar_firmwares.yml/badge.svg)](https://github.com/RasmusKoit/pipar/actions/workflows/build_pipar_firmwares.yml)
+[![Build Pipar products](https://github.com/RasmusKoit/pipar/actions/workflows/build_pipar_products.yml/badge.svg)](https://github.com/RasmusKoit/pipar/actions/workflows/build_pipar_products.yml)
 
 **Pipar** is a collection of different keyboards and keypads that I have designed. Each PCB in the series has unique features tailored to different needs and preferences.
 
@@ -13,8 +13,9 @@ PCB Files for each keyboard/project has been seperated into their own folders. T
 Currently, the following PCBs are available:
 
 - [Pipar & Sool](#pipar-ja-sool-pepper-and-salt) - 36-key split wireless keyboard with a 3x5+3 layout and a dongle.
-- [Pipar Point](#pipar-point) - 36-key split wireless keyboard with a 3x5+3 layout, trackpoint, LEDs and a dongle.
+- [Pipar Point](#pipar-point) - 40-key split wireless keyboard with a 3x5+3+2 layout, trackpoint and LEDs.
 - [Pipar Flake](#pipar-flake) - 8+1 key wireless keypad with a rotary encoder and a screen.
+- [Pipar Chip](#pipar-chip) - 12-key wireless keypad with Kailh PG1316S switches and LEDs.
 
 ### Pipar ja Sool (Pepper and Salt)
 
@@ -88,24 +89,6 @@ If you are interested in building the V2 version, here is a list of components y
 - **Case**: 1x [Pipar Case V2](https://cad.onshape.com/documents/0618546ffe3fe295af383a46/w/2cb3b1882647ac70cde86ee4/e/379ba082d1ffd285c3cab9c2)
 - **Keycaps**: 1x [Kailh Choc Keycaps **Colemak-DH** (FKCaps)](https://fkcaps.com/custom/KYTMMA)
 
-### Pipar Chip
-
-Pipar Chip is a 12-key wireless keypad with Kailh PG1316S switches and LEDs.
-
-Pipar Chip features:
-
-- **Onboard Components**: Features ISP1807 SIP IC based on NRF52840 IC
-- **Switches**: Kailh PG1316S switches.
-- **LEDs**: White LEDs for backlighting. 2 LEDs for charging and error indication. 3 extra LEDs that can be used for any purpose.
-- **Components**: Uses smaller components in 0603/SOD-523 package for resistors, capacitors, etc.
-- **Battery**: 500mAh battery to ensure longer usage time even with the LEDs.
-
-#### Pipar Chip Pictures
-
-![Pipar Chip Front](.extra/pipar_chip_front.png)
-![Pipar Chip Back](.extra/pipar_chip_back.png)
-![Pipar Chip Schematic](.extra/pipar_chip_schematic.png)
-
 ### Pipar Point
 
 ![PCBWay](.extra/pcbway.png)
@@ -114,11 +97,7 @@ Pipar Chip features:
 > I am happy to announce that for the Pipar Point project, I have partnered with [PCBWay](https://www.pcbway.com/) to provide the PCBs for the project. PCBWay is a professional PCB manufacturer with over 10 years of experience in the industry. They offer a wide range of services, including PCB manufacturing, PCB assembly, and PCB design. I am excited to be working with PCBWay on this project, and I am confident that they will deliver high-quality PCBs that meet my specifications.
 
 *Currently in second prototype phase.*
-*Does not work*
-
-<!-- > [!TIP]
-> Pipar Miryoku builds can be found here: [[RasmusKoit/miryoku_zmk]](https://github.com/RasmusKoit/miryoku_zmk/actions/workflows/build-example-pipar.yml)
-> [![Build Example Pipar](https://github.com/RasmusKoit/miryoku_zmk/actions/workflows/build-example-pipar.yml/badge.svg)](https://github.com/RasmusKoit/miryoku_zmk/actions/workflows/build-example-pipar.yml) -->
+*Works and currently in testing*
 
 The **Pipar Point** is a 40-key split wireless keyboard with a 3x5+3+2 layout, trackpoint and LEDs. It includes:
 
@@ -142,16 +121,34 @@ The **Pipar Point** is a 40-key split wireless keyboard with a 3x5+3+2 layout, t
 
 - **Layout**: Splayed split keyboard with a 3x5+3+2  layout.
   - **Thumb Cluster**: Three keys on each half.
-  - **Outer Columns**: Split to reduce the distance to the keys. Extra Keys for macros or foreign letters
+  - **Pinkie Cluster**: Split to reduce the distance to the keys. Extra Keys for macros or foreign letters
 - **Wireless**: Uses BLE with PCB Antenna
 - **Battery**: Larger area for the battery to ensure longer usage time.
-- **Trackpoint**: Lenovo T460S Trackpoint for mouse control on the right side.
+- **Trackpoint**: Sprintek Trackpoint for mouse control on the right side.
 - **LEDs**: I sometimes miss the visual feedback of the LEDs, so I added them to the design.
 - **Top Plate**: Designed to be used with a top plate for a more rigid build.
 
-Idea was to iterate on the Pipar ja Sool design and add a trackpoint for mouse control. The design is still in the early stages and will be updated as the project progresses. Because of the trackpoint, LEDs and the battery size has been increased to 2500mAh to compensate for the power draw of the trackpoint and LEDs. With this design, I am aiming to challege myself to design a more complex PCB by using more components which will also be smaller in size. The design will also include a top plate to make the build more rigid, because the possibility of using choc v1/v2 switches.
+Idea was to iterate on the Pipar ja Sool design and add a trackpoint for mouse control. The design is still in the early stages and will be updated as the project progresses. Because of the trackpoint, LEDs and the battery size has been increased to 2500mAh to compensate for the power draw of the trackpoint and LEDs. With this design, I am aiming to challege myself to design a more complex PCB by using more components which will also be smaller in size. The design will also include a top plate to make the build more rigid and also to hide the trackpoint mounting cleaner.
 
-I want to thank [zhiayang/Mikoto](https://github.com/zhiayang/mikoto) and [Hello9999901/laptop](https://github.com/Hello9999901/laptop/tree/main/keyboard) for making this project possible. As the schematic & NRF52840 placement is based on their work.
+I want to thank [zhiayang/Mikoto](https://github.com/zhiayang/mikoto) and [Hello9999901/laptop](https://github.com/Hello9999901/laptop/tree/main/keyboard) for making this project possible. Thank you [Eden](https://github.com/galaxyeden) for helping me understand more about Zephyr and getting me started.
+
+### Pipar Chip
+
+Pipar Chip is a 12-key wireless keypad with Kailh PG1316S switches and LEDs.
+
+Pipar Chip features:
+
+- **Onboard Components**: Features ISP1807 SIP IC based on NRF52840 IC
+- **Switches**: Kailh PG1316S switches.
+- **LEDs**: White LEDs for backlighting. 2 LEDs for charging and error indication. 3 extra LEDs that can be used for any purpose.
+- **Components**: Uses smaller components in 0603/SOD-523 package for resistors, capacitors, etc.
+- **Battery**: 500mAh battery to ensure longer usage time even with the LEDs.
+
+#### Pipar Chip Pictures
+
+![Pipar Chip Front](.extra/pipar_chip_front.png)
+![Pipar Chip Back](.extra/pipar_chip_back.png)
+![Pipar Chip Schematic](.extra/pipar_chip_schematic.png)
 
 ### Pipar Flake
 
