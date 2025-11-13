@@ -8,7 +8,7 @@ ZMK firmware for the Pipar PCBs.
 
 ## Designed PCBs
 
-PCB Files for each keyboard/project has been seperated into their own folders. The PCBs are designed in KiCad v8.0
+PCB Files for each keyboard/project has been seperated into their own folders. The PCBs are designed in KiCad v9.x
 
 Currently, the following PCBs are available:
 
