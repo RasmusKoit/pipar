@@ -60,19 +60,19 @@
       ],
       "drc_exclusions": [
         [
-          "solder_mask_bridge|382687383|77215727|73e797b1-64e0-4895-888c-783ca6ef1774|98b0d93e-ef04-4eb5-909c-25bf2f536090",
+          "solder_mask_bridge|393435032|80577527|73e797b1-64e0-4895-888c-783ca6ef1774|98b0d93e-ef04-4eb5-909c-25bf2f536090",
           ""
         ],
         [
-          "solder_mask_bridge|382687383|77215727|771fd551-f96a-4975-9007-6d5fd9b3565a|98b0d93e-ef04-4eb5-909c-25bf2f536090",
+          "solder_mask_bridge|393435032|80577527|771fd551-f96a-4975-9007-6d5fd9b3565a|98b0d93e-ef04-4eb5-909c-25bf2f536090",
           ""
         ],
         [
-          "solder_mask_bridge|57501417|195980276|51bf897b-6844-4658-bccf-642c0ec48b43|2d0e7a84-70f4-4955-96bb-7f5deb65912e",
+          "solder_mask_bridge|68767213|197408291|51bf897b-6844-4658-bccf-642c0ec48b43|beb41011-6c1d-4579-ae9e-d037ae0f0399",
           ""
         ],
         [
-          "solder_mask_bridge|57501417|195980276|fb2ec4d3-427c-4b6f-ae67-2c78e9d35e5b|2d0e7a84-70f4-4955-96bb-7f5deb65912e",
+          "solder_mask_bridge|68767213|197408291|fb2ec4d3-427c-4b6f-ae67-2c78e9d35e5b|beb41011-6c1d-4579-ae9e-d037ae0f0399",
           ""
         ]
       ],
@@ -575,7 +575,7 @@
   },
   "schematic": {
     "annotate_start_num": 0,
-    "bom_export_filename": "${PROJECTNAME}.csv",
+    "bom_export_filename": "${PROJECTNAME}_${REVISION}.csv",
     "bom_fmt_presets": [],
     "bom_fmt_settings": {
       "field_delimiter": ",",

@@ -1406,9 +1406,9 @@
 		)
 		(uuid "907ef81a-d6cb-44e3-8476-64c3944b48af")
 	)
-	(text "100R * N Leds"
+	(text "R * N Leds\n100R * 12 = 1.2kR per led"
 		(exclude_from_sim no)
-		(at 81.026 80.772 0)
+		(at 74.676 79.502 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6723,7 +6723,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "1.5k"
+		(property "Value" "100R"
 			(at 86.36 85.0899 0)
 			(effects
 				(font

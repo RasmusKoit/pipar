@@ -7,7 +7,7 @@
 	(title_block
 		(title "Pipar Point")
 		(date "2025-08-29")
-		(rev "V3")
+		(rev "V3.1")
 		(company "Pipar Keyboards")
 	)
 	(lib_symbols
@@ -1460,16 +1460,6 @@
 		)
 		(uuid "65735eba-5845-438d-ae71-786058f7bb97")
 	)
-	(text "100R * N Leds\n1.5K is almost 2k"
-		(exclude_from_sim no)
-		(at 56.388 73.914 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "736982ce-83e7-4cd5-9b6e-a801b00976a6")
-	)
 	(text "Key"
 		(exclude_from_sim no)
 		(at 116.332 87.884 0)
@@ -1682,12 +1672,6 @@
 		(uuid "052f6b74-2867-410c-8665-5f1bcf1d0705")
 	)
 	(junction
-		(at 137.16 74.93)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "0c8763a3-6281-4b9c-a9cf-c117eeaee8d6")
-	)
-	(junction
 		(at 104.14 105.41)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1718,10 +1702,28 @@
 		(uuid "180b2fe9-213f-4e09-b5d5-00bd4f61a295")
 	)
 	(junction
+		(at 66.04 83.82)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1896b3a9-27b6-4d3d-ab76-46d98cd9c6d8")
+	)
+	(junction
+		(at 182.88 97.79)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "191fb891-f01b-4150-92cc-f7a10c112ca0")
+	)
+	(junction
 		(at 127 105.41)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "1e46db3e-dfef-4df4-8e52-a5c9451f6147")
+	)
+	(junction
+		(at 205.74 97.79)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1f224b59-566e-4562-8296-a0c649a6d815")
 	)
 	(junction
 		(at 172.72 82.55)
@@ -1748,18 +1750,6 @@
 		(uuid "3030fca4-c9b6-4f1d-b5b9-414ab73442a2")
 	)
 	(junction
-		(at 205.74 97.79)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "3136c07f-9016-4957-8cc1-981da4259e88")
-	)
-	(junction
-		(at 114.3 97.79)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "3676f9c5-f674-4d96-9ae6-2387a273bf27")
-	)
-	(junction
 		(at 58.42 53.34)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1784,18 +1774,6 @@
 		(uuid "3d87f497-dbb6-4f2e-b6a4-c8cecaad9ebd")
 	)
 	(junction
-		(at 160.02 97.79)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "3f89bb78-5d2a-40e5-9875-b7d0eb132dc6")
-	)
-	(junction
-		(at 74.93 102.87)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "3f9e6cc4-aa7b-4d42-95dc-0018d937dbb9")
-	)
-	(junction
 		(at 120.65 129.54)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1808,16 +1786,10 @@
 		(uuid "40fd6043-a400-458b-9ac2-48418a717b92")
 	)
 	(junction
-		(at 68.58 74.93)
+		(at 66.04 106.68)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "4821691a-c665-4b98-bd7d-3eff50fe569b")
-	)
-	(junction
-		(at 160.02 74.93)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "4b1ea15d-2cf8-43b6-84b5-a2b31b40bfd9")
+		(uuid "4aa889a0-1d1f-4e29-9d2f-f225d6934bde")
 	)
 	(junction
 		(at 50.8 60.96)
@@ -1838,10 +1810,16 @@
 		(uuid "4f0805eb-c186-4f50-b55d-c059b36e5111")
 	)
 	(junction
-		(at 66.04 102.87)
+		(at 182.88 74.93)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "590443a9-d358-4c00-8246-941234de6aed")
+		(uuid "5357a8d2-1577-49a5-b663-68be78a5f568")
+	)
+	(junction
+		(at 74.93 129.54)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "57eab33c-e648-4d70-af54-e30e6a158742")
 	)
 	(junction
 		(at 91.44 111.76)
@@ -1854,6 +1832,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5ffd0c09-99a9-441a-8c81-fb428542bf5e")
+	)
+	(junction
+		(at 160.02 74.93)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "631c8e93-63e3-4b23-aeb1-dc0af1f4b8e5")
 	)
 	(junction
 		(at 99.06 95.25)
@@ -1880,10 +1864,28 @@
 		(uuid "6f8cd634-77c4-4969-9ae6-7ea2943b931f")
 	)
 	(junction
+		(at 160.02 97.79)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "71e56e72-0565-4a57-8d5b-e3414f014a3b")
+	)
+	(junction
+		(at 91.44 74.93)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "74cafd90-806d-467b-82f5-aae8949ed040")
+	)
+	(junction
 		(at 190.5 118.11)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "74d0a8b2-706c-4ab8-8543-0b776f5ac808")
+	)
+	(junction
+		(at 74.93 83.82)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "76483d83-df34-4411-8d62-7cb2629a831f")
 	)
 	(junction
 		(at 195.58 105.41)
@@ -1892,16 +1894,16 @@
 		(uuid "7820322b-570b-4a61-af95-d19365191700")
 	)
 	(junction
+		(at 74.93 106.68)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7838c524-a19d-41bb-a400-84f75b71246e")
+	)
+	(junction
 		(at 114.3 88.9)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7957b959-6ff8-48cf-90de-1c63fb0f524c")
-	)
-	(junction
-		(at 182.88 97.79)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "7ba3080b-5344-49b4-8b24-8f4021181da6")
 	)
 	(junction
 		(at 182.88 111.76)
@@ -1922,16 +1924,16 @@
 		(uuid "8b612811-e929-45ae-bd5f-68a2fad81f3b")
 	)
 	(junction
-		(at 91.44 74.93)
+		(at 68.58 97.79)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "92e79adc-aa87-4fdb-89d4-241f3f7b7807")
+		(uuid "8cda51ec-9c02-456f-8348-f6ab25a4e6ee")
 	)
 	(junction
-		(at 74.93 125.73)
+		(at 114.3 74.93)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "954bc416-7278-4e6a-b19c-e28e4c9a12ba")
+		(uuid "92c927ad-7ac1-4a16-831e-42e84f4e4c45")
 	)
 	(junction
 		(at 143.51 83.82)
@@ -1970,10 +1972,10 @@
 		(uuid "a2cf4ae6-573c-4a25-86ce-100b02674669")
 	)
 	(junction
-		(at 114.3 74.93)
+		(at 137.16 97.79)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "a97514db-115f-402e-a528-6715397748b6")
+		(uuid "a3e4858d-9dc6-4534-8ac2-51a878b84d43")
 	)
 	(junction
 		(at 114.3 62.23)
@@ -2018,6 +2020,18 @@
 		(uuid "b89890e2-5caa-4bbf-98fa-b9e97cd30e20")
 	)
 	(junction
+		(at 137.16 74.93)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "bb8c4e44-ef3c-4137-a163-860aa339b41d")
+	)
+	(junction
+		(at 68.58 74.93)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "bdffb06d-025a-4927-9d49-6ff14d93415b")
+	)
+	(junction
 		(at 114.3 111.76)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2036,18 +2050,6 @@
 		(uuid "c07209c9-0861-4825-b56e-155e9c9ef3c3")
 	)
 	(junction
-		(at 74.93 80.01)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "c175d35c-ad66-437e-960b-24aace1c8b79")
-	)
-	(junction
-		(at 91.44 97.79)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "c50d24cb-2a90-4db2-ad27-ebbdd6a1e99f")
-	)
-	(junction
 		(at 91.44 62.23)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2064,12 +2066,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c8fd414f-ba64-45e6-875a-ac88224e304d")
-	)
-	(junction
-		(at 68.58 97.79)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "cca744b6-c621-4d1d-a9a3-35e3d1166028")
 	)
 	(junction
 		(at 121.92 118.11)
@@ -2102,22 +2098,10 @@
 		(uuid "d50dfa70-3039-45ad-b2df-4f95ad3b660d")
 	)
 	(junction
-		(at 182.88 74.93)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "d83bb277-a2f4-4f6e-ba98-9896f2b1dea8")
-	)
-	(junction
 		(at 99.06 118.11)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d890b993-8d93-4947-898f-08c84559a4ca")
-	)
-	(junction
-		(at 66.04 80.01)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "da02262d-ecb9-411a-a573-b928264fc317")
 	)
 	(junction
 		(at 137.16 111.76)
@@ -2126,10 +2110,22 @@
 		(uuid "db928261-2dd8-4894-a2a5-a2d0087f38ab")
 	)
 	(junction
+		(at 114.3 97.79)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e48fc580-4887-4a0d-aa34-7a8a3814858c")
+	)
+	(junction
 		(at 182.88 62.23)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e76a8539-0a1e-4dac-b42f-eee6c499770a")
+	)
+	(junction
+		(at 91.44 97.79)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e9fe2f1d-6e20-4977-9187-fa0e9d296474")
 	)
 	(junction
 		(at 149.86 105.41)
@@ -2148,12 +2144,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ec849e0b-3639-4138-b526-1a837d2d5d0a")
-	)
-	(junction
-		(at 137.16 97.79)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f3ef5ce4-18e2-4d82-a5a2-e10c7fa27f51")
 	)
 	(junction
 		(at 68.58 62.23)
@@ -2181,6 +2171,16 @@
 	)
 	(wire
 		(pts
+			(xy 189.23 127) (xy 189.23 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "007ef604-cc6c-490c-853d-4ba26d9d1390")
+	)
+	(wire
+		(pts
 			(xy 137.16 111.76) (xy 137.16 120.65)
 		)
 		(stroke
@@ -2191,33 +2191,13 @@
 	)
 	(wire
 		(pts
-			(xy 166.37 74.93) (xy 166.37 83.82)
+			(xy 166.37 74.93) (xy 166.37 76.2)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "01ce2de6-4144-4b25-b755-fca81c10fc85")
-	)
-	(wire
-		(pts
-			(xy 74.93 102.87) (xy 74.93 106.68)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "027feebc-c5c3-48c4-845f-704d7d5ed8e6")
-	)
-	(wire
-		(pts
-			(xy 137.16 97.79) (xy 137.16 111.76)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "04762737-5240-4bd6-98b3-fd366f92c49f")
 	)
 	(wire
 		(pts
@@ -2241,23 +2221,33 @@
 	)
 	(wire
 		(pts
-			(xy 182.88 62.23) (xy 182.88 74.93)
+			(xy 189.23 104.14) (xy 189.23 106.68)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "0b06a077-8576-4970-b996-399e8b1470fc")
+		(uuid "0b02a5a3-c283-4bcf-a8eb-96aeea83eed6")
 	)
 	(wire
 		(pts
-			(xy 160.02 62.23) (xy 160.02 74.93)
+			(xy 160.02 97.79) (xy 160.02 111.76)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "0c07961b-75f4-407b-8f7e-01414e879d5f")
+		(uuid "0b74f9e9-25a0-48ff-8185-a6ee2297940f")
+	)
+	(wire
+		(pts
+			(xy 74.93 81.28) (xy 74.93 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0b781c6e-a951-41f2-8167-31eb7b1af158")
 	)
 	(wire
 		(pts
@@ -2311,7 +2301,27 @@
 	)
 	(wire
 		(pts
-			(xy 120.65 74.93) (xy 120.65 83.82)
+			(xy 97.79 104.14) (xy 97.79 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "11b36b3f-f52a-4a26-be4c-db0a4c33ab0f")
+	)
+	(wire
+		(pts
+			(xy 120.65 127) (xy 120.65 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "13eb76d1-9e09-4bb8-8f0a-cd49c9c71f0a")
+	)
+	(wire
+		(pts
+			(xy 120.65 74.93) (xy 120.65 76.2)
 		)
 		(stroke
 			(width 0)
@@ -2331,16 +2341,6 @@
 	)
 	(wire
 		(pts
-			(xy 137.16 62.23) (xy 137.16 74.93)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1c6d6887-3c3e-4e06-9360-a66e903f37be")
-	)
-	(wire
-		(pts
 			(xy 81.28 105.41) (xy 104.14 105.41)
 		)
 		(stroke
@@ -2351,7 +2351,7 @@
 	)
 	(wire
 		(pts
-			(xy 66.04 71.12) (xy 66.04 80.01)
+			(xy 66.04 60.96) (xy 66.04 83.82)
 		)
 		(stroke
 			(width 0)
@@ -2361,7 +2361,27 @@
 	)
 	(wire
 		(pts
-			(xy 189.23 120.65) (xy 189.23 129.54)
+			(xy 91.44 62.23) (xy 91.44 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "21909472-d47d-45d3-aff9-6317c92d3255")
+	)
+	(wire
+		(pts
+			(xy 137.16 88.9) (xy 137.16 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "23557a47-c874-46e2-95b2-51b52e62b7ce")
+	)
+	(wire
+		(pts
+			(xy 189.23 120.65) (xy 189.23 121.92)
 		)
 		(stroke
 			(width 0)
@@ -2388,6 +2408,16 @@
 			(type default)
 		)
 		(uuid "25ca3dfc-4724-4f93-9825-1d50c4150ccb")
+	)
+	(wire
+		(pts
+			(xy 74.93 120.65) (xy 74.93 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "26a24c11-f7a9-48be-8e75-736cbbdf8d83")
 	)
 	(wire
 		(pts
@@ -2418,6 +2448,16 @@
 			(type default)
 		)
 		(uuid "28aecb6d-3762-41fb-8f5a-4df8fe4d7205")
+	)
+	(wire
+		(pts
+			(xy 74.93 127) (xy 74.93 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "29866679-73fd-4df4-8550-b6c6b0e65ed9")
 	)
 	(wire
 		(pts
@@ -2461,23 +2501,13 @@
 	)
 	(wire
 		(pts
-			(xy 74.93 83.82) (xy 97.79 83.82)
+			(xy 160.02 74.93) (xy 160.02 88.9)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "2f5aef3a-3a1f-45ea-b867-9cfbefec21af")
-	)
-	(wire
-		(pts
-			(xy 114.3 97.79) (xy 114.3 111.76)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2fefe406-e8e3-487d-b7cc-004093d004e1")
+		(uuid "2fe64055-60cc-4506-a4b1-964faaed6bcd")
 	)
 	(wire
 		(pts
@@ -2491,7 +2521,17 @@
 	)
 	(wire
 		(pts
-			(xy 66.04 80.01) (xy 74.93 80.01)
+			(xy 166.37 104.14) (xy 166.37 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "35604fb5-47dc-474c-bae9-2eacccb00fbb")
+	)
+	(wire
+		(pts
+			(xy 66.04 83.82) (xy 74.93 83.82)
 		)
 		(stroke
 			(width 0)
@@ -2521,23 +2561,13 @@
 	)
 	(wire
 		(pts
-			(xy 74.93 80.01) (xy 74.93 83.82)
+			(xy 74.93 74.93) (xy 74.93 76.2)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "387dbdf0-ba06-491e-9800-955de5e0b95e")
-	)
-	(wire
-		(pts
-			(xy 205.74 88.9) (xy 205.74 97.79)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "39dd6fc9-0093-4c6e-90ad-998b274cc3b0")
+		(uuid "399f80de-a1e0-4b65-9afd-9dd3b9b51aca")
 	)
 	(wire
 		(pts
@@ -2548,6 +2578,16 @@
 			(type default)
 		)
 		(uuid "3cb8ca0f-18ec-469d-bb4f-b474d8fb4134")
+	)
+	(wire
+		(pts
+			(xy 66.04 106.68) (xy 66.04 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3ed78e95-b80f-44e3-ba5c-d17cbbfb5e11")
 	)
 	(wire
 		(pts
@@ -2581,7 +2621,7 @@
 	)
 	(wire
 		(pts
-			(xy 97.79 97.79) (xy 97.79 106.68)
+			(xy 97.79 97.79) (xy 97.79 99.06)
 		)
 		(stroke
 			(width 0)
@@ -2591,7 +2631,7 @@
 	)
 	(wire
 		(pts
-			(xy 120.65 97.79) (xy 120.65 106.68)
+			(xy 120.65 97.79) (xy 120.65 99.06)
 		)
 		(stroke
 			(width 0)
@@ -2631,6 +2671,16 @@
 	)
 	(wire
 		(pts
+			(xy 91.44 97.79) (xy 91.44 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4c688450-470b-49a3-8b14-44e464662bac")
+	)
+	(wire
+		(pts
 			(xy 99.06 118.11) (xy 99.06 133.35)
 		)
 		(stroke
@@ -2638,16 +2688,6 @@
 			(type default)
 		)
 		(uuid "505948d4-624f-4c16-81ae-b5b837964de5")
-	)
-	(wire
-		(pts
-			(xy 160.02 88.9) (xy 160.02 97.79)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "507d744a-5aca-4527-a563-33e111c53bd1")
 	)
 	(wire
 		(pts
@@ -2661,7 +2701,7 @@
 	)
 	(wire
 		(pts
-			(xy 166.37 97.79) (xy 166.37 106.68)
+			(xy 166.37 97.79) (xy 166.37 99.06)
 		)
 		(stroke
 			(width 0)
@@ -2698,6 +2738,16 @@
 			(type default)
 		)
 		(uuid "52768f49-7af4-4dc7-afcb-82deb4e440d6")
+	)
+	(wire
+		(pts
+			(xy 212.09 104.14) (xy 212.09 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "52d443db-bef7-4d8d-9fea-0065e62ea15c")
 	)
 	(wire
 		(pts
@@ -2741,6 +2791,16 @@
 	)
 	(wire
 		(pts
+			(xy 205.74 97.79) (xy 205.74 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "58455d41-1702-4a31-bae4-ee8d1ac31b64")
+	)
+	(wire
+		(pts
 			(xy 127 105.41) (xy 149.86 105.41)
 		)
 		(stroke
@@ -2751,7 +2811,7 @@
 	)
 	(wire
 		(pts
-			(xy 143.51 74.93) (xy 143.51 83.82)
+			(xy 143.51 74.93) (xy 143.51 76.2)
 		)
 		(stroke
 			(width 0)
@@ -2768,16 +2828,6 @@
 			(type default)
 		)
 		(uuid "5af96e54-84ad-4ba0-8c24-ea94926ef623")
-	)
-	(wire
-		(pts
-			(xy 182.88 88.9) (xy 182.88 97.79)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5bfe917a-00ff-4335-8b0b-ca1f330994b1")
 	)
 	(wire
 		(pts
@@ -2811,33 +2861,53 @@
 	)
 	(wire
 		(pts
-			(xy 74.93 120.65) (xy 74.93 125.73)
+			(xy 68.58 74.93) (xy 68.58 88.9)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "62b95b58-8540-4fb5-bf87-e65a9551b452")
+		(uuid "6212d43e-5f0f-4148-877a-319f2c27ec35")
 	)
 	(wire
 		(pts
-			(xy 114.3 74.93) (xy 114.3 88.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6451f180-1ef0-4eeb-a78e-a6edcfef408c")
-	)
-	(wire
-		(pts
-			(xy 120.65 120.65) (xy 120.65 129.54)
+			(xy 120.65 120.65) (xy 120.65 121.92)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "65e4be14-5cc2-4f98-ac9e-8cd7212287c7")
+	)
+	(wire
+		(pts
+			(xy 114.3 88.9) (xy 114.3 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "666a54ec-0e37-44a9-9532-16240e32a0d5")
+	)
+	(wire
+		(pts
+			(xy 91.44 88.9) (xy 91.44 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "69c9e1ef-500d-4402-9b24-191561b1f608")
+	)
+	(wire
+		(pts
+			(xy 182.88 74.93) (xy 182.88 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "69fb2fe5-3afa-49e0-9973-7ef4513c3014")
 	)
 	(wire
 		(pts
@@ -2871,6 +2941,16 @@
 	)
 	(wire
 		(pts
+			(xy 189.23 81.28) (xy 189.23 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6d81ce30-39e8-4b4c-b9e2-59dd659d6f52")
+	)
+	(wire
+		(pts
 			(xy 205.74 62.23) (xy 205.74 88.9)
 		)
 		(stroke
@@ -2881,23 +2961,13 @@
 	)
 	(wire
 		(pts
-			(xy 68.58 88.9) (xy 68.58 97.79)
+			(xy 120.65 104.14) (xy 120.65 106.68)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "6eebf9c2-878f-4d8e-9fbb-2e4aaf6d14a7")
-	)
-	(wire
-		(pts
-			(xy 114.3 88.9) (xy 114.3 97.79)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6f7a9c0f-40c8-4a32-9854-34a20f07964e")
+		(uuid "6e3b9d20-8ce3-49df-8df4-6f11fb563238")
 	)
 	(wire
 		(pts
@@ -2941,17 +3011,27 @@
 	)
 	(wire
 		(pts
-			(xy 74.93 74.93) (xy 73.66 74.93)
+			(xy 166.37 81.28) (xy 166.37 83.82)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "785e9887-eb1d-4a5c-bb69-ae92db3ec551")
+		(uuid "774f047e-260e-424e-991a-0f93e3fa9b14")
 	)
 	(wire
 		(pts
-			(xy 66.04 125.73) (xy 74.93 125.73)
+			(xy 120.65 81.28) (xy 120.65 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "784353a3-433b-49ed-a968-87fcdb6456ec")
+	)
+	(wire
+		(pts
+			(xy 66.04 129.54) (xy 74.93 129.54)
 		)
 		(stroke
 			(width 0)
@@ -3041,23 +3121,23 @@
 	)
 	(wire
 		(pts
-			(xy 137.16 88.9) (xy 137.16 97.79)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "81b84a9c-e5eb-42b6-b87c-4f0d7124b41f")
-	)
-	(wire
-		(pts
-			(xy 97.79 74.93) (xy 97.79 83.82)
+			(xy 97.79 74.93) (xy 97.79 76.2)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "826a2493-bfc3-4093-8dfc-cebc6cc2137d")
+	)
+	(wire
+		(pts
+			(xy 91.44 74.93) (xy 91.44 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "82947609-c0af-4c42-949f-143095af1b9b")
 	)
 	(wire
 		(pts
@@ -3091,6 +3171,16 @@
 	)
 	(wire
 		(pts
+			(xy 114.3 62.23) (xy 114.3 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "84b4263b-7c63-4697-b4b3-840f1900d281")
+	)
+	(wire
+		(pts
 			(xy 121.92 95.25) (xy 121.92 118.11)
 		)
 		(stroke
@@ -3101,7 +3191,7 @@
 	)
 	(wire
 		(pts
-			(xy 189.23 97.79) (xy 189.23 106.68)
+			(xy 189.23 97.79) (xy 189.23 99.06)
 		)
 		(stroke
 			(width 0)
@@ -3118,6 +3208,16 @@
 			(type default)
 		)
 		(uuid "87b29225-0f38-49de-a1a9-36b63159de58")
+	)
+	(wire
+		(pts
+			(xy 143.51 81.28) (xy 143.51 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "87c76876-f3cd-4b4e-b518-2abb41e0db6d")
 	)
 	(wire
 		(pts
@@ -3141,6 +3241,16 @@
 	)
 	(wire
 		(pts
+			(xy 160.02 62.23) (xy 160.02 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8b011961-fb01-4782-9b2e-846e475f7cd4")
+	)
+	(wire
+		(pts
 			(xy 97.79 74.93) (xy 96.52 74.93)
 		)
 		(stroke
@@ -3161,16 +3271,6 @@
 	)
 	(wire
 		(pts
-			(xy 160.02 97.79) (xy 160.02 111.76)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8f7a9809-34d5-4b5b-9c64-4c51e623c817")
-	)
-	(wire
-		(pts
 			(xy 167.64 95.25) (xy 167.64 118.11)
 		)
 		(stroke
@@ -3188,16 +3288,6 @@
 			(type default)
 		)
 		(uuid "927ecf37-bdf1-49fb-8225-77008d342f06")
-	)
-	(wire
-		(pts
-			(xy 91.44 62.23) (xy 91.44 74.93)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "92a60afd-b959-43e6-a2f8-e78295c24d9f")
 	)
 	(wire
 		(pts
@@ -3231,6 +3321,26 @@
 	)
 	(wire
 		(pts
+			(xy 114.3 97.79) (xy 114.3 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9aa1c031-5e1b-4fd5-92f4-0d292314c160")
+	)
+	(wire
+		(pts
+			(xy 64.77 83.82) (xy 66.04 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9d4ec0a0-962d-4b74-b08b-58aecee74151")
+	)
+	(wire
+		(pts
 			(xy 104.14 128.27) (xy 127 128.27)
 		)
 		(stroke
@@ -3238,6 +3348,16 @@
 			(type default)
 		)
 		(uuid "9dd7a56c-d168-4a14-a094-046cf15f3f6b")
+	)
+	(wire
+		(pts
+			(xy 114.3 74.93) (xy 114.3 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a0bac244-24dc-4edb-b749-34262f2b9bab")
 	)
 	(wire
 		(pts
@@ -3251,7 +3371,7 @@
 	)
 	(wire
 		(pts
-			(xy 66.04 102.87) (xy 74.93 102.87)
+			(xy 66.04 106.68) (xy 74.93 106.68)
 		)
 		(stroke
 			(width 0)
@@ -3261,23 +3381,13 @@
 	)
 	(wire
 		(pts
-			(xy 91.44 97.79) (xy 91.44 111.76)
+			(xy 182.88 97.79) (xy 182.88 111.76)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "a2c22191-2d8a-4056-bfb0-60bcaf788926")
-	)
-	(wire
-		(pts
-			(xy 66.04 66.04) (xy 66.04 60.96)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a4fa6a51-0b0c-4cef-8161-0482dac66ec8")
+		(uuid "a479fb29-fdc9-4fe9-a561-31f4adf31b46")
 	)
 	(wire
 		(pts
@@ -3301,13 +3411,13 @@
 	)
 	(wire
 		(pts
-			(xy 74.93 97.79) (xy 74.93 102.87)
+			(xy 205.74 88.9) (xy 205.74 97.79)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "a79e69bb-db5a-4826-b859-e732a5bc188a")
+		(uuid "a91c50fd-e631-4886-9c5d-490188069e90")
 	)
 	(wire
 		(pts
@@ -3331,6 +3441,16 @@
 	)
 	(wire
 		(pts
+			(xy 68.58 88.9) (xy 68.58 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aa356349-517b-4a6a-8aa5-8bafbfffa00e")
+	)
+	(wire
+		(pts
 			(xy 97.79 97.79) (xy 96.52 97.79)
 		)
 		(stroke
@@ -3338,16 +3458,6 @@
 			(type default)
 		)
 		(uuid "af049177-f8d5-403b-9fc2-f08b0482a59d")
-	)
-	(wire
-		(pts
-			(xy 205.74 97.79) (xy 205.74 111.76)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "af5ad91e-b608-48b8-a65c-042f08e55495")
 	)
 	(wire
 		(pts
@@ -3361,13 +3471,23 @@
 	)
 	(wire
 		(pts
-			(xy 74.93 74.93) (xy 74.93 80.01)
+			(xy 97.79 81.28) (xy 97.79 83.82)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "b36683fa-62b9-420c-9518-c6fd7b3407a9")
+		(uuid "b271fe88-c3d4-4579-a77d-53ffd192391c")
+	)
+	(wire
+		(pts
+			(xy 182.88 88.9) (xy 182.88 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b665ea7a-c2a7-4c83-a736-d9e562835589")
 	)
 	(wire
 		(pts
@@ -3391,17 +3511,17 @@
 	)
 	(wire
 		(pts
-			(xy 160.02 74.93) (xy 160.02 88.9)
+			(xy 74.93 104.14) (xy 74.93 106.68)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "b9dcbd33-2875-4bc8-ac46-967ad79d0fac")
+		(uuid "ba6f6b82-3aa8-42c8-8374-9d74f33e5a0a")
 	)
 	(wire
 		(pts
-			(xy 143.51 120.65) (xy 143.51 129.54)
+			(xy 143.51 120.65) (xy 143.51 121.92)
 		)
 		(stroke
 			(width 0)
@@ -3411,13 +3531,13 @@
 	)
 	(wire
 		(pts
-			(xy 68.58 74.93) (xy 68.58 88.9)
+			(xy 74.93 74.93) (xy 73.66 74.93)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "be85ffda-0dc9-43f9-8ac3-e8dd1bdb5212")
+		(uuid "bd9ad23a-225a-4e1a-b610-de769e6fc9bf")
 	)
 	(wire
 		(pts
@@ -3441,7 +3561,7 @@
 	)
 	(wire
 		(pts
-			(xy 97.79 120.65) (xy 97.79 129.54)
+			(xy 97.79 120.65) (xy 97.79 121.92)
 		)
 		(stroke
 			(width 0)
@@ -3461,6 +3581,16 @@
 	)
 	(wire
 		(pts
+			(xy 74.93 97.79) (xy 74.93 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c46edba0-db41-429d-bcf9-60c16e736a9d")
+	)
+	(wire
+		(pts
 			(xy 149.86 82.55) (xy 172.72 82.55)
 		)
 		(stroke
@@ -3468,16 +3598,6 @@
 			(type default)
 		)
 		(uuid "c563aa8e-ff6c-4177-8eb2-a705890582b9")
-	)
-	(wire
-		(pts
-			(xy 68.58 97.79) (xy 68.58 111.76)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c5d4a16f-59a6-4e99-b14a-beeaa51f9fa4")
 	)
 	(wire
 		(pts
@@ -3491,7 +3611,7 @@
 	)
 	(wire
 		(pts
-			(xy 137.16 74.93) (xy 137.16 88.9)
+			(xy 137.16 62.23) (xy 137.16 74.93)
 		)
 		(stroke
 			(width 0)
@@ -3521,6 +3641,26 @@
 	)
 	(wire
 		(pts
+			(xy 160.02 88.9) (xy 160.02 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cbf2944b-2c80-44ce-9d86-291c4194c687")
+	)
+	(wire
+		(pts
+			(xy 143.51 127) (xy 143.51 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cc11f63c-eadb-4b88-bcd2-d5ce108e34e6")
+	)
+	(wire
+		(pts
 			(xy 137.16 88.9) (xy 160.02 88.9)
 		)
 		(stroke
@@ -3541,7 +3681,7 @@
 	)
 	(wire
 		(pts
-			(xy 212.09 120.65) (xy 212.09 129.54)
+			(xy 212.09 120.65) (xy 212.09 121.92)
 		)
 		(stroke
 			(width 0)
@@ -3571,17 +3711,7 @@
 	)
 	(wire
 		(pts
-			(xy 182.88 97.79) (xy 182.88 111.76)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d2816faa-7cf5-4f22-8367-f8a1856ad446")
-	)
-	(wire
-		(pts
-			(xy 166.37 120.65) (xy 166.37 129.54)
+			(xy 166.37 120.65) (xy 166.37 121.92)
 		)
 		(stroke
 			(width 0)
@@ -3611,16 +3741,6 @@
 	)
 	(wire
 		(pts
-			(xy 74.93 125.73) (xy 74.93 129.54)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d83b3f24-4cf0-401e-b903-e3db8d9b419c")
-	)
-	(wire
-		(pts
 			(xy 68.58 62.23) (xy 91.44 62.23)
 		)
 		(stroke
@@ -3631,13 +3751,13 @@
 	)
 	(wire
 		(pts
-			(xy 91.44 74.93) (xy 91.44 88.9)
+			(xy 137.16 74.93) (xy 137.16 88.9)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "d9b7c012-2de6-447d-96da-7ae6f9a764ec")
+		(uuid "dca4d42d-0cef-477d-924c-b3ff5a0e6456")
 	)
 	(wire
 		(pts
@@ -3651,6 +3771,16 @@
 	)
 	(wire
 		(pts
+			(xy 137.16 97.79) (xy 137.16 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "de52faac-a115-4567-8551-0d8a8779ae38")
+	)
+	(wire
+		(pts
 			(xy 81.28 128.27) (xy 104.14 128.27)
 		)
 		(stroke
@@ -3661,13 +3791,13 @@
 	)
 	(wire
 		(pts
-			(xy 91.44 88.9) (xy 91.44 97.79)
+			(xy 212.09 127) (xy 212.09 129.54)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "e2862fbf-978a-4814-976c-7f77de8843c4")
+		(uuid "e257534b-1b76-44ba-a86d-f753d2f565d3")
 	)
 	(wire
 		(pts
@@ -3681,7 +3811,7 @@
 	)
 	(wire
 		(pts
-			(xy 212.09 97.79) (xy 212.09 106.68)
+			(xy 212.09 97.79) (xy 212.09 99.06)
 		)
 		(stroke
 			(width 0)
@@ -3691,13 +3821,23 @@
 	)
 	(wire
 		(pts
-			(xy 66.04 102.87) (xy 66.04 125.73)
+			(xy 66.04 83.82) (xy 66.04 106.68)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "e6564e34-e899-4dd5-b8e0-43958a02a00e")
+	)
+	(wire
+		(pts
+			(xy 143.51 104.14) (xy 143.51 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e76ee933-8ead-4937-a0ea-c95651624d69")
 	)
 	(wire
 		(pts
@@ -3731,6 +3871,16 @@
 	)
 	(wire
 		(pts
+			(xy 166.37 127) (xy 166.37 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ea4a4fba-eff6-4835-a178-918c5204d945")
+	)
+	(wire
+		(pts
 			(xy 143.51 120.65) (xy 142.24 120.65)
 		)
 		(stroke
@@ -3741,13 +3891,13 @@
 	)
 	(wire
 		(pts
-			(xy 66.04 80.01) (xy 66.04 102.87)
+			(xy 74.93 83.82) (xy 97.79 83.82)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "eece0110-7b37-4873-a3b8-e9ddcc965d6a")
+		(uuid "ee608b4b-5905-4a89-958d-b7a38dbc648d")
 	)
 	(wire
 		(pts
@@ -3758,6 +3908,16 @@
 			(type default)
 		)
 		(uuid "f026da99-9ed2-4e81-9fc2-621a14bcf8bb")
+	)
+	(wire
+		(pts
+			(xy 97.79 127) (xy 97.79 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f250b9aa-f539-4fe8-b75f-f1db27c9a68e")
 	)
 	(wire
 		(pts
@@ -3781,6 +3941,16 @@
 	)
 	(wire
 		(pts
+			(xy 68.58 97.79) (xy 68.58 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f6b96578-fc8b-47a0-a1b9-f0c2224a0a09")
+	)
+	(wire
+		(pts
 			(xy 76.2 95.25) (xy 76.2 118.11)
 		)
 		(stroke
@@ -3791,7 +3961,7 @@
 	)
 	(wire
 		(pts
-			(xy 182.88 74.93) (xy 182.88 88.9)
+			(xy 182.88 62.23) (xy 182.88 74.93)
 		)
 		(stroke
 			(width 0)
@@ -3811,7 +3981,7 @@
 	)
 	(wire
 		(pts
-			(xy 189.23 74.93) (xy 189.23 83.82)
+			(xy 189.23 74.93) (xy 189.23 76.2)
 		)
 		(stroke
 			(width 0)
@@ -3821,23 +3991,13 @@
 	)
 	(wire
 		(pts
-			(xy 143.51 97.79) (xy 143.51 106.68)
+			(xy 143.51 97.79) (xy 143.51 99.06)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "ff606dde-0b38-44a5-8278-88c5883da73c")
-	)
-	(wire
-		(pts
-			(xy 114.3 62.23) (xy 114.3 74.93)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ff73b77f-dc2e-4718-b4c0-42898673d1e0")
 	)
 	(wire
 		(pts
@@ -3850,7 +4010,7 @@
 		(uuid "ffe7b148-b5ee-49d7-92b9-001d523851f4")
 	)
 	(label "LEDOut"
-		(at 66.04 80.01 180)
+		(at 64.77 83.82 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4128,7 +4288,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Keyboard:SwitchHoles_Kailh_Choc_V1V2"
+		(property "Footprint" "Keyboard:SwitchHoles_Kailh_Choc_V1"
 			(at 96.52 91.44 0)
 			(effects
 				(font
@@ -4711,34 +4871,35 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:LED_Small")
-		(at 208.28 97.79 180)
+		(lib_name "R_Small_1")
+		(lib_id "Device:R_Small")
+		(at 139.7 120.65 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "1e9c6fd2-5995-4351-aec1-daa515b56739")
-		(property "Reference" "LED19"
-			(at 208.788 95.758 0)
+		(uuid "1869c219-45ea-4fce-a0db-bfd5a655c8dc")
+		(property "Reference" "R37"
+			(at 138.684 124.968 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "49.9R"
+			(at 140.462 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
-		(property "Value" "LED_Small"
-			(at 208.28 95.758 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
-			(at 208.28 97.79 90)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 139.7 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4747,7 +4908,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 208.28 97.79 90)
+			(at 139.7 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4755,8 +4916,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Light emitting diode, small symbol"
-			(at 208.28 97.79 0)
+		(property "Description" "Resistor, small symbol"
+			(at 139.7 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4764,8 +4925,8 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Pin" "1=K 2=A"
-			(at 208.28 97.79 0)
+		(property "Manufacturer_Name" ""
+			(at 139.7 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4773,8 +4934,8 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" "743-IN-S63AT5UW"
-			(at 208.28 97.79 0)
+		(property "Manufacturer_Part_Number" "AC0603FR-0749R9L"
+			(at 139.7 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4782,8 +4943,8 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" "IN-S63AT5UW"
-			(at 208.28 97.79 0)
+		(property "Mouser Part Number" "603-AC0603FR-0749R9L"
+			(at 139.7 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4792,7 +4953,7 @@
 			)
 		)
 		(property "Arrow Part Number" ""
-			(at 208.28 97.79 0)
+			(at 139.7 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4801,7 +4962,7 @@
 			)
 		)
 		(property "Arrow Price/Stock" ""
-			(at 208.28 97.79 0)
+			(at 139.7 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4810,7 +4971,7 @@
 			)
 		)
 		(property "Field4" ""
-			(at 208.28 97.79 0)
+			(at 139.7 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4819,7 +4980,144 @@
 			)
 		)
 		(property "LCSC Part" ""
-			(at 208.28 97.79 0)
+			(at 139.7 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2bba29e9-97ab-4075-8b83-7258f09ca0e0")
+		)
+		(pin "2"
+			(uuid "93b59bb9-3ea7-4997-994f-71678d03bc0a")
+		)
+		(instances
+			(project "pipar_point_v3"
+				(path "/ae2abdf3-be75-4a01-9d2e-db16842fefd9/a463a46f-5d6b-469c-a0de-58044b881b04/6751e6d0-327c-47c9-b89a-8842ebcc672e"
+					(reference "R37")
+					(unit 1)
+				)
+				(path "/ae2abdf3-be75-4a01-9d2e-db16842fefd9/b65bf892-a9b9-431e-af85-efaa63e657b0/6751e6d0-327c-47c9-b89a-8842ebcc672e"
+					(reference "R38")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED_Small")
+		(at 212.09 101.6 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1e9c6fd2-5995-4351-aec1-daa515b56739")
+		(property "Reference" "LED19"
+			(at 214.63 101.5364 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "LED_Small"
+			(at 214.122 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
+			(at 212.09 101.6 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 212.09 101.6 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode, small symbol"
+			(at 212.09 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pin" "1=K 2=A"
+			(at 212.09 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "743-IN-S63AT5UW"
+			(at 212.09 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "IN-S63AT5UW"
+			(at 212.09 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" ""
+			(at 212.09 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" ""
+			(at 212.09 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field4" ""
+			(at 212.09 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" ""
+			(at 212.09 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4995,7 +5293,7 @@
 	)
 	(symbol
 		(lib_id "Device:LED_Small")
-		(at 162.56 97.79 180)
+		(at 166.37 101.6 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5004,15 +5302,16 @@
 		(fields_autoplaced yes)
 		(uuid "23b41ad6-982e-410c-a30e-664ab18154e2")
 		(property "Reference" "LED14"
-			(at 163.068 95.758 0)
+			(at 168.91 101.5364 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
 		(property "Value" "LED_Small"
-			(at 162.56 95.758 0)
+			(at 168.402 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5021,7 +5320,7 @@
 			)
 		)
 		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
-			(at 162.56 97.79 90)
+			(at 166.37 101.6 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5030,7 +5329,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 162.56 97.79 90)
+			(at 166.37 101.6 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5039,7 +5338,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode, small symbol"
-			(at 162.56 97.79 0)
+			(at 166.37 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5048,7 +5347,7 @@
 			)
 		)
 		(property "Sim.Pin" "1=K 2=A"
-			(at 162.56 97.79 0)
+			(at 166.37 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5057,7 +5356,7 @@
 			)
 		)
 		(property "Mouser Part Number" "743-IN-S63AT5UW"
-			(at 162.56 97.79 0)
+			(at 166.37 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5066,7 +5365,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "IN-S63AT5UW"
-			(at 162.56 97.79 0)
+			(at 166.37 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5075,7 +5374,7 @@
 			)
 		)
 		(property "Arrow Part Number" ""
-			(at 162.56 97.79 0)
+			(at 166.37 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5084,7 +5383,7 @@
 			)
 		)
 		(property "Arrow Price/Stock" ""
-			(at 162.56 97.79 0)
+			(at 166.37 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5093,7 +5392,7 @@
 			)
 		)
 		(property "Field4" ""
-			(at 162.56 97.79 0)
+			(at 166.37 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5102,7 +5401,7 @@
 			)
 		)
 		(property "LCSC Part" ""
-			(at 162.56 97.79 0)
+			(at 166.37 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5130,34 +5429,35 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:LED_Small")
-		(at 71.12 97.79 180)
+		(lib_name "R_Small_1")
+		(lib_id "Device:R_Small")
+		(at 185.42 120.65 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "2a4aa1ee-4208-4922-b90d-a153434f2913")
-		(property "Reference" "LED2"
-			(at 71.628 95.758 0)
+		(uuid "2708b10c-6a0b-413f-a435-df126384677f")
+		(property "Reference" "R53"
+			(at 184.404 124.968 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "49.9R"
+			(at 186.182 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
-		(property "Value" "LED_Small"
-			(at 71.12 95.758 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
-			(at 71.12 97.79 90)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 185.42 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5166,7 +5466,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 71.12 97.79 90)
+			(at 185.42 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5174,8 +5474,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Light emitting diode, small symbol"
-			(at 71.12 97.79 0)
+		(property "Description" "Resistor, small symbol"
+			(at 185.42 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5183,8 +5483,8 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Pin" "1=K 2=A"
-			(at 71.12 97.79 0)
+		(property "Manufacturer_Name" ""
+			(at 185.42 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5192,8 +5492,8 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" "743-IN-S63AT5UW"
-			(at 71.12 97.79 0)
+		(property "Manufacturer_Part_Number" "AC0603FR-0749R9L"
+			(at 185.42 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5201,8 +5501,8 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" "IN-S63AT5UW"
-			(at 71.12 97.79 0)
+		(property "Mouser Part Number" "603-AC0603FR-0749R9L"
+			(at 185.42 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5211,7 +5511,7 @@
 			)
 		)
 		(property "Arrow Part Number" ""
-			(at 71.12 97.79 0)
+			(at 185.42 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5220,7 +5520,7 @@
 			)
 		)
 		(property "Arrow Price/Stock" ""
-			(at 71.12 97.79 0)
+			(at 185.42 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5229,7 +5529,7 @@
 			)
 		)
 		(property "Field4" ""
-			(at 71.12 97.79 0)
+			(at 185.42 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5238,7 +5538,144 @@
 			)
 		)
 		(property "LCSC Part" ""
-			(at 71.12 97.79 0)
+			(at 185.42 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1ce7ad3e-14bf-41ca-b18b-e97cb6abac39")
+		)
+		(pin "2"
+			(uuid "ef81bd10-edbc-4e47-b7f7-71873d8ca779")
+		)
+		(instances
+			(project "pipar_point_v3"
+				(path "/ae2abdf3-be75-4a01-9d2e-db16842fefd9/a463a46f-5d6b-469c-a0de-58044b881b04/6751e6d0-327c-47c9-b89a-8842ebcc672e"
+					(reference "R53")
+					(unit 1)
+				)
+				(path "/ae2abdf3-be75-4a01-9d2e-db16842fefd9/b65bf892-a9b9-431e-af85-efaa63e657b0/6751e6d0-327c-47c9-b89a-8842ebcc672e"
+					(reference "R54")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED_Small")
+		(at 74.93 101.6 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2a4aa1ee-4208-4922-b90d-a153434f2913")
+		(property "Reference" "LED2"
+			(at 77.47 101.5364 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "LED_Small"
+			(at 76.962 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
+			(at 74.93 101.6 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 74.93 101.6 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode, small symbol"
+			(at 74.93 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pin" "1=K 2=A"
+			(at 74.93 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "743-IN-S63AT5UW"
+			(at 74.93 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "IN-S63AT5UW"
+			(at 74.93 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" ""
+			(at 74.93 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" ""
+			(at 74.93 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field4" ""
+			(at 74.93 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" ""
+			(at 74.93 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5293,7 +5730,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Keyboard:SwitchHoles_Kailh_Choc_V1V2"
+		(property "Footprint" "Keyboard:SwitchHoles_Kailh_Choc_V1"
 			(at 119.38 68.58 0)
 			(effects
 				(font
@@ -5480,7 +5917,7 @@
 	)
 	(symbol
 		(lib_id "Device:LED_Small")
-		(at 116.84 97.79 180)
+		(at 120.65 101.6 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5489,15 +5926,16 @@
 		(fields_autoplaced yes)
 		(uuid "371e8a81-404e-4bc7-9b84-20e887616541")
 		(property "Reference" "LED8"
-			(at 117.348 95.758 0)
+			(at 123.19 101.5364 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
 		(property "Value" "LED_Small"
-			(at 116.84 95.758 0)
+			(at 122.682 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5506,7 +5944,7 @@
 			)
 		)
 		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
-			(at 116.84 97.79 90)
+			(at 120.65 101.6 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5515,7 +5953,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 116.84 97.79 90)
+			(at 120.65 101.6 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5524,7 +5962,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode, small symbol"
-			(at 116.84 97.79 0)
+			(at 120.65 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5533,7 +5971,7 @@
 			)
 		)
 		(property "Sim.Pin" "1=K 2=A"
-			(at 116.84 97.79 0)
+			(at 120.65 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5542,7 +5980,7 @@
 			)
 		)
 		(property "Mouser Part Number" "743-IN-S63AT5UW"
-			(at 116.84 97.79 0)
+			(at 120.65 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5551,7 +5989,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "IN-S63AT5UW"
-			(at 116.84 97.79 0)
+			(at 120.65 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5560,7 +5998,7 @@
 			)
 		)
 		(property "Arrow Part Number" ""
-			(at 116.84 97.79 0)
+			(at 120.65 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5569,7 +6007,7 @@
 			)
 		)
 		(property "Arrow Price/Stock" ""
-			(at 116.84 97.79 0)
+			(at 120.65 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5578,7 +6016,7 @@
 			)
 		)
 		(property "Field4" ""
-			(at 116.84 97.79 0)
+			(at 120.65 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5587,7 +6025,7 @@
 			)
 		)
 		(property "LCSC Part" ""
-			(at 116.84 97.79 0)
+			(at 120.65 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5762,6 +6200,143 @@
 		)
 	)
 	(symbol
+		(lib_name "R_Small_1")
+		(lib_id "Device:R_Small")
+		(at 139.7 97.79 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3a995b59-7da1-4d17-80d2-c936909a9a63")
+		(property "Reference" "R39"
+			(at 138.684 102.108 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "49.9R"
+			(at 140.462 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 139.7 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 139.7 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 139.7 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" ""
+			(at 139.7 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "AC0603FR-0749R9L"
+			(at 139.7 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "603-AC0603FR-0749R9L"
+			(at 139.7 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" ""
+			(at 139.7 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" ""
+			(at 139.7 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field4" ""
+			(at 139.7 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" ""
+			(at 139.7 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8acacf21-c748-469e-99e8-0e6f0d9e4b55")
+		)
+		(pin "2"
+			(uuid "2e40339b-76ae-4971-9c16-91efa600ae5b")
+		)
+		(instances
+			(project "pipar_point_v3"
+				(path "/ae2abdf3-be75-4a01-9d2e-db16842fefd9/a463a46f-5d6b-469c-a0de-58044b881b04/6751e6d0-327c-47c9-b89a-8842ebcc672e"
+					(reference "R39")
+					(unit 1)
+				)
+				(path "/ae2abdf3-be75-4a01-9d2e-db16842fefd9/b65bf892-a9b9-431e-af85-efaa63e657b0/6751e6d0-327c-47c9-b89a-8842ebcc672e"
+					(reference "R40")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Keyboard:choc_v1_SW_HS_CPG135001S30")
 		(at 101.6 120.65 0)
 		(unit 1)
@@ -5872,7 +6447,7 @@
 	)
 	(symbol
 		(lib_id "Device:LED_Small")
-		(at 185.42 74.93 180)
+		(at 189.23 78.74 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5881,15 +6456,16 @@
 		(fields_autoplaced yes)
 		(uuid "445c6153-1e2a-4c8f-b7c8-0fe01a297bc5")
 		(property "Reference" "LED16"
-			(at 185.928 72.898 0)
+			(at 191.77 78.6764 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
 		(property "Value" "LED_Small"
-			(at 185.42 72.898 0)
+			(at 191.262 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5898,7 +6474,7 @@
 			)
 		)
 		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
-			(at 185.42 74.93 90)
+			(at 189.23 78.74 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5907,7 +6483,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 185.42 74.93 90)
+			(at 189.23 78.74 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5916,7 +6492,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode, small symbol"
-			(at 185.42 74.93 0)
+			(at 189.23 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5925,7 +6501,7 @@
 			)
 		)
 		(property "Sim.Pin" "1=K 2=A"
-			(at 185.42 74.93 0)
+			(at 189.23 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5934,7 +6510,7 @@
 			)
 		)
 		(property "Mouser Part Number" "743-IN-S63AT5UW"
-			(at 185.42 74.93 0)
+			(at 189.23 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5943,7 +6519,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "IN-S63AT5UW"
-			(at 185.42 74.93 0)
+			(at 189.23 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5952,7 +6528,7 @@
 			)
 		)
 		(property "Arrow Part Number" ""
-			(at 185.42 74.93 0)
+			(at 189.23 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5961,7 +6537,7 @@
 			)
 		)
 		(property "Arrow Price/Stock" ""
-			(at 185.42 74.93 0)
+			(at 189.23 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5970,7 +6546,7 @@
 			)
 		)
 		(property "Field4" ""
-			(at 185.42 74.93 0)
+			(at 189.23 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5979,7 +6555,7 @@
 			)
 		)
 		(property "LCSC Part" ""
-			(at 185.42 74.93 0)
+			(at 189.23 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6155,24 +6731,24 @@
 	)
 	(symbol
 		(lib_id "Device:LED_Small")
-		(at 71.12 74.93 180)
+		(at 74.93 78.74 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "467071dd-4d8d-4264-abd0-7051ee79b7a3")
 		(property "Reference" "LED1"
-			(at 71.628 72.898 0)
+			(at 82.804 77.724 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
 		(property "Value" "LED_Small"
-			(at 71.12 72.898 0)
+			(at 76.962 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6181,7 +6757,7 @@
 			)
 		)
 		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
-			(at 71.12 74.93 90)
+			(at 74.93 78.74 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6190,7 +6766,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 71.12 74.93 90)
+			(at 74.93 78.74 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6199,7 +6775,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode, small symbol"
-			(at 71.12 74.93 0)
+			(at 74.93 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6208,7 +6784,7 @@
 			)
 		)
 		(property "Sim.Pin" "1=K 2=A"
-			(at 71.12 74.93 0)
+			(at 74.93 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6217,7 +6793,7 @@
 			)
 		)
 		(property "Mouser Part Number" "743-IN-S63AT5UW"
-			(at 71.12 74.93 0)
+			(at 74.93 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6226,7 +6802,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "IN-S63AT5UW"
-			(at 71.12 74.93 0)
+			(at 74.93 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6235,7 +6811,7 @@
 			)
 		)
 		(property "Arrow Part Number" ""
-			(at 71.12 74.93 0)
+			(at 74.93 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6244,7 +6820,7 @@
 			)
 		)
 		(property "Arrow Price/Stock" ""
-			(at 71.12 74.93 0)
+			(at 74.93 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6253,7 +6829,7 @@
 			)
 		)
 		(property "Field4" ""
-			(at 71.12 74.93 0)
+			(at 74.93 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6262,7 +6838,7 @@
 			)
 		)
 		(property "LCSC Part" ""
-			(at 71.12 74.93 0)
+			(at 74.93 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6317,7 +6893,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Keyboard:SwitchHoles_Kailh_Choc_V1V2"
+		(property "Footprint" "Keyboard:SwitchHoles_Kailh_Choc_V1"
 			(at 73.66 114.3 0)
 			(effects
 				(font
@@ -6760,7 +7336,7 @@
 	)
 	(symbol
 		(lib_id "Device:LED_Small")
-		(at 116.84 120.65 180)
+		(at 120.65 124.46 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6769,15 +7345,16 @@
 		(fields_autoplaced yes)
 		(uuid "555fd25e-51fb-4e38-8678-1a2b72ddccc5")
 		(property "Reference" "LED9"
-			(at 117.348 118.618 0)
+			(at 123.19 124.3964 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
 		(property "Value" "LED_Small"
-			(at 116.84 118.618 0)
+			(at 122.682 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6786,7 +7363,7 @@
 			)
 		)
 		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
-			(at 116.84 120.65 90)
+			(at 120.65 124.46 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6795,7 +7372,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 116.84 120.65 90)
+			(at 120.65 124.46 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6804,7 +7381,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode, small symbol"
-			(at 116.84 120.65 0)
+			(at 120.65 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6813,7 +7390,7 @@
 			)
 		)
 		(property "Sim.Pin" "1=K 2=A"
-			(at 116.84 120.65 0)
+			(at 120.65 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6822,7 +7399,7 @@
 			)
 		)
 		(property "Mouser Part Number" "743-IN-S63AT5UW"
-			(at 116.84 120.65 0)
+			(at 120.65 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6831,7 +7408,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "IN-S63AT5UW"
-			(at 116.84 120.65 0)
+			(at 120.65 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6840,7 +7417,7 @@
 			)
 		)
 		(property "Arrow Part Number" ""
-			(at 116.84 120.65 0)
+			(at 120.65 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6849,7 +7426,7 @@
 			)
 		)
 		(property "Arrow Price/Stock" ""
-			(at 116.84 120.65 0)
+			(at 120.65 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6858,7 +7435,7 @@
 			)
 		)
 		(property "Field4" ""
-			(at 116.84 120.65 0)
+			(at 120.65 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6867,7 +7444,7 @@
 			)
 		)
 		(property "LCSC Part" ""
-			(at 116.84 120.65 0)
+			(at 120.65 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7043,7 +7620,7 @@
 	)
 	(symbol
 		(lib_id "Device:LED_Small")
-		(at 93.98 97.79 180)
+		(at 97.79 101.6 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7052,15 +7629,16 @@
 		(fields_autoplaced yes)
 		(uuid "5aab3d50-1bb3-4ee3-964c-f9e396e845c1")
 		(property "Reference" "LED5"
-			(at 94.488 95.758 0)
+			(at 100.33 101.5364 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
 		(property "Value" "LED_Small"
-			(at 93.98 95.758 0)
+			(at 99.822 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7069,7 +7647,7 @@
 			)
 		)
 		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
-			(at 93.98 97.79 90)
+			(at 97.79 101.6 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7078,7 +7656,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 93.98 97.79 90)
+			(at 97.79 101.6 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7087,7 +7665,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode, small symbol"
-			(at 93.98 97.79 0)
+			(at 97.79 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7096,7 +7674,7 @@
 			)
 		)
 		(property "Sim.Pin" "1=K 2=A"
-			(at 93.98 97.79 0)
+			(at 97.79 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7105,7 +7683,7 @@
 			)
 		)
 		(property "Mouser Part Number" "743-IN-S63AT5UW"
-			(at 93.98 97.79 0)
+			(at 97.79 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7114,7 +7692,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "IN-S63AT5UW"
-			(at 93.98 97.79 0)
+			(at 97.79 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7123,7 +7701,7 @@
 			)
 		)
 		(property "Arrow Part Number" ""
-			(at 93.98 97.79 0)
+			(at 97.79 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7132,7 +7710,7 @@
 			)
 		)
 		(property "Arrow Price/Stock" ""
-			(at 93.98 97.79 0)
+			(at 97.79 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7141,7 +7719,7 @@
 			)
 		)
 		(property "Field4" ""
-			(at 93.98 97.79 0)
+			(at 97.79 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7150,7 +7728,7 @@
 			)
 		)
 		(property "LCSC Part" ""
-			(at 93.98 97.79 0)
+			(at 97.79 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7434,6 +8012,143 @@
 		)
 	)
 	(symbol
+		(lib_name "R_Small_1")
+		(lib_id "Device:R_Small")
+		(at 116.84 120.65 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5de7e59f-5539-44f8-b3f2-7dbd82d2505d")
+		(property "Reference" "R35"
+			(at 115.824 124.968 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "49.9R"
+			(at 117.602 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 116.84 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 116.84 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 116.84 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" ""
+			(at 116.84 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "AC0603FR-0749R9L"
+			(at 116.84 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "603-AC0603FR-0749R9L"
+			(at 116.84 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" ""
+			(at 116.84 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" ""
+			(at 116.84 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field4" ""
+			(at 116.84 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" ""
+			(at 116.84 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a01d7b73-75bd-4c33-b4f3-d5051f5f3bef")
+		)
+		(pin "2"
+			(uuid "c6875875-6dfb-4e1c-9318-9aacbc933f3f")
+		)
+		(instances
+			(project "pipar_point_v3"
+				(path "/ae2abdf3-be75-4a01-9d2e-db16842fefd9/a463a46f-5d6b-469c-a0de-58044b881b04/6751e6d0-327c-47c9-b89a-8842ebcc672e"
+					(reference "R35")
+					(unit 1)
+				)
+				(path "/ae2abdf3-be75-4a01-9d2e-db16842fefd9/b65bf892-a9b9-431e-af85-efaa63e657b0/6751e6d0-327c-47c9-b89a-8842ebcc672e"
+					(reference "R36")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:D_Small")
 		(at 172.72 102.87 90)
 		(unit 1)
@@ -7583,15 +8298,15 @@
 	(symbol
 		(lib_name "R_Small_1")
 		(lib_id "Device:R_Small")
-		(at 66.04 68.58 180)
+		(at 162.56 97.79 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "601939b1-041a-430b-ac53-e9a1e18614fd")
-		(property "Reference" "R2"
-			(at 61.722 67.564 0)
+		(uuid "64b583de-2942-4213-b1c8-33cf7a19700d")
+		(property "Reference" "R43"
+			(at 161.544 102.108 0)
 			(effects
 				(font
 					(size 1.016 1.016)
@@ -7599,8 +8314,8 @@
 				(justify right)
 			)
 		)
-		(property "Value" "1.5k"
-			(at 60.706 69.342 0)
+		(property "Value" "49.9R"
+			(at 163.322 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7609,7 +8324,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 66.04 68.58 0)
+			(at 162.56 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7618,7 +8333,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 66.04 68.58 0)
+			(at 162.56 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7627,7 +8342,7 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
-			(at 66.04 68.58 0)
+			(at 162.56 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7636,7 +8351,7 @@
 			)
 		)
 		(property "Manufacturer_Name" ""
-			(at 66.04 68.58 0)
+			(at 162.56 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7644,8 +8359,8 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" "RC0603FR-071K5L"
-			(at 66.04 68.58 0)
+		(property "Manufacturer_Part_Number" "AC0603FR-0749R9L"
+			(at 162.56 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7653,8 +8368,8 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" " 603-RC0603FR-071K5L"
-			(at 66.04 68.58 0)
+		(property "Mouser Part Number" "603-AC0603FR-0749R9L"
+			(at 162.56 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7663,7 +8378,7 @@
 			)
 		)
 		(property "Arrow Part Number" ""
-			(at 66.04 68.58 0)
+			(at 162.56 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7672,7 +8387,7 @@
 			)
 		)
 		(property "Arrow Price/Stock" ""
-			(at 66.04 68.58 0)
+			(at 162.56 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7681,7 +8396,7 @@
 			)
 		)
 		(property "Field4" ""
-			(at 66.04 68.58 0)
+			(at 162.56 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7690,7 +8405,7 @@
 			)
 		)
 		(property "LCSC Part" ""
-			(at 66.04 68.58 0)
+			(at 162.56 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7699,19 +8414,19 @@
 			)
 		)
 		(pin "1"
-			(uuid "2e30fbdd-2e6b-49ad-b66a-7742d1f31426")
+			(uuid "f30f5c4f-6b0d-4f5a-b492-0cae83ab9bbd")
 		)
 		(pin "2"
-			(uuid "2e31394d-664c-4006-b8c5-cb106dd58f76")
+			(uuid "8a2d676c-b58c-4fdc-919c-9c4f985cbead")
 		)
 		(instances
 			(project "pipar_point_v3"
 				(path "/ae2abdf3-be75-4a01-9d2e-db16842fefd9/a463a46f-5d6b-469c-a0de-58044b881b04/6751e6d0-327c-47c9-b89a-8842ebcc672e"
-					(reference "R2")
+					(reference "R43")
 					(unit 1)
 				)
 				(path "/ae2abdf3-be75-4a01-9d2e-db16842fefd9/b65bf892-a9b9-431e-af85-efaa63e657b0/6751e6d0-327c-47c9-b89a-8842ebcc672e"
-					(reference "R14")
+					(reference "R44")
 					(unit 1)
 				)
 			)
@@ -7865,6 +8580,143 @@
 		)
 	)
 	(symbol
+		(lib_name "R_Small_1")
+		(lib_id "Device:R_Small")
+		(at 71.12 74.93 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "65e5458c-4607-409e-b615-1fb172d00b23")
+		(property "Reference" "R6"
+			(at 70.104 79.248 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "49.9R"
+			(at 71.882 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 71.12 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 71.12 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 71.12 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" ""
+			(at 71.12 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "AC0603FR-0749R9L"
+			(at 71.12 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "603-AC0603FR-0749R9L"
+			(at 71.12 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" ""
+			(at 71.12 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" ""
+			(at 71.12 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field4" ""
+			(at 71.12 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" ""
+			(at 71.12 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "dcd9fbb6-400d-49d4-92bd-e850522d0294")
+		)
+		(pin "2"
+			(uuid "79dbb167-1393-4e72-b900-ef83e4aa8ac0")
+		)
+		(instances
+			(project "pipar_point_v3"
+				(path "/ae2abdf3-be75-4a01-9d2e-db16842fefd9/a463a46f-5d6b-469c-a0de-58044b881b04/6751e6d0-327c-47c9-b89a-8842ebcc672e"
+					(reference "R6")
+					(unit 1)
+				)
+				(path "/ae2abdf3-be75-4a01-9d2e-db16842fefd9/b65bf892-a9b9-431e-af85-efaa63e657b0/6751e6d0-327c-47c9-b89a-8842ebcc672e"
+					(reference "R59")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Keyboard:choc_v1_SW_HS_CPG135001S30")
 		(at 101.6 97.79 0)
 		(unit 1)
@@ -7975,7 +8827,7 @@
 	)
 	(symbol
 		(lib_id "Device:LED_Small")
-		(at 139.7 120.65 180)
+		(at 143.51 124.46 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7984,15 +8836,16 @@
 		(fields_autoplaced yes)
 		(uuid "6ab826b6-284a-4cc1-853b-0d900e091f21")
 		(property "Reference" "LED12"
-			(at 140.208 118.618 0)
+			(at 146.05 124.3964 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
 		(property "Value" "LED_Small"
-			(at 139.7 118.618 0)
+			(at 145.542 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8001,7 +8854,7 @@
 			)
 		)
 		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
-			(at 139.7 120.65 90)
+			(at 143.51 124.46 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8010,7 +8863,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 139.7 120.65 90)
+			(at 143.51 124.46 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8019,7 +8872,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode, small symbol"
-			(at 139.7 120.65 0)
+			(at 143.51 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8028,7 +8881,7 @@
 			)
 		)
 		(property "Sim.Pin" "1=K 2=A"
-			(at 139.7 120.65 0)
+			(at 143.51 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8037,7 +8890,7 @@
 			)
 		)
 		(property "Mouser Part Number" "743-IN-S63AT5UW"
-			(at 139.7 120.65 0)
+			(at 143.51 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8046,7 +8899,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "IN-S63AT5UW"
-			(at 139.7 120.65 0)
+			(at 143.51 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8055,7 +8908,7 @@
 			)
 		)
 		(property "Arrow Part Number" ""
-			(at 139.7 120.65 0)
+			(at 143.51 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8064,7 +8917,7 @@
 			)
 		)
 		(property "Arrow Price/Stock" ""
-			(at 139.7 120.65 0)
+			(at 143.51 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8073,7 +8926,7 @@
 			)
 		)
 		(property "Field4" ""
-			(at 139.7 120.65 0)
+			(at 143.51 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8082,7 +8935,7 @@
 			)
 		)
 		(property "LCSC Part" ""
-			(at 139.7 120.65 0)
+			(at 143.51 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8246,7 +9099,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Keyboard:SwitchHoles_Kailh_Choc_V1V2"
+		(property "Footprint" "Keyboard:SwitchHoles_Kailh_Choc_V1"
 			(at 210.82 114.3 0)
 			(effects
 				(font
@@ -8350,7 +9203,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Keyboard:SwitchHoles_Kailh_Choc_V1V2"
+		(property "Footprint" "Keyboard:SwitchHoles_Kailh_Choc_V1"
 			(at 165.1 114.3 0)
 			(effects
 				(font
@@ -8428,7 +9281,7 @@
 	)
 	(symbol
 		(lib_id "Device:LED_Small")
-		(at 139.7 74.93 180)
+		(at 143.51 78.74 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8437,15 +9290,16 @@
 		(fields_autoplaced yes)
 		(uuid "789e8058-db11-4e1c-83e6-4e252c94b23e")
 		(property "Reference" "LED10"
-			(at 140.208 72.898 0)
+			(at 146.05 78.6764 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
 		(property "Value" "LED_Small"
-			(at 139.7 72.898 0)
+			(at 145.542 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8454,7 +9308,7 @@
 			)
 		)
 		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
-			(at 139.7 74.93 90)
+			(at 143.51 78.74 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8463,7 +9317,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 139.7 74.93 90)
+			(at 143.51 78.74 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8472,7 +9326,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode, small symbol"
-			(at 139.7 74.93 0)
+			(at 143.51 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8481,7 +9335,7 @@
 			)
 		)
 		(property "Sim.Pin" "1=K 2=A"
-			(at 139.7 74.93 0)
+			(at 143.51 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8490,7 +9344,7 @@
 			)
 		)
 		(property "Mouser Part Number" "743-IN-S63AT5UW"
-			(at 139.7 74.93 0)
+			(at 143.51 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8499,7 +9353,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "IN-S63AT5UW"
-			(at 139.7 74.93 0)
+			(at 143.51 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8508,7 +9362,7 @@
 			)
 		)
 		(property "Arrow Part Number" ""
-			(at 139.7 74.93 0)
+			(at 143.51 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8517,7 +9371,7 @@
 			)
 		)
 		(property "Arrow Price/Stock" ""
-			(at 139.7 74.93 0)
+			(at 143.51 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8526,7 +9380,7 @@
 			)
 		)
 		(property "Field4" ""
-			(at 139.7 74.93 0)
+			(at 143.51 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8535,7 +9389,7 @@
 			)
 		)
 		(property "LCSC Part" ""
-			(at 139.7 74.93 0)
+			(at 143.51 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8590,7 +9444,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Keyboard:SwitchHoles_Kailh_Choc_V1V2"
+		(property "Footprint" "Keyboard:SwitchHoles_Kailh_Choc_V1"
 			(at 165.1 91.44 0)
 			(effects
 				(font
@@ -8667,6 +9521,143 @@
 		)
 	)
 	(symbol
+		(lib_name "R_Small_1")
+		(lib_id "Device:R_Small")
+		(at 116.84 74.93 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "82eba45c-a799-449f-834a-6e5511f12ab6")
+		(property "Reference" "R31"
+			(at 115.824 79.248 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "49.9R"
+			(at 117.602 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 116.84 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 116.84 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 116.84 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" ""
+			(at 116.84 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "AC0603FR-0749R9L"
+			(at 116.84 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "603-AC0603FR-0749R9L"
+			(at 116.84 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" ""
+			(at 116.84 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" ""
+			(at 116.84 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field4" ""
+			(at 116.84 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" ""
+			(at 116.84 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f8ba25e1-ca31-4625-b5f6-b18530c06eae")
+		)
+		(pin "2"
+			(uuid "341a3a27-9554-42df-b47b-75aa3fd3f972")
+		)
+		(instances
+			(project "pipar_point_v3"
+				(path "/ae2abdf3-be75-4a01-9d2e-db16842fefd9/a463a46f-5d6b-469c-a0de-58044b881b04/6751e6d0-327c-47c9-b89a-8842ebcc672e"
+					(reference "R31")
+					(unit 1)
+				)
+				(path "/ae2abdf3-be75-4a01-9d2e-db16842fefd9/b65bf892-a9b9-431e-af85-efaa63e657b0/6751e6d0-327c-47c9-b89a-8842ebcc672e"
+					(reference "R32")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Mechanical:MountingHole")
 		(at 142.24 91.44 0)
 		(unit 1)
@@ -8694,7 +9685,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Keyboard:SwitchHoles_Kailh_Choc_V1V2"
+		(property "Footprint" "Keyboard:SwitchHoles_Kailh_Choc_V1"
 			(at 142.24 91.44 0)
 			(effects
 				(font
@@ -8771,6 +9762,143 @@
 		)
 	)
 	(symbol
+		(lib_name "R_Small_1")
+		(lib_id "Device:R_Small")
+		(at 116.84 97.79 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "83e92868-f93a-4d29-ac08-4bcce008bb8b")
+		(property "Reference" "R33"
+			(at 115.824 102.108 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "49.9R"
+			(at 117.602 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 116.84 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 116.84 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 116.84 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" ""
+			(at 116.84 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "AC0603FR-0749R9L"
+			(at 116.84 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "603-AC0603FR-0749R9L"
+			(at 116.84 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" ""
+			(at 116.84 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" ""
+			(at 116.84 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field4" ""
+			(at 116.84 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" ""
+			(at 116.84 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "bbdeb65e-6dd9-427b-9a04-6b3a24ea9e3f")
+		)
+		(pin "2"
+			(uuid "a3eb8c11-bdc1-403c-b742-57109f0157ef")
+		)
+		(instances
+			(project "pipar_point_v3"
+				(path "/ae2abdf3-be75-4a01-9d2e-db16842fefd9/a463a46f-5d6b-469c-a0de-58044b881b04/6751e6d0-327c-47c9-b89a-8842ebcc672e"
+					(reference "R33")
+					(unit 1)
+				)
+				(path "/ae2abdf3-be75-4a01-9d2e-db16842fefd9/b65bf892-a9b9-431e-af85-efaa63e657b0/6751e6d0-327c-47c9-b89a-8842ebcc672e"
+					(reference "R34")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Mechanical:MountingHole")
 		(at 142.24 68.58 0)
 		(unit 1)
@@ -8798,7 +9926,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Keyboard:SwitchHoles_Kailh_Choc_V1V2"
+		(property "Footprint" "Keyboard:SwitchHoles_Kailh_Choc_V1"
 			(at 142.24 68.58 0)
 			(effects
 				(font
@@ -8876,7 +10004,7 @@
 	)
 	(symbol
 		(lib_id "Device:LED_Small")
-		(at 185.42 97.79 180)
+		(at 189.23 101.6 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8885,15 +10013,16 @@
 		(fields_autoplaced yes)
 		(uuid "8775b7ef-2432-4404-866f-6aca0302a428")
 		(property "Reference" "LED17"
-			(at 185.928 95.758 0)
+			(at 191.77 101.5364 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
 		(property "Value" "LED_Small"
-			(at 185.42 95.758 0)
+			(at 191.262 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8902,7 +10031,7 @@
 			)
 		)
 		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
-			(at 185.42 97.79 90)
+			(at 189.23 101.6 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8911,7 +10040,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 185.42 97.79 90)
+			(at 189.23 101.6 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8920,7 +10049,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode, small symbol"
-			(at 185.42 97.79 0)
+			(at 189.23 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8929,7 +10058,7 @@
 			)
 		)
 		(property "Sim.Pin" "1=K 2=A"
-			(at 185.42 97.79 0)
+			(at 189.23 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8938,7 +10067,7 @@
 			)
 		)
 		(property "Mouser Part Number" "743-IN-S63AT5UW"
-			(at 185.42 97.79 0)
+			(at 189.23 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8947,7 +10076,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "IN-S63AT5UW"
-			(at 185.42 97.79 0)
+			(at 189.23 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8956,7 +10085,7 @@
 			)
 		)
 		(property "Arrow Part Number" ""
-			(at 185.42 97.79 0)
+			(at 189.23 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8965,7 +10094,7 @@
 			)
 		)
 		(property "Arrow Price/Stock" ""
-			(at 185.42 97.79 0)
+			(at 189.23 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8974,7 +10103,7 @@
 			)
 		)
 		(property "Field4" ""
-			(at 185.42 97.79 0)
+			(at 189.23 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8983,7 +10112,7 @@
 			)
 		)
 		(property "LCSC Part" ""
-			(at 185.42 97.79 0)
+			(at 189.23 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9147,7 +10276,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Keyboard:SwitchHoles_Kailh_Choc_V1V2"
+		(property "Footprint" "Keyboard:SwitchHoles_Kailh_Choc_V1"
 			(at 96.52 114.3 0)
 			(effects
 				(font
@@ -9442,6 +10571,143 @@
 		)
 	)
 	(symbol
+		(lib_name "R_Small_1")
+		(lib_id "Device:R_Small")
+		(at 93.98 97.79 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "97a705ae-0ff5-4d91-bb9d-33a83f057536")
+		(property "Reference" "R21"
+			(at 92.964 102.108 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "49.9R"
+			(at 94.742 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 93.98 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 93.98 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 93.98 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" ""
+			(at 93.98 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "AC0603FR-0749R9L"
+			(at 93.98 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "603-AC0603FR-0749R9L"
+			(at 93.98 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" ""
+			(at 93.98 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" ""
+			(at 93.98 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field4" ""
+			(at 93.98 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" ""
+			(at 93.98 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "72ca5a15-8e5f-4aa2-a870-bc490d0a07d7")
+		)
+		(pin "2"
+			(uuid "cf08efc9-337e-40a5-9cdf-da41fe068088")
+		)
+		(instances
+			(project "pipar_point_v3"
+				(path "/ae2abdf3-be75-4a01-9d2e-db16842fefd9/a463a46f-5d6b-469c-a0de-58044b881b04/6751e6d0-327c-47c9-b89a-8842ebcc672e"
+					(reference "R21")
+					(unit 1)
+				)
+				(path "/ae2abdf3-be75-4a01-9d2e-db16842fefd9/b65bf892-a9b9-431e-af85-efaa63e657b0/6751e6d0-327c-47c9-b89a-8842ebcc672e"
+					(reference "R22")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Mechanical:MountingHole")
 		(at 119.38 114.3 0)
 		(unit 1)
@@ -9469,7 +10735,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Keyboard:SwitchHoles_Kailh_Choc_V1V2"
+		(property "Footprint" "Keyboard:SwitchHoles_Kailh_Choc_V1"
 			(at 119.38 114.3 0)
 			(effects
 				(font
@@ -9573,7 +10839,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Keyboard:SwitchHoles_Kailh_Choc_V1V2"
+		(property "Footprint" "Keyboard:SwitchHoles_Kailh_Choc_V1"
 			(at 187.96 114.3 0)
 			(effects
 				(font
@@ -9677,7 +10943,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Keyboard:SwitchHoles_Kailh_Choc_V1V2"
+		(property "Footprint" "Keyboard:SwitchHoles_Kailh_Choc_V1"
 			(at 73.66 91.44 0)
 			(effects
 				(font
@@ -9755,7 +11021,7 @@
 	)
 	(symbol
 		(lib_id "Device:LED_Small")
-		(at 162.56 74.93 180)
+		(at 166.37 78.74 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9764,15 +11030,16 @@
 		(fields_autoplaced yes)
 		(uuid "9addc282-839c-4052-bc37-4b50efde5dcb")
 		(property "Reference" "LED13"
-			(at 163.068 72.898 0)
+			(at 168.91 78.6764 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
 		(property "Value" "LED_Small"
-			(at 162.56 72.898 0)
+			(at 168.402 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9781,7 +11048,7 @@
 			)
 		)
 		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
-			(at 162.56 74.93 90)
+			(at 166.37 78.74 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9790,7 +11057,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 162.56 74.93 90)
+			(at 166.37 78.74 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9799,7 +11066,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode, small symbol"
-			(at 162.56 74.93 0)
+			(at 166.37 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9808,7 +11075,7 @@
 			)
 		)
 		(property "Sim.Pin" "1=K 2=A"
-			(at 162.56 74.93 0)
+			(at 166.37 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9817,7 +11084,7 @@
 			)
 		)
 		(property "Mouser Part Number" "743-IN-S63AT5UW"
-			(at 162.56 74.93 0)
+			(at 166.37 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9826,7 +11093,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "IN-S63AT5UW"
-			(at 162.56 74.93 0)
+			(at 166.37 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9835,7 +11102,7 @@
 			)
 		)
 		(property "Arrow Part Number" ""
-			(at 162.56 74.93 0)
+			(at 166.37 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9844,7 +11111,7 @@
 			)
 		)
 		(property "Arrow Price/Stock" ""
-			(at 162.56 74.93 0)
+			(at 166.37 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9853,7 +11120,7 @@
 			)
 		)
 		(property "Field4" ""
-			(at 162.56 74.93 0)
+			(at 166.37 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9862,7 +11129,7 @@
 			)
 		)
 		(property "LCSC Part" ""
-			(at 162.56 74.93 0)
+			(at 166.37 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10108,7 +11375,7 @@
 	)
 	(symbol
 		(lib_id "Device:LED_Small")
-		(at 71.12 120.65 180)
+		(at 74.93 124.46 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10117,15 +11384,16 @@
 		(fields_autoplaced yes)
 		(uuid "aceae473-1b3d-4f44-a9ed-d213950c7eee")
 		(property "Reference" "LED3"
-			(at 71.628 118.618 0)
+			(at 77.47 124.3964 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
 		(property "Value" "LED_Small"
-			(at 71.12 118.618 0)
+			(at 76.962 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10134,7 +11402,7 @@
 			)
 		)
 		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
-			(at 71.12 120.65 90)
+			(at 74.93 124.46 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10143,7 +11411,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 71.12 120.65 90)
+			(at 74.93 124.46 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10152,7 +11420,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode, small symbol"
-			(at 71.12 120.65 0)
+			(at 74.93 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10161,7 +11429,7 @@
 			)
 		)
 		(property "Sim.Pin" "1=K 2=A"
-			(at 71.12 120.65 0)
+			(at 74.93 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10170,7 +11438,7 @@
 			)
 		)
 		(property "Mouser Part Number" "743-IN-S63AT5UW"
-			(at 71.12 120.65 0)
+			(at 74.93 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10179,7 +11447,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "IN-S63AT5UW"
-			(at 71.12 120.65 0)
+			(at 74.93 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10188,7 +11456,7 @@
 			)
 		)
 		(property "Arrow Part Number" ""
-			(at 71.12 120.65 0)
+			(at 74.93 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10197,7 +11465,7 @@
 			)
 		)
 		(property "Arrow Price/Stock" ""
-			(at 71.12 120.65 0)
+			(at 74.93 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10206,7 +11474,7 @@
 			)
 		)
 		(property "Field4" ""
-			(at 71.12 120.65 0)
+			(at 74.93 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10215,7 +11483,7 @@
 			)
 		)
 		(property "LCSC Part" ""
-			(at 71.12 120.65 0)
+			(at 74.93 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10756,7 +12024,7 @@
 	)
 	(symbol
 		(lib_id "Device:LED_Small")
-		(at 116.84 74.93 180)
+		(at 120.65 78.74 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10765,15 +12033,16 @@
 		(fields_autoplaced yes)
 		(uuid "b399b3c4-4683-4ad2-95ac-b761d0f97e20")
 		(property "Reference" "LED7"
-			(at 117.348 72.898 0)
+			(at 123.19 78.6764 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
 		(property "Value" "LED_Small"
-			(at 116.84 72.898 0)
+			(at 122.682 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10782,7 +12051,7 @@
 			)
 		)
 		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
-			(at 116.84 74.93 90)
+			(at 120.65 78.74 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10791,7 +12060,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 116.84 74.93 90)
+			(at 120.65 78.74 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10800,7 +12069,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode, small symbol"
-			(at 116.84 74.93 0)
+			(at 120.65 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10809,7 +12078,7 @@
 			)
 		)
 		(property "Sim.Pin" "1=K 2=A"
-			(at 116.84 74.93 0)
+			(at 120.65 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10818,7 +12087,7 @@
 			)
 		)
 		(property "Mouser Part Number" "743-IN-S63AT5UW"
-			(at 116.84 74.93 0)
+			(at 120.65 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10827,7 +12096,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "IN-S63AT5UW"
-			(at 116.84 74.93 0)
+			(at 120.65 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10836,7 +12105,7 @@
 			)
 		)
 		(property "Arrow Part Number" ""
-			(at 116.84 74.93 0)
+			(at 120.65 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10845,7 +12114,7 @@
 			)
 		)
 		(property "Arrow Price/Stock" ""
-			(at 116.84 74.93 0)
+			(at 120.65 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10854,7 +12123,7 @@
 			)
 		)
 		(property "Field4" ""
-			(at 116.84 74.93 0)
+			(at 120.65 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10863,7 +12132,7 @@
 			)
 		)
 		(property "LCSC Part" ""
-			(at 116.84 74.93 0)
+			(at 120.65 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11065,7 +12334,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Keyboard:SwitchHoles_Kailh_Choc_V1V2"
+		(property "Footprint" "Keyboard:SwitchHoles_Kailh_Choc_V1"
 			(at 142.24 114.3 0)
 			(effects
 				(font
@@ -11136,6 +12405,280 @@
 				)
 				(path "/ae2abdf3-be75-4a01-9d2e-db16842fefd9/b65bf892-a9b9-431e-af85-efaa63e657b0/6751e6d0-327c-47c9-b89a-8842ebcc672e"
 					(reference "H32")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "R_Small_1")
+		(lib_id "Device:R_Small")
+		(at 162.56 74.93 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b94e921a-587c-42b5-a984-96277f839461")
+		(property "Reference" "R47"
+			(at 161.544 79.248 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "49.9R"
+			(at 163.322 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 162.56 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 162.56 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 162.56 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" ""
+			(at 162.56 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "AC0603FR-0749R9L"
+			(at 162.56 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "603-AC0603FR-0749R9L"
+			(at 162.56 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" ""
+			(at 162.56 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" ""
+			(at 162.56 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field4" ""
+			(at 162.56 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" ""
+			(at 162.56 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "29e84b3c-d450-4fe5-939f-0b9a9d82a70b")
+		)
+		(pin "2"
+			(uuid "95b20cd0-d9fa-46a5-9438-7f332f8676f1")
+		)
+		(instances
+			(project "pipar_point_v3"
+				(path "/ae2abdf3-be75-4a01-9d2e-db16842fefd9/a463a46f-5d6b-469c-a0de-58044b881b04/6751e6d0-327c-47c9-b89a-8842ebcc672e"
+					(reference "R47")
+					(unit 1)
+				)
+				(path "/ae2abdf3-be75-4a01-9d2e-db16842fefd9/b65bf892-a9b9-431e-af85-efaa63e657b0/6751e6d0-327c-47c9-b89a-8842ebcc672e"
+					(reference "R48")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "R_Small_1")
+		(lib_id "Device:R_Small")
+		(at 139.7 74.93 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b9acc180-4e60-4981-8eec-f7ba0f8710c2")
+		(property "Reference" "R41"
+			(at 138.684 79.248 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "49.9R"
+			(at 140.462 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 139.7 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 139.7 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 139.7 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" ""
+			(at 139.7 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "AC0603FR-0749R9L"
+			(at 139.7 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "603-AC0603FR-0749R9L"
+			(at 139.7 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" ""
+			(at 139.7 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" ""
+			(at 139.7 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field4" ""
+			(at 139.7 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" ""
+			(at 139.7 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8c6127f1-bef2-4374-96e7-8eb8092e7cfe")
+		)
+		(pin "2"
+			(uuid "71dc9aec-7765-44d6-ba2f-6a5f089c8d0c")
+		)
+		(instances
+			(project "pipar_point_v3"
+				(path "/ae2abdf3-be75-4a01-9d2e-db16842fefd9/a463a46f-5d6b-469c-a0de-58044b881b04/6751e6d0-327c-47c9-b89a-8842ebcc672e"
+					(reference "R41")
+					(unit 1)
+				)
+				(path "/ae2abdf3-be75-4a01-9d2e-db16842fefd9/b65bf892-a9b9-431e-af85-efaa63e657b0/6751e6d0-327c-47c9-b89a-8842ebcc672e"
+					(reference "R42")
 					(unit 1)
 				)
 			)
@@ -11387,6 +12930,143 @@
 		)
 	)
 	(symbol
+		(lib_name "R_Small_1")
+		(lib_id "Device:R_Small")
+		(at 71.12 97.79 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "bb56f3e3-01ea-4229-9901-92581914a4c7")
+		(property "Reference" "R2"
+			(at 70.104 102.108 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "49.9R"
+			(at 71.882 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 71.12 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 71.12 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 71.12 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" ""
+			(at 71.12 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "AC0603FR-0749R9L"
+			(at 71.12 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "603-AC0603FR-0749R9L"
+			(at 71.12 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" ""
+			(at 71.12 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" ""
+			(at 71.12 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field4" ""
+			(at 71.12 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" ""
+			(at 71.12 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b4c93c33-d264-4480-b83e-639b39a31360")
+		)
+		(pin "2"
+			(uuid "00ea61e7-d090-47f4-8da0-2907e6e22bab")
+		)
+		(instances
+			(project "pipar_point_v3"
+				(path "/ae2abdf3-be75-4a01-9d2e-db16842fefd9/a463a46f-5d6b-469c-a0de-58044b881b04/6751e6d0-327c-47c9-b89a-8842ebcc672e"
+					(reference "R2")
+					(unit 1)
+				)
+				(path "/ae2abdf3-be75-4a01-9d2e-db16842fefd9/b65bf892-a9b9-431e-af85-efaa63e657b0/6751e6d0-327c-47c9-b89a-8842ebcc672e"
+					(reference "R7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Mechanical:MountingHole")
 		(at 187.96 68.58 0)
 		(unit 1)
@@ -11414,7 +13094,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Keyboard:SwitchHoles_Kailh_Choc_V1V2"
+		(property "Footprint" "Keyboard:SwitchHoles_Kailh_Choc_V1"
 			(at 187.96 68.58 0)
 			(effects
 				(font
@@ -11774,7 +13454,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Keyboard:SwitchHoles_Kailh_Choc_V1V2"
+		(property "Footprint" "Keyboard:SwitchHoles_Kailh_Choc_V1"
 			(at 165.1 68.58 0)
 			(effects
 				(font
@@ -11852,7 +13532,7 @@
 	)
 	(symbol
 		(lib_id "Device:LED_Small")
-		(at 139.7 97.79 180)
+		(at 143.51 101.6 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11861,15 +13541,16 @@
 		(fields_autoplaced yes)
 		(uuid "c403806e-32f1-4946-a933-3c4122413440")
 		(property "Reference" "LED11"
-			(at 140.208 95.758 0)
+			(at 146.05 101.5364 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
 		(property "Value" "LED_Small"
-			(at 139.7 95.758 0)
+			(at 145.542 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11878,7 +13559,7 @@
 			)
 		)
 		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
-			(at 139.7 97.79 90)
+			(at 143.51 101.6 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11887,7 +13568,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 139.7 97.79 90)
+			(at 143.51 101.6 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11896,7 +13577,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode, small symbol"
-			(at 139.7 97.79 0)
+			(at 143.51 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11905,7 +13586,7 @@
 			)
 		)
 		(property "Sim.Pin" "1=K 2=A"
-			(at 139.7 97.79 0)
+			(at 143.51 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11914,7 +13595,7 @@
 			)
 		)
 		(property "Mouser Part Number" "743-IN-S63AT5UW"
-			(at 139.7 97.79 0)
+			(at 143.51 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11923,7 +13604,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "IN-S63AT5UW"
-			(at 139.7 97.79 0)
+			(at 143.51 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11932,7 +13613,7 @@
 			)
 		)
 		(property "Arrow Part Number" ""
-			(at 139.7 97.79 0)
+			(at 143.51 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11941,7 +13622,7 @@
 			)
 		)
 		(property "Arrow Price/Stock" ""
-			(at 139.7 97.79 0)
+			(at 143.51 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11950,7 +13631,7 @@
 			)
 		)
 		(property "Field4" ""
-			(at 139.7 97.79 0)
+			(at 143.51 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11959,7 +13640,7 @@
 			)
 		)
 		(property "LCSC Part" ""
-			(at 139.7 97.79 0)
+			(at 143.51 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12096,34 +13777,35 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:LED_Small")
-		(at 93.98 74.93 180)
+		(lib_name "R_Small_1")
+		(lib_id "Device:R_Small")
+		(at 208.28 97.79 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d012dbed-daf4-4787-b8bf-5fb01b5a4b54")
-		(property "Reference" "LED4"
-			(at 94.488 72.898 0)
+		(uuid "cf45a464-08e4-4163-97a1-4017f6ddc663")
+		(property "Reference" "R57"
+			(at 207.264 102.108 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "49.9R"
+			(at 209.042 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
-		(property "Value" "LED_Small"
-			(at 93.98 72.898 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
-			(at 93.98 74.93 90)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 208.28 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12132,7 +13814,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 93.98 74.93 90)
+			(at 208.28 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12140,8 +13822,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Light emitting diode, small symbol"
-			(at 93.98 74.93 0)
+		(property "Description" "Resistor, small symbol"
+			(at 208.28 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12149,8 +13831,8 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Pin" "1=K 2=A"
-			(at 93.98 74.93 0)
+		(property "Manufacturer_Name" ""
+			(at 208.28 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12158,8 +13840,8 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" "743-IN-S63AT5UW"
-			(at 93.98 74.93 0)
+		(property "Manufacturer_Part_Number" "AC0603FR-0749R9L"
+			(at 208.28 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12167,8 +13849,8 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" "IN-S63AT5UW"
-			(at 93.98 74.93 0)
+		(property "Mouser Part Number" "603-AC0603FR-0749R9L"
+			(at 208.28 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12177,7 +13859,7 @@
 			)
 		)
 		(property "Arrow Part Number" ""
-			(at 93.98 74.93 0)
+			(at 208.28 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12186,7 +13868,7 @@
 			)
 		)
 		(property "Arrow Price/Stock" ""
-			(at 93.98 74.93 0)
+			(at 208.28 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12195,7 +13877,7 @@
 			)
 		)
 		(property "Field4" ""
-			(at 93.98 74.93 0)
+			(at 208.28 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12204,7 +13886,144 @@
 			)
 		)
 		(property "LCSC Part" ""
-			(at 93.98 74.93 0)
+			(at 208.28 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1dae45d8-9d2f-484b-9263-463a35657c86")
+		)
+		(pin "2"
+			(uuid "ab9cc007-e4c3-4cf1-9c89-80649f91e19f")
+		)
+		(instances
+			(project "pipar_point_v3"
+				(path "/ae2abdf3-be75-4a01-9d2e-db16842fefd9/a463a46f-5d6b-469c-a0de-58044b881b04/6751e6d0-327c-47c9-b89a-8842ebcc672e"
+					(reference "R57")
+					(unit 1)
+				)
+				(path "/ae2abdf3-be75-4a01-9d2e-db16842fefd9/b65bf892-a9b9-431e-af85-efaa63e657b0/6751e6d0-327c-47c9-b89a-8842ebcc672e"
+					(reference "R58")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED_Small")
+		(at 97.79 78.74 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d012dbed-daf4-4787-b8bf-5fb01b5a4b54")
+		(property "Reference" "LED4"
+			(at 100.33 78.6764 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "LED_Small"
+			(at 99.822 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
+			(at 97.79 78.74 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 97.79 78.74 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode, small symbol"
+			(at 97.79 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pin" "1=K 2=A"
+			(at 97.79 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "743-IN-S63AT5UW"
+			(at 97.79 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "IN-S63AT5UW"
+			(at 97.79 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" ""
+			(at 97.79 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" ""
+			(at 97.79 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field4" ""
+			(at 97.79 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" ""
+			(at 97.79 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12233,7 +14052,7 @@
 	)
 	(symbol
 		(lib_id "Device:LED_Small")
-		(at 185.42 120.65 180)
+		(at 189.23 124.46 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12242,15 +14061,16 @@
 		(fields_autoplaced yes)
 		(uuid "d284637f-b15c-49b3-b03c-a4274418c151")
 		(property "Reference" "LED18"
-			(at 185.928 118.618 0)
+			(at 191.77 124.3964 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
 		(property "Value" "LED_Small"
-			(at 185.42 118.618 0)
+			(at 191.262 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12259,7 +14079,7 @@
 			)
 		)
 		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
-			(at 185.42 120.65 90)
+			(at 189.23 124.46 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12268,7 +14088,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 185.42 120.65 90)
+			(at 189.23 124.46 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12277,7 +14097,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode, small symbol"
-			(at 185.42 120.65 0)
+			(at 189.23 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12286,7 +14106,7 @@
 			)
 		)
 		(property "Sim.Pin" "1=K 2=A"
-			(at 185.42 120.65 0)
+			(at 189.23 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12295,7 +14115,7 @@
 			)
 		)
 		(property "Mouser Part Number" "743-IN-S63AT5UW"
-			(at 185.42 120.65 0)
+			(at 189.23 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12304,7 +14124,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "IN-S63AT5UW"
-			(at 185.42 120.65 0)
+			(at 189.23 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12313,7 +14133,7 @@
 			)
 		)
 		(property "Arrow Part Number" ""
-			(at 185.42 120.65 0)
+			(at 189.23 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12322,7 +14142,7 @@
 			)
 		)
 		(property "Arrow Price/Stock" ""
-			(at 185.42 120.65 0)
+			(at 189.23 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12331,7 +14151,7 @@
 			)
 		)
 		(property "Field4" ""
-			(at 185.42 120.65 0)
+			(at 189.23 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12340,7 +14160,7 @@
 			)
 		)
 		(property "LCSC Part" ""
-			(at 185.42 120.65 0)
+			(at 189.23 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12477,6 +14297,143 @@
 		)
 	)
 	(symbol
+		(lib_name "R_Small_1")
+		(lib_id "Device:R_Small")
+		(at 71.12 120.65 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d6ae2e64-394b-4230-9780-2b41f15d0ab0")
+		(property "Reference" "R10"
+			(at 70.104 124.968 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "49.9R"
+			(at 71.882 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 71.12 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 71.12 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 71.12 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" ""
+			(at 71.12 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "AC0603FR-0749R9L"
+			(at 71.12 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "603-AC0603FR-0749R9L"
+			(at 71.12 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" ""
+			(at 71.12 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" ""
+			(at 71.12 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field4" ""
+			(at 71.12 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" ""
+			(at 71.12 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "08e4b6ad-0d17-442b-8d71-cae4a0591544")
+		)
+		(pin "2"
+			(uuid "4b5bdfb5-e283-4b1e-b6f9-a6316a7d5073")
+		)
+		(instances
+			(project "pipar_point_v3"
+				(path "/ae2abdf3-be75-4a01-9d2e-db16842fefd9/a463a46f-5d6b-469c-a0de-58044b881b04/6751e6d0-327c-47c9-b89a-8842ebcc672e"
+					(reference "R10")
+					(unit 1)
+				)
+				(path "/ae2abdf3-be75-4a01-9d2e-db16842fefd9/b65bf892-a9b9-431e-af85-efaa63e657b0/6751e6d0-327c-47c9-b89a-8842ebcc672e"
+					(reference "R11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Mechanical:MountingHole")
 		(at 73.66 68.58 0)
 		(unit 1)
@@ -12504,7 +14461,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Keyboard:SwitchHoles_Kailh_Choc_V1V2"
+		(property "Footprint" "Keyboard:SwitchHoles_Kailh_Choc_V1"
 			(at 73.66 68.58 0)
 			(effects
 				(font
@@ -12729,7 +14686,7 @@
 	)
 	(symbol
 		(lib_id "Device:LED_Small")
-		(at 208.28 120.65 180)
+		(at 212.09 124.46 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12738,15 +14695,16 @@
 		(fields_autoplaced yes)
 		(uuid "d77ee443-5aba-4c0e-9d3b-a2740de2ca8c")
 		(property "Reference" "LED20"
-			(at 208.788 118.618 0)
+			(at 214.63 124.3964 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
 		(property "Value" "LED_Small"
-			(at 208.28 118.618 0)
+			(at 214.122 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12755,7 +14713,7 @@
 			)
 		)
 		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
-			(at 208.28 120.65 90)
+			(at 212.09 124.46 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12764,7 +14722,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 208.28 120.65 90)
+			(at 212.09 124.46 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12773,7 +14731,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode, small symbol"
-			(at 208.28 120.65 0)
+			(at 212.09 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12782,7 +14740,7 @@
 			)
 		)
 		(property "Sim.Pin" "1=K 2=A"
-			(at 208.28 120.65 0)
+			(at 212.09 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12791,7 +14749,7 @@
 			)
 		)
 		(property "Mouser Part Number" "743-IN-S63AT5UW"
-			(at 208.28 120.65 0)
+			(at 212.09 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12800,7 +14758,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "IN-S63AT5UW"
-			(at 208.28 120.65 0)
+			(at 212.09 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12809,7 +14767,7 @@
 			)
 		)
 		(property "Arrow Part Number" ""
-			(at 208.28 120.65 0)
+			(at 212.09 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12818,7 +14776,7 @@
 			)
 		)
 		(property "Arrow Price/Stock" ""
-			(at 208.28 120.65 0)
+			(at 212.09 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12827,7 +14785,7 @@
 			)
 		)
 		(property "Field4" ""
-			(at 208.28 120.65 0)
+			(at 212.09 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12836,7 +14794,7 @@
 			)
 		)
 		(property "LCSC Part" ""
-			(at 208.28 120.65 0)
+			(at 212.09 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12858,6 +14816,143 @@
 				)
 				(path "/ae2abdf3-be75-4a01-9d2e-db16842fefd9/b65bf892-a9b9-431e-af85-efaa63e657b0/6751e6d0-327c-47c9-b89a-8842ebcc672e"
 					(reference "LED40")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "R_Small_1")
+		(lib_id "Device:R_Small")
+		(at 93.98 74.93 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "db10d1bd-7788-460a-80b6-c7589409cba6")
+		(property "Reference" "R23"
+			(at 92.964 79.248 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "49.9R"
+			(at 94.742 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 93.98 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 93.98 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 93.98 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" ""
+			(at 93.98 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "AC0603FR-0749R9L"
+			(at 93.98 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "603-AC0603FR-0749R9L"
+			(at 93.98 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" ""
+			(at 93.98 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" ""
+			(at 93.98 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field4" ""
+			(at 93.98 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" ""
+			(at 93.98 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c4a6c08c-5980-423f-8a7f-cd26b21ff788")
+		)
+		(pin "2"
+			(uuid "36d50fd9-6018-469f-9d81-64c0eebfbd6b")
+		)
+		(instances
+			(project "pipar_point_v3"
+				(path "/ae2abdf3-be75-4a01-9d2e-db16842fefd9/a463a46f-5d6b-469c-a0de-58044b881b04/6751e6d0-327c-47c9-b89a-8842ebcc672e"
+					(reference "R23")
+					(unit 1)
+				)
+				(path "/ae2abdf3-be75-4a01-9d2e-db16842fefd9/b65bf892-a9b9-431e-af85-efaa63e657b0/6751e6d0-327c-47c9-b89a-8842ebcc672e"
+					(reference "R24")
 					(unit 1)
 				)
 			)
@@ -13011,6 +15106,143 @@
 		)
 	)
 	(symbol
+		(lib_name "R_Small_1")
+		(lib_id "Device:R_Small")
+		(at 93.98 120.65 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "dd6bb942-a099-4681-ba42-860b051dca4f")
+		(property "Reference" "R12"
+			(at 92.964 124.968 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "49.9R"
+			(at 94.742 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 93.98 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 93.98 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 93.98 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" ""
+			(at 93.98 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "AC0603FR-0749R9L"
+			(at 93.98 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "603-AC0603FR-0749R9L"
+			(at 93.98 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" ""
+			(at 93.98 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" ""
+			(at 93.98 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field4" ""
+			(at 93.98 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" ""
+			(at 93.98 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "840ea40f-6ac6-4bf2-ba73-a2f011e01d83")
+		)
+		(pin "2"
+			(uuid "c9a7edb6-e7dc-4fd0-ad17-03dcf934740c")
+		)
+		(instances
+			(project "pipar_point_v3"
+				(path "/ae2abdf3-be75-4a01-9d2e-db16842fefd9/a463a46f-5d6b-469c-a0de-58044b881b04/6751e6d0-327c-47c9-b89a-8842ebcc672e"
+					(reference "R12")
+					(unit 1)
+				)
+				(path "/ae2abdf3-be75-4a01-9d2e-db16842fefd9/b65bf892-a9b9-431e-af85-efaa63e657b0/6751e6d0-327c-47c9-b89a-8842ebcc672e"
+					(reference "R14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:D_Small")
 		(at 81.28 125.73 90)
 		(unit 1)
@@ -13158,6 +15390,143 @@
 		)
 	)
 	(symbol
+		(lib_name "R_Small_1")
+		(lib_id "Device:R_Small")
+		(at 185.42 97.79 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e4b62984-430c-435c-993a-3ef4fd50dcd5")
+		(property "Reference" "R51"
+			(at 184.404 102.108 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "49.9R"
+			(at 186.182 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 185.42 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 185.42 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 185.42 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" ""
+			(at 185.42 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "AC0603FR-0749R9L"
+			(at 185.42 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "603-AC0603FR-0749R9L"
+			(at 185.42 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" ""
+			(at 185.42 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" ""
+			(at 185.42 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field4" ""
+			(at 185.42 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" ""
+			(at 185.42 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "084f2411-d28a-47c7-8f90-c356563ad130")
+		)
+		(pin "2"
+			(uuid "530f35b8-b82d-4510-8970-8565b395cccd")
+		)
+		(instances
+			(project "pipar_point_v3"
+				(path "/ae2abdf3-be75-4a01-9d2e-db16842fefd9/a463a46f-5d6b-469c-a0de-58044b881b04/6751e6d0-327c-47c9-b89a-8842ebcc672e"
+					(reference "R51")
+					(unit 1)
+				)
+				(path "/ae2abdf3-be75-4a01-9d2e-db16842fefd9/b65bf892-a9b9-431e-af85-efaa63e657b0/6751e6d0-327c-47c9-b89a-8842ebcc672e"
+					(reference "R52")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Keyboard:choc_v1_SW_HS_CPG135001S30")
 		(at 147.32 120.65 0)
 		(unit 1)
@@ -13268,7 +15637,7 @@
 	)
 	(symbol
 		(lib_id "Device:LED_Small")
-		(at 93.98 120.65 180)
+		(at 97.79 124.46 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13277,15 +15646,16 @@
 		(fields_autoplaced yes)
 		(uuid "e5f391b5-e888-4035-82fa-bc568a432ff5")
 		(property "Reference" "LED6"
-			(at 94.488 118.618 0)
+			(at 100.33 124.3964 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
 		(property "Value" "LED_Small"
-			(at 93.98 118.618 0)
+			(at 99.822 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13294,7 +15664,7 @@
 			)
 		)
 		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
-			(at 93.98 120.65 90)
+			(at 97.79 124.46 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13303,7 +15673,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 93.98 120.65 90)
+			(at 97.79 124.46 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13312,7 +15682,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode, small symbol"
-			(at 93.98 120.65 0)
+			(at 97.79 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13321,7 +15691,7 @@
 			)
 		)
 		(property "Sim.Pin" "1=K 2=A"
-			(at 93.98 120.65 0)
+			(at 97.79 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13330,7 +15700,7 @@
 			)
 		)
 		(property "Mouser Part Number" "743-IN-S63AT5UW"
-			(at 93.98 120.65 0)
+			(at 97.79 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13339,7 +15709,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "IN-S63AT5UW"
-			(at 93.98 120.65 0)
+			(at 97.79 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13348,7 +15718,7 @@
 			)
 		)
 		(property "Arrow Part Number" ""
-			(at 93.98 120.65 0)
+			(at 97.79 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13357,7 +15727,7 @@
 			)
 		)
 		(property "Arrow Price/Stock" ""
-			(at 93.98 120.65 0)
+			(at 97.79 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13366,7 +15736,7 @@
 			)
 		)
 		(property "Field4" ""
-			(at 93.98 120.65 0)
+			(at 97.79 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13375,7 +15745,7 @@
 			)
 		)
 		(property "LCSC Part" ""
-			(at 93.98 120.65 0)
+			(at 97.79 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13404,7 +15774,7 @@
 	)
 	(symbol
 		(lib_id "Device:LED_Small")
-		(at 162.56 120.65 180)
+		(at 166.37 124.46 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13413,15 +15783,16 @@
 		(fields_autoplaced yes)
 		(uuid "e7fbed4c-6e9d-42ca-9812-baa0b3c76a7d")
 		(property "Reference" "LED15"
-			(at 163.068 118.618 0)
+			(at 168.91 124.3964 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
 		(property "Value" "LED_Small"
-			(at 162.56 118.618 0)
+			(at 168.402 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13430,7 +15801,7 @@
 			)
 		)
 		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
-			(at 162.56 120.65 90)
+			(at 166.37 124.46 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13439,7 +15810,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 162.56 120.65 90)
+			(at 166.37 124.46 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13448,7 +15819,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode, small symbol"
-			(at 162.56 120.65 0)
+			(at 166.37 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13457,7 +15828,7 @@
 			)
 		)
 		(property "Sim.Pin" "1=K 2=A"
-			(at 162.56 120.65 0)
+			(at 166.37 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13466,7 +15837,7 @@
 			)
 		)
 		(property "Mouser Part Number" "743-IN-S63AT5UW"
-			(at 162.56 120.65 0)
+			(at 166.37 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13475,7 +15846,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "IN-S63AT5UW"
-			(at 162.56 120.65 0)
+			(at 166.37 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13484,7 +15855,7 @@
 			)
 		)
 		(property "Arrow Part Number" ""
-			(at 162.56 120.65 0)
+			(at 166.37 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13493,7 +15864,7 @@
 			)
 		)
 		(property "Arrow Price/Stock" ""
-			(at 162.56 120.65 0)
+			(at 166.37 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13502,7 +15873,7 @@
 			)
 		)
 		(property "Field4" ""
-			(at 162.56 120.65 0)
+			(at 166.37 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13511,7 +15882,7 @@
 			)
 		)
 		(property "LCSC Part" ""
-			(at 162.56 120.65 0)
+			(at 166.37 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13533,6 +15904,143 @@
 				)
 				(path "/ae2abdf3-be75-4a01-9d2e-db16842fefd9/b65bf892-a9b9-431e-af85-efaa63e657b0/6751e6d0-327c-47c9-b89a-8842ebcc672e"
 					(reference "LED35")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "R_Small_1")
+		(lib_id "Device:R_Small")
+		(at 185.42 74.93 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ea0edae0-087f-4e64-87f3-055fe704bf7e")
+		(property "Reference" "R49"
+			(at 184.404 79.248 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "49.9R"
+			(at 186.182 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 185.42 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 185.42 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 185.42 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" ""
+			(at 185.42 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "AC0603FR-0749R9L"
+			(at 185.42 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "603-AC0603FR-0749R9L"
+			(at 185.42 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" ""
+			(at 185.42 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" ""
+			(at 185.42 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field4" ""
+			(at 185.42 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" ""
+			(at 185.42 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6d2e0857-9426-4ae7-8498-dd3078927dbe")
+		)
+		(pin "2"
+			(uuid "274d7baa-effb-4787-b6e8-d12337328a6f")
+		)
+		(instances
+			(project "pipar_point_v3"
+				(path "/ae2abdf3-be75-4a01-9d2e-db16842fefd9/a463a46f-5d6b-469c-a0de-58044b881b04/6751e6d0-327c-47c9-b89a-8842ebcc672e"
+					(reference "R49")
+					(unit 1)
+				)
+				(path "/ae2abdf3-be75-4a01-9d2e-db16842fefd9/b65bf892-a9b9-431e-af85-efaa63e657b0/6751e6d0-327c-47c9-b89a-8842ebcc672e"
+					(reference "R50")
 					(unit 1)
 				)
 			)
@@ -13566,7 +16074,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Keyboard:SwitchHoles_Kailh_Choc_V1V2"
+		(property "Footprint" "Keyboard:SwitchHoles_Kailh_Choc_V1"
 			(at 187.96 91.44 0)
 			(effects
 				(font
@@ -13790,6 +16298,143 @@
 		)
 	)
 	(symbol
+		(lib_name "R_Small_1")
+		(lib_id "Device:R_Small")
+		(at 162.56 120.65 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f0a864ad-3bf5-4846-ba33-4d7bf07ce54e")
+		(property "Reference" "R45"
+			(at 161.544 124.968 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "49.9R"
+			(at 163.322 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 162.56 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 162.56 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 162.56 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" ""
+			(at 162.56 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "AC0603FR-0749R9L"
+			(at 162.56 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "603-AC0603FR-0749R9L"
+			(at 162.56 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" ""
+			(at 162.56 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" ""
+			(at 162.56 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field4" ""
+			(at 162.56 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" ""
+			(at 162.56 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "880e08f7-3dc0-4a9b-a597-43dfc962668c")
+		)
+		(pin "2"
+			(uuid "29912324-3ca4-49d4-a7bf-f011771e0899")
+		)
+		(instances
+			(project "pipar_point_v3"
+				(path "/ae2abdf3-be75-4a01-9d2e-db16842fefd9/a463a46f-5d6b-469c-a0de-58044b881b04/6751e6d0-327c-47c9-b89a-8842ebcc672e"
+					(reference "R45")
+					(unit 1)
+				)
+				(path "/ae2abdf3-be75-4a01-9d2e-db16842fefd9/b65bf892-a9b9-431e-af85-efaa63e657b0/6751e6d0-327c-47c9-b89a-8842ebcc672e"
+					(reference "R46")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:D_Small")
 		(at 195.58 125.73 90)
 		(unit 1)
@@ -13964,7 +16609,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Keyboard:SwitchHoles_Kailh_Choc_V1V2"
+		(property "Footprint" "Keyboard:SwitchHoles_Kailh_Choc_V1"
 			(at 210.82 91.44 0)
 			(effects
 				(font
@@ -14215,7 +16860,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Keyboard:SwitchHoles_Kailh_Choc_V1V2"
+		(property "Footprint" "Keyboard:SwitchHoles_Kailh_Choc_V1"
 			(at 119.38 91.44 0)
 			(effects
 				(font
@@ -14319,7 +16964,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Keyboard:SwitchHoles_Kailh_Choc_V1V2"
+		(property "Footprint" "Keyboard:SwitchHoles_Kailh_Choc_V1"
 			(at 96.52 68.58 0)
 			(effects
 				(font
@@ -14390,6 +17035,143 @@
 				)
 				(path "/ae2abdf3-be75-4a01-9d2e-db16842fefd9/b65bf892-a9b9-431e-af85-efaa63e657b0/6751e6d0-327c-47c9-b89a-8842ebcc672e"
 					(reference "H24")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "R_Small_1")
+		(lib_id "Device:R_Small")
+		(at 208.28 120.65 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "fe5c4dfd-b3da-4391-939b-df054bf83775")
+		(property "Reference" "R55"
+			(at 207.264 124.968 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "49.9R"
+			(at 209.042 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 208.28 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 208.28 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 208.28 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" ""
+			(at 208.28 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "AC0603FR-0749R9L"
+			(at 208.28 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "603-AC0603FR-0749R9L"
+			(at 208.28 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" ""
+			(at 208.28 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" ""
+			(at 208.28 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field4" ""
+			(at 208.28 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" ""
+			(at 208.28 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fdec388c-d649-425a-bdbe-ffbfe66296d2")
+		)
+		(pin "2"
+			(uuid "20d106a2-c729-4fd4-ae6c-ccfbecffe394")
+		)
+		(instances
+			(project "pipar_point_v3"
+				(path "/ae2abdf3-be75-4a01-9d2e-db16842fefd9/a463a46f-5d6b-469c-a0de-58044b881b04/6751e6d0-327c-47c9-b89a-8842ebcc672e"
+					(reference "R55")
+					(unit 1)
+				)
+				(path "/ae2abdf3-be75-4a01-9d2e-db16842fefd9/b65bf892-a9b9-431e-af85-efaa63e657b0/6751e6d0-327c-47c9-b89a-8842ebcc672e"
+					(reference "R56")
 					(unit 1)
 				)
 			)

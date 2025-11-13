@@ -7566,7 +7566,7 @@
 	)
 	(wire
 		(pts
-			(xy 203.2 58.42) (xy 203.2 97.79)
+			(xy 203.2 66.04) (xy 203.2 97.79)
 		)
 		(stroke
 			(width 0)
@@ -7776,7 +7776,17 @@
 	)
 	(wire
 		(pts
-			(xy 203.2 50.8) (xy 203.2 53.34)
+			(xy 193.04 59.69) (xy 193.04 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "83450c92-be07-4673-8cc7-2a994c853b23")
+	)
+	(wire
+		(pts
+			(xy 203.2 50.8) (xy 203.2 54.61)
 		)
 		(stroke
 			(width 0)
@@ -8076,6 +8086,16 @@
 	)
 	(wire
 		(pts
+			(xy 203.2 59.69) (xy 203.2 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aa705024-b489-482d-b3ef-64e5c8646c3e")
+	)
+	(wire
+		(pts
 			(xy 110.49 21.59) (xy 110.49 25.4)
 		)
 		(stroke
@@ -8226,7 +8246,7 @@
 	)
 	(wire
 		(pts
-			(xy 193.04 50.8) (xy 193.04 53.34)
+			(xy 193.04 50.8) (xy 193.04 54.61)
 		)
 		(stroke
 			(width 0)
@@ -8396,7 +8416,7 @@
 	)
 	(wire
 		(pts
-			(xy 193.04 58.42) (xy 193.04 95.25)
+			(xy 193.04 66.04) (xy 193.04 95.25)
 		)
 		(stroke
 			(width 0)
@@ -9573,6 +9593,104 @@
 			(project "pipar_chip"
 				(path "/d1142a1b-d63f-4838-8682-40c268ae0e67"
 					(reference "#PWR07")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "R_Small_1")
+		(lib_id "Device:R_Small")
+		(at 193.04 57.15 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "250adc66-8c37-44e2-b2e2-1ab47c3c2a5a")
+		(property "Reference" "R7"
+			(at 195.58 55.8799 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "1.5k"
+			(at 195.58 58.4199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 193.04 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 193.04 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 193.04 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "YAGEO"
+			(at 193.04 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "RC0603FR-071K5L"
+			(at 193.04 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "603-RC0603FR-071K5L "
+			(at 193.04 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "29e44843-4b16-415f-8d1d-c5b734fd0382")
+		)
+		(pin "2"
+			(uuid "60501a6d-89ef-463e-a6f6-c149465889e1")
+		)
+		(instances
+			(project "pipar_chip"
+				(path "/d1142a1b-d63f-4838-8682-40c268ae0e67"
+					(reference "R7")
 					(unit 1)
 				)
 			)
@@ -11053,6 +11171,104 @@
 		)
 	)
 	(symbol
+		(lib_name "R_Small_1")
+		(lib_id "Device:R_Small")
+		(at 203.2 57.15 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "49fb2f04-f57f-4598-9df5-c246b0a7f3c3")
+		(property "Reference" "R8"
+			(at 205.74 55.8799 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "1.5k"
+			(at 205.74 58.4199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 203.2 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 203.2 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 203.2 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "YAGEO"
+			(at 203.2 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "RC0603FR-071K5L"
+			(at 203.2 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "603-RC0603FR-071K5L "
+			(at 203.2 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2a99035d-b763-4485-8732-1ebd7d707384")
+		)
+		(pin "2"
+			(uuid "7ade059c-e17c-4c9c-be9a-10778747fd98")
+		)
+		(instances
+			(project "pipar_chip"
+				(path "/d1142a1b-d63f-4838-8682-40c268ae0e67"
+					(reference "R8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector:TestPoint_Probe")
 		(at 52.07 21.59 0)
 		(unit 1)
@@ -12134,7 +12350,7 @@
 	(symbol
 		(lib_name "LED_Small_1")
 		(lib_id "Device:LED_Small")
-		(at 193.04 55.88 90)
+		(at 193.04 63.5 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12143,7 +12359,7 @@
 		(fields_autoplaced yes)
 		(uuid "967a465f-d912-4de2-a0b7-78804ff7eae8")
 		(property "Reference" "D3"
-			(at 195.58 54.5464 90)
+			(at 195.58 62.1664 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12152,7 +12368,7 @@
 			)
 		)
 		(property "Value" "LED_Small"
-			(at 195.58 57.0864 90)
+			(at 195.58 64.7064 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12161,7 +12377,7 @@
 			)
 		)
 		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
-			(at 193.04 55.88 90)
+			(at 193.04 63.5 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12170,7 +12386,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 193.04 55.88 90)
+			(at 193.04 63.5 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12179,7 +12395,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode, small symbol"
-			(at 193.04 55.88 0)
+			(at 193.04 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12188,7 +12404,7 @@
 			)
 		)
 		(property "Sim.Pin" "1=K 2=A"
-			(at 193.04 55.88 0)
+			(at 193.04 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12197,7 +12413,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Inolux"
-			(at 193.04 55.88 90)
+			(at 193.04 63.5 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12206,7 +12422,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "IN-PIS63BTPR"
-			(at 193.04 55.88 90)
+			(at 193.04 63.5 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12215,7 +12431,7 @@
 			)
 		)
 		(property "Mouser Part Number" "743-IN-PIS63BTPR"
-			(at 193.04 55.88 90)
+			(at 193.04 63.5 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13845,7 +14061,7 @@
 	(symbol
 		(lib_name "LED_Small_1")
 		(lib_id "Device:LED_Small")
-		(at 203.2 55.88 90)
+		(at 203.2 63.5 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13854,7 +14070,7 @@
 		(fields_autoplaced yes)
 		(uuid "d6f52b7f-cd51-4b76-afa2-69db0248c422")
 		(property "Reference" "D4"
-			(at 205.74 54.5464 90)
+			(at 205.74 62.1664 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13863,7 +14079,7 @@
 			)
 		)
 		(property "Value" "LED_Small"
-			(at 205.74 57.0864 90)
+			(at 205.74 64.7064 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13872,7 +14088,7 @@
 			)
 		)
 		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
-			(at 203.2 55.88 90)
+			(at 203.2 63.5 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13881,7 +14097,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 203.2 55.88 90)
+			(at 203.2 63.5 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13890,7 +14106,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode, small symbol"
-			(at 203.2 55.88 0)
+			(at 203.2 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13899,7 +14115,7 @@
 			)
 		)
 		(property "Sim.Pin" "1=K 2=A"
-			(at 203.2 55.88 0)
+			(at 203.2 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13908,7 +14124,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Inolux"
-			(at 203.2 55.88 90)
+			(at 203.2 63.5 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13917,7 +14133,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "IN-PIS63BTPG"
-			(at 203.2 55.88 90)
+			(at 203.2 63.5 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13926,7 +14142,7 @@
 			)
 		)
 		(property "Mouser Part Number" "743-IN-PIS63BTPG"
-			(at 203.2 55.88 90)
+			(at 203.2 63.5 90)
 			(effects
 				(font
 					(size 1.27 1.27)

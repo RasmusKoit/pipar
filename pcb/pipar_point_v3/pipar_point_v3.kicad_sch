@@ -6,8 +6,8 @@
 	(paper "A4")
 	(title_block
 		(title "Pipar Point")
-		(date "2025-08-29")
-		(rev "V3")
+		(date "2025-11-13")
+		(rev "V3.1")
 		(company "Pipar Keyboards")
 		(comment 1 "Start 2025-08-29")
 	)
@@ -1033,6 +1033,182 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Switch:SW_SPDT"
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "SW"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "SW_SPDT"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 -7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Switch, single pole double throw"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "switch single-pole double-throw spdt ON-ON"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "SW_SPDT_0_1"
+				(circle
+					(center -2.032 0)
+					(radius 0.4572)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.651 0.254) (xy 1.651 2.286)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.032 2.54)
+					(radius 0.4572)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.032 -2.54)
+					(radius 0.4572)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "SW_SPDT_1_1"
+				(rectangle
+					(start -3.175 3.81)
+					(end 3.175 -3.81)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 2.54 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 -2.54 180)
+					(length 2.54)
+					(name "C"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "power:GND"
 			(power)
 			(pin_numbers
@@ -1136,16 +1312,52 @@
 		)
 	)
 	(junction
+		(at 184.15 107.95)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "34d4688b-9390-452a-a435-a999304e0b96")
+	)
+	(junction
+		(at 172.72 67.31)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "36196941-7f7d-4a5c-af51-92d38edb365a")
+	)
+	(junction
+		(at 187.96 96.52)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3d248a94-4ef8-412d-b2a6-f35e2147c75c")
+	)
+	(junction
 		(at 179.07 99.06)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4f8f0b15-0767-4c60-b229-9878249612da")
 	)
 	(junction
-		(at 189.23 93.98)
+		(at 172.72 74.93)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "6f4e6e9d-69ee-4392-8226-b22b918e038b")
+		(uuid "77d53be9-83cb-4231-902a-ca5ce703e118")
+	)
+	(junction
+		(at 172.72 71.12)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "843a3559-6e78-4c58-ae9a-3c1c5c9d4f8f")
+	)
+	(junction
+		(at 156.21 67.31)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a6c8e8fe-f5e7-4f7e-a8e7-1eda9c192c56")
+	)
+	(junction
+		(at 161.29 74.93)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c4cbf19d-1c83-459b-b7a6-b4ce2fe2a1be")
 	)
 	(junction
 		(at 181.61 93.98)
@@ -1160,6 +1372,12 @@
 		(uuid "d2f7b812-fe72-4b14-95a4-e16a7d142688")
 	)
 	(junction
+		(at 153.67 63.5)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d94f3b34-80af-4727-b8e1-40bbca3d882b")
+	)
+	(junction
 		(at 184.15 96.52)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1170,6 +1388,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ea76c0e8-6eaa-4600-87b2-2aafc3d34398")
+	)
+	(junction
+		(at 158.75 71.12)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ea7acee9-4233-41b4-a332-236462c30ce8")
 	)
 	(no_connect
 		(at 143.51 86.36)
@@ -1182,6 +1406,14 @@
 	(no_connect
 		(at 101.6 96.52)
 		(uuid "7397594f-6ba1-4374-aeb8-5e723486f7f3")
+	)
+	(no_connect
+		(at 181.61 125.73)
+		(uuid "7775f648-006d-47f7-8baa-41a815378a77")
+	)
+	(no_connect
+		(at 113.03 124.46)
+		(uuid "8b647a1c-a5dc-4027-82b5-526897d7d5ff")
 	)
 	(no_connect
 		(at 143.51 104.14)
@@ -1205,13 +1437,13 @@
 	)
 	(wire
 		(pts
-			(xy 161.29 71.12) (xy 161.29 76.2)
+			(xy 101.6 114.3) (xy 110.49 114.3)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "013840a6-e6bb-47e6-a5ee-d21b247071ed")
+		(uuid "025fc414-8b52-49e1-9773-20767ea0dab1")
 	)
 	(wire
 		(pts
@@ -1225,6 +1457,36 @@
 	)
 	(wire
 		(pts
+			(xy 163.83 74.93) (xy 161.29 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "34ef1833-d70c-4e51-805b-f1225b814f1d")
+	)
+	(wire
+		(pts
+			(xy 156.21 62.23) (xy 156.21 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "44bc1430-4278-45e9-90d6-9e7e7738abe0")
+	)
+	(wire
+		(pts
+			(xy 158.75 71.12) (xy 158.75 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "465a17de-08d4-499d-aedc-237b0a69f610")
+	)
+	(wire
+		(pts
 			(xy 179.07 109.22) (xy 179.07 107.95)
 		)
 		(stroke
@@ -1235,7 +1497,7 @@
 	)
 	(wire
 		(pts
-			(xy 181.61 93.98) (xy 189.23 93.98)
+			(xy 181.61 93.98) (xy 191.77 93.98)
 		)
 		(stroke
 			(width 0)
@@ -1245,13 +1507,33 @@
 	)
 	(wire
 		(pts
-			(xy 158.75 71.12) (xy 158.75 76.2)
+			(xy 172.72 67.31) (xy 172.72 71.12)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "61678dd7-4db5-48f7-8d3a-fe34de809a8b")
+		(uuid "52fe4e2d-fb8d-4daf-a09e-788274e41d15")
+	)
+	(wire
+		(pts
+			(xy 156.21 67.31) (xy 163.83 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "59fac59c-a89e-43aa-ac69-9a442145b390")
+	)
+	(wire
+		(pts
+			(xy 172.72 63.5) (xy 172.72 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5c297dab-d562-44a1-9698-c3fbfb1bb039")
 	)
 	(wire
 		(pts
@@ -1265,23 +1547,43 @@
 	)
 	(wire
 		(pts
-			(xy 189.23 91.44) (xy 189.23 93.98)
+			(xy 161.29 62.23) (xy 161.29 74.93)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "6bdd7267-2786-4e3f-aeac-64a5bd9e254a")
+		(uuid "66409665-1613-4bab-b397-da84dda47231")
 	)
 	(wire
 		(pts
-			(xy 184.15 96.52) (xy 191.77 96.52)
+			(xy 184.15 107.95) (xy 187.96 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6af15393-de25-4f0b-8796-21b9bf37eb25")
+	)
+	(wire
+		(pts
+			(xy 184.15 96.52) (xy 187.96 96.52)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "70139b8a-d645-42be-8793-dd808a923876")
+	)
+	(wire
+		(pts
+			(xy 184.15 109.22) (xy 184.15 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7843bb09-2c82-4fcf-9c51-82716a952e85")
 	)
 	(wire
 		(pts
@@ -1305,6 +1607,36 @@
 	)
 	(wire
 		(pts
+			(xy 168.91 74.93) (xy 172.72 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "82c9069a-2f2d-4ad6-b361-816c2a8a7273")
+	)
+	(wire
+		(pts
+			(xy 168.91 67.31) (xy 172.72 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8833629b-286b-495c-a60c-22ae51771b93")
+	)
+	(wire
+		(pts
+			(xy 153.67 63.5) (xy 163.83 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8959b972-ef7f-4bad-92b4-57493a3de32b")
+	)
+	(wire
+		(pts
 			(xy 171.45 101.6) (xy 175.26 101.6)
 		)
 		(stroke
@@ -1315,17 +1647,27 @@
 	)
 	(wire
 		(pts
-			(xy 156.21 71.12) (xy 156.21 76.2)
+			(xy 187.96 96.52) (xy 187.96 102.87)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "8e0b0ec5-a104-494e-b2da-2bf8088fc2ae")
+		(uuid "8f37571b-a3e6-418c-8b5b-bd51df595981")
 	)
 	(wire
 		(pts
-			(xy 153.67 71.12) (xy 153.67 76.2)
+			(xy 172.72 76.2) (xy 172.72 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9642f2bb-51bc-4332-8408-29c1e6ec5e87")
+	)
+	(wire
+		(pts
+			(xy 153.67 62.23) (xy 153.67 63.5)
 		)
 		(stroke
 			(width 0)
@@ -1342,16 +1684,6 @@
 			(type default)
 		)
 		(uuid "97a3ee04-b7a7-4ac8-99f8-0bd5e08b1698")
-	)
-	(wire
-		(pts
-			(xy 189.23 93.98) (xy 191.77 93.98)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9de14282-9ea4-459c-a2b7-283cdbdb78ce")
 	)
 	(wire
 		(pts
@@ -1385,6 +1717,16 @@
 	)
 	(wire
 		(pts
+			(xy 156.21 67.31) (xy 156.21 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ca38aebc-b3a6-457b-ab78-51b0ad4454dc")
+	)
+	(wire
+		(pts
 			(xy 181.61 93.98) (xy 181.61 109.22)
 		)
 		(stroke
@@ -1392,6 +1734,26 @@
 			(type default)
 		)
 		(uuid "cc779d0e-795f-43ae-9d4b-220763b40d3b")
+	)
+	(wire
+		(pts
+			(xy 168.91 71.12) (xy 172.72 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cd9a2924-dc10-44a0-86c5-a32ee0cff350")
+	)
+	(wire
+		(pts
+			(xy 187.96 96.52) (xy 191.77 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cfb19c1d-9662-422a-907f-0199aca98b94")
 	)
 	(wire
 		(pts
@@ -1405,13 +1767,33 @@
 	)
 	(wire
 		(pts
-			(xy 184.15 91.44) (xy 184.15 96.52)
+			(xy 184.15 115.57) (xy 191.77 115.57)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "e5caeefa-a2b4-4207-b787-ffb93d45c920")
+		(uuid "d0dd1b09-aefd-44aa-b00b-e7bc5720cdee")
+	)
+	(wire
+		(pts
+			(xy 172.72 71.12) (xy 172.72 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e34956ad-0cb3-4b8c-bb2b-a5a1f0df4852")
+	)
+	(wire
+		(pts
+			(xy 158.75 62.23) (xy 158.75 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e6b807cc-ed51-4f01-83c0-83b80ce56204")
 	)
 	(wire
 		(pts
@@ -1433,18 +1815,77 @@
 		)
 		(uuid "e8b04113-fac8-4a11-9739-8aed2709695c")
 	)
+	(wire
+		(pts
+			(xy 101.6 124.46) (xy 107.95 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "efce459c-b0b1-4863-9251-213e9ceab05f")
+	)
+	(wire
+		(pts
+			(xy 153.67 63.5) (xy 153.67 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f3108cea-8042-4f42-b981-83e74ed7f3ef")
+	)
+	(wire
+		(pts
+			(xy 158.75 71.12) (xy 163.83 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f4e104b8-9eda-41e1-ae51-1a3d202ad060")
+	)
+	(wire
+		(pts
+			(xy 168.91 63.5) (xy 172.72 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f64971d2-b633-4438-8475-876446e6bf25")
+	)
+	(wire
+		(pts
+			(xy 186.69 125.73) (xy 191.77 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f77aef82-10fb-44b0-8c7e-a3412d88b88b")
+	)
+	(wire
+		(pts
+			(xy 161.29 74.93) (xy 161.29 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fb77e06f-8921-4f8a-b410-26858dd0f91f")
+	)
 	(symbol
 		(lib_id "power:GND")
-		(at 184.15 107.95 0)
+		(at 184.15 109.22 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "0e6db076-b027-4db0-82af-b4f943d44f95")
 		(property "Reference" "#PWR017"
-			(at 184.15 114.3 0)
+			(at 184.15 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1453,7 +1894,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 184.15 113.03 0)
+			(at 188.214 110.744 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1461,7 +1902,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 184.15 107.95 0)
+			(at 184.15 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1470,7 +1911,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 184.15 107.95 0)
+			(at 184.15 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1479,7 +1920,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 184.15 107.95 0)
+			(at 184.15 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1959,7 +2400,7 @@
 	)
 	(symbol
 		(lib_id "Keyboard:SK8707-01-0C_Sensor")
-		(at 157.48 62.23 0)
+		(at 157.48 53.34 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -1968,7 +2409,7 @@
 		(fields_autoplaced yes)
 		(uuid "3da15951-027c-4fe2-af8a-45e43d1d64d6")
 		(property "Reference" "U10"
-			(at 166.37 60.6424 0)
+			(at 166.37 51.7524 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1977,7 +2418,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 166.37 63.1824 0)
+			(at 166.37 54.2924 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1986,7 +2427,7 @@
 			)
 		)
 		(property "Footprint" "Trackpoint:SK8707-01-0C Sensor"
-			(at 157.48 62.23 0)
+			(at 157.48 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1995,7 +2436,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 157.48 62.23 0)
+			(at 157.48 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2004,7 +2445,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 157.48 62.23 0)
+			(at 157.48 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2013,7 +2454,7 @@
 			)
 		)
 		(property "Arrow Part Number" ""
-			(at 157.48 62.23 0)
+			(at 157.48 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2022,7 +2463,7 @@
 			)
 		)
 		(property "Arrow Price/Stock" ""
-			(at 157.48 62.23 0)
+			(at 157.48 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2031,7 +2472,7 @@
 			)
 		)
 		(property "Field4" ""
-			(at 157.48 62.23 0)
+			(at 157.48 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2040,7 +2481,7 @@
 			)
 		)
 		(property "LCSC Part" ""
-			(at 157.48 62.23 0)
+			(at 157.48 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2270,6 +2711,364 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 172.72 76.2 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4fafb951-9915-4035-bb05-4cf3212531ed")
+		(property "Reference" "#PWR020"
+			(at 172.72 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 172.72 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 172.72 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 172.72 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 172.72 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1bd540e9-6b5f-4116-a8b5-92a302a04693")
+		)
+		(instances
+			(project "pipar_point_v3"
+				(path "/ae2abdf3-be75-4a01-9d2e-db16842fefd9"
+					(reference "#PWR020")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 166.37 71.12 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "528f07e7-195e-4770-accf-d1ee67399c69")
+		(property "Reference" "C5"
+			(at 168.402 70.104 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100nF"
+			(at 162.814 70.104 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 166.37 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 166.37 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 166.37 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 166.37 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 166.37 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Part Number" "603-CC603KRX7R8BB104"
+			(at 166.37 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" ""
+			(at 166.37 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "CC0603KRX7R8BB104"
+			(at 166.37 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" ""
+			(at 166.37 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" ""
+			(at 166.37 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field4" ""
+			(at 166.37 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" ""
+			(at 166.37 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b9022faa-face-46f3-a7eb-b832d1e3e43f")
+		)
+		(pin "2"
+			(uuid "7c671395-59a5-42a0-8d4e-83716a0296cd")
+		)
+		(instances
+			(project "pipar_point_v3"
+				(path "/ae2abdf3-be75-4a01-9d2e-db16842fefd9"
+					(reference "C5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 166.37 74.93 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "5f1940a4-ddf9-4883-80e6-5961a5caec1c")
+		(property "Reference" "C6"
+			(at 168.402 73.914 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100nF"
+			(at 162.814 73.914 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 166.37 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 166.37 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 166.37 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 166.37 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 166.37 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Part Number" "603-CC603KRX7R8BB104"
+			(at 166.37 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" ""
+			(at 166.37 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "CC0603KRX7R8BB104"
+			(at 166.37 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" ""
+			(at 166.37 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" ""
+			(at 166.37 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field4" ""
+			(at 166.37 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" ""
+			(at 166.37 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2116a3f6-b1d5-4521-8221-5404d586a8b4")
+		)
+		(pin "2"
+			(uuid "95efae8f-f681-4543-b417-a9e29a9322bd")
+		)
+		(instances
+			(project "pipar_point_v3"
+				(path "/ae2abdf3-be75-4a01-9d2e-db16842fefd9"
+					(reference "C6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Mechanical:MountingHole")
 		(at 74.93 152.4 0)
 		(unit 1)
@@ -2371,7 +3170,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 186.69 91.44 90)
+		(at 187.96 105.41 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2380,23 +3179,25 @@
 		(fields_autoplaced yes)
 		(uuid "66e82ec5-73dd-4ab1-a6d5-72730e355fbc")
 		(property "Reference" "C4"
-			(at 186.6963 85.09 90)
+			(at 190.5 104.1335 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
 		(property "Value" "100nF"
-			(at 186.6963 87.63 90)
+			(at 190.5 106.6735 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 186.69 91.44 0)
+			(at 187.96 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2405,7 +3206,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 186.69 91.44 0)
+			(at 187.96 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2414,7 +3215,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 186.69 91.44 0)
+			(at 187.96 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2423,7 +3224,7 @@
 			)
 		)
 		(property "Sim.Device" ""
-			(at 186.69 91.44 0)
+			(at 187.96 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2431,7 +3232,7 @@
 			)
 		)
 		(property "Sim.Pins" ""
-			(at 186.69 91.44 0)
+			(at 187.96 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2439,7 +3240,7 @@
 			)
 		)
 		(property "Mouser Part Number" "603-CC603KRX7R8BB104"
-			(at 186.69 91.44 0)
+			(at 187.96 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2448,7 +3249,7 @@
 			)
 		)
 		(property "Manufacturer_Name" ""
-			(at 186.69 91.44 0)
+			(at 187.96 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2457,7 +3258,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "CC0603KRX7R8BB104"
-			(at 186.69 91.44 0)
+			(at 187.96 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2466,7 +3267,7 @@
 			)
 		)
 		(property "Arrow Part Number" ""
-			(at 186.69 91.44 0)
+			(at 187.96 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2475,7 +3276,7 @@
 			)
 		)
 		(property "Arrow Price/Stock" ""
-			(at 186.69 91.44 0)
+			(at 187.96 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2484,7 +3285,7 @@
 			)
 		)
 		(property "Field4" ""
-			(at 186.69 91.44 0)
+			(at 187.96 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2493,7 +3294,7 @@
 			)
 		)
 		(property "LCSC Part" ""
-			(at 186.69 91.44 0)
+			(at 187.96 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2511,6 +3312,142 @@
 			(project "pipar_point_v3"
 				(path "/ae2abdf3-be75-4a01-9d2e-db16842fefd9"
 					(reference "C4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_SPDT")
+		(at 110.49 119.38 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "76d337f5-989e-4128-9d0b-187e14ad969d")
+		(property "Reference" "SW5"
+			(at 115.57 118.1099 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "SW_SPDT"
+			(at 115.57 120.6499 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Button_Switch_SMD:SW_SPDT_PCM12"
+			(at 110.49 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 102.87 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Switch, single pole double throw"
+			(at 110.49 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" ""
+			(at 110.49 119.38 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" " PCM12SMTBR"
+			(at 110.49 119.38 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" " 611-PCM12SMTBR"
+			(at 110.49 119.38 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" ""
+			(at 110.49 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" ""
+			(at 110.49 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field4" ""
+			(at 110.49 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" ""
+			(at 110.49 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "639d078c-2aff-44a9-a544-719711cba4eb")
+		)
+		(pin "2"
+			(uuid "871f79aa-71c5-4e56-ad2e-36a1ce8f44f4")
+		)
+		(pin "3"
+			(uuid "5c613d9d-61eb-4268-a772-5121d90a7604")
+		)
+		(instances
+			(project "pipar_point_v3"
+				(path "/ae2abdf3-be75-4a01-9d2e-db16842fefd9"
+					(reference "SW5")
 					(unit 1)
 				)
 			)
@@ -2611,6 +3548,434 @@
 			(project "pipar_point_v3"
 				(path "/ae2abdf3-be75-4a01-9d2e-db16842fefd9"
 					(reference "FID1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_SPDT")
+		(at 184.15 120.65 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "94124d47-02f9-41e6-adf9-66fb3b674ab7")
+		(property "Reference" "SW3"
+			(at 189.23 119.3799 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "SW_SPDT"
+			(at 189.23 121.9199 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Button_Switch_SMD:SW_SPDT_PCM12"
+			(at 184.15 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 176.53 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Switch, single pole double throw"
+			(at 184.15 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" ""
+			(at 184.15 120.65 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" " PCM12SMTBR"
+			(at 184.15 120.65 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" " 611-PCM12SMTBR"
+			(at 184.15 120.65 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" ""
+			(at 184.15 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" ""
+			(at 184.15 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field4" ""
+			(at 184.15 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" ""
+			(at 184.15 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "197a2c55-6810-477c-a7ac-96d09f157ecb")
+		)
+		(pin "2"
+			(uuid "6c2d37c3-b201-4b5d-9ffe-9edd07d6517a")
+		)
+		(pin "3"
+			(uuid "c3bc83a2-181b-43fa-b8be-f698401de2f6")
+		)
+		(instances
+			(project "pipar_point_v3"
+				(path "/ae2abdf3-be75-4a01-9d2e-db16842fefd9"
+					(reference "SW3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 166.37 67.31 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "9a2e7c86-9b76-4dae-8993-cf8bf35df573")
+		(property "Reference" "C7"
+			(at 168.402 66.294 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100nF"
+			(at 162.56 66.548 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 166.37 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 166.37 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 166.37 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 166.37 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 166.37 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Part Number" "603-CC603KRX7R8BB104"
+			(at 166.37 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" ""
+			(at 166.37 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "CC0603KRX7R8BB104"
+			(at 166.37 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" ""
+			(at 166.37 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" ""
+			(at 166.37 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field4" ""
+			(at 166.37 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" ""
+			(at 166.37 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b75c01dd-2793-4834-b5f6-0daa5117f762")
+		)
+		(pin "2"
+			(uuid "2d3f6f8a-12b0-4c68-95ab-9431d4d26407")
+		)
+		(instances
+			(project "pipar_point_v3"
+				(path "/ae2abdf3-be75-4a01-9d2e-db16842fefd9"
+					(reference "C7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 166.37 63.5 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "9b08514e-a337-47db-a926-246afcda9631")
+		(property "Reference" "C8"
+			(at 168.402 62.484 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100nF"
+			(at 162.814 62.738 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 166.37 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 166.37 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 166.37 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 166.37 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 166.37 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Part Number" "603-CC603KRX7R8BB104"
+			(at 166.37 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" ""
+			(at 166.37 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "CC0603KRX7R8BB104"
+			(at 166.37 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" ""
+			(at 166.37 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" ""
+			(at 166.37 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field4" ""
+			(at 166.37 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" ""
+			(at 166.37 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a748d026-f212-4694-9263-3622416bb638")
+		)
+		(pin "2"
+			(uuid "67ab0a7a-8619-44da-bffb-9e003c975fba")
+		)
+		(instances
+			(project "pipar_point_v3"
+				(path "/ae2abdf3-be75-4a01-9d2e-db16842fefd9"
+					(reference "C8")
 					(unit 1)
 				)
 			)
@@ -3423,6 +4788,26 @@
 				(justify right)
 			)
 		)
+		(pin "BAT_IN" bidirectional
+			(at 101.6 124.46 0)
+			(uuid "7a42aa8f-2ea3-4e43-abae-a2cf0ed1a6d0")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "BAT_ON" bidirectional
+			(at 101.6 114.3 0)
+			(uuid "2d27c9d0-66ef-45ca-aa36-7fdfb4f8f350")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
 		(instances
 			(project "pipar_point_v3"
 				(path "/ae2abdf3-be75-4a01-9d2e-db16842fefd9"
@@ -3498,6 +4883,26 @@
 		(pin "3.3V" bidirectional
 			(at 191.77 93.98 180)
 			(uuid "f2dd8e41-8dfb-4483-b418-a3cd32a45713")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "BAT_ON" bidirectional
+			(at 191.77 115.57 180)
+			(uuid "6cbb3084-0259-4d27-81be-9d788a91b688")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "BAT_IN" bidirectional
+			(at 191.77 125.73 180)
+			(uuid "019bdd80-f352-464c-a3e5-fef98972fa48")
 			(effects
 				(font
 					(size 1.27 1.27)

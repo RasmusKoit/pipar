@@ -7,7 +7,7 @@
 	(title_block
 		(title "Pipar Point")
 		(date "2025-08-29")
-		(rev "V3")
+		(rev "V3.1")
 		(company "Pipar Keyboards")
 	)
 	(lib_symbols
@@ -4507,12 +4507,6 @@
 		(uuid "61d4c562-9a17-443c-a846-b6e125c0c22b")
 	)
 	(junction
-		(at 66.04 29.21)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "8718c8f1-3878-4421-95a9-fdd09498d279")
-	)
-	(junction
 		(at 208.28 138.43)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4541,6 +4535,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b1069e1a-19e2-4bd1-927d-b0b872205f2c")
+	)
+	(junction
+		(at 66.04 26.67)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e7772eb2-712d-4765-933e-5a7e847df051")
 	)
 	(junction
 		(at 205.74 138.43)
@@ -4685,6 +4685,16 @@
 			(type default)
 		)
 		(uuid "041d9fa0-34a1-49e3-8bd3-95f29b2c4500")
+	)
+	(wire
+		(pts
+			(xy 43.18 52.07) (xy 48.26 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "04a4da63-cc3c-41d4-9b08-8b2be04b4ccd")
 	)
 	(wire
 		(pts
@@ -4865,6 +4875,16 @@
 			(type default)
 		)
 		(uuid "9267e433-81b3-4664-9840-8bca3ef521cc")
+	)
+	(wire
+		(pts
+			(xy 43.18 49.53) (xy 48.26 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9277703e-3205-47eb-a87d-bb4a18feeb53")
 	)
 	(polyline
 		(pts
@@ -5247,7 +5267,7 @@
 		(uuid "94c31cbe-6c61-4e76-b4c6-6bd0f9d7c6c8")
 	)
 	(label "3.3V"
-		(at 54.61 53.34 180)
+		(at 68.58 53.34 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5428,7 +5448,7 @@
 	)
 	(hierarchical_label "3.3V"
 		(shape bidirectional)
-		(at 54.61 53.34 0)
+		(at 68.58 53.34 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5458,6 +5478,28 @@
 			(justify left)
 		)
 		(uuid "3cb8ef0e-ca37-459b-a13b-045b896cf5c1")
+	)
+	(hierarchical_label "BAT_ON"
+		(shape bidirectional)
+		(at 48.26 52.07 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "41388f85-eb2b-46fb-b9f4-cf34ab2f6fd9")
+	)
+	(hierarchical_label "BAT_IN"
+		(shape bidirectional)
+		(at 48.26 49.53 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "4464d51d-9054-4c95-80e2-b5dcf68427a0")
 	)
 	(hierarchical_label "TPRST"
 		(shape bidirectional)
@@ -6489,7 +6531,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.00mm:PinHeader_2x03_P2.00mm_Vertical"
+		(property "Footprint" "Keyboard:PinHeader_2x03_P2.00mm_Vertical_DEBUG"
 			(at 71.12 26.67 0)
 			(effects
 				(font
@@ -6690,7 +6732,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 66.04 29.21 0)
+		(at 66.04 26.67 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6699,7 +6741,7 @@
 		(fields_autoplaced yes)
 		(uuid "a4e711a7-4064-475d-b8a8-5f700a0145da")
 		(property "Reference" "#PWR043"
-			(at 66.04 35.56 0)
+			(at 59.69 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6708,7 +6750,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 66.04 34.29 0)
+			(at 64.77 22.86 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6716,7 +6758,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 66.04 29.21 0)
+			(at 66.04 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6725,7 +6767,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 66.04 29.21 0)
+			(at 66.04 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6734,7 +6776,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 66.04 29.21 0)
+			(at 66.04 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6752,7 +6794,7 @@
 					(unit 1)
 				)
 				(path "/ae2abdf3-be75-4a01-9d2e-db16842fefd9/b65bf892-a9b9-431e-af85-efaa63e657b0"
-					(reference "#PWR044")
+					(reference "#PWR0102")
 					(unit 1)
 				)
 			)
@@ -8786,6 +8828,26 @@
 		(pin "VBUSOut" output
 			(at 43.18 22.86 0)
 			(uuid "f44ce3e9-71ac-4083-b774-5c3d2f38d577")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "BAT_IN" bidirectional
+			(at 43.18 49.53 0)
+			(uuid "d2272b3b-0b1a-4ffc-9d16-c9da13bdf78c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "BAT_ON" bidirectional
+			(at 43.18 52.07 0)
+			(uuid "04ca8f9f-bbc0-4607-9720-03082b83c693")
 			(effects
 				(font
 					(size 1.27 1.27)
