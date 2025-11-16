@@ -1312,132 +1312,132 @@
 		)
 	)
 	(junction
-		(at 184.15 107.95)
+		(at 229.87 121.92)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "34d4688b-9390-452a-a435-a999304e0b96")
+		(uuid "091bfbda-c2ad-4a32-83ea-2bca50f2fb06")
 	)
 	(junction
-		(at 172.72 67.31)
+		(at 262.89 110.49)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "36196941-7f7d-4a5c-af51-92d38edb365a")
+		(uuid "0e0bf4f1-6764-43b7-9fae-ef3fb625e1fe")
 	)
 	(junction
-		(at 187.96 96.52)
+		(at 251.46 106.68)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "3d248a94-4ef8-412d-b2a6-f35e2147c75c")
+		(uuid "1e039bd5-08f6-4bf2-960e-6f51595e28f3")
 	)
 	(junction
-		(at 179.07 99.06)
+		(at 256.54 119.38)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "4f8f0b15-0767-4c60-b229-9878249612da")
+		(uuid "30ff9784-f6f5-4191-816a-446f42fc8f61")
 	)
 	(junction
-		(at 172.72 74.93)
+		(at 251.46 110.49)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "77d53be9-83cb-4231-902a-ca5ce703e118")
+		(uuid "3253951d-12a4-46b6-89ac-af5eaf8b342a")
 	)
 	(junction
-		(at 172.72 71.12)
+		(at 264.16 115.57)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "843a3559-6e78-4c58-ae9a-3c1c5c9d4f8f")
+		(uuid "3f760941-e696-44c4-979d-e225c5781387")
 	)
 	(junction
-		(at 156.21 67.31)
+		(at 226.06 121.92)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "a6c8e8fe-f5e7-4f7e-a8e7-1eda9c192c56")
+		(uuid "5c2a4afd-7ba5-494f-b82b-fb3649c54429")
 	)
 	(junction
-		(at 161.29 74.93)
+		(at 222.25 138.43)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "c4cbf19d-1c83-459b-b7a6-b4ce2fe2a1be")
+		(uuid "644cced2-1535-44e4-8996-5d28cbf7deec")
 	)
 	(junction
-		(at 181.61 93.98)
+		(at 254 115.57)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "cb08226d-9f25-4c22-90b5-019fabde9755")
+		(uuid "8de9d2d3-31db-4d46-8179-1d29a6f07e8c")
 	)
 	(junction
-		(at 175.26 101.6)
+		(at 222.25 121.92)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "d2f7b812-fe72-4b14-95a4-e16a7d142688")
+		(uuid "b50331ce-8b6b-4a7c-b9f5-7eec37d4d464")
 	)
 	(junction
-		(at 153.67 63.5)
+		(at 218.44 140.97)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "d94f3b34-80af-4727-b8e1-40bbca3d882b")
+		(uuid "c1e9cd5c-c37f-4caa-ae34-f4a2cf22a6c3")
 	)
 	(junction
-		(at 184.15 96.52)
+		(at 248.92 113.03)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "d9b4aae8-0410-41f9-9622-d179acfd461c")
+		(uuid "e48b7c36-4970-4065-9ce6-efd72beb4ab0")
 	)
 	(junction
-		(at 179.07 109.22)
+		(at 226.06 135.89)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "ea76c0e8-6eaa-4600-87b2-2aafc3d34398")
+		(uuid "f01bd3c4-cc6f-4464-a4e0-be74509b775c")
 	)
 	(junction
-		(at 158.75 71.12)
+		(at 229.87 133.35)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "ea7acee9-4233-41b4-a332-236462c30ce8")
+		(uuid "f30f719b-ee6f-4a1c-af44-b2839fbe454c")
 	)
 	(no_connect
-		(at 143.51 86.36)
-		(uuid "26a66f36-d1c0-40aa-a9cf-fc9fd8c91689")
-	)
-	(no_connect
-		(at 101.6 101.6)
+		(at 101.6 76.2)
 		(uuid "26e0b4be-1853-4497-9c28-af4d10bcd824")
 	)
 	(no_connect
-		(at 101.6 96.52)
+		(at 243.84 151.13)
+		(uuid "4714e787-627c-4411-aadf-26ae4960c02e")
+	)
+	(no_connect
+		(at 101.6 71.12)
 		(uuid "7397594f-6ba1-4374-aeb8-5e723486f7f3")
 	)
 	(no_connect
-		(at 181.61 125.73)
+		(at 184.15 100.33)
 		(uuid "7775f648-006d-47f7-8baa-41a815378a77")
 	)
 	(no_connect
-		(at 113.03 124.46)
+		(at 109.22 99.06)
 		(uuid "8b647a1c-a5dc-4027-82b5-526897d7d5ff")
 	)
 	(no_connect
-		(at 143.51 104.14)
-		(uuid "cb96c599-9622-41df-af88-76e8a3b8ed47")
+		(at 241.3 151.13)
+		(uuid "95f0741a-f077-40e3-a662-04ff43255bb3")
 	)
 	(no_connect
-		(at 101.6 93.98)
+		(at 259.08 151.13)
+		(uuid "a7dc8ce3-d60d-4e98-826e-fef753172f31")
+	)
+	(no_connect
+		(at 101.6 68.58)
 		(uuid "d06eb56a-cbd4-4756-9995-0effebe93d45")
 	)
 	(no_connect
-		(at 101.6 99.06)
+		(at 101.6 73.66)
 		(uuid "d16ea9cf-54a3-4e3a-b21c-d2c775c724fa")
 	)
 	(no_connect
-		(at 143.51 99.06)
-		(uuid "d7a87ae8-050f-4dea-b4ca-200adfab13bc")
-	)
-	(no_connect
-		(at 143.51 88.9)
-		(uuid "f3af2f0e-5d5d-433d-9b85-f7e18e51f05b")
+		(at 254 151.13)
+		(uuid "faea1733-1653-4c42-b640-111b7aab4b76")
 	)
 	(wire
 		(pts
-			(xy 101.6 114.3) (xy 110.49 114.3)
+			(xy 101.6 88.9) (xy 106.68 88.9)
 		)
 		(stroke
 			(width 0)
@@ -1447,327 +1447,367 @@
 	)
 	(wire
 		(pts
-			(xy 175.26 109.22) (xy 179.07 109.22)
+			(xy 251.46 110.49) (xy 257.81 110.49)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "0353f499-8cc3-4012-bfe0-ef74f83689b1")
+		(uuid "034beb25-ce16-4d41-be3f-8b96241da7a7")
 	)
 	(wire
 		(pts
-			(xy 163.83 74.93) (xy 161.29 74.93)
+			(xy 217.17 138.43) (xy 222.25 138.43)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "34ef1833-d70c-4e51-805b-f1225b814f1d")
+		(uuid "1bf670ad-6e5a-400c-83a5-d4e60253e4be")
 	)
 	(wire
 		(pts
-			(xy 156.21 62.23) (xy 156.21 67.31)
+			(xy 226.06 121.92) (xy 229.87 121.92)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "44bc1430-4278-45e9-90d6-9e7e7738abe0")
+		(uuid "1d5370bd-6e73-426d-acd7-c25aec5afde7")
 	)
 	(wire
 		(pts
-			(xy 158.75 71.12) (xy 158.75 76.2)
+			(xy 229.87 130.81) (xy 229.87 133.35)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "465a17de-08d4-499d-aedc-237b0a69f610")
+		(uuid "1f1b218b-49a6-4faa-b89e-5c2dfcb08e27")
 	)
 	(wire
 		(pts
-			(xy 179.07 109.22) (xy 179.07 107.95)
+			(xy 254 115.57) (xy 254 102.87)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "46b2d727-8a89-4ec5-9439-a79f645c846e")
+		(uuid "2d6839b8-c3de-4b3b-aabe-15839dec728f")
 	)
 	(wire
 		(pts
-			(xy 181.61 93.98) (xy 191.77 93.98)
+			(xy 251.46 110.49) (xy 251.46 106.68)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "4b1a70f9-a5c0-420c-9c83-a5144f890e4a")
+		(uuid "418424af-6973-484c-a73f-46cb1ad2c77e")
 	)
 	(wire
 		(pts
-			(xy 172.72 67.31) (xy 172.72 71.12)
+			(xy 226.06 125.73) (xy 226.06 121.92)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "52fe4e2d-fb8d-4daf-a09e-788274e41d15")
+		(uuid "4229d65a-38fb-4242-bd2f-1d867f8a94f2")
 	)
 	(wire
 		(pts
-			(xy 156.21 67.31) (xy 163.83 67.31)
+			(xy 222.25 138.43) (xy 231.14 138.43)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "59fac59c-a89e-43aa-ac69-9a442145b390")
+		(uuid "47c80bef-f1a5-46ed-8a6e-5de92d4d2f0d")
 	)
 	(wire
 		(pts
-			(xy 172.72 63.5) (xy 172.72 67.31)
+			(xy 226.06 135.89) (xy 231.14 135.89)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "5c297dab-d562-44a1-9698-c3fbfb1bb039")
+		(uuid "4a93b375-32b7-419c-b0a9-18e5dda5c390")
 	)
 	(wire
 		(pts
-			(xy 179.07 99.06) (xy 191.77 99.06)
+			(xy 217.17 133.35) (xy 229.87 133.35)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "651cba75-c9f2-4e79-8a1a-9c73bef730db")
+		(uuid "4add6ea8-9380-4096-b11b-b606bb1a57d0")
 	)
 	(wire
 		(pts
-			(xy 161.29 62.23) (xy 161.29 74.93)
+			(xy 251.46 123.19) (xy 251.46 110.49)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "66409665-1613-4bab-b397-da84dda47231")
+		(uuid "4d11930b-36b9-4b9f-baf2-a0222906db56")
 	)
 	(wire
 		(pts
-			(xy 184.15 107.95) (xy 187.96 107.95)
+			(xy 222.25 125.73) (xy 222.25 121.92)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "6af15393-de25-4f0b-8796-21b9bf37eb25")
+		(uuid "4d46bcab-2be7-448b-9276-389df7904cd6")
 	)
 	(wire
 		(pts
-			(xy 184.15 96.52) (xy 187.96 96.52)
+			(xy 256.54 119.38) (xy 256.54 102.87)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "70139b8a-d645-42be-8793-dd808a923876")
+		(uuid "51dd1bdc-3289-4cf8-8c93-4cfd610e357b")
 	)
 	(wire
 		(pts
-			(xy 184.15 109.22) (xy 184.15 107.95)
+			(xy 218.44 121.92) (xy 222.25 121.92)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "7843bb09-2c82-4fcf-9c51-82716a952e85")
+		(uuid "53fdb464-be79-4e84-9a82-f47bcb597491")
 	)
 	(wire
 		(pts
-			(xy 179.07 99.06) (xy 179.07 102.87)
+			(xy 256.54 119.38) (xy 257.81 119.38)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "7b5a67c3-b61b-4666-94bf-5cb48b99f645")
+		(uuid "57e86aea-e422-45c7-88fb-27442a097fb9")
 	)
 	(wire
 		(pts
-			(xy 184.15 96.52) (xy 184.15 102.87)
+			(xy 254 115.57) (xy 257.81 115.57)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "8173df95-503b-486f-b175-29bf91380650")
+		(uuid "5939c72f-8dd2-416f-8657-b2c2b05b90e8")
 	)
 	(wire
 		(pts
-			(xy 168.91 74.93) (xy 172.72 74.93)
+			(xy 262.89 110.49) (xy 262.89 106.68)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "82c9069a-2f2d-4ad6-b361-816c2a8a7273")
+		(uuid "6e2f4544-52a7-49ee-abbf-02c8696b2b36")
 	)
 	(wire
 		(pts
-			(xy 168.91 67.31) (xy 172.72 67.31)
+			(xy 222.25 138.43) (xy 222.25 130.81)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "8833629b-286b-495c-a60c-22ae51771b93")
+		(uuid "78811b01-f142-4fd2-bc89-e830e5572570")
 	)
 	(wire
 		(pts
-			(xy 153.67 63.5) (xy 163.83 63.5)
+			(xy 254 123.19) (xy 254 115.57)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "8959b972-ef7f-4bad-92b4-57493a3de32b")
+		(uuid "7af1e8be-304e-4838-9010-785cf6ca7e67")
 	)
 	(wire
 		(pts
-			(xy 171.45 101.6) (xy 175.26 101.6)
+			(xy 229.87 133.35) (xy 231.14 133.35)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "8a6a04cc-69ca-4f21-b88c-6036d75f394c")
+		(uuid "8368655b-198b-461a-90dd-a6dab6f44ae0")
 	)
 	(wire
 		(pts
-			(xy 187.96 96.52) (xy 187.96 102.87)
+			(xy 222.25 121.92) (xy 226.06 121.92)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "8f37571b-a3e6-418c-8b5b-bd51df595981")
+		(uuid "87f79d3e-4b0d-4ac8-9a7e-b80c8add6be6")
 	)
 	(wire
 		(pts
-			(xy 172.72 76.2) (xy 172.72 74.93)
+			(xy 217.17 135.89) (xy 226.06 135.89)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "9642f2bb-51bc-4332-8408-29c1e6ec5e87")
+		(uuid "885bdcde-111d-4528-9850-adc778a694af")
 	)
 	(wire
 		(pts
-			(xy 153.67 62.23) (xy 153.67 63.5)
+			(xy 264.16 119.38) (xy 264.16 115.57)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "96fc4e46-025b-4ef4-975b-cd2962491525")
+		(uuid "8ec95b40-0138-4733-aba9-82e462c8c0fc")
 	)
 	(wire
 		(pts
-			(xy 175.26 101.6) (xy 191.77 101.6)
+			(xy 251.46 106.68) (xy 251.46 102.87)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "97a3ee04-b7a7-4ac8-99f8-0bd5e08b1698")
+		(uuid "91170a78-9e4f-4683-970a-54aef9d388c0")
 	)
 	(wire
 		(pts
-			(xy 171.45 93.98) (xy 181.61 93.98)
+			(xy 264.16 115.57) (xy 262.89 115.57)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "a5258fff-2dea-45a5-ae31-a82f7ecf9750")
+		(uuid "97d6224e-427c-4244-bfc4-698ba27d8774")
 	)
 	(wire
 		(pts
-			(xy 171.45 96.52) (xy 184.15 96.52)
+			(xy 218.44 125.73) (xy 218.44 121.92)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "b23de9c1-74d1-4347-8b8f-40d7521ba7ef")
+		(uuid "9de9441b-481c-4f0d-8b7c-bfb1c0a7b7a4")
 	)
 	(wire
 		(pts
-			(xy 175.26 109.22) (xy 175.26 107.95)
+			(xy 248.92 123.19) (xy 248.92 113.03)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "c3aec6a8-6a32-48c2-9856-22b17066d0ba")
+		(uuid "adfada00-52bb-45c1-b4a4-3c02323ff0a0")
 	)
 	(wire
 		(pts
-			(xy 156.21 67.31) (xy 156.21 76.2)
+			(xy 264.16 115.57) (xy 264.16 113.03)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "ca38aebc-b3a6-457b-ab78-51b0ad4454dc")
+		(uuid "adfcc72b-e24a-42e1-993d-8633650e7ec6")
 	)
 	(wire
 		(pts
-			(xy 181.61 93.98) (xy 181.61 109.22)
+			(xy 251.46 106.68) (xy 257.81 106.68)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "cc779d0e-795f-43ae-9d4b-220763b40d3b")
+		(uuid "aeba9196-9608-42e7-8833-987d40ee79c2")
 	)
 	(wire
 		(pts
-			(xy 168.91 71.12) (xy 172.72 71.12)
+			(xy 248.92 113.03) (xy 264.16 113.03)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "cd9a2924-dc10-44a0-86c5-a32ee0cff350")
+		(uuid "b2d20464-a4b0-4cd9-b907-319bc515b4e1")
 	)
 	(wire
 		(pts
-			(xy 187.96 96.52) (xy 191.77 96.52)
+			(xy 218.44 140.97) (xy 218.44 130.81)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "cfb19c1d-9662-422a-907f-0199aca98b94")
+		(uuid "b4a26a2a-433e-4b4c-8efd-369cd8ff1f8b")
 	)
 	(wire
 		(pts
-			(xy 171.45 99.06) (xy 179.07 99.06)
+			(xy 264.16 110.49) (xy 262.89 110.49)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "d00b5cb8-e1d7-4d36-a72a-b48482e32e2b")
+		(uuid "b6ec5d7d-12eb-400e-8431-dfae34762fe5")
 	)
 	(wire
 		(pts
-			(xy 184.15 115.57) (xy 191.77 115.57)
+			(xy 231.14 121.92) (xy 229.87 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bd095cf7-252a-405f-8a21-9807141d6089")
+	)
+	(wire
+		(pts
+			(xy 218.44 140.97) (xy 231.14 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bd3ed484-4a3b-4149-adcf-01e5c3079444")
+	)
+	(wire
+		(pts
+			(xy 229.87 125.73) (xy 229.87 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bf943d86-c8d2-4a47-8192-d0ca02ee5b13")
+	)
+	(wire
+		(pts
+			(xy 248.92 113.03) (xy 248.92 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c683a178-e296-46da-8a6e-08cd66de33ef")
+	)
+	(wire
+		(pts
+			(xy 186.69 90.17) (xy 191.77 90.17)
 		)
 		(stroke
 			(width 0)
@@ -1777,47 +1817,37 @@
 	)
 	(wire
 		(pts
-			(xy 172.72 71.12) (xy 172.72 74.93)
+			(xy 226.06 135.89) (xy 226.06 130.81)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "e34956ad-0cb3-4b8c-bb2b-a5a1f0df4852")
+		(uuid "dd549914-9ba6-4d6d-8cd1-9e682feeba66")
 	)
 	(wire
 		(pts
-			(xy 158.75 62.23) (xy 158.75 71.12)
+			(xy 256.54 123.19) (xy 256.54 119.38)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "e6b807cc-ed51-4f01-83c0-83b80ce56204")
+		(uuid "ec8f3e35-baa2-4e2a-9f3c-433ba8586624")
 	)
 	(wire
 		(pts
-			(xy 179.07 109.22) (xy 181.61 109.22)
+			(xy 264.16 119.38) (xy 262.89 119.38)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "e7fbfe48-0826-484f-838e-b53191b1874b")
+		(uuid "ee01b4fe-bf4b-4c05-85b6-eb8d64f73621")
 	)
 	(wire
 		(pts
-			(xy 175.26 101.6) (xy 175.26 102.87)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e8b04113-fac8-4a11-9739-8aed2709695c")
-	)
-	(wire
-		(pts
-			(xy 101.6 124.46) (xy 107.95 124.46)
+			(xy 101.6 99.06) (xy 104.14 99.06)
 		)
 		(stroke
 			(width 0)
@@ -1827,37 +1857,7 @@
 	)
 	(wire
 		(pts
-			(xy 153.67 63.5) (xy 153.67 76.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f3108cea-8042-4f42-b981-83e74ed7f3ef")
-	)
-	(wire
-		(pts
-			(xy 158.75 71.12) (xy 163.83 71.12)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f4e104b8-9eda-41e1-ae51-1a3d202ad060")
-	)
-	(wire
-		(pts
-			(xy 168.91 63.5) (xy 172.72 63.5)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f64971d2-b633-4438-8475-876446e6bf25")
-	)
-	(wire
-		(pts
-			(xy 186.69 125.73) (xy 191.77 125.73)
+			(xy 189.23 100.33) (xy 191.77 100.33)
 		)
 		(stroke
 			(width 0)
@@ -1867,25 +1867,25 @@
 	)
 	(wire
 		(pts
-			(xy 161.29 74.93) (xy 161.29 76.2)
+			(xy 217.17 140.97) (xy 218.44 140.97)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "fb77e06f-8921-4f8a-b410-26858dd0f91f")
+		(uuid "fc81ff36-8e52-44db-b72e-17c68276b83d")
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 184.15 109.22 0)
+		(at 264.16 110.49 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "0e6db076-b027-4db0-82af-b4f943d44f95")
-		(property "Reference" "#PWR017"
-			(at 184.15 115.57 0)
+		(property "Reference" "#PWR04"
+			(at 270.51 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1894,7 +1894,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 188.214 110.744 0)
+			(at 265.684 106.426 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1902,7 +1902,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 184.15 109.22 0)
+			(at 264.16 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1911,7 +1911,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 184.15 109.22 0)
+			(at 264.16 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1920,7 +1920,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 184.15 109.22 0)
+			(at 264.16 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1934,7 +1934,7 @@
 		(instances
 			(project "pipar_point_v3"
 				(path "/ae2abdf3-be75-4a01-9d2e-db16842fefd9"
-					(reference "#PWR017")
+					(reference "#PWR04")
 					(unit 1)
 				)
 			)
@@ -1942,7 +1942,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 171.45 104.14 0)
+		(at 259.08 123.19 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1950,8 +1950,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "11482266-a54f-496d-968f-ef624f17816b")
-		(property "Reference" "#PWR047"
-			(at 171.45 110.49 0)
+		(property "Reference" "#PWR03"
+			(at 265.43 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1960,7 +1960,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 171.45 109.22 0)
+			(at 264.16 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1968,7 +1968,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 171.45 104.14 0)
+			(at 259.08 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1977,7 +1977,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 171.45 104.14 0)
+			(at 259.08 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1986,7 +1986,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 171.45 104.14 0)
+			(at 259.08 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2000,7 +2000,7 @@
 		(instances
 			(project "pipar_point_v3"
 				(path "/ae2abdf3-be75-4a01-9d2e-db16842fefd9"
-					(reference "#PWR047")
+					(reference "#PWR03")
 					(unit 1)
 				)
 			)
@@ -2009,15 +2009,15 @@
 	(symbol
 		(lib_name "R_Small_1")
 		(lib_id "Device:R_Small")
-		(at 179.07 105.41 0)
+		(at 260.35 115.57 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "116472a8-c1a9-4799-a403-0a43f65ef93c")
-		(property "Reference" "R4"
-			(at 179.07 103.886 90)
+		(property "Reference" "R2"
+			(at 258.826 115.57 90)
 			(effects
 				(font
 					(size 1.016 1.016)
@@ -2026,7 +2026,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 180.848 103.378 90)
+			(at 258.318 113.792 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2035,7 +2035,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 179.07 105.41 0)
+			(at 260.35 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2044,7 +2044,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 179.07 105.41 0)
+			(at 260.35 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2053,7 +2053,7 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
-			(at 179.07 105.41 0)
+			(at 260.35 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2062,7 +2062,7 @@
 			)
 		)
 		(property "Manufacturer_Name" ""
-			(at 179.07 105.41 0)
+			(at 260.35 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2071,7 +2071,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "CRCW060310K0FKEA"
-			(at 179.07 105.41 0)
+			(at 260.35 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2080,7 +2080,7 @@
 			)
 		)
 		(property "Mouser Part Number" "71-CRCW0603-10K-E3"
-			(at 179.07 105.41 0)
+			(at 260.35 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2089,7 +2089,7 @@
 			)
 		)
 		(property "Arrow Part Number" ""
-			(at 179.07 105.41 90)
+			(at 260.35 115.57 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2098,7 +2098,7 @@
 			)
 		)
 		(property "Arrow Price/Stock" ""
-			(at 179.07 105.41 90)
+			(at 260.35 115.57 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2107,7 +2107,7 @@
 			)
 		)
 		(property "Field4" ""
-			(at 179.07 105.41 90)
+			(at 260.35 115.57 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2116,7 +2116,7 @@
 			)
 		)
 		(property "LCSC Part" ""
-			(at 179.07 105.41 90)
+			(at 260.35 115.57 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2133,7 +2133,7 @@
 		(instances
 			(project "pipar_point_v3"
 				(path "/ae2abdf3-be75-4a01-9d2e-db16842fefd9"
-					(reference "R4")
+					(reference "R2")
 					(unit 1)
 				)
 			)
@@ -2141,15 +2141,15 @@
 	)
 	(symbol
 		(lib_id "Keyboard:SK8707-01")
-		(at 157.48 92.71 270)
+		(at 247.65 137.16 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "2f92020c-935c-4850-98e0-27f2b50231dd")
-		(property "Reference" "U9"
-			(at 157.48 92.71 90)
+		(property "Reference" "U2"
+			(at 247.65 137.16 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2157,7 +2157,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 157.48 94.488 90)
+			(at 249.428 137.16 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2165,7 +2165,7 @@
 			)
 		)
 		(property "Footprint" "Trackpoint:SK8707-01"
-			(at 157.48 92.71 0)
+			(at 247.65 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2174,7 +2174,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 157.48 92.71 0)
+			(at 247.65 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2183,7 +2183,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 157.48 92.71 0)
+			(at 247.65 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2192,7 +2192,7 @@
 			)
 		)
 		(property "Arrow Part Number" ""
-			(at 157.48 92.71 90)
+			(at 247.65 137.16 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2201,7 +2201,7 @@
 			)
 		)
 		(property "Arrow Price/Stock" ""
-			(at 157.48 92.71 90)
+			(at 247.65 137.16 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2210,7 +2210,7 @@
 			)
 		)
 		(property "Field4" ""
-			(at 157.48 92.71 90)
+			(at 247.65 137.16 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2219,7 +2219,7 @@
 			)
 		)
 		(property "LCSC Part" ""
-			(at 157.48 92.71 90)
+			(at 247.65 137.16 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2293,7 +2293,7 @@
 		(instances
 			(project "pipar_point_v3"
 				(path "/ae2abdf3-be75-4a01-9d2e-db16842fefd9"
-					(reference "U9")
+					(reference "U2")
 					(unit 1)
 				)
 			)
@@ -2301,15 +2301,15 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole")
-		(at 74.93 163.83 0)
+		(at 74.93 137.16 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "3b5bfa4a-db71-4359-8620-bfb25ef431c0")
-		(property "Reference" "H66"
-			(at 77.47 162.5599 0)
+		(property "Reference" "H5"
+			(at 77.47 135.8899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2318,7 +2318,7 @@
 			)
 		)
 		(property "Value" "Art"
-			(at 77.47 165.0999 0)
+			(at 77.47 138.4299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2327,7 +2327,7 @@
 			)
 		)
 		(property "Footprint" "Art:Salt"
-			(at 74.93 163.83 0)
+			(at 74.93 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2336,7 +2336,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 74.93 163.83 0)
+			(at 74.93 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2345,7 +2345,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
-			(at 74.93 163.83 0)
+			(at 74.93 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2354,7 +2354,7 @@
 			)
 		)
 		(property "Arrow Part Number" ""
-			(at 74.93 163.83 0)
+			(at 74.93 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2363,7 +2363,7 @@
 			)
 		)
 		(property "Arrow Price/Stock" ""
-			(at 74.93 163.83 0)
+			(at 74.93 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2372,7 +2372,7 @@
 			)
 		)
 		(property "Field4" ""
-			(at 74.93 163.83 0)
+			(at 74.93 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2381,7 +2381,7 @@
 			)
 		)
 		(property "LCSC Part" ""
-			(at 74.93 163.83 0)
+			(at 74.93 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2392,7 +2392,7 @@
 		(instances
 			(project "pipar_point_v3"
 				(path "/ae2abdf3-be75-4a01-9d2e-db16842fefd9"
-					(reference "H66")
+					(reference "H5")
 					(unit 1)
 				)
 			)
@@ -2400,7 +2400,7 @@
 	)
 	(symbol
 		(lib_id "Keyboard:SK8707-01-0C_Sensor")
-		(at 157.48 53.34 0)
+		(at 208.28 137.16 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -2408,8 +2408,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3da15951-027c-4fe2-af8a-45e43d1d64d6")
-		(property "Reference" "U10"
-			(at 166.37 51.7524 0)
+		(property "Reference" "U1"
+			(at 206.6924 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2418,7 +2418,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 166.37 54.2924 0)
+			(at 209.2324 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2427,7 +2427,7 @@
 			)
 		)
 		(property "Footprint" "Trackpoint:SK8707-01-0C Sensor"
-			(at 157.48 53.34 0)
+			(at 208.28 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2436,7 +2436,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 157.48 53.34 0)
+			(at 208.28 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2445,7 +2445,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 157.48 53.34 0)
+			(at 208.28 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2454,7 +2454,7 @@
 			)
 		)
 		(property "Arrow Part Number" ""
-			(at 157.48 53.34 0)
+			(at 208.28 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2463,7 +2463,7 @@
 			)
 		)
 		(property "Arrow Price/Stock" ""
-			(at 157.48 53.34 0)
+			(at 208.28 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2472,7 +2472,7 @@
 			)
 		)
 		(property "Field4" ""
-			(at 157.48 53.34 0)
+			(at 208.28 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2481,7 +2481,7 @@
 			)
 		)
 		(property "LCSC Part" ""
-			(at 157.48 53.34 0)
+			(at 208.28 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2504,7 +2504,7 @@
 		(instances
 			(project "pipar_point_v3"
 				(path "/ae2abdf3-be75-4a01-9d2e-db16842fefd9"
-					(reference "U10")
+					(reference "U1")
 					(unit 1)
 				)
 			)
@@ -2512,7 +2512,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole")
-		(at 74.93 142.24 0)
+		(at 74.93 116.84 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -2520,8 +2520,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "427207d0-e5c8-4399-9451-05d03e409190")
-		(property "Reference" "H51"
-			(at 77.47 140.9699 0)
+		(property "Reference" "H1"
+			(at 77.47 115.5699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2530,7 +2530,7 @@
 			)
 		)
 		(property "Value" "PanelMountingHole"
-			(at 77.47 143.5099 0)
+			(at 77.47 118.1099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2539,7 +2539,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_3mm"
-			(at 74.93 142.24 0)
+			(at 74.93 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2548,7 +2548,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 74.93 142.24 0)
+			(at 74.93 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2557,7 +2557,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
-			(at 74.93 142.24 0)
+			(at 74.93 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2566,7 +2566,7 @@
 			)
 		)
 		(property "Arrow Part Number" ""
-			(at 74.93 142.24 0)
+			(at 74.93 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2575,7 +2575,7 @@
 			)
 		)
 		(property "Arrow Price/Stock" ""
-			(at 74.93 142.24 0)
+			(at 74.93 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2584,7 +2584,7 @@
 			)
 		)
 		(property "Field4" ""
-			(at 74.93 142.24 0)
+			(at 74.93 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2593,7 +2593,7 @@
 			)
 		)
 		(property "LCSC Part" ""
-			(at 74.93 142.24 0)
+			(at 74.93 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2604,7 +2604,7 @@
 		(instances
 			(project ""
 				(path "/ae2abdf3-be75-4a01-9d2e-db16842fefd9"
-					(reference "H51")
+					(reference "H1")
 					(unit 1)
 				)
 			)
@@ -2612,7 +2612,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:Fiducial")
-		(at 27.94 154.94 0)
+		(at 27.94 129.54 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -2621,7 +2621,7 @@
 		(fields_autoplaced yes)
 		(uuid "47bb97bd-e473-4c57-b92b-4575cdc985a6")
 		(property "Reference" "FID3"
-			(at 30.48 153.6699 0)
+			(at 30.48 128.2699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2630,7 +2630,7 @@
 			)
 		)
 		(property "Value" "Fiducial"
-			(at 30.48 156.2099 0)
+			(at 30.48 130.8099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2639,7 +2639,7 @@
 			)
 		)
 		(property "Footprint" "Fiducial:Fiducial_0.5mm_Mask1mm"
-			(at 27.94 154.94 0)
+			(at 27.94 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2648,7 +2648,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 27.94 154.94 0)
+			(at 27.94 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2657,7 +2657,7 @@
 			)
 		)
 		(property "Description" "Fiducial Marker"
-			(at 27.94 154.94 0)
+			(at 27.94 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2666,7 +2666,7 @@
 			)
 		)
 		(property "Arrow Part Number" ""
-			(at 27.94 154.94 0)
+			(at 27.94 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2675,7 +2675,7 @@
 			)
 		)
 		(property "Arrow Price/Stock" ""
-			(at 27.94 154.94 0)
+			(at 27.94 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2684,7 +2684,7 @@
 			)
 		)
 		(property "Field4" ""
-			(at 27.94 154.94 0)
+			(at 27.94 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2693,7 +2693,7 @@
 			)
 		)
 		(property "LCSC Part" ""
-			(at 27.94 154.94 0)
+			(at 27.94 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2712,7 +2712,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 172.72 76.2 0)
+		(at 231.14 121.92 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2720,8 +2720,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4fafb951-9915-4035-bb05-4cf3212531ed")
-		(property "Reference" "#PWR020"
-			(at 172.72 82.55 0)
+		(property "Reference" "#PWR01"
+			(at 237.49 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2730,7 +2730,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 172.72 81.28 0)
+			(at 236.22 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2738,7 +2738,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 172.72 76.2 0)
+			(at 231.14 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2747,7 +2747,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 172.72 76.2 0)
+			(at 231.14 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2756,7 +2756,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 172.72 76.2 0)
+			(at 231.14 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2770,7 +2770,7 @@
 		(instances
 			(project "pipar_point_v3"
 				(path "/ae2abdf3-be75-4a01-9d2e-db16842fefd9"
-					(reference "#PWR020")
+					(reference "#PWR01")
 					(unit 1)
 				)
 			)
@@ -2778,15 +2778,15 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 166.37 71.12 270)
+		(at 226.06 128.27 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "528f07e7-195e-4770-accf-d1ee67399c69")
-		(property "Reference" "C5"
-			(at 168.402 70.104 90)
+		(property "Reference" "C3"
+			(at 225.044 126.238 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2794,7 +2794,7 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at 162.814 70.104 90)
+			(at 225.044 131.826 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2802,7 +2802,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 166.37 71.12 0)
+			(at 226.06 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2811,7 +2811,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 166.37 71.12 0)
+			(at 226.06 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2820,7 +2820,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 166.37 71.12 0)
+			(at 226.06 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2829,7 +2829,7 @@
 			)
 		)
 		(property "Sim.Device" ""
-			(at 166.37 71.12 0)
+			(at 226.06 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2837,7 +2837,7 @@
 			)
 		)
 		(property "Sim.Pins" ""
-			(at 166.37 71.12 0)
+			(at 226.06 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2845,7 +2845,7 @@
 			)
 		)
 		(property "Mouser Part Number" "603-CC603KRX7R8BB104"
-			(at 166.37 71.12 0)
+			(at 226.06 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2854,7 +2854,7 @@
 			)
 		)
 		(property "Manufacturer_Name" ""
-			(at 166.37 71.12 0)
+			(at 226.06 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2863,7 +2863,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "CC0603KRX7R8BB104"
-			(at 166.37 71.12 0)
+			(at 226.06 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2872,7 +2872,7 @@
 			)
 		)
 		(property "Arrow Part Number" ""
-			(at 166.37 71.12 0)
+			(at 226.06 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2881,7 +2881,7 @@
 			)
 		)
 		(property "Arrow Price/Stock" ""
-			(at 166.37 71.12 0)
+			(at 226.06 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2890,7 +2890,7 @@
 			)
 		)
 		(property "Field4" ""
-			(at 166.37 71.12 0)
+			(at 226.06 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2899,7 +2899,7 @@
 			)
 		)
 		(property "LCSC Part" ""
-			(at 166.37 71.12 0)
+			(at 226.06 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2916,7 +2916,7 @@
 		(instances
 			(project "pipar_point_v3"
 				(path "/ae2abdf3-be75-4a01-9d2e-db16842fefd9"
-					(reference "C5")
+					(reference "C3")
 					(unit 1)
 				)
 			)
@@ -2924,15 +2924,15 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 166.37 74.93 270)
+		(at 229.87 128.27 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "5f1940a4-ddf9-4883-80e6-5961a5caec1c")
-		(property "Reference" "C6"
-			(at 168.402 73.914 90)
+		(property "Reference" "C4"
+			(at 228.854 126.238 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2940,7 +2940,7 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at 162.814 73.914 90)
+			(at 228.854 131.826 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2948,7 +2948,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 166.37 74.93 0)
+			(at 229.87 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2957,7 +2957,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 166.37 74.93 0)
+			(at 229.87 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2966,7 +2966,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 166.37 74.93 0)
+			(at 229.87 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2975,7 +2975,7 @@
 			)
 		)
 		(property "Sim.Device" ""
-			(at 166.37 74.93 0)
+			(at 229.87 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2983,7 +2983,7 @@
 			)
 		)
 		(property "Sim.Pins" ""
-			(at 166.37 74.93 0)
+			(at 229.87 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2991,7 +2991,7 @@
 			)
 		)
 		(property "Mouser Part Number" "603-CC603KRX7R8BB104"
-			(at 166.37 74.93 0)
+			(at 229.87 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3000,7 +3000,7 @@
 			)
 		)
 		(property "Manufacturer_Name" ""
-			(at 166.37 74.93 0)
+			(at 229.87 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3009,7 +3009,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "CC0603KRX7R8BB104"
-			(at 166.37 74.93 0)
+			(at 229.87 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3018,7 +3018,7 @@
 			)
 		)
 		(property "Arrow Part Number" ""
-			(at 166.37 74.93 0)
+			(at 229.87 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3027,7 +3027,7 @@
 			)
 		)
 		(property "Arrow Price/Stock" ""
-			(at 166.37 74.93 0)
+			(at 229.87 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3036,7 +3036,7 @@
 			)
 		)
 		(property "Field4" ""
-			(at 166.37 74.93 0)
+			(at 229.87 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3045,7 +3045,7 @@
 			)
 		)
 		(property "LCSC Part" ""
-			(at 166.37 74.93 0)
+			(at 229.87 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3062,7 +3062,7 @@
 		(instances
 			(project "pipar_point_v3"
 				(path "/ae2abdf3-be75-4a01-9d2e-db16842fefd9"
-					(reference "C6")
+					(reference "C4")
 					(unit 1)
 				)
 			)
@@ -3070,7 +3070,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole")
-		(at 74.93 152.4 0)
+		(at 74.93 127 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -3078,8 +3078,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "60856c9b-94be-4f90-93fb-d1974fbb7470")
-		(property "Reference" "H53"
-			(at 77.47 151.1299 0)
+		(property "Reference" "H3"
+			(at 77.47 125.7299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3088,7 +3088,7 @@
 			)
 		)
 		(property "Value" "PanelMountingHole"
-			(at 77.47 153.6699 0)
+			(at 77.47 128.2699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3097,7 +3097,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_3mm"
-			(at 74.93 152.4 0)
+			(at 74.93 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3106,7 +3106,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 74.93 152.4 0)
+			(at 74.93 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3115,7 +3115,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
-			(at 74.93 152.4 0)
+			(at 74.93 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3124,7 +3124,7 @@
 			)
 		)
 		(property "Arrow Part Number" ""
-			(at 74.93 152.4 0)
+			(at 74.93 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3133,7 +3133,7 @@
 			)
 		)
 		(property "Arrow Price/Stock" ""
-			(at 74.93 152.4 0)
+			(at 74.93 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3142,7 +3142,7 @@
 			)
 		)
 		(property "Field4" ""
-			(at 74.93 152.4 0)
+			(at 74.93 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3151,7 +3151,7 @@
 			)
 		)
 		(property "LCSC Part" ""
-			(at 74.93 152.4 0)
+			(at 74.93 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3162,7 +3162,7 @@
 		(instances
 			(project "pipar_point_v3"
 				(path "/ae2abdf3-be75-4a01-9d2e-db16842fefd9"
-					(reference "H53")
+					(reference "H3")
 					(unit 1)
 				)
 			)
@@ -3170,7 +3170,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 187.96 105.41 180)
+		(at 260.35 106.68 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3178,8 +3178,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "66e82ec5-73dd-4ab1-a6d5-72730e355fbc")
-		(property "Reference" "C4"
-			(at 190.5 104.1335 0)
+		(property "Reference" "C5"
+			(at 259.0735 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3188,7 +3188,7 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at 190.5 106.6735 0)
+			(at 261.6135 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3197,7 +3197,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 187.96 105.41 0)
+			(at 260.35 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3206,7 +3206,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 187.96 105.41 0)
+			(at 260.35 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3215,7 +3215,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 187.96 105.41 0)
+			(at 260.35 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3224,7 +3224,7 @@
 			)
 		)
 		(property "Sim.Device" ""
-			(at 187.96 105.41 0)
+			(at 260.35 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3232,7 +3232,7 @@
 			)
 		)
 		(property "Sim.Pins" ""
-			(at 187.96 105.41 0)
+			(at 260.35 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3240,7 +3240,7 @@
 			)
 		)
 		(property "Mouser Part Number" "603-CC603KRX7R8BB104"
-			(at 187.96 105.41 0)
+			(at 260.35 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3249,7 +3249,7 @@
 			)
 		)
 		(property "Manufacturer_Name" ""
-			(at 187.96 105.41 0)
+			(at 260.35 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3258,7 +3258,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "CC0603KRX7R8BB104"
-			(at 187.96 105.41 0)
+			(at 260.35 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3267,7 +3267,7 @@
 			)
 		)
 		(property "Arrow Part Number" ""
-			(at 187.96 105.41 0)
+			(at 260.35 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3276,7 +3276,7 @@
 			)
 		)
 		(property "Arrow Price/Stock" ""
-			(at 187.96 105.41 0)
+			(at 260.35 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3285,7 +3285,7 @@
 			)
 		)
 		(property "Field4" ""
-			(at 187.96 105.41 0)
+			(at 260.35 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3294,7 +3294,7 @@
 			)
 		)
 		(property "LCSC Part" ""
-			(at 187.96 105.41 0)
+			(at 260.35 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3311,7 +3311,7 @@
 		(instances
 			(project "pipar_point_v3"
 				(path "/ae2abdf3-be75-4a01-9d2e-db16842fefd9"
-					(reference "C4")
+					(reference "C5")
 					(unit 1)
 				)
 			)
@@ -3319,7 +3319,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_SPDT")
-		(at 110.49 119.38 270)
+		(at 106.68 93.98 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3327,8 +3327,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "76d337f5-989e-4128-9d0b-187e14ad969d")
-		(property "Reference" "SW5"
-			(at 115.57 118.1099 90)
+		(property "Reference" "SW1"
+			(at 111.76 92.7099 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3337,7 +3337,7 @@
 			)
 		)
 		(property "Value" "SW_SPDT"
-			(at 115.57 120.6499 90)
+			(at 111.76 95.2499 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3346,7 +3346,7 @@
 			)
 		)
 		(property "Footprint" "Button_Switch_SMD:SW_SPDT_PCM12"
-			(at 110.49 119.38 0)
+			(at 106.68 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3355,7 +3355,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 102.87 119.38 0)
+			(at 99.06 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3364,7 +3364,7 @@
 			)
 		)
 		(property "Description" "Switch, single pole double throw"
-			(at 110.49 119.38 0)
+			(at 106.68 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3373,7 +3373,7 @@
 			)
 		)
 		(property "Manufacturer_Name" ""
-			(at 110.49 119.38 90)
+			(at 106.68 93.98 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3382,7 +3382,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" " PCM12SMTBR"
-			(at 110.49 119.38 90)
+			(at 106.68 93.98 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3391,7 +3391,7 @@
 			)
 		)
 		(property "Mouser Part Number" " 611-PCM12SMTBR"
-			(at 110.49 119.38 90)
+			(at 106.68 93.98 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3400,7 +3400,7 @@
 			)
 		)
 		(property "Arrow Part Number" ""
-			(at 110.49 119.38 0)
+			(at 106.68 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3409,7 +3409,7 @@
 			)
 		)
 		(property "Arrow Price/Stock" ""
-			(at 110.49 119.38 0)
+			(at 106.68 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3418,7 +3418,7 @@
 			)
 		)
 		(property "Field4" ""
-			(at 110.49 119.38 0)
+			(at 106.68 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3427,7 +3427,7 @@
 			)
 		)
 		(property "LCSC Part" ""
-			(at 110.49 119.38 0)
+			(at 106.68 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3447,7 +3447,7 @@
 		(instances
 			(project "pipar_point_v3"
 				(path "/ae2abdf3-be75-4a01-9d2e-db16842fefd9"
-					(reference "SW5")
+					(reference "SW1")
 					(unit 1)
 				)
 			)
@@ -3455,7 +3455,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:Fiducial")
-		(at 27.94 144.78 0)
+		(at 27.94 119.38 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -3464,7 +3464,7 @@
 		(fields_autoplaced yes)
 		(uuid "88b1da8e-1da0-4364-ae78-f8f8e605e47d")
 		(property "Reference" "FID1"
-			(at 30.48 143.5099 0)
+			(at 30.48 118.1099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3473,7 +3473,7 @@
 			)
 		)
 		(property "Value" "Fiducial"
-			(at 30.48 146.0499 0)
+			(at 30.48 120.6499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3482,7 +3482,7 @@
 			)
 		)
 		(property "Footprint" "Fiducial:Fiducial_0.5mm_Mask1mm"
-			(at 27.94 144.78 0)
+			(at 27.94 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3491,7 +3491,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 27.94 144.78 0)
+			(at 27.94 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3500,7 +3500,7 @@
 			)
 		)
 		(property "Description" "Fiducial Marker"
-			(at 27.94 144.78 0)
+			(at 27.94 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3509,7 +3509,7 @@
 			)
 		)
 		(property "Arrow Part Number" ""
-			(at 27.94 144.78 0)
+			(at 27.94 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3518,7 +3518,7 @@
 			)
 		)
 		(property "Arrow Price/Stock" ""
-			(at 27.94 144.78 0)
+			(at 27.94 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3527,7 +3527,7 @@
 			)
 		)
 		(property "Field4" ""
-			(at 27.94 144.78 0)
+			(at 27.94 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3536,7 +3536,7 @@
 			)
 		)
 		(property "LCSC Part" ""
-			(at 27.94 144.78 0)
+			(at 27.94 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3555,7 +3555,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_SPDT")
-		(at 184.15 120.65 270)
+		(at 186.69 95.25 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3563,8 +3563,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "94124d47-02f9-41e6-adf9-66fb3b674ab7")
-		(property "Reference" "SW3"
-			(at 189.23 119.3799 90)
+		(property "Reference" "SW2"
+			(at 191.77 93.9799 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3573,7 +3573,7 @@
 			)
 		)
 		(property "Value" "SW_SPDT"
-			(at 189.23 121.9199 90)
+			(at 191.77 96.5199 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3582,7 +3582,7 @@
 			)
 		)
 		(property "Footprint" "Button_Switch_SMD:SW_SPDT_PCM12"
-			(at 184.15 120.65 0)
+			(at 186.69 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3591,7 +3591,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 176.53 120.65 0)
+			(at 179.07 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3600,7 +3600,7 @@
 			)
 		)
 		(property "Description" "Switch, single pole double throw"
-			(at 184.15 120.65 0)
+			(at 186.69 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3609,7 +3609,7 @@
 			)
 		)
 		(property "Manufacturer_Name" ""
-			(at 184.15 120.65 90)
+			(at 186.69 95.25 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3618,7 +3618,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" " PCM12SMTBR"
-			(at 184.15 120.65 90)
+			(at 186.69 95.25 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3627,7 +3627,7 @@
 			)
 		)
 		(property "Mouser Part Number" " 611-PCM12SMTBR"
-			(at 184.15 120.65 90)
+			(at 186.69 95.25 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3636,7 +3636,7 @@
 			)
 		)
 		(property "Arrow Part Number" ""
-			(at 184.15 120.65 0)
+			(at 186.69 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3645,7 +3645,7 @@
 			)
 		)
 		(property "Arrow Price/Stock" ""
-			(at 184.15 120.65 0)
+			(at 186.69 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3654,7 +3654,7 @@
 			)
 		)
 		(property "Field4" ""
-			(at 184.15 120.65 0)
+			(at 186.69 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3663,7 +3663,7 @@
 			)
 		)
 		(property "LCSC Part" ""
-			(at 184.15 120.65 0)
+			(at 186.69 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3683,7 +3683,7 @@
 		(instances
 			(project "pipar_point_v3"
 				(path "/ae2abdf3-be75-4a01-9d2e-db16842fefd9"
-					(reference "SW3")
+					(reference "SW2")
 					(unit 1)
 				)
 			)
@@ -3691,15 +3691,15 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 166.37 67.31 270)
+		(at 222.25 128.27 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "9a2e7c86-9b76-4dae-8993-cf8bf35df573")
-		(property "Reference" "C7"
-			(at 168.402 66.294 90)
+		(property "Reference" "C2"
+			(at 221.234 126.238 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3707,7 +3707,7 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at 162.56 66.548 90)
+			(at 221.488 132.08 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3715,7 +3715,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 166.37 67.31 0)
+			(at 222.25 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3724,7 +3724,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 166.37 67.31 0)
+			(at 222.25 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3733,7 +3733,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 166.37 67.31 0)
+			(at 222.25 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3742,7 +3742,7 @@
 			)
 		)
 		(property "Sim.Device" ""
-			(at 166.37 67.31 0)
+			(at 222.25 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3750,7 +3750,7 @@
 			)
 		)
 		(property "Sim.Pins" ""
-			(at 166.37 67.31 0)
+			(at 222.25 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3758,7 +3758,7 @@
 			)
 		)
 		(property "Mouser Part Number" "603-CC603KRX7R8BB104"
-			(at 166.37 67.31 0)
+			(at 222.25 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3767,7 +3767,7 @@
 			)
 		)
 		(property "Manufacturer_Name" ""
-			(at 166.37 67.31 0)
+			(at 222.25 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3776,7 +3776,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "CC0603KRX7R8BB104"
-			(at 166.37 67.31 0)
+			(at 222.25 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3785,7 +3785,7 @@
 			)
 		)
 		(property "Arrow Part Number" ""
-			(at 166.37 67.31 0)
+			(at 222.25 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3794,7 +3794,7 @@
 			)
 		)
 		(property "Arrow Price/Stock" ""
-			(at 166.37 67.31 0)
+			(at 222.25 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3803,7 +3803,7 @@
 			)
 		)
 		(property "Field4" ""
-			(at 166.37 67.31 0)
+			(at 222.25 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3812,7 +3812,7 @@
 			)
 		)
 		(property "LCSC Part" ""
-			(at 166.37 67.31 0)
+			(at 222.25 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3829,7 +3829,7 @@
 		(instances
 			(project "pipar_point_v3"
 				(path "/ae2abdf3-be75-4a01-9d2e-db16842fefd9"
-					(reference "C7")
+					(reference "C2")
 					(unit 1)
 				)
 			)
@@ -3837,15 +3837,15 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 166.37 63.5 270)
+		(at 218.44 128.27 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "9b08514e-a337-47db-a926-246afcda9631")
-		(property "Reference" "C8"
-			(at 168.402 62.484 90)
+		(property "Reference" "C1"
+			(at 217.424 126.238 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3853,7 +3853,7 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at 162.814 62.738 90)
+			(at 217.678 131.826 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3861,7 +3861,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 166.37 63.5 0)
+			(at 218.44 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3870,7 +3870,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 166.37 63.5 0)
+			(at 218.44 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3879,7 +3879,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 166.37 63.5 0)
+			(at 218.44 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3888,7 +3888,7 @@
 			)
 		)
 		(property "Sim.Device" ""
-			(at 166.37 63.5 0)
+			(at 218.44 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3896,7 +3896,7 @@
 			)
 		)
 		(property "Sim.Pins" ""
-			(at 166.37 63.5 0)
+			(at 218.44 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3904,7 +3904,7 @@
 			)
 		)
 		(property "Mouser Part Number" "603-CC603KRX7R8BB104"
-			(at 166.37 63.5 0)
+			(at 218.44 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3913,7 +3913,7 @@
 			)
 		)
 		(property "Manufacturer_Name" ""
-			(at 166.37 63.5 0)
+			(at 218.44 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3922,7 +3922,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "CC0603KRX7R8BB104"
-			(at 166.37 63.5 0)
+			(at 218.44 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3931,7 +3931,7 @@
 			)
 		)
 		(property "Arrow Part Number" ""
-			(at 166.37 63.5 0)
+			(at 218.44 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3940,7 +3940,7 @@
 			)
 		)
 		(property "Arrow Price/Stock" ""
-			(at 166.37 63.5 0)
+			(at 218.44 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3949,7 +3949,7 @@
 			)
 		)
 		(property "Field4" ""
-			(at 166.37 63.5 0)
+			(at 218.44 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3958,7 +3958,7 @@
 			)
 		)
 		(property "LCSC Part" ""
-			(at 166.37 63.5 0)
+			(at 218.44 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3975,7 +3975,7 @@
 		(instances
 			(project "pipar_point_v3"
 				(path "/ae2abdf3-be75-4a01-9d2e-db16842fefd9"
-					(reference "C8")
+					(reference "C1")
 					(unit 1)
 				)
 			)
@@ -3984,15 +3984,15 @@
 	(symbol
 		(lib_name "R_Small_1")
 		(lib_id "Device:R_Small")
-		(at 184.15 105.41 0)
+		(at 260.35 110.49 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "a031da96-d416-4cdf-9485-2d37b8476eab")
-		(property "Reference" "R5"
-			(at 184.15 103.886 90)
+		(property "Reference" "R1"
+			(at 258.826 110.49 90)
 			(effects
 				(font
 					(size 1.016 1.016)
@@ -4001,7 +4001,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 185.928 103.378 90)
+			(at 258.318 108.712 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4010,7 +4010,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 184.15 105.41 0)
+			(at 260.35 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4019,7 +4019,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 184.15 105.41 0)
+			(at 260.35 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4028,7 +4028,7 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
-			(at 184.15 105.41 0)
+			(at 260.35 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4037,7 +4037,7 @@
 			)
 		)
 		(property "Manufacturer_Name" ""
-			(at 184.15 105.41 0)
+			(at 260.35 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4046,7 +4046,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "CRCW060310K0FKEA"
-			(at 184.15 105.41 0)
+			(at 260.35 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4055,7 +4055,7 @@
 			)
 		)
 		(property "Mouser Part Number" "71-CRCW0603-10K-E3"
-			(at 184.15 105.41 0)
+			(at 260.35 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4064,7 +4064,7 @@
 			)
 		)
 		(property "Arrow Part Number" ""
-			(at 184.15 105.41 90)
+			(at 260.35 110.49 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4073,7 +4073,7 @@
 			)
 		)
 		(property "Arrow Price/Stock" ""
-			(at 184.15 105.41 90)
+			(at 260.35 110.49 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4082,7 +4082,7 @@
 			)
 		)
 		(property "Field4" ""
-			(at 184.15 105.41 90)
+			(at 260.35 110.49 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4091,7 +4091,7 @@
 			)
 		)
 		(property "LCSC Part" ""
-			(at 184.15 105.41 90)
+			(at 260.35 110.49 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4108,7 +4108,7 @@
 		(instances
 			(project "pipar_point_v3"
 				(path "/ae2abdf3-be75-4a01-9d2e-db16842fefd9"
-					(reference "R5")
+					(reference "R1")
 					(unit 1)
 				)
 			)
@@ -4116,7 +4116,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole")
-		(at 74.93 147.32 0)
+		(at 74.93 121.92 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -4124,8 +4124,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bce4e62e-0690-407e-a00b-2b7f96c676ea")
-		(property "Reference" "H52"
-			(at 77.47 146.0499 0)
+		(property "Reference" "H2"
+			(at 77.47 120.6499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4134,7 +4134,7 @@
 			)
 		)
 		(property "Value" "PanelMountingHole"
-			(at 77.47 148.5899 0)
+			(at 77.47 123.1899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4143,7 +4143,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_3mm"
-			(at 74.93 147.32 0)
+			(at 74.93 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4152,7 +4152,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 74.93 147.32 0)
+			(at 74.93 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4161,7 +4161,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
-			(at 74.93 147.32 0)
+			(at 74.93 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4170,7 +4170,7 @@
 			)
 		)
 		(property "Arrow Part Number" ""
-			(at 74.93 147.32 0)
+			(at 74.93 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4179,7 +4179,7 @@
 			)
 		)
 		(property "Arrow Price/Stock" ""
-			(at 74.93 147.32 0)
+			(at 74.93 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4188,7 +4188,7 @@
 			)
 		)
 		(property "Field4" ""
-			(at 74.93 147.32 0)
+			(at 74.93 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4197,7 +4197,7 @@
 			)
 		)
 		(property "LCSC Part" ""
-			(at 74.93 147.32 0)
+			(at 74.93 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4208,7 +4208,7 @@
 		(instances
 			(project "pipar_point_v3"
 				(path "/ae2abdf3-be75-4a01-9d2e-db16842fefd9"
-					(reference "H52")
+					(reference "H2")
 					(unit 1)
 				)
 			)
@@ -4216,7 +4216,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole")
-		(at 74.93 158.75 0)
+		(at 74.93 132.08 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -4224,8 +4224,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bed0df20-43ab-49d9-a8ba-5e4cf1b635fd")
-		(property "Reference" "H64"
-			(at 77.47 157.4799 0)
+		(property "Reference" "H4"
+			(at 77.47 130.8099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4234,7 +4234,7 @@
 			)
 		)
 		(property "Value" "Art"
-			(at 77.47 160.0199 0)
+			(at 77.47 133.3499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4243,7 +4243,7 @@
 			)
 		)
 		(property "Footprint" "Art:Salt"
-			(at 74.93 158.75 0)
+			(at 74.93 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4252,7 +4252,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 74.93 158.75 0)
+			(at 74.93 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4261,7 +4261,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
-			(at 74.93 158.75 0)
+			(at 74.93 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4270,7 +4270,7 @@
 			)
 		)
 		(property "Arrow Part Number" ""
-			(at 74.93 158.75 0)
+			(at 74.93 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4279,7 +4279,7 @@
 			)
 		)
 		(property "Arrow Price/Stock" ""
-			(at 74.93 158.75 0)
+			(at 74.93 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4288,7 +4288,7 @@
 			)
 		)
 		(property "Field4" ""
-			(at 74.93 158.75 0)
+			(at 74.93 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4297,7 +4297,7 @@
 			)
 		)
 		(property "LCSC Part" ""
-			(at 74.93 158.75 0)
+			(at 74.93 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4308,7 +4308,7 @@
 		(instances
 			(project "pipar_point_v3"
 				(path "/ae2abdf3-be75-4a01-9d2e-db16842fefd9"
-					(reference "H64")
+					(reference "H4")
 					(unit 1)
 				)
 			)
@@ -4317,7 +4317,7 @@
 	(symbol
 		(lib_name "R_Small_1")
 		(lib_id "Device:R_Small")
-		(at 175.26 105.41 0)
+		(at 260.35 119.38 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4325,7 +4325,7 @@
 		(dnp no)
 		(uuid "cb9d0263-68e5-4840-87c2-f0891e03173d")
 		(property "Reference" "R3"
-			(at 175.26 103.886 90)
+			(at 258.826 119.38 90)
 			(effects
 				(font
 					(size 1.016 1.016)
@@ -4334,7 +4334,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 177.038 103.378 90)
+			(at 258.318 117.602 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4343,7 +4343,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 175.26 105.41 0)
+			(at 260.35 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4352,7 +4352,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 175.26 105.41 0)
+			(at 260.35 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4361,7 +4361,7 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
-			(at 175.26 105.41 0)
+			(at 260.35 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4370,7 +4370,7 @@
 			)
 		)
 		(property "Manufacturer_Name" ""
-			(at 175.26 105.41 0)
+			(at 260.35 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4379,7 +4379,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "CRCW060310K0FKEA"
-			(at 175.26 105.41 0)
+			(at 260.35 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4388,7 +4388,7 @@
 			)
 		)
 		(property "Mouser Part Number" "71-CRCW0603-10K-E3"
-			(at 175.26 105.41 0)
+			(at 260.35 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4397,7 +4397,7 @@
 			)
 		)
 		(property "Arrow Part Number" ""
-			(at 175.26 105.41 90)
+			(at 260.35 119.38 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4406,7 +4406,7 @@
 			)
 		)
 		(property "Arrow Price/Stock" ""
-			(at 175.26 105.41 90)
+			(at 260.35 119.38 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4415,7 +4415,7 @@
 			)
 		)
 		(property "Field4" ""
-			(at 175.26 105.41 90)
+			(at 260.35 119.38 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4424,7 +4424,7 @@
 			)
 		)
 		(property "LCSC Part" ""
-			(at 175.26 105.41 90)
+			(at 260.35 119.38 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4449,7 +4449,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:Fiducial")
-		(at 27.94 149.86 0)
+		(at 27.94 124.46 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -4458,7 +4458,7 @@
 		(fields_autoplaced yes)
 		(uuid "d7af2fb6-1d28-4438-8812-b9b5bee67f6b")
 		(property "Reference" "FID2"
-			(at 30.48 148.5899 0)
+			(at 30.48 123.1899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4467,7 +4467,7 @@
 			)
 		)
 		(property "Value" "Fiducial"
-			(at 30.48 151.1299 0)
+			(at 30.48 125.7299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4476,7 +4476,7 @@
 			)
 		)
 		(property "Footprint" "Fiducial:Fiducial_0.5mm_Mask1mm"
-			(at 27.94 149.86 0)
+			(at 27.94 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4485,7 +4485,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 27.94 149.86 0)
+			(at 27.94 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4494,7 +4494,7 @@
 			)
 		)
 		(property "Description" "Fiducial Marker"
-			(at 27.94 149.86 0)
+			(at 27.94 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4503,7 +4503,7 @@
 			)
 		)
 		(property "Arrow Part Number" ""
-			(at 27.94 149.86 0)
+			(at 27.94 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4512,7 +4512,7 @@
 			)
 		)
 		(property "Arrow Price/Stock" ""
-			(at 27.94 149.86 0)
+			(at 27.94 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4521,7 +4521,7 @@
 			)
 		)
 		(property "Field4" ""
-			(at 27.94 149.86 0)
+			(at 27.94 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4530,7 +4530,7 @@
 			)
 		)
 		(property "LCSC Part" ""
-			(at 27.94 149.86 0)
+			(at 27.94 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4549,7 +4549,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:Fiducial")
-		(at 27.94 160.02 0)
+		(at 27.94 134.62 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -4558,7 +4558,7 @@
 		(fields_autoplaced yes)
 		(uuid "f0dd1e2c-41fe-4869-b825-9aae7dbb1c3d")
 		(property "Reference" "FID4"
-			(at 30.48 158.7499 0)
+			(at 30.48 133.3499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4567,7 +4567,7 @@
 			)
 		)
 		(property "Value" "Fiducial"
-			(at 30.48 161.2899 0)
+			(at 30.48 135.8899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4576,7 +4576,7 @@
 			)
 		)
 		(property "Footprint" "Fiducial:Fiducial_0.5mm_Mask1mm"
-			(at 27.94 160.02 0)
+			(at 27.94 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4585,7 +4585,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 27.94 160.02 0)
+			(at 27.94 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4594,7 +4594,7 @@
 			)
 		)
 		(property "Description" "Fiducial Marker"
-			(at 27.94 160.02 0)
+			(at 27.94 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4603,7 +4603,7 @@
 			)
 		)
 		(property "Arrow Part Number" ""
-			(at 27.94 160.02 0)
+			(at 27.94 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4612,7 +4612,7 @@
 			)
 		)
 		(property "Arrow Price/Stock" ""
-			(at 27.94 160.02 0)
+			(at 27.94 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4621,7 +4621,7 @@
 			)
 		)
 		(property "Field4" ""
-			(at 27.94 160.02 0)
+			(at 27.94 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4630,7 +4630,7 @@
 			)
 		)
 		(property "LCSC Part" ""
-			(at 27.94 160.02 0)
+			(at 27.94 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4649,7 +4649,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 143.51 101.6 270)
+		(at 256.54 151.13 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4657,8 +4657,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fe09a7b7-60df-479c-9c04-bba7fc300c7f")
-		(property "Reference" "#PWR048"
-			(at 137.16 101.6 0)
+		(property "Reference" "#PWR02"
+			(at 256.54 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4667,7 +4667,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 139.7 101.5999 90)
+			(at 256.5399 154.94 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4676,7 +4676,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 143.51 101.6 0)
+			(at 256.54 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4685,7 +4685,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 143.51 101.6 0)
+			(at 256.54 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4694,7 +4694,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 143.51 101.6 0)
+			(at 256.54 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4708,15 +4708,57 @@
 		(instances
 			(project "pipar_point_v3"
 				(path "/ae2abdf3-be75-4a01-9d2e-db16842fefd9"
-					(reference "#PWR048")
+					(reference "#PWR02")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(sheet
+		(at 118.11 25.4)
+		(size 58.42 76.2)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "4035639e-8446-4f7a-8b08-5dd6641ff01b")
+		(property "Sheetname" "Dongle"
+			(at 118.11 24.6884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "dongle.kicad_sch"
+			(at 118.11 102.1846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "pipar_point_v3"
+				(path "/ae2abdf3-be75-4a01-9d2e-db16842fefd9"
+					(page "8")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 25.4 25.4)
-		(size 76.2 101.6)
+		(size 76.2 76.2)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -4740,7 +4782,7 @@
 			)
 		)
 		(property "Sheetfile" "side.kicad_sch"
-			(at 25.4 127.5846 0)
+			(at 25.4 102.1846 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4749,7 +4791,7 @@
 			)
 		)
 		(pin "TPData" bidirectional
-			(at 101.6 93.98 0)
+			(at 101.6 68.58 0)
 			(uuid "8e819a4f-93a8-4463-91f5-d7bbcaefda1a")
 			(effects
 				(font
@@ -4759,7 +4801,7 @@
 			)
 		)
 		(pin "TPClock" bidirectional
-			(at 101.6 96.52 0)
+			(at 101.6 71.12 0)
 			(uuid "1cb42f1f-a331-4f3a-92e7-61f800341830")
 			(effects
 				(font
@@ -4769,7 +4811,7 @@
 			)
 		)
 		(pin "TPRST" bidirectional
-			(at 101.6 99.06 0)
+			(at 101.6 73.66 0)
 			(uuid "d1f4b2c2-4ddb-4586-8cd3-8c75b174af25")
 			(effects
 				(font
@@ -4779,7 +4821,7 @@
 			)
 		)
 		(pin "3.3V" bidirectional
-			(at 101.6 101.6 0)
+			(at 101.6 76.2 0)
 			(uuid "2c339532-a324-4571-8b1f-570aed8aeb13")
 			(effects
 				(font
@@ -4789,7 +4831,7 @@
 			)
 		)
 		(pin "BAT_IN" bidirectional
-			(at 101.6 124.46 0)
+			(at 101.6 99.06 0)
 			(uuid "7a42aa8f-2ea3-4e43-abae-a2cf0ed1a6d0")
 			(effects
 				(font
@@ -4799,7 +4841,7 @@
 			)
 		)
 		(pin "BAT_ON" bidirectional
-			(at 101.6 114.3 0)
+			(at 101.6 88.9 0)
 			(uuid "2d27c9d0-66ef-45ca-aa36-7fdfb4f8f350")
 			(effects
 				(font
@@ -4817,8 +4859,8 @@
 		)
 	)
 	(sheet
-		(at 191.77 26.67)
-		(size 76.2 101.6)
+		(at 191.77 25.4)
+		(size 76.2 77.47)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -4833,7 +4875,7 @@
 		)
 		(uuid "b65bf892-a9b9-431e-af85-efaa63e657b0")
 		(property "Sheetname" "Side-Right"
-			(at 191.77 25.9584 0)
+			(at 191.77 24.6884 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4842,7 +4884,7 @@
 			)
 		)
 		(property "Sheetfile" "side.kicad_sch"
-			(at 191.77 128.8546 0)
+			(at 191.77 103.4546 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4851,7 +4893,7 @@
 			)
 		)
 		(pin "TPData" bidirectional
-			(at 191.77 101.6 180)
+			(at 256.54 102.87 270)
 			(uuid "0bb5de8d-f5b5-4e0e-93e7-a20ebb590bab")
 			(effects
 				(font
@@ -4861,7 +4903,7 @@
 			)
 		)
 		(pin "TPClock" bidirectional
-			(at 191.77 99.06 180)
+			(at 254 102.87 270)
 			(uuid "a3c9d46b-407d-4cbe-b48e-5d1b77bf5e1d")
 			(effects
 				(font
@@ -4871,7 +4913,7 @@
 			)
 		)
 		(pin "TPRST" bidirectional
-			(at 191.77 96.52 180)
+			(at 251.46 102.87 270)
 			(uuid "b0febe36-8803-4305-9685-6ccd4542b8ff")
 			(effects
 				(font
@@ -4881,7 +4923,7 @@
 			)
 		)
 		(pin "3.3V" bidirectional
-			(at 191.77 93.98 180)
+			(at 248.92 102.87 270)
 			(uuid "f2dd8e41-8dfb-4483-b418-a3cd32a45713")
 			(effects
 				(font
@@ -4891,7 +4933,7 @@
 			)
 		)
 		(pin "BAT_ON" bidirectional
-			(at 191.77 115.57 180)
+			(at 191.77 90.17 180)
 			(uuid "6cbb3084-0259-4d27-81be-9d788a91b688")
 			(effects
 				(font
@@ -4901,7 +4943,7 @@
 			)
 		)
 		(pin "BAT_IN" bidirectional
-			(at 191.77 125.73 180)
+			(at 191.77 100.33 180)
 			(uuid "019bdd80-f352-464c-a3e5-fef98972fa48")
 			(effects
 				(font
