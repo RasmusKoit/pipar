@@ -60,6 +60,30 @@
       ],
       "drc_exclusions": [
         [
+          "pth_inside_courtyard|206557676|108241735|3bd76856-ea6d-44a9-8923-408cc1c2e891|d3042d61-6d85-46c3-8747-107e3589c2ac",
+          ""
+        ],
+        [
+          "pth_inside_courtyard|207757676|108241735|24f53875-2a71-446e-83b7-bce173c4e590|d3042d61-6d85-46c3-8747-107e3589c2ac",
+          ""
+        ],
+        [
+          "pth_inside_courtyard|236214995|137611739|d4ed1508-80c3-470c-acc0-f089d2eb89fd|01706ef1-91df-41c6-895e-52dad180d2b1",
+          ""
+        ],
+        [
+          "pth_inside_courtyard|237414995|137611739|c3f10300-3596-4031-a84f-51c15d288b79|01706ef1-91df-41c6-895e-52dad180d2b1",
+          ""
+        ],
+        [
+          "pth_inside_courtyard|264895962|108385447|4a133013-8ce1-4e6b-8b6c-fb0a65bc8aa9|deae2e61-f3be-4ba5-9164-2ba8e9334b83",
+          ""
+        ],
+        [
+          "pth_inside_courtyard|266095962|108385447|afc50152-c754-4b6b-a3eb-31eca131a71b|deae2e61-f3be-4ba5-9164-2ba8e9334b83",
+          ""
+        ],
+        [
           "solder_mask_bridge|393435032|80577527|73e797b1-64e0-4895-888c-783ca6ef1774|98b0d93e-ef04-4eb5-909c-25bf2f536090",
           ""
         ],
@@ -73,6 +97,18 @@
         ],
         [
           "solder_mask_bridge|68767213|197408291|fb2ec4d3-427c-4b6f-ae67-2c78e9d35e5b|beb41011-6c1d-4579-ae9e-d037ae0f0399",
+          ""
+        ],
+        [
+          "unconnected_items|165605113|86082261|F.Cu|4|e8d72596-4785-45c9-8499-f34ea9a03494|beb41011-6c1d-4579-ae9e-d037ae0f0399",
+          ""
+        ],
+        [
+          "unconnected_items|214684621|127556908|F.Cu|4|3ac9ffeb-7242-4094-8544-3df44ed49258|e8d72596-4785-45c9-8499-f34ea9a03494",
+          ""
+        ],
+        [
+          "unconnected_items|252560218|126520724|F.Cu|4|4093124c-7316-459c-8f22-c3fbb709688c|3c267621-4d67-4ffd-bdc0-7f799cf26f57",
           ""
         ]
       ],
@@ -95,7 +131,7 @@
         "footprint": "error",
         "footprint_filters_mismatch": "ignore",
         "footprint_symbol_mismatch": "warning",
-        "footprint_type_mismatch": "ignore",
+        "footprint_type_mismatch": "warning",
         "hole_clearance": "error",
         "hole_near_hole": "error",
         "hole_to_hole": "error",
@@ -116,7 +152,7 @@
         "nonmirrored_text_on_back_layer": "warning",
         "npth_inside_courtyard": "ignore",
         "padstack": "warning",
-        "pth_inside_courtyard": "ignore",
+        "pth_inside_courtyard": "warning",
         "shorting_items": "error",
         "silk_edge_clearance": "ignore",
         "silk_over_copper": "ignore",
@@ -555,7 +591,7 @@
     "netclass_patterns": [
       {
         "netclass": "USB_DATA",
-        "pattern": "/Side-*USB_D*"
+        "pattern": "/*USB_D*"
       }
     ]
   },

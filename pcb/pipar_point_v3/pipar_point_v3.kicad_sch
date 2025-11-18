@@ -1457,6 +1457,16 @@
 	)
 	(wire
 		(pts
+			(xy 124.46 101.6) (xy 124.46 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "194c3a99-f82b-46a4-ad47-a64978ff1d48")
+	)
+	(wire
+		(pts
 			(xy 217.17 138.43) (xy 222.25 138.43)
 		)
 		(stroke
@@ -1584,6 +1594,16 @@
 			(type default)
 		)
 		(uuid "53fdb464-be79-4e84-9a82-f47bcb597491")
+	)
+	(wire
+		(pts
+			(xy 124.46 105.41) (xy 134.62 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "575baaf3-f549-4cb5-9102-f38efde5c813")
 	)
 	(wire
 		(pts
@@ -1864,6 +1884,16 @@
 			(type default)
 		)
 		(uuid "f77aef82-10fb-44b0-8c7e-a3412d88b88b")
+	)
+	(wire
+		(pts
+			(xy 134.62 101.6) (xy 134.62 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f8a03f40-fc67-40be-843d-6d28d579aaf2")
 	)
 	(wire
 		(pts
@@ -4746,6 +4776,26 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
+			)
+		)
+		(pin "BAT_IN" bidirectional
+			(at 124.46 101.6 270)
+			(uuid "238d3e7f-1460-43f0-8331-d93d8f6fcfc6")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "BAT_ON" bidirectional
+			(at 134.62 101.6 270)
+			(uuid "c05f3305-ec97-4c79-95e9-5e49a220e7a0")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 		(instances

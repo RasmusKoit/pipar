@@ -2918,6 +2918,12 @@
 		(uuid "70d194f9-c561-4a67-a3a1-69cb945938a6")
 	)
 	(junction
+		(at 198.12 31.75)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "710435b3-55eb-41c1-9d3d-01535df2389c")
+	)
+	(junction
 		(at 204.47 92.71)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3304,6 +3310,16 @@
 			(type default)
 		)
 		(uuid "49bbf46b-7b77-4916-b244-ecb28beddca8")
+	)
+	(wire
+		(pts
+			(xy 198.12 31.75) (xy 217.17 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4a2de827-5985-4433-ba42-23f1a59e8747")
 	)
 	(wire
 		(pts
@@ -4055,6 +4071,17 @@
 			(justify left)
 		)
 		(uuid "0a3e90c7-9765-401b-8fbd-1fe2deb09a65")
+	)
+	(hierarchical_label "VSYSOut"
+		(shape output)
+		(at 217.17 31.75 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "56403914-a224-45bf-97b2-dd62813989f7")
 	)
 	(hierarchical_label "USB_D-"
 		(shape bidirectional)
@@ -5702,6 +5729,24 @@
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
 			(at 238.76 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "S2B-PH-SM4-TB(LF)(SN)"
+			(at 238.76 115.57 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "306-S2BPHSM4TBLFSN"
+			(at 238.76 115.57 90)
 			(effects
 				(font
 					(size 1.27 1.27)

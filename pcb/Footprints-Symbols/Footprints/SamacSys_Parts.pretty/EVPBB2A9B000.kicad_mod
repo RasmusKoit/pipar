@@ -1,0 +1,294 @@
+(footprint "EVPBB2A9B000"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "EVPBB2A9B000")
+	(tags "Switch")
+	(property "Reference" "SW1"
+		(at 0.18 0.04 0)
+		(layer "F.SilkS")
+		(uuid "bbbbd56a-5909-47a5-b309-cd2154a62735")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2)
+			)
+		)
+	)
+	(property "Value" "EVP-BB1AAB000"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "80a06c43-80f2-43df-af2c-be8b62ca5ecb")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "90045a1e-e580-447e-b608-574cb176032f")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "Tactile Switches 2.6x1.6x0.5mm 1N 0.08mm Travel"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "dbef7e04-b5d2-447c-8b63-c7b8dbe9e178")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description_1" "Tactile Switches 2.6x1.6x0.5mm 1N 0.08mm Travel"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "4525f743-1b3c-48d3-a378-a88c567f9d21")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Height" "0"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "27fef881-a627-435b-bc63-559163a42f95")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Mouser Part Number" "667-EVP-BB1AAB000"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "94a13a6d-4c99-4c8e-a417-aa47a09712c2")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Panasonic/EVP-BB1AAB000?qs=f9yNj16SXrKiqfR0eFFobA%3D%3D"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "bb890a2c-caaa-4a36-827d-2cc4d4deb4c9")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Manufacturer_Name" "Panasonic"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "31b450e4-d28f-4c7d-9903-7eb276704f2b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Manufacturer_Part_Number" "EVP-BB1AAB000"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "1c4db5c1-f381-4de7-90ae-266037f281e4")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -1.75 -0.5)
+		(end -1.75 -0.5)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "6436ceac-27ea-47bd-a057-7d8c95692c85")
+	)
+	(fp_line
+		(start -1.75 -0.3)
+		(end -1.75 -0.3)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "c7e02e5a-c079-4202-8aec-078746f7db4e")
+	)
+	(fp_line
+		(start -1.075 0.8)
+		(end 1.575 0.8)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "57c7afad-6959-4d34-8aae-e3768d129eb2")
+	)
+	(fp_line
+		(start -1.05 -0.8)
+		(end 1.55 -0.8)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "ce554fc4-0a2b-4428-b4ac-e05df9ca468b")
+	)
+	(fp_arc
+		(start -1.75 -0.5)
+		(mid -1.65 -0.4)
+		(end -1.75 -0.3)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "6f53e163-59f4-4bd6-be29-8ac06e073d77")
+	)
+	(fp_arc
+		(start -1.75 -0.3)
+		(mid -1.85 -0.4)
+		(end -1.75 -0.5)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "fca5048d-935a-4d81-9a5c-ea9f7180a1c4")
+	)
+	(fp_rect
+		(start -1.53 -1.035)
+		(end 1.96 1)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "9415e256-940a-4492-9e77-1227d689ac53")
+	)
+	(fp_line
+		(start -1.05 -0.8)
+		(end 1.55 -0.8)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "a6f81315-16ae-4a97-883a-37254f18590a")
+	)
+	(fp_line
+		(start -1.05 0.8)
+		(end -1.05 -0.8)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "c988b2d6-3e5d-405f-9628-ab9796560596")
+	)
+	(fp_line
+		(start 1.55 -0.8)
+		(end 1.55 0.8)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "2c805a64-78d3-42f9-8af6-061b723d1fe5")
+	)
+	(fp_line
+		(start 1.55 0.8)
+		(end -1.05 0.8)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "9ace8bd0-fc5f-49b3-9119-fcada74b11e0")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "ff4a8236-e313-48f1-aed8-7e9c70272569")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -1.075 -0.375 90)
+		(size 0.55 0.55)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "758562fb-bb7b-4c52-883f-bec7dc064aa6")
+	)
+	(pad "2" smd rect
+		(at -1.075 0.375 90)
+		(size 0.55 0.55)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "601f39a5-ddcb-4f9e-adff-a4471b5ee05a")
+	)
+	(pad "3" smd rect
+		(at 1.575 0.375 90)
+		(size 0.55 0.55)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "e08d630f-4bf5-4a06-b611-d755e6aa993a")
+	)
+	(pad "4" smd rect
+		(at 1.575 -0.375 90)
+		(size 0.55 0.55)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "b7d1b4d7-7358-4b24-8702-c222d77034d1")
+	)
+	(embedded_fonts no)
+	(model "F:\\PCBs\\pipar\\pcb\\Footprints-Symbols\\SamacSys_Parts.3dshapes\\EVP-BB1AAB000.stp"
+		(offset
+			(xyz 0 0 0.01999999925)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)
