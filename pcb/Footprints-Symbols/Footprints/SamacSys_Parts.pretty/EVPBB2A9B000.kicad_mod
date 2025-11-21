@@ -280,15 +280,15 @@
 		(uuid "b7d1b4d7-7358-4b24-8702-c222d77034d1")
 	)
 	(embedded_fonts no)
-	(model "F:\\PCBs\\pipar\\pcb\\Footprints-Symbols\\SamacSys_Parts.3dshapes\\EVP-BB1AAB000.stp"
+	(model "${PIPAR_FOOTPRINTS}/SamacSys_Parts.pretty/SamacSys_Parts.3dshapes/EVP-BB1AAB000.stp"
 		(offset
-			(xyz 0 0 0.01999999925)
+			(xyz 0.25 0 0.02)
 		)
 		(scale
 			(xyz 1 1 1)
 		)
 		(rotate
-			(xyz 0 0 0)
+			(xyz -0 -0 -0)
 		)
 	)
 )
