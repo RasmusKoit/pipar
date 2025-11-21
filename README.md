@@ -96,37 +96,26 @@ If you are interested in building the V2 version, here is a list of components y
 > [!NOTE]
 > I am happy to announce that for the Pipar Point project, I have partnered with [PCBWay](https://www.pcbway.com/) to provide the PCBs for the project. PCBWay is a professional PCB manufacturer with over 10 years of experience in the industry. They offer a wide range of services, including PCB manufacturing, PCB assembly, and PCB design. I am excited to be working with PCBWay on this project, and I am confident that they will deliver high-quality PCBs that meet my specifications.
 
-*Currently in second prototype phase.*
+*Currently in third prototype phase.*
 *Works and currently in testing*
 
-The **Pipar Point** is a 40-key split wireless keyboard with a 3x5+3+2 layout, trackpoint and LEDs. It includes:
-
-- **Onboard Components**: Features NRF52840 IC and PCB antenna for BLE
-- **Switches**: Ambients Silent Kailh Low Profile Nocturnal Choc Switches.
-- **Sockets**: Kailh Hotswap v1/v2 sockets for easy switch replacement.
-- **Trackpoint**: Lenovo T460S Trackpoint for mouse control on the right side.
-- **LEDs**: White LEDs for visual feedback. Charging and CAPS Word LEDs added with one extra LED that is yet to be decided
-- **Components**: Uses smaller components in 0402/SOD-523 package for resistors, capacitors etc.
-- **Top Plate**: Designed to be used with a top plate for a more rigid build.
-- **Batteries**: Massive 2500mAh to compensate for the power draw of the trackpoint and LEDs.
-- **Wireless Charging**: Includes a possibility to add wireless charging
-
-#### Pipar Point V1 Pictures
+#### Pipar Point Pictures
 
 ![Pipar Point front 3D](.extra/pipar_point_front_3d.png)
 ![Pipar Point back 3D](.extra/pipar_point_back_3d.png)
-![Pipar Point Schematic](.extra/pipar_point_schematic.jpg)
+![Pipar Point Schematic](.extra/pipar_point_schematic.png)
 
 #### Pipar Point Design Details
 
 - **Layout**: Splayed split keyboard with a 3x5+3+2  layout.
   - **Thumb Cluster**: Three keys on each half.
   - **Pinkie Cluster**: Split to reduce the distance to the keys. Extra Keys for macros or foreign letters
-- **Wireless**: Uses BLE with PCB Antenna
+- **Wireless**: Uses ISP1807 SIP IC based on NRF52840 IC for both halves.
 - **Battery**: Larger area for the battery to ensure longer usage time.
 - **Trackpoint**: Sprintek Trackpoint for mouse control on the right side.
 - **LEDs**: I sometimes miss the visual feedback of the LEDs, so I added them to the design.
 - **Top Plate**: Designed to be used with a top plate for a more rigid build.
+- **Mounting**: Case includes magsafe mounting for easy attachment and detachment. Rubber feet to keep the keyboard in place.
 
 Idea was to iterate on the Pipar ja Sool design and add a trackpoint for mouse control. The design is still in the early stages and will be updated as the project progresses. Because of the trackpoint, LEDs and the battery size has been increased to 2500mAh to compensate for the power draw of the trackpoint and LEDs. With this design, I am aiming to challege myself to design a more complex PCB by using more components which will also be smaller in size. The design will also include a top plate to make the build more rigid and also to hide the trackpoint mounting cleaner.
 
