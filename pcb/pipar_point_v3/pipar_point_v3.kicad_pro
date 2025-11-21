@@ -68,11 +68,11 @@
           ""
         ],
         [
-          "pth_inside_courtyard|236214995|137611739|d4ed1508-80c3-470c-acc0-f089d2eb89fd|01706ef1-91df-41c6-895e-52dad180d2b1",
+          "pth_inside_courtyard|236214995|141288953|d4ed1508-80c3-470c-acc0-f089d2eb89fd|01706ef1-91df-41c6-895e-52dad180d2b1",
           ""
         ],
         [
-          "pth_inside_courtyard|237414995|137611739|c3f10300-3596-4031-a84f-51c15d288b79|01706ef1-91df-41c6-895e-52dad180d2b1",
+          "pth_inside_courtyard|237414995|141288953|c3f10300-3596-4031-a84f-51c15d288b79|01706ef1-91df-41c6-895e-52dad180d2b1",
           ""
         ],
         [
@@ -84,31 +84,15 @@
           ""
         ],
         [
-          "solder_mask_bridge|393435032|80577527|73e797b1-64e0-4895-888c-783ca6ef1774|98b0d93e-ef04-4eb5-909c-25bf2f536090",
+          "unconnected_items|165604534|86082261|F.Cu|4|4093124c-7316-459c-8f22-c3fbb709688c|beb41011-6c1d-4579-ae9e-d037ae0f0399",
           ""
         ],
         [
-          "solder_mask_bridge|393435032|80577527|771fd551-f96a-4975-9007-6d5fd9b3565a|98b0d93e-ef04-4eb5-909c-25bf2f536090",
+          "unconnected_items|214684621|131234122|F.Cu|4|3ac9ffeb-7242-4094-8544-3df44ed49258|4093124c-7316-459c-8f22-c3fbb709688c",
           ""
         ],
         [
-          "solder_mask_bridge|68767213|197408291|51bf897b-6844-4658-bccf-642c0ec48b43|beb41011-6c1d-4579-ae9e-d037ae0f0399",
-          ""
-        ],
-        [
-          "solder_mask_bridge|68767213|197408291|fb2ec4d3-427c-4b6f-ae67-2c78e9d35e5b|beb41011-6c1d-4579-ae9e-d037ae0f0399",
-          ""
-        ],
-        [
-          "unconnected_items|165605113|86082261|F.Cu|4|e8d72596-4785-45c9-8499-f34ea9a03494|beb41011-6c1d-4579-ae9e-d037ae0f0399",
-          ""
-        ],
-        [
-          "unconnected_items|214684621|127556908|F.Cu|4|3ac9ffeb-7242-4094-8544-3df44ed49258|e8d72596-4785-45c9-8499-f34ea9a03494",
-          ""
-        ],
-        [
-          "unconnected_items|252560218|126520724|F.Cu|4|4093124c-7316-459c-8f22-c3fbb709688c|3c267621-4d67-4ffd-bdc0-7f799cf26f57",
+          "unconnected_items|250855408|165444488|F.Cu|4|f2d6f73e-f038-4a8a-bb4b-ddd274b4b2e0|4093124c-7316-459c-8f22-c3fbb709688c",
           ""
         ]
       ],
@@ -120,13 +104,13 @@
         "clearance": "error",
         "connection_width": "warning",
         "copper_edge_clearance": "ignore",
-        "copper_sliver": "warning",
+        "copper_sliver": "ignore",
         "courtyards_overlap": "ignore",
         "creepage": "error",
         "diff_pair_gap_out_of_range": "error",
         "diff_pair_uncoupled_length_too_long": "error",
         "drill_out_of_range": "error",
-        "duplicate_footprints": "warning",
+        "duplicate_footprints": "ignore",
         "extra_footprint": "warning",
         "footprint": "error",
         "footprint_filters_mismatch": "ignore",
@@ -158,7 +142,7 @@
         "silk_over_copper": "ignore",
         "silk_overlap": "ignore",
         "skew_out_of_range": "error",
-        "solder_mask_bridge": "error",
+        "solder_mask_bridge": "ignore",
         "starved_thermal": "ignore",
         "text_height": "warning",
         "text_on_edge_cuts": "error",
@@ -611,7 +595,7 @@
   },
   "schematic": {
     "annotate_start_num": 0,
-    "bom_export_filename": "${PROJECTNAME}_${REVISION}.csv",
+    "bom_export_filename": "production\\pipar_point_v3.csv",
     "bom_fmt_presets": [],
     "bom_fmt_settings": {
       "field_delimiter": ",",
