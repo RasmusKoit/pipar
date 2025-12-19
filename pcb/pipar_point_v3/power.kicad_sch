@@ -4578,7 +4578,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" "81-GRM188R61E106KA3J"
+		(property "Mouser Part Number" "81-GRM188R61E106KA3D"
 			(at 198.12 34.29 0)
 			(effects
 				(font
@@ -4596,7 +4596,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" "GRM188R61E106KA73J"
+		(property "Manufacturer_Part_Number" "GRM188R61E106KA73D"
 			(at 198.12 34.29 0)
 			(effects
 				(font
@@ -7865,7 +7865,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" "81-GRM188R61E106KA3J"
+		(property "Mouser Part Number" "81-GRM188R61E106KA3D"
 			(at 189.23 34.29 0)
 			(effects
 				(font
@@ -7883,7 +7883,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" "GRM188R61E106KA73J"
+		(property "Manufacturer_Part_Number" "GRM188R61E106KA73D"
 			(at 189.23 34.29 0)
 			(effects
 				(font
@@ -8815,7 +8815,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" "81-GRM188R61E106KA3J"
+		(property "Mouser Part Number" "81-GRM188R61E106KA3D"
 			(at 215.9 74.93 0)
 			(effects
 				(font
@@ -8833,7 +8833,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" "GRM188R61E106KA73J"
+		(property "Manufacturer_Part_Number" "GRM188R61E106KA73D"
 			(at 215.9 74.93 0)
 			(effects
 				(font

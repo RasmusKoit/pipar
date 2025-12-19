@@ -4647,7 +4647,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" "IRLML6344TRPBF"
+		(property "Manufacturer_Part_Number" "SI2342DS-T1-GE3"
 			(at 58.42 58.42 90)
 			(effects
 				(font
@@ -4656,7 +4656,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" " 942-IRLML6344TRPBF"
+		(property "Mouser Part Number" "78-SI2342DS-T1-GE3"
 			(at 58.42 58.42 90)
 			(effects
 				(font
