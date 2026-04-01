@@ -14,8 +14,8 @@ manifest:
     # See https://docs.zephyrproject.org/3.2.0/develop/west/manifest.html#projects
   projects:
     - name: zmk
-      remote: petejohanson
-      revision: core/move-to-zephyr-4-1
+      remote: RasmusKoit
+      revision: battery-profile-support
       import: app/west.yml
     - name: zmk-keyboard-pipar
       remote: RasmusKoit
