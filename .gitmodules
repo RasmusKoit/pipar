@@ -4,3 +4,6 @@
 [submodule "pcb/pipar_point/ergogen/footprints/infused-kim"]
 	path = pcb/pipar_point/ergogen/footprints/infused-kim
 	url = git@github.com:infused-kim/kb_ergogen_fp.git
+[submodule "zmk-keyboard-pipar"]
+	path = zmk-keyboard-pipar
+	url = https://github.com/RasmusKoit/zmk-keyboard-pipar
