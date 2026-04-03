@@ -24,7 +24,7 @@ manifest:
       remote: urob
       revision: v0.3
     - name: kb_zmk_ps2_mouse_trackpoint_driver
-      remote: filippor
-      revision: badjeff-4.1
+      remote: RasmusKoit
+      revision: pipar-stability
   self:
     path: config

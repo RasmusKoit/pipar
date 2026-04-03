@@ -2,6 +2,6 @@
 include:
   - board: pipar_point@left
   - board: pipar_point@right
-    snippet: trackpoint studio-rpc-usb-uart zmk-usb-logging
+    snippet: trackpoint studio-rpc-usb-uart
   - board: pipar_point@left
     shield: settings_reset
