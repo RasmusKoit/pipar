@@ -20,7 +20,7 @@ cd pipar
 ./build.sh all     # every target
 ```
 
-Firmware is written to `.build/<target>/zephyr/zmk.uf2`. Builds can also be run through the [Build all Pipar firmwares](https://github.com/RasmusKoit/pipar/actions/workflows/build_pipar_firmwares.yml) GitHub Actions workflow.
+Firmware is written to `.build/<target>/zephyr/zmk.uf2`. Builds can also be run through the [Build Pipar products](https://github.com/RasmusKoit/pipar/actions/workflows/build_pipar_products.yml) GitHub Actions workflow.
 
 ## Designed PCBs
 
