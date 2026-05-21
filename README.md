@@ -6,6 +6,22 @@ ZMK firmware for the Pipar PCBs.
 
 **Pipar** is a collection of different keyboards and keypads that I have designed. Each PCB in the series has unique features tailored to different needs and preferences.
 
+## Firmware
+
+The Pipar keyboards run [ZMK](https://zmk.dev) firmware. Board definitions, custom drivers (LED indicators, caps-word events, a recovery watchdog), keymaps, and shields live in the [`zmk-keyboard-pipar`](https://github.com/RasmusKoit/zmk-keyboard-pipar) ZMK module — included here as the `zmk-keyboard-pipar` submodule.
+
+Build firmware locally with the `build.sh` helper (requires Docker):
+
+```bash
+git clone --recurse-submodules https://github.com/RasmusKoit/pipar.git
+cd pipar
+./build.sh right   # Pipar Point central half (with trackpoint)
+./build.sh left    # Pipar Point peripheral half
+./build.sh all     # every target
+```
+
+Firmware is written to `.build/<target>/zephyr/zmk.uf2`. Builds can also be run through the [Build all Pipar firmwares](https://github.com/RasmusKoit/pipar/actions/workflows/build_pipar_firmwares.yml) GitHub Actions workflow.
+
 ## Designed PCBs
 
 PCB Files for each keyboard/project has been seperated into their own folders. The PCBs are designed in KiCad v9.x
