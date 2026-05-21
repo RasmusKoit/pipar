@@ -23,7 +23,10 @@ usage() {
     exit 1
 }
 
-DOCKER_COMMON="docker run --rm -v $REPO_DIR:/workspace -w /workspace $IMAGE bash -c"
+# Run the container as the host user so files created by west/git/cmake
+# (FETCH_HEAD, refs, build output) are owned by you, not root. -e HOME=/tmp
+# gives the (passwd-less) UID a writable home for `git config --global`.
+DOCKER_COMMON="docker run --rm --user $(id -u):$(id -g) -e HOME=/tmp -v $REPO_DIR:/workspace -w /workspace $IMAGE bash -c"
 INIT_CMD="git config --global --add safe.directory '*'"
 
 do_west_init() {
@@ -107,6 +110,7 @@ case "$1" in
     shell)
         do_west_init
         docker run --rm -it \
+            --user $(id -u):$(id -g) -e HOME=/tmp \
             -v "$REPO_DIR:/workspace" \
             -w /workspace \
             "$IMAGE" \
