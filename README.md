@@ -6,6 +6,22 @@ ZMK firmware for the Pipar PCBs.
 
 **Pipar** is a collection of different keyboards and keypads that I have designed. Each PCB in the series has unique features tailored to different needs and preferences.
 
+## Firmware
+
+The Pipar keyboards run [ZMK](https://zmk.dev) firmware. Board definitions, custom drivers (LED indicators, caps-word events, a recovery watchdog), keymaps, and shields live in the [`zmk-keyboard-pipar`](https://github.com/RasmusKoit/zmk-keyboard-pipar) ZMK module — included here as the `zmk-keyboard-pipar` submodule.
+
+Build firmware locally with the `build.sh` helper (requires Docker):
+
+```bash
+git clone --recurse-submodules https://github.com/RasmusKoit/pipar.git
+cd pipar
+./build.sh right   # Pipar Point central half (with trackpoint)
+./build.sh left    # Pipar Point peripheral half
+./build.sh all     # every target
+```
+
+Firmware is written to `.build/<target>/zephyr/zmk.uf2`. Builds can also be run through the [Build Pipar products](https://github.com/RasmusKoit/pipar/actions/workflows/build_pipar_products.yml) GitHub Actions workflow.
+
 ## Designed PCBs
 
 PCB Files for each keyboard/project has been seperated into their own folders. The PCBs are designed in KiCad v9.x
@@ -22,15 +38,12 @@ Currently, the following PCBs are available:
 > [!TIP]
 > Get your own Pipar & Sool from my [Etsy Store](https://piparkeyboards.etsy.com).
 
-Pipar Miryoku builds can be found here: [[RasmusKoit/miryoku_zmk]](https://github.com/RasmusKoit/miryoku_zmk/actions/workflows/build-example-pipar.yml)
-[![Build Example Pipar Sool](https://github.com/RasmusKoit/miryoku_zmk/actions/workflows/build-example-pipar_sool.yml/badge.svg)](https://github.com/RasmusKoit/miryoku_zmk/actions/workflows/build-example-pipar_sool.yml)
-
 The **Pipar ja Sool** is a 36-key split wireless keyboard with a 3x5+3 layout with a dongle. It features:
 
 - **Microcontrollers**: XIAO BLE for both halves and a dongle.
 - **Switches**: Ambients Silent Kailh Low Profile Nocturnal Choc Switches.
 - **Sockets**: Kailh Hotswap sockets for easy switch replacement.
-- **Key Layout**: Pipar & Sool uses Miryoku default key layout.
+- **Keymap**: Maintained in the [zmk-keyboard-pipar](https://github.com/RasmusKoit/zmk-keyboard-pipar) module.
 - **LEDs**: White LEDs for backlight.
 
 #### Pipar ja Sool Pictures
@@ -96,8 +109,8 @@ If you are interested in building the V2 version, here is a list of components y
 > [!NOTE]
 > I am happy to announce that for the Pipar Point project, I have partnered with [PCBWay](https://www.pcbway.com/) to provide the PCBs for the project. PCBWay is a professional PCB manufacturer with over 10 years of experience in the industry. They offer a wide range of services, including PCB manufacturing, PCB assembly, and PCB design. I am excited to be working with PCBWay on this project, and I am confident that they will deliver high-quality PCBs that meet my specifications.
 
-*Currently in third prototype phase.*
-*Works and currently in testing*
+*Current PCB revision: v3.1*
+*In regular use — firmware actively maintained.*
 
 #### Pipar Point Pictures
 
@@ -143,7 +156,7 @@ Pipar Chip features:
 
 The **Pipar Flake** is an 8+1 key wireless keypad with a rotary encoder (optional) and a screen. It includes:
 
-- **Microcontroller**: SuperMini NRF52840.
+- **Microcontroller**: pro_micro-pinout nRF52840 board (e.g. SuperMini nRF52840 or nice!nano).
 - **Display**: Tiny OLED display.
 - **Switches**: Ambients Silent Kailh Low Profile Nocturnal Choc Switches.
 - **Sockets**: Kailh Hotswap sockets for easy switch replacement.
