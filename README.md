@@ -114,9 +114,9 @@ If you are interested in building the V2 version, here is a list of components y
 
 #### Pipar Point Pictures
 
+<!-- ![Pipar Point Product](.extra/pipar_point_product.jpg) -->
 ![Pipar Point front 3D](.extra/pipar_point_front_3d.png)
 ![Pipar Point back 3D](.extra/pipar_point_back_3d.png)
-![Pipar Point Schematic](.extra/pipar_point_schematic.png)
 
 #### Pipar Point Design Details
 
@@ -148,9 +148,8 @@ Pipar Chip features:
 
 #### Pipar Chip Pictures
 
-![Pipar Chip Front](.extra/pipar_chip_front.png)
+![Pipar Chip Product](.extra/pipar_chip_product.jpg)
 ![Pipar Chip Back](.extra/pipar_chip_back.png)
-![Pipar Chip Schematic](.extra/pipar_chip_schematic.png)
 
 ### Pipar Flake
 
@@ -164,8 +163,7 @@ The **Pipar Flake** is an 8+1 key wireless keypad with a rotary encoder (optiona
 
 #### Pipar Flake Pictures
 
-![Pipar Flake in a Case](.extra/pipar_flake_case.jpg)
-![Pipar Flake side](.extra/pipar_flake_side.jpg)
+![Pipar Flake Product](.extra/pipar_flake_product.jpg)
 
 #### Pipar Flake Design Details
 
