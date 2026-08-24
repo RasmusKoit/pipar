@@ -15,6 +15,7 @@ usage() {
     echo "  reset         Build left half settings_reset"
     echo "  dev           Build pipar_dev bring-up board"
     echo "  all           Build all targets (including dev)"
+    echo "  test          Run unit tests and post-build firmware validation"
     echo "  clean         Remove build artifacts"
     echo "  export        Copy firmware files to Windows Downloads"
     echo "  shell         Open a shell in the build container"
@@ -80,6 +81,9 @@ case "$1" in
             "-DSHIELD=settings_reset"
         build_target "pipar_dev" "dev"
         "$0" export
+        ;;
+    test)
+        bash "$REPO_DIR/tests/run_tests.sh"
         ;;
     clean)
         echo "==> Cleaning build artifacts..."
