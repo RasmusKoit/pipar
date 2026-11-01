@@ -114,9 +114,21 @@ If you are interested in building the V2 version, here is a list of components y
 
 #### Pipar Point Pictures
 
-<!-- ![Pipar Point Product](.extra/pipar_point_product.jpg) -->
-![Pipar Point front 3D](.extra/pipar_point_front_3d.png)
-![Pipar Point back 3D](.extra/pipar_point_back_3d.png)
+![Pipar Point Product](.extra/pipar_point_product.jpg)
+![Pipar Point right half with trackpoint](.extra/pipar_point_right.jpg)
+![Pipar Point left half](.extra/pipar_point_left.jpg)
+
+<!-- markdownlint-disable MD033 -->
+<details>
+  <summary>More Pictures</summary>
+
+  ![Pipar Point trackpoint close-up](.extra/pipar_point_trackpoint.jpg)
+  ![Pipar Point thumb cluster](.extra/pipar_point_thumbs.jpg)
+  ![Pipar Point keycaps](.extra/pipar_point_keys.jpg)
+  ![Pipar Point front 3D](.extra/pipar_point_front_3d.png)
+  ![Pipar Point back 3D](.extra/pipar_point_back_3d.png)
+
+</details>
 
 #### Pipar Point Design Details
 
