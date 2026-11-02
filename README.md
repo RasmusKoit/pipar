@@ -6,6 +6,8 @@ ZMK firmware for the Pipar PCBs.
 
 **Pipar** is a collection of different keyboards and keypads that I have designed. Each PCB in the series has unique features tailored to different needs and preferences.
 
+More information about **Pipar Keyboards** here [https://pipar.koit.dev](https://pipar.koit.dev)
+
 ## Firmware
 
 The Pipar keyboards run [ZMK](https://zmk.dev) firmware. Board definitions, custom drivers (LED indicators, caps-word events, a recovery watchdog), keymaps, and shields live in the [`zmk-keyboard-pipar`](https://github.com/RasmusKoit/zmk-keyboard-pipar) ZMK module — included here as the `zmk-keyboard-pipar` submodule.
