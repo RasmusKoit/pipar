@@ -190,7 +190,7 @@ The **Pipar Flake** is an 8+1 key wireless keypad with a rotary encoder (optiona
 
 ## License
 
-- **Hardware** (`pcb/`, `build_guides/`): [CERN-OHL-S-2.0](LICENSE-HARDWARE).
+- **Hardware** (`pcb/`, `build_guides/`): [CERN-OHL-S-2.0](LICENSE).
   You can make, change and sell these boards. If you ship a modified version,
   publish its full design under the same licence.
 - **Firmware, config and scripts** (`config/`, `tests/`, `build.sh`):
