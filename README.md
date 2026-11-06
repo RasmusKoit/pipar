@@ -187,3 +187,16 @@ The **Pipar Flake** is an 8+1 key wireless keypad with a rotary encoder (optiona
 - **Rotary Encoder**:  
   - **Function**: Can control volume.
   - **Push Button**: Can be used to change layers.
+
+## License
+
+- **Hardware** (`pcb/`, `build_guides/`): [CERN-OHL-S-2.0](LICENSE-HARDWARE).
+  You can make, change and sell these boards. If you ship a modified version,
+  publish its full design under the same licence.
+- **Firmware, config and scripts** (`config/`, `tests/`, `build.sh`):
+  [MIT](LICENSE-FIRMWARE), the same licence as ZMK. The ZMK module in
+  `zmk-keyboard-pipar` is MIT too.
+
+Third-party parts keep their own licences: the footprint libraries included as
+submodules, vendor footprints and 3D models in `pcb/Footprints-Symbols`, and
+any file with its own `SPDX-License-Identifier` header.
