@@ -289,8 +289,9 @@ rect.dead { fill: #cfe8ff; stroke: #2f6fb0; stroke-dasharray: 4 2; }
 </g>
 <g transform="translate(677, 265) rotate(-35.0)" class="key keypos-35">
 <rect rx="6" ry="6" x="-28" y="-28" width="56" height="56" class="key"/>
-<text x="0" y="0" class="key tap">Studio</text>
-<text x="0" y="-25" class="key shifted">unlock</text>
+<text x="0" y="0" class="key tap">
+<tspan x="0" dy="-0.6em">Studio</tspan><tspan x="0" dy="1.2em">unlock</tspan>
+</text>
 </g>
 </g>
 </g>

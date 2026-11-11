@@ -26,9 +26,10 @@ Each sheet shows every layer of the keyboard. The **PC** sheets label modifiers 
 On the sheets:
 
 - **Yellow keys** are the Estonian letters Õ Ä Ö Ü.
-- **Blue dashed keys** are US-International dead keys (`'` `"` `` ` `` `~` `^`). See [dead keys](#what-a-dead-key-is).
+- **Blue dashed keys** (PC sheets only) are US-International dead keys (`'` `"` `` ` `` `~` `^`). See [dead keys](#what-a-dead-key-is).
 - **Small text at the bottom** of a key is what it does when held, for example Shift or a layer name.
 - **Small text at the top** is what it does with Shift.
+- **Small tags between two keys** are combos: press both keys together.
 - **The pink key** on each layer is the thumb key you hold to reach that layer.
 
 The sheets switch to dark colours when your system is in dark mode, and print in black on white.
@@ -54,7 +55,7 @@ On US International, these keys don't type anything straight away:
 
 They wait for the next key and combine with it: `"` then `a` gives **ä**. To type the symbol itself, press **Space** after it: `"` then Space gives a plain `"`.
 
-This catches most people out when writing code or English text. If it bothers you, use the AltGr shortcuts below and the plain US layout. The trade-off is that AltGr then no longer types Estonian letters.
+This catches most people out when writing code or English text. If it gets in your way, add the plain US layout as well and switch between the two: Win + Space on Windows, or your desktop's layout switcher on Linux. The plain US layout has no Estonian letters at all, so switch back to type them.
 
 ## Typing Estonian letters
 
@@ -71,7 +72,12 @@ Add the layout under **Settings → Time & language → Language & region → En
 | š / Š | not available | not available |
 | ž / Ž | not available | not available |
 
-**Where AltGr is.** AltGr is Right Alt. On the Point, hold **I** (right home row) or **X** (left bottom row). On the Sool, hold **.** (full stop).
+**Where AltGr is.** AltGr is Right Alt.
+
+- **On the Point:** hold **I** (right home row) or **X** (left bottom row). [Home-row modifiers](#home-row-modifiers) only work with a key on the other hand, so:
+  - for **ä** (Q) and **ö** (P), hold **I**;
+  - for **ü** (Y), hold **X**.
+- **On the Sool:** hold **.** (full stop).
 
 **AltGr follows the letter, not the position.** The keyboard sends the letter printed on the key, so AltGr + Q means the key labelled **Q**, wherever it sits on Colemak-DH.
 
@@ -81,7 +87,7 @@ Add the layout under **Settings → Time & language → Language & region → En
 
 ### macOS
 
-Add the input source under **System Settings → Keyboard → Text Input → Edit… → + → English → ABC – Extended**. It is the only built-in input source that types all six letters without extra software.
+Add the input source under **System Settings → Keyboard → Text Input → Edit… → + → English → ABC – Extended**. It is the only built-in US-based input source that types all six letters. macOS also has an Estonian input source, but it moves punctuation around and expects Estonian keycaps.
 
 | Letter | Keys (ABC – Extended) |
 | --- | --- |
@@ -92,13 +98,18 @@ Add the input source under **System Settings → Keyboard → Text Input → Edi
 | š / Š | ⌥V, then `s` / `S` |
 | ž / Ž | ⌥V, then `z` / `Z` |
 
-**Where ⌥ (Option) is.** On the Point, hold **R** or **I**. On the Sool, hold **.** (full stop).
+**Where ⌥ (Option) is.**
 
-**Press and hold.** If key repeat is set to show accents, you can also hold a letter and pick from the pop-up: hold `s` to get š, hold `o` to get õ or ö.
+- **On the Point:** hold **R** or **X** (left) or **I** (right). [Home-row modifiers](#home-row-modifiers) only work with a key on the other hand, so:
+  - for ⌥U and ⌥N, hold **R**;
+  - for ⌥V, hold **I**.
+- **On the Sool:** hold **.** (full stop).
+
+**Press and hold.** On the Sool, you can also hold a letter and pick from the pop-up: hold `s` to get š, hold `o` to get õ or ö. This doesn't work on the Point's home-row letters (A R S T N E I O), because holding them gives a modifier.
 
 **U.S. International – PC.** This input source also works and behaves like Windows, with `"` and `~` as dead keys. Like Windows, it has no š or ž.
 
-**Copy and paste on the Point.** The Mouse layer's Cut/Copy/Paste keys send Shift+Del, Ctrl+Ins and Shift+Ins. **macOS doesn't support these.** Use ⌘X, ⌘C and ⌘V instead: hold A for ⌘, then tap X, C or V.
+**Copy and paste.** Use ⌘X, ⌘C and ⌘V. On the Point, hold **O** for ⌘, then tap X, C or V with the left hand. (Holding A doesn't work here, because A, X, C and V are all on the left half.)
 
 <!-- TODO: test every row of the table on a real Mac before publishing. -->
 
@@ -112,15 +123,20 @@ Choose **English (US, intl., with dead keys)** in your desktop's keyboard settin
 | ö / Ö | `"` then `o` | AltGr + P |
 | ü / Ü | `"` then `u` | AltGr + Y |
 | õ / Õ | `~` then `o` | none |
-| š / ž | **Compose, c, s** / **Compose, c, z** | none |
+| š / Š | AltGr + Shift + `.` then `s` / `S` | Compose, c, s |
+| ž / Ž | AltGr + Shift + `.` then `z` / `Z` | Compose, c, z |
 
-**š and ž need a Compose key.** Turn one on, for example in GNOME Tweaks → Keyboard → Compose Key, or with `setxkbmap -option compose:menu`. On the Point, the **Menu** key is on the Fun layer: hold Del, then tap the left thumb key where Esc is.
+**š and ž.** AltGr + Shift + `.` is a caron (ˇ) dead key. On the Point, hold **X** (AltGr) and **T** (Shift) with the left hand, then tap `.` with the right.
+
+**Compose key.** A Compose key is an easier alternative. Turn one on, for example in GNOME Tweaks → Keyboard → Compose Key, or with `setxkbmap -option compose:menu`. On the Point, the **Menu** key is on the Fun layer: hold Del, then tap the left thumb key where Esc is.
+
+<!-- TODO: test the X+T+. chord on the Point; two left-hand home-row mods held together should both resolve as holds when the right-hand key is pressed. -->
 
 <!-- TODO: verify the Point's unicode keys on Linux after switching mode (see below). -->
 
 ## Pipar Point
 
-40 keys, a trackpoint on the right half, and Bluetooth to up to four devices.
+40 keys, an optional trackpoint on the right half, and Bluetooth to up to four devices.
 
 ![Pipar Point, Colemak-DH, PC labels](cheatsheets/pipar-point-colemak-dh-pc.svg)
 
@@ -148,7 +164,12 @@ Hold a home-row key to use it as a modifier. Tap it to type the letter.
 | S | Ctrl / ⌃ | I | AltGr / ⌥ |
 | T | Shift / ⇧ | O | Win / ⌘ |
 
-A modifier only counts as held when you press a key on the **other** half (or a thumb key) while holding it. This stops fast typing from triggering modifiers by accident. For a one-handed shortcut, hold the key a moment longer before pressing the next one.
+Two rules stop fast typing from triggering modifiers by accident:
+
+- **Other hand only.** A modifier only counts as held when you press a key on the **other** half, or a thumb key, while holding it. For a shortcut, hold the modifier on one hand and press the key with the other. For example, for Ctrl+C, hold **E** (right Ctrl) and tap **C**.
+- **Typing streak.** A home-row key pressed within 150 ms of the previous key always types its letter.
+
+The X key (left bottom row) also gives AltGr / ⌥ when held, and the full stop gives Alt / ⌥.
 
 ### Estonian keys
 
@@ -162,8 +183,8 @@ Hold Shift for the capital letter.
 These keys send the character as a Unicode code, which your computer has to know how to read. **By default they are set up for Windows with WinCompose installed**, using Right Alt as the compose key.
 
 - **Windows:** install [WinCompose](https://github.com/samhocevar/wincompose) and keep its default compose key (Right Alt).
-- **macOS and Linux:** in the default firmware, these keys type the wrong characters. Use the [ABC – Extended](#macos) or [US International](#linux) method instead.
-  - The firmware can switch Unicode mode with `&uc UC_SET_MACOS` or `&uc UC_SET_LINUX` keys, but the default keymap has no such key yet. On macOS, this mode also needs the **Unicode Hex Input** input source, which turns off the ⌥ shortcuts above.
+- **macOS and Linux:** in the default firmware, **don't use these keys.** They type something like `uf5` and then press **Enter**, which can send a half-written message in a chat app. Use the [ABC – Extended](#macos) or [US International](#linux) method instead.
+  - The firmware can switch Unicode mode with `&uc UC_SET_MACOS` or `&uc UC_SET_LINUX` keys, but the default keymap has no such key yet. On macOS, this mode also needs the **Unicode Hex Input** input source, which may disable some ⌥ shortcuts.
 
 ### Bluetooth
 
@@ -178,14 +199,20 @@ Hold **Esc** to reach the Media layer, then:
 
 ### Trackpoint
 
-Move the pointer with the trackpoint. Hold **Tab** for the Mouse layer:
+If your Point has a trackpoint, move the pointer with it. Hold **Tab** (left thumb), and the right thumb keys become **left click, middle click and right click**.
 
-- The right thumb keys become **left click, middle click and right click**.
-- The left thumb keys become **Cut, Copy and Paste**.
+<!-- TODO: the Mouse layer's Cut/Copy/Paste sit on the left thumb keys, and Paste is under Tab itself, so they can't be used while Tab is held. Move them in the firmware, then document them. -->
 
 ### Gaming layer
 
-The Gaming-CDH layer turns off home-row modifiers on the left half, so holding W, A, S or D works as expected in games.
+The Gaming-CDH layer makes the left half behave like a plain keyboard, so held keys stay letters in games:
+
+- Home-row modifiers on the left half are off, and X no longer gives AltGr.
+- The left thumb keys are plain Esc, Space and Tab, with no Media, Nav or Mouse layer.
+- Z works as Shift when held.
+- The right half is unchanged, except that the full stop no longer gives Alt.
+
+The layer is still Colemak-DH, so the keys in the usual WASD positions send W, A, R and S. Rebind movement in the game, or press the keys labelled W, A, S and D.
 
 - **Turn it on:** hold **Del** (Fun) and press the right pinky **Õ** and **Ä** keys together.
 - **Turn it off:** press **Õ** and **Ä** together again.
@@ -196,21 +223,28 @@ On the Nav layer (hold Space), the key left of the arrows is **Caps Word**. It t
 
 ## Pipar ja Sool
 
-36 keys and a USB dongle. Plug the dongle in and both halves connect to it, so there is no pairing.
+36 keys. With the dongle build, plug the dongle in and both halves connect to it, so there is no pairing. There is also a build without a dongle, where the right half connects to the computer directly.
 
 ![Pipar ja Sool, Colemak-DH, PC labels](cheatsheets/pipar-sool-colemak-dh-pc.svg)
 
-The default keymap has a single layer: the letters, Esc, Space, Tab, Enter and Backspace. Hold **.** (full stop) for AltGr or ⌥. Numbers, Shift and symbols are meant to be added in [ZMK Studio](#changing-the-keymap).
+The default keymap has a single layer: the letters, `'` `,` `.` `;`, Esc, Space, Tab, Enter and Backspace. Hold **.** (full stop) for AltGr or ⌥. **There is no Shift, and no numbers or symbols.**
 
-<!-- TODO: decide whether the Sool should ship with layers (numbers, symbols, Shift) out of the box; the current default has none. -->
+[ZMK Studio](#changing-the-keymap) can change what each of these keys does, but it can't add layers. To get Shift, numbers and symbols, you need to rebuild the firmware.
 
-For Estonian letters, use the dead keys from [Typing Estonian letters](#typing-estonian-letters). `'` is the top-right key, and `"` is Shift + `'`.
+**Estonian letters on the Sool.** With no Shift, only lowercase letters are possible:
+
+- **Windows and Linux:** AltGr + Q, P and Y give **ä, ö and ü**. There's no way to type **õ**, because `~` needs Shift.
+- **macOS:** ⌥U then a, o or u gives **ä, ö and ü**. ⌥N then o gives **õ**. ⌥V then s or z gives **š and ž**.
+
+<!-- TODO: ship the Sool with layers (Shift, numbers, symbols) and some `status = "reserved"` layers so Studio can add more. Then rewrite this section. -->
 
 ## Changing the keymap
 
 Both keyboards support [ZMK Studio](https://zmk.studio), which lets you change keys in your browser without rebuilding the firmware:
 
 - **Pipar Point:** connect the right half by USB and unlock it with the **Studio unlock** key on the Fun layer.
-- **Pipar ja Sool:** connect the dongle by USB and unlock it with the **Studio unlock** key (right outer thumb).
+- **Pipar ja Sool:** connect the dongle (or, without a dongle, the right half) by USB and unlock it with the **Studio unlock** key (right outer thumb).
+
+Studio can change existing keys. It can only add layers if the firmware has spare reserved layers, and neither keyboard's default keymap has any yet.
 
 To change the default keymap for everyone, edit the `.keymap` files in [zmk-keyboard-pipar](https://github.com/RasmusKoit/zmk-keyboard-pipar) and rebuild the firmware. See the [main README](../../README.md#firmware) for build steps.

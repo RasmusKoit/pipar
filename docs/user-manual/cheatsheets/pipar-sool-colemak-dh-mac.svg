@@ -181,10 +181,9 @@ rect.dead { fill: #cfe8ff; stroke: #2f6fb0; stroke-dasharray: 4 2; }
 <rect rx="6" ry="6" x="-28" y="-28" width="56" height="56" class="key"/>
 <text x="0" y="0" class="key tap">Y</text>
 </g>
-<g transform="translate(955, 130) rotate(25.0)" class="key dead keypos-9">
-<rect rx="6" ry="6" x="-28" y="-28" width="56" height="56" class="key dead"/>
-<text x="0" y="0" class="key dead tap">&#x27;</text>
-<text x="0" y="-25" class="key dead shifted">&quot;</text>
+<g transform="translate(955, 130) rotate(25.0)" class="key keypos-9">
+<rect rx="6" ry="6" x="-28" y="-28" width="56" height="56" class="key"/>
+<text x="0" y="0" class="key tap">&#x27;</text>
 </g>
 <g transform="translate(63, 183) rotate(-25.0)" class="key keypos-10">
 <rect rx="6" ry="6" x="-28" y="-28" width="56" height="56" class="key"/>
@@ -289,8 +288,9 @@ rect.dead { fill: #cfe8ff; stroke: #2f6fb0; stroke-dasharray: 4 2; }
 </g>
 <g transform="translate(677, 265) rotate(-35.0)" class="key keypos-35">
 <rect rx="6" ry="6" x="-28" y="-28" width="56" height="56" class="key"/>
-<text x="0" y="0" class="key tap">Studio</text>
-<text x="0" y="-25" class="key shifted">unlock</text>
+<text x="0" y="0" class="key tap">
+<tspan x="0" dy="-0.6em">Studio</tspan><tspan x="0" dy="1.2em">unlock</tspan>
+</text>
 </g>
 </g>
 </g>

@@ -577,19 +577,19 @@ rect.dead { fill: #cfe8ff; stroke: #2f6fb0; stroke-dasharray: 4 2; }
 </g>
 <g transform="translate(755, 98) rotate(-5.0)" class="key keypos-17">
 <rect rx="6" ry="6" x="-28" y="-28" width="56" height="56" class="key"/>
-<text x="0" y="0" class="key tap">LEFT</text>
+<text x="0" y="0" class="key tap">←</text>
 </g>
 <g transform="translate(826, 89)" class="key keypos-18">
 <rect rx="6" ry="6" x="-28" y="-28" width="56" height="56" class="key"/>
-<text x="0" y="0" class="key tap">DOWN</text>
+<text x="0" y="0" class="key tap">↓</text>
 </g>
 <g transform="translate(896, 110) rotate(5.0)" class="key keypos-19">
 <rect rx="6" ry="6" x="-28" y="-28" width="56" height="56" class="key"/>
-<text x="0" y="0" class="key tap">UP</text>
+<text x="0" y="0" class="key tap">↑</text>
 </g>
 <g transform="translate(970, 183) rotate(25.0)" class="key keypos-20">
 <rect rx="6" ry="6" x="-28" y="-28" width="56" height="56" class="key"/>
-<text x="0" y="0" class="key tap">RIGHT</text>
+<text x="0" y="0" class="key tap">→</text>
 </g>
 <g transform="translate(1032, 192) rotate(25.0)" class="key keypos-21">
 <rect rx="6" ry="6" x="-28" y="-28" width="56" height="56" class="key"/>
@@ -620,7 +620,7 @@ rect.dead { fill: #cfe8ff; stroke: #2f6fb0; stroke-dasharray: 4 2; }
 </g>
 <g transform="translate(760, 157) rotate(-5.0)" class="key keypos-29">
 <rect rx="6" ry="6" x="-28" y="-28" width="56" height="56" class="key"/>
-<text x="0" y="0" class="key tap">HOME</text>
+<text x="0" y="0" class="key tap">Home</text>
 </g>
 <g transform="translate(826, 148)" class="key keypos-30">
 <rect rx="6" ry="6" x="-28" y="-28" width="56" height="56" class="key"/>
@@ -632,7 +632,7 @@ rect.dead { fill: #cfe8ff; stroke: #2f6fb0; stroke-dasharray: 4 2; }
 </g>
 <g transform="translate(946, 236) rotate(25.0)" class="key keypos-32">
 <rect rx="6" ry="6" x="-28" y="-28" width="56" height="56" class="key"/>
-<text x="0" y="0" class="key tap">END</text>
+<text x="0" y="0" class="key tap">End</text>
 </g>
 <g transform="translate(1008, 245) rotate(25.0)" class="key keypos-33">
 <rect rx="6" ry="6" x="-28" y="-28" width="56" height="56" class="key"/>
@@ -851,8 +851,9 @@ rect.dead { fill: #cfe8ff; stroke: #2f6fb0; stroke-dasharray: 4 2; }
 </g>
 <g transform="translate(687, 56) rotate(-5.0)" class="key keypos-5">
 <rect rx="6" ry="6" x="-28" y="-28" width="56" height="56" class="key"/>
-<text x="0" y="0" class="key tap">Light</text>
-<text x="0" y="-25" class="key shifted">cycle</text>
+<text x="0" y="0" class="key tap">
+<tspan x="0" dy="-0.6em">Light</tspan><tspan x="0" dy="1.2em">cycle</tspan>
+</text>
 </g>
 <g transform="translate(750, 39) rotate(-5.0)" class="key keypos-6">
 <rect rx="6" ry="6" x="-28" y="-28" width="56" height="56" class="key"/>
@@ -893,8 +894,9 @@ rect.dead { fill: #cfe8ff; stroke: #2f6fb0; stroke-dasharray: 4 2; }
 </g>
 <g transform="translate(692, 115) rotate(-5.0)" class="key keypos-16">
 <rect rx="6" ry="6" x="-28" y="-28" width="56" height="56" class="key"/>
-<text x="0" y="0" class="key tap">Light</text>
-<text x="0" y="-25" class="key shifted">on/off</text>
+<text x="0" y="0" class="key tap">
+<tspan x="0" dy="-0.6em">Light</tspan><tspan x="0" dy="1.2em">on/off</tspan>
+</text>
 </g>
 <g transform="translate(755, 98) rotate(-5.0)" class="key keypos-17">
 <rect rx="6" ry="6" x="-28" y="-28" width="56" height="56" class="key"/>
@@ -944,8 +946,9 @@ rect.dead { fill: #cfe8ff; stroke: #2f6fb0; stroke-dasharray: 4 2; }
 </g>
 <g transform="translate(697, 174) rotate(-5.0)" class="key keypos-28">
 <rect rx="6" ry="6" x="-28" y="-28" width="56" height="56" class="key"/>
-<text x="0" y="0" class="key tap">USB/BT</text>
-<text x="0" y="-25" class="key shifted">toggle</text>
+<text x="0" y="0" class="key tap">
+<tspan x="0" dy="-0.6em">USB/BT</tspan><tspan x="0" dy="1.2em">toggle</tspan>
+</text>
 </g>
 <g transform="translate(760, 157) rotate(-5.0)" class="key keypos-29">
 <rect rx="6" ry="6" x="-28" y="-28" width="56" height="56" class="key"/>
@@ -1334,8 +1337,9 @@ rect.dead { fill: #cfe8ff; stroke: #2f6fb0; stroke-dasharray: 4 2; }
 </g>
 <g transform="translate(826, 30)" class="key keypos-7">
 <rect rx="6" ry="6" x="-28" y="-28" width="56" height="56" class="key"/>
-<text x="0" y="0" class="key tap">Studio</text>
-<text x="0" y="-25" class="key shifted">unlock</text>
+<text x="0" y="0" class="key tap">
+<tspan x="0" dy="-0.6em">Studio</tspan><tspan x="0" dy="1.2em">unlock</tspan>
+</text>
 </g>
 <g transform="translate(900, 51) rotate(5.0)" class="key keypos-8">
 <rect rx="6" ry="6" x="-28" y="-28" width="56" height="56" class="key"/>

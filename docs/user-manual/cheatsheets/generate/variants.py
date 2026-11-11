@@ -43,7 +43,7 @@ def transform(key, layer, layout, os_):
             k[f] = MODS[os_][k[f]]
     if t in ESTONIAN:
         k["type"] = "et"
-    elif t in DEAD:
+    elif t in DEAD and os_ == "pc":  # ABC - Extended on macOS has no such dead keys
         k["type"] = "dead"
         if DEAD[t]:
             k["s"] = DEAD[t]

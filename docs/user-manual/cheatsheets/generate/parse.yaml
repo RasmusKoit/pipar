@@ -24,20 +24,12 @@ parse_config:
       t: BT 4
       s: ⇧=clear
     '&bt BT_CLR_ALL': Clear all BT
-    '&out OUT_TOG':
-      t: USB/BT
-      s: toggle
-    '&bl BL_CYCLE':
-      t: Light
-      s: cycle
-    '&bl BL_TOG':
-      t: Light
-      s: on/off
+    '&out OUT_TOG': USB/BT toggle
+    '&bl BL_CYCLE': Light cycle
+    '&bl BL_TOG': Light on/off
     '&bl BL_INC': Light +
     '&bl BL_DEC': Light −
-    '&studio_unlock':
-      t: Studio
-      s: unlock
+    '&studio_unlock': Studio unlock
     '&mkp MB1': Left click
     '&mkp MB2': Right click
     '&mkp MB3': Middle click
@@ -128,3 +120,13 @@ parse_config:
     PAGE_UP: PgUp
     PAGE_DOWN: PgDn
     INSERT: Ins
+    LEFT: ←
+    RIGHT: →
+    UP: ↑
+    DOWN: ↓
+    HOME: Home
+    END: End
+    LEFT_ARROW: ←
+    RIGHT_ARROW: →
+    UP_ARROW: ↑
+    DOWN_ARROW: ↓
