@@ -1,0 +1,16 @@
+draw_config:
+  dark_mode: auto
+  key_h: 60
+  key_w: 64
+  draw_key_sides: false
+  shrink_wide_legends: 6
+  svg_extra_style: |
+    rect.et { fill: #ffe08a; stroke: #b58a00; }
+    rect.dead { fill: #cfe8ff; stroke: #2f6fb0; stroke-dasharray: 4 2; }
+    @media (prefers-color-scheme: dark) {
+      rect.et { fill: #6b5300; stroke: #ffd24d; }
+      rect.dead { fill: #1d3d5c; stroke: #7db7ff; }
+    }
+  combo_w: 44
+  combo_h: 24
+  small_pad: 3
