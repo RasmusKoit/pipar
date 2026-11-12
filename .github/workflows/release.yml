@@ -3,16 +3,17 @@ name: Release firmware
 # Builds firmware for every keyboard, layout (Colemak-DH / QWERTY) and OS
 # (Windows / macOS / Linux) - see products/build_release.yaml.
 #
-# Push a tag like v1.2.0 to build and publish a GitHub Release with every
-# .uf2 file. Run it by hand (workflow_dispatch) to build without publishing;
-# the files are then available as the run's "pipar-firmware" artifact.
+# Push a version tag (1.3.0 or v1.3.0) to build and publish a GitHub Release
+# with every .uf2 file. Tags with a hyphen (1.3.0-rc1) become pre-releases.
+# Run it by hand (workflow_dispatch) to build without publishing; the files
+# are then available as the run's "pipar-firmware" artifact.
 
 on:
   push:
-    tags: ['v*']
+    tags: ['v*', '[0-9]*']
   workflow_dispatch:
 
-run-name: ${{ github.ref_type == 'tag' && format('Release {0}', github.ref_name) || 'Release build (not published)' }}
+run-name: ${{ github.event_name == 'push' && format('Release {0}', github.ref_name) || 'Release build (not published)' }}
 
 jobs:
   build:
@@ -24,7 +25,7 @@ jobs:
 
   publish:
     needs: build
-    if: github.ref_type == 'tag'
+    if: github.event_name == 'push' && github.ref_type == 'tag'
     runs-on: ubuntu-latest
     permissions:
       contents: write
@@ -43,14 +44,16 @@ jobs:
           cd firmware
           ls -1
           for kb in pipar-point pipar-sool pipar-chip pipar-flake; do
-            zip -q "${kb}-${GITHUB_REF_NAME}.zip" ${kb}-*.uf2
+            zip -q "${kb}-${GITHUB_REF_NAME}.zip" "${kb}"*.uf2
           done
 
       - name: Create release
         env:
           GH_TOKEN: ${{ github.token }}
         run: |
-          gh release create "$GITHUB_REF_NAME" \
+          prerelease=()
+          [[ "$GITHUB_REF_NAME" == *-* ]] && prerelease=(--prerelease)
+          gh release create "$GITHUB_REF_NAME" "${prerelease[@]}" \
             --repo "$GITHUB_REPOSITORY" \
             --title "Pipar firmware $GITHUB_REF_NAME" \
             --notes-file .github/release-notes.md \

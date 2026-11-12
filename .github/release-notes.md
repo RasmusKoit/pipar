@@ -2,6 +2,8 @@
 
 Pick your keyboard, then the layout you type in and your computer's operating system. Keep your computer on a **US** keyboard layout (US International for Estonian letters); the keyboard does the Colemak-DH or QWERTY mapping. The [user manual](https://github.com/RasmusKoit/pipar/blob/master/docs/user-manual/README.md) explains how to type Estonian letters on each OS.
 
+**Pipar Point on macOS:** the Õ Ä Ö Ü keys in the `mac` firmware only work while **Unicode Hex Input** is the active input source (System Settings → Keyboard → Text Input). With other input sources they type the wrong characters.
+
 To flash: connect the part by USB, put it in bootloader mode (double-tap reset on the XIAO-based Sool), and copy the `.uf2` file to the drive that appears.
 
 ### Pipar Point
