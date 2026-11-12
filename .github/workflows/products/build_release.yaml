@@ -1,0 +1,90 @@
+# Release build matrix: every keyboard, and for the halves that hold the
+# keymap, every layout x OS combination. Used by release.yml.
+#
+# Layout and OS are DTS preprocessor flags read by
+# zmk-keyboard-pipar/include/pipar/keymap_variant.h. Halves that don't hold
+# the keymap (Point left, Sool left/right) are built once.
+---
+include:
+  # Pipar Point: the right half holds the keymap
+  - board: pipar_point@right
+    snippet: trackpoint studio-rpc-usb-uart
+    cmake-args: '-DDTS_EXTRA_CPPFLAGS="-DPIPAR_LAYOUT_COLEMAK_DH;-DPIPAR_OS_WIN"'
+    artifact-name: pipar-point-right-colemak-dh-win
+  - board: pipar_point@right
+    snippet: trackpoint studio-rpc-usb-uart
+    cmake-args: '-DDTS_EXTRA_CPPFLAGS="-DPIPAR_LAYOUT_COLEMAK_DH;-DPIPAR_OS_MAC"'
+    artifact-name: pipar-point-right-colemak-dh-mac
+  - board: pipar_point@right
+    snippet: trackpoint studio-rpc-usb-uart
+    cmake-args: '-DDTS_EXTRA_CPPFLAGS="-DPIPAR_LAYOUT_COLEMAK_DH;-DPIPAR_OS_LINUX"'
+    artifact-name: pipar-point-right-colemak-dh-linux
+  - board: pipar_point@right
+    snippet: trackpoint studio-rpc-usb-uart
+    cmake-args: '-DDTS_EXTRA_CPPFLAGS="-DPIPAR_LAYOUT_QWERTY;-DPIPAR_OS_WIN"'
+    artifact-name: pipar-point-right-qwerty-win
+  - board: pipar_point@right
+    snippet: trackpoint studio-rpc-usb-uart
+    cmake-args: '-DDTS_EXTRA_CPPFLAGS="-DPIPAR_LAYOUT_QWERTY;-DPIPAR_OS_MAC"'
+    artifact-name: pipar-point-right-qwerty-mac
+  - board: pipar_point@right
+    snippet: trackpoint studio-rpc-usb-uart
+    cmake-args: '-DDTS_EXTRA_CPPFLAGS="-DPIPAR_LAYOUT_QWERTY;-DPIPAR_OS_LINUX"'
+    artifact-name: pipar-point-right-qwerty-linux
+  - board: pipar_point@left
+    artifact-name: pipar-point-left
+  - board: pipar_point@left
+    shield: settings_reset
+    artifact-name: pipar-point-settings-reset
+  # Pipar ja Sool: the dongle holds the keymap
+  - board: xiao_ble
+    shield: pipar_sool_dongle
+    snippet: studio-rpc-usb-uart
+    cmake-args: '-DDTS_EXTRA_CPPFLAGS="-DPIPAR_LAYOUT_COLEMAK_DH;-DPIPAR_OS_WIN"'
+    artifact-name: pipar-sool-dongle-colemak-dh-win
+  - board: xiao_ble
+    shield: pipar_sool_dongle
+    snippet: studio-rpc-usb-uart
+    cmake-args: '-DDTS_EXTRA_CPPFLAGS="-DPIPAR_LAYOUT_COLEMAK_DH;-DPIPAR_OS_MAC"'
+    artifact-name: pipar-sool-dongle-colemak-dh-mac
+  - board: xiao_ble
+    shield: pipar_sool_dongle
+    snippet: studio-rpc-usb-uart
+    cmake-args: '-DDTS_EXTRA_CPPFLAGS="-DPIPAR_LAYOUT_COLEMAK_DH;-DPIPAR_OS_LINUX"'
+    artifact-name: pipar-sool-dongle-colemak-dh-linux
+  - board: xiao_ble
+    shield: pipar_sool_dongle
+    snippet: studio-rpc-usb-uart
+    cmake-args: '-DDTS_EXTRA_CPPFLAGS="-DPIPAR_LAYOUT_QWERTY;-DPIPAR_OS_WIN"'
+    artifact-name: pipar-sool-dongle-qwerty-win
+  - board: xiao_ble
+    shield: pipar_sool_dongle
+    snippet: studio-rpc-usb-uart
+    cmake-args: '-DDTS_EXTRA_CPPFLAGS="-DPIPAR_LAYOUT_QWERTY;-DPIPAR_OS_MAC"'
+    artifact-name: pipar-sool-dongle-qwerty-mac
+  - board: xiao_ble
+    shield: pipar_sool_dongle
+    snippet: studio-rpc-usb-uart
+    cmake-args: '-DDTS_EXTRA_CPPFLAGS="-DPIPAR_LAYOUT_QWERTY;-DPIPAR_OS_LINUX"'
+    artifact-name: pipar-sool-dongle-qwerty-linux
+  - board: xiao_ble
+    shield: pipar_sool_left
+    artifact-name: pipar-sool-left
+  - board: xiao_ble
+    shield: pipar_sool_right
+    artifact-name: pipar-sool-right
+  - board: xiao_ble
+    shield: settings_reset
+    artifact-name: pipar-sool-settings-reset
+  # Pipar Chip and Pipar Flake: keypads, no layout or OS variants
+  - board: pipar_chip
+    artifact-name: pipar-chip
+  - board: pipar_chip
+    shield: settings_reset
+    artifact-name: pipar-chip-settings-reset
+  - board: nice_nano
+    shield: pipar_flake
+    artifact-name: pipar-flake
+  - board: nice_nano
+    shield: settings_reset
+    artifact-name: pipar-flake-settings-reset

@@ -1,0 +1,58 @@
+name: Release firmware
+
+# Builds firmware for every keyboard, layout (Colemak-DH / QWERTY) and OS
+# (Windows / macOS / Linux) - see products/build_release.yaml.
+#
+# Push a tag like v1.2.0 to build and publish a GitHub Release with every
+# .uf2 file. Run it by hand (workflow_dispatch) to build without publishing;
+# the files are then available as the run's "pipar-firmware" artifact.
+
+on:
+  push:
+    tags: ['v*']
+  workflow_dispatch:
+
+run-name: ${{ github.ref_type == 'tag' && format('Release {0}', github.ref_name) || 'Release build (not published)' }}
+
+jobs:
+  build:
+    uses: petejohanson/zmk/.github/workflows/build-user-config.yml@core/move-to-zephyr-4-1
+    with:
+      config_path: 'config'
+      build_matrix_path: '.github/workflows/products/build_release.yaml'
+      archive_name: 'pipar-firmware'
+
+  publish:
+    needs: build
+    if: github.ref_type == 'tag'
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          sparse-checkout: .github
+
+      - uses: actions/download-artifact@v4
+        with:
+          name: pipar-firmware
+          path: firmware
+
+      - name: Bundle a zip per keyboard
+        run: |
+          cd firmware
+          ls -1
+          for kb in pipar-point pipar-sool pipar-chip pipar-flake; do
+            zip -q "${kb}-${GITHUB_REF_NAME}.zip" ${kb}-*.uf2
+          done
+
+      - name: Create release
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          gh release create "$GITHUB_REF_NAME" \
+            --repo "$GITHUB_REPOSITORY" \
+            --title "Pipar firmware $GITHUB_REF_NAME" \
+            --notes-file .github/release-notes.md \
+            --generate-notes \
+            firmware/*.uf2 firmware/*.zip
