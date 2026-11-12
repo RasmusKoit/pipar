@@ -39,10 +39,14 @@ Flash the dongle (`pipar-sool-dongle-…`, it holds the keymap) from the folder 
 
 `pipar-chip.uf2` and `pipar-flake.uf2`. These keypads have no layout or OS variants.
 
-### Estonian on a Mac
+### On a Mac: keyboard type
 
-- When macOS asks you to identify the keyboard, choose **ISO (European)**. If < and > type ˇ instead, click **Change Keyboard Type…** in System Settings → Keyboard and choose ISO.
-- Apple's Estonian layout has no ` or ^, so those keys do nothing.
+macOS asks which keyboard type a new keyboard is, and the answer moves a few keys. To change it later, click **Change Keyboard Type…** in System Settings → Keyboard.
+
+- **Estonian firmware:** choose **ISO (European)**. With ANSI, < types ˇ, > types ~ and | types ¶.
+- **International firmware:** choose **ANSI**. With ISO, ` and ~ type § and ±.
+
+Apple's Estonian layout has no ` or ^, so on the Estonian Mac firmware those keys do nothing.
 
 ### Settings reset
 

@@ -69,12 +69,22 @@ jobs:
           done
           zip -qr "pipar-firmware-${GITHUB_REF_NAME}.zip" pipar-*/
           find . -name '*.uf2' | sort
-          test "$(find . -name '*.uf2' | wc -l)" -eq "$(ls ../firmware/*.uf2 | wc -l)"
+          # Every build in the matrix is here, and every variant got a folder.
+          expected=$(grep -c 'artifact-name:' ../.github/workflows/products/build_release.yaml)
+          found=$(find . -name '*.uf2' | wc -l)
+          [[ "$found" -eq "$expected" ]] || { echo "::error::$found .uf2 files, expected $expected"; exit 1; }
+          misplaced=$(find . -mindepth 2 -maxdepth 2 -name '*-estonian-*.uf2' -o -mindepth 2 -maxdepth 2 -name '*-international-*.uf2')
+          [[ -z "$misplaced" ]] || { echo "::error::not sorted into a folder: $misplaced"; exit 1; }
 
       - name: Create release
         env:
           GH_TOKEN: ${{ github.token }}
         run: |
+          # A re-run after a failed upload replaces the files of the existing release.
+          if gh release view "$GITHUB_REF_NAME" --repo "$GITHUB_REPOSITORY" > /dev/null 2>&1; then
+            gh release upload "$GITHUB_REF_NAME" --repo "$GITHUB_REPOSITORY" --clobber release/*.zip
+            exit 0
+          fi
           prerelease=()
           [[ "$GITHUB_REF_NAME" == *-* ]] && prerelease=(--prerelease)
           gh release create "$GITHUB_REF_NAME" "${prerelease[@]}" \
