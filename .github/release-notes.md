@@ -1,33 +1,48 @@
 ## Which file do I flash?
 
-Pick your keyboard, then the layout you type in and your computer's operating system. Keep your computer on a **US** keyboard layout (US International for Estonian letters); the keyboard does the Colemak-DH or QWERTY mapping. The [user manual](https://github.com/RasmusKoit/pipar/blob/master/docs/user-manual/README.md) explains how to type Estonian letters on each OS.
+Download the zip for your keyboard (or `pipar-firmware-*.zip` for all of them) and pick a folder:
 
-**Pipar Point on macOS:** the Õ Ä Ö Ü keys in the `mac` firmware only work while **Unicode Hex Input** is the active input source (System Settings → Keyboard → Text Input). With other input sources they type the wrong characters.
+```
+pipar-point/
+├── estonian/        computer set to the Estonian keyboard layout
+│   ├── windows/
+│   ├── mac/
+│   └── linux/
+├── international/   computer set to US or US International
+│   ├── windows/
+│   ├── mac/
+│   └── linux/
+├── pipar-point-left.uf2
+└── pipar-point-settings-reset.uf2
+```
+
+1. **Computer layout.** `estonian` if your computer uses the Estonian keyboard layout, the same one as most laptops sold in Estonia. `international` if it uses US or US International.
+2. **Operating system.** `windows`, `mac` or `linux`.
+3. **Keyboard layout.** Inside that folder, the file ending in `colemak-dh` or `qwerty`. The keyboard does the Colemak-DH or QWERTY mapping, so leave your computer on the layout from step 1.
+
+The cheat sheets are the same for both computer layouts: the firmware sends whatever the computer needs to type the character shown. The [user manual](https://github.com/RasmusKoit/pipar/blob/master/docs/user-manual/README.md) has the cheat sheets and explains how to type Estonian letters.
 
 To flash: connect the part by USB, put it in bootloader mode (double-tap reset on the XIAO-based Sool), and copy the `.uf2` file to the drive that appears.
 
 ### Pipar Point
 
-| Half | File |
-| --- | --- |
-| Right (holds the keymap) | `pipar-point-right-<layout>-<os>.uf2` |
-| Left | `pipar-point-left.uf2` |
+Flash the right half (`pipar-point-right-…`, it holds the keymap) from the folder you picked, and `pipar-point-left.uf2` to the left half.
 
-`<layout>` is `colemak-dh` or `qwerty`, and `<os>` is `win`, `mac` or `linux`. The OS changes how the Õ Ä Ö Ü keys are sent (WinCompose on Windows, Unicode Hex Input on macOS, Ctrl+Shift+U on Linux) and the Mouse layer's Cut/Copy/Paste (⌘X/⌘C/⌘V on macOS).
+- **Estonian:** Õ Ä Ö Ü are the Estonian layout's own keys and work like any other letter.
+- **International:** Õ Ä Ö Ü are typed with the OS's Unicode input. On Windows that needs [WinCompose](https://github.com/samhocevar/wincompose) running. On macOS, **Unicode Hex Input** must be the active input source (System Settings → Keyboard → Text Input). On Linux, it needs Ctrl+Shift+U Unicode entry (IBus or GTK).
 
 ### Pipar ja Sool
 
-| Part | File |
-| --- | --- |
-| Dongle (holds the keymap) | `pipar-sool-dongle-<layout>-<os>.uf2` |
-| Left half | `pipar-sool-left.uf2` |
-| Right half | `pipar-sool-right.uf2` |
-
-The Sool has no keys that depend on the OS, so the `win`, `mac` and `linux` files are the same keymap; pick any one that matches your layout.
+Flash the dongle (`pipar-sool-dongle-…`, it holds the keymap) from the folder you picked, `pipar-sool-left.uf2` to the left half and `pipar-sool-right.uf2` to the right half. The international keymap is the same on every OS, so `international/` has no OS folders.
 
 ### Pipar Chip and Pipar Flake
 
 `pipar-chip.uf2` and `pipar-flake.uf2`. These keypads have no layout or OS variants.
+
+### Estonian on a Mac
+
+- When macOS asks you to identify the keyboard, choose **ISO (European)**. If < and > type ˇ instead, click **Change Keyboard Type…** in System Settings → Keyboard and choose ISO.
+- Apple's Estonian layout has no ` or ^, so those keys do nothing.
 
 ### Settings reset
 
