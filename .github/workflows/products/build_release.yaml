@@ -69,53 +69,53 @@ include:
     shield: settings_reset
     artifact-name: pipar-point-settings-reset
   # Pipar ja Sool: the dongle holds the keymap
-  - board: xiao_ble
+  - board: xiao_ble//zmk
     shield: pipar_sool_dongle
     snippet: studio-rpc-usb-uart
     cmake-args: '-DDTS_EXTRA_CPPFLAGS="-DPIPAR_HOST_ESTONIAN;-DPIPAR_OS_WIN;-DPIPAR_LAYOUT_COLEMAK_DH"'
     artifact-name: pipar-sool-dongle-estonian-windows-colemak-dh
-  - board: xiao_ble
+  - board: xiao_ble//zmk
     shield: pipar_sool_dongle
     snippet: studio-rpc-usb-uart
     cmake-args: '-DDTS_EXTRA_CPPFLAGS="-DPIPAR_HOST_ESTONIAN;-DPIPAR_OS_WIN;-DPIPAR_LAYOUT_QWERTY"'
     artifact-name: pipar-sool-dongle-estonian-windows-qwerty
-  - board: xiao_ble
+  - board: xiao_ble//zmk
     shield: pipar_sool_dongle
     snippet: studio-rpc-usb-uart
     cmake-args: '-DDTS_EXTRA_CPPFLAGS="-DPIPAR_HOST_ESTONIAN;-DPIPAR_OS_MAC;-DPIPAR_LAYOUT_COLEMAK_DH"'
     artifact-name: pipar-sool-dongle-estonian-mac-colemak-dh
-  - board: xiao_ble
+  - board: xiao_ble//zmk
     shield: pipar_sool_dongle
     snippet: studio-rpc-usb-uart
     cmake-args: '-DDTS_EXTRA_CPPFLAGS="-DPIPAR_HOST_ESTONIAN;-DPIPAR_OS_MAC;-DPIPAR_LAYOUT_QWERTY"'
     artifact-name: pipar-sool-dongle-estonian-mac-qwerty
-  - board: xiao_ble
+  - board: xiao_ble//zmk
     shield: pipar_sool_dongle
     snippet: studio-rpc-usb-uart
     cmake-args: '-DDTS_EXTRA_CPPFLAGS="-DPIPAR_HOST_ESTONIAN;-DPIPAR_OS_LINUX;-DPIPAR_LAYOUT_COLEMAK_DH"'
     artifact-name: pipar-sool-dongle-estonian-linux-colemak-dh
-  - board: xiao_ble
+  - board: xiao_ble//zmk
     shield: pipar_sool_dongle
     snippet: studio-rpc-usb-uart
     cmake-args: '-DDTS_EXTRA_CPPFLAGS="-DPIPAR_HOST_ESTONIAN;-DPIPAR_OS_LINUX;-DPIPAR_LAYOUT_QWERTY"'
     artifact-name: pipar-sool-dongle-estonian-linux-qwerty
-  - board: xiao_ble
+  - board: xiao_ble//zmk
     shield: pipar_sool_dongle
     snippet: studio-rpc-usb-uart
     cmake-args: '-DDTS_EXTRA_CPPFLAGS="-DPIPAR_HOST_INTERNATIONAL;-DPIPAR_LAYOUT_COLEMAK_DH"'
     artifact-name: pipar-sool-dongle-international-colemak-dh
-  - board: xiao_ble
+  - board: xiao_ble//zmk
     shield: pipar_sool_dongle
     snippet: studio-rpc-usb-uart
     cmake-args: '-DDTS_EXTRA_CPPFLAGS="-DPIPAR_HOST_INTERNATIONAL;-DPIPAR_LAYOUT_QWERTY"'
     artifact-name: pipar-sool-dongle-international-qwerty
-  - board: xiao_ble
+  - board: xiao_ble//zmk
     shield: pipar_sool_left
     artifact-name: pipar-sool-left
-  - board: xiao_ble
+  - board: xiao_ble//zmk
     shield: pipar_sool_right
     artifact-name: pipar-sool-right
-  - board: xiao_ble
+  - board: xiao_ble//zmk
     shield: settings_reset
     artifact-name: pipar-sool-settings-reset
   # Pipar Chip and Pipar Flake: keypads, no layout or OS variants
@@ -124,9 +124,9 @@ include:
   - board: pipar_chip
     shield: settings_reset
     artifact-name: pipar-chip-settings-reset
-  - board: nice_nano
+  - board: nice_nano//zmk
     shield: pipar_flake
     artifact-name: pipar-flake
-  - board: nice_nano
+  - board: nice_nano//zmk
     shield: settings_reset
     artifact-name: pipar-flake-settings-reset

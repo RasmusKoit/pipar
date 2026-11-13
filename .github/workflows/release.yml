@@ -20,7 +20,7 @@ run-name: ${{ github.event_name == 'push' && format('Release {0}', github.ref_na
 
 jobs:
   build:
-    uses: petejohanson/zmk/.github/workflows/build-user-config.yml@core/move-to-zephyr-4-1
+    uses: zmkfirmware/zmk/.github/workflows/build-user-config.yml@main
     with:
       config_path: 'config'
       build_matrix_path: '.github/workflows/products/build_release.yaml'
