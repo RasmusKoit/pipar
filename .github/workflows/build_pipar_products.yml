@@ -21,35 +21,35 @@ run-name: Building ${{ github.event.inputs.product }}
 jobs:
   build_pipar_point:
     if: ${{ github.event.inputs.product == 'Pipar Point' }}
-    uses: zmkfirmware/zmk/.github/workflows/build-user-config.yml@main
+    uses: zmkfirmware/zmk/.github/workflows/build-user-config.yml@6a7590c1157480c96fa82340f1f6baef169e3116 # main, 2026-11-13
     with:
       config_path: 'config'
       build_matrix_path: '.github/workflows/products/build_pipar_point.yaml'
       archive_name: 'pipar-point-firmware'
   build_pipar_chip:
     if: ${{ github.event.inputs.product == 'Pipar Chip' }}
-    uses: zmkfirmware/zmk/.github/workflows/build-user-config.yml@main
+    uses: zmkfirmware/zmk/.github/workflows/build-user-config.yml@6a7590c1157480c96fa82340f1f6baef169e3116 # main, 2026-11-13
     with:
       config_path: 'config'
       build_matrix_path: '.github/workflows/products/build_pipar_chip.yaml'
       archive_name: 'pipar-chip-firmware'
   build_pipar_sool:
     if: ${{ github.event.inputs.product == 'Pipar Sool' }}
-    uses: zmkfirmware/zmk/.github/workflows/build-user-config.yml@main
+    uses: zmkfirmware/zmk/.github/workflows/build-user-config.yml@6a7590c1157480c96fa82340f1f6baef169e3116 # main, 2026-11-13
     with:
       config_path: 'config'
       build_matrix_path: '.github/workflows/products/build_pipar_sool.yaml'
       archive_name: 'pipar-sool-firmware'
   build_pipar_flake:
     if: ${{ github.event.inputs.product == 'Pipar Flake' }}
-    uses: zmkfirmware/zmk/.github/workflows/build-user-config.yml@main
+    uses: zmkfirmware/zmk/.github/workflows/build-user-config.yml@6a7590c1157480c96fa82340f1f6baef169e3116 # main, 2026-11-13
     with:
       config_path: 'config'
       build_matrix_path: '.github/workflows/products/build_pipar_flake.yaml'
       archive_name: 'pipar-flake-firmware'
   build_all_pipar:
     if: ${{ github.event.inputs.product == 'All Pipar Keyboards' }}
-    uses: zmkfirmware/zmk/.github/workflows/build-user-config.yml@main
+    uses: zmkfirmware/zmk/.github/workflows/build-user-config.yml@6a7590c1157480c96fa82340f1f6baef169e3116 # main, 2026-11-13
     with:
       config_path: 'config'
       build_matrix_path: '.github/workflows/products/build_all.yaml'
