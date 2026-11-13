@@ -20,7 +20,7 @@ run-name: ${{ github.event_name == 'push' && format('Release {0}', github.ref_na
 
 jobs:
   build:
-    uses: zmkfirmware/zmk/.github/workflows/build-user-config.yml@main
+    uses: zmkfirmware/zmk/.github/workflows/build-user-config.yml@6a7590c1157480c96fa82340f1f6baef169e3116 # main, 2026-11-13
     with:
       config_path: 'config'
       build_matrix_path: '.github/workflows/products/build_release.yaml'
