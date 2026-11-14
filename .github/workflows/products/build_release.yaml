@@ -5,8 +5,7 @@
 #   computer layout: estonian | international (US / US International)
 #   OS:              windows | mac | linux
 #   keyboard layout: colemak-dh | qwerty
-# The Sool's international keymap doesn't depend on the OS, so it is built
-# per keyboard layout only. The other parts are built once.
+# The other parts are built once.
 #
 # The flags are DTS preprocessor defines read by
 # zmk-keyboard-pipar/include/pipar/keymap_variant.h. Artifact names are
@@ -102,13 +101,33 @@ include:
   - board: xiao_ble//zmk
     shield: pipar_sool_dongle
     snippet: studio-rpc-usb-uart
-    cmake-args: '-DDTS_EXTRA_CPPFLAGS="-DPIPAR_HOST_INTERNATIONAL;-DPIPAR_LAYOUT_COLEMAK_DH"'
-    artifact-name: pipar-sool-dongle-international-colemak-dh
+    cmake-args: '-DDTS_EXTRA_CPPFLAGS="-DPIPAR_HOST_INTERNATIONAL;-DPIPAR_OS_WIN;-DPIPAR_LAYOUT_COLEMAK_DH"'
+    artifact-name: pipar-sool-dongle-international-windows-colemak-dh
   - board: xiao_ble//zmk
     shield: pipar_sool_dongle
     snippet: studio-rpc-usb-uart
-    cmake-args: '-DDTS_EXTRA_CPPFLAGS="-DPIPAR_HOST_INTERNATIONAL;-DPIPAR_LAYOUT_QWERTY"'
-    artifact-name: pipar-sool-dongle-international-qwerty
+    cmake-args: '-DDTS_EXTRA_CPPFLAGS="-DPIPAR_HOST_INTERNATIONAL;-DPIPAR_OS_WIN;-DPIPAR_LAYOUT_QWERTY"'
+    artifact-name: pipar-sool-dongle-international-windows-qwerty
+  - board: xiao_ble//zmk
+    shield: pipar_sool_dongle
+    snippet: studio-rpc-usb-uart
+    cmake-args: '-DDTS_EXTRA_CPPFLAGS="-DPIPAR_HOST_INTERNATIONAL;-DPIPAR_OS_MAC;-DPIPAR_LAYOUT_COLEMAK_DH"'
+    artifact-name: pipar-sool-dongle-international-mac-colemak-dh
+  - board: xiao_ble//zmk
+    shield: pipar_sool_dongle
+    snippet: studio-rpc-usb-uart
+    cmake-args: '-DDTS_EXTRA_CPPFLAGS="-DPIPAR_HOST_INTERNATIONAL;-DPIPAR_OS_MAC;-DPIPAR_LAYOUT_QWERTY"'
+    artifact-name: pipar-sool-dongle-international-mac-qwerty
+  - board: xiao_ble//zmk
+    shield: pipar_sool_dongle
+    snippet: studio-rpc-usb-uart
+    cmake-args: '-DDTS_EXTRA_CPPFLAGS="-DPIPAR_HOST_INTERNATIONAL;-DPIPAR_OS_LINUX;-DPIPAR_LAYOUT_COLEMAK_DH"'
+    artifact-name: pipar-sool-dongle-international-linux-colemak-dh
+  - board: xiao_ble//zmk
+    shield: pipar_sool_dongle
+    snippet: studio-rpc-usb-uart
+    cmake-args: '-DDTS_EXTRA_CPPFLAGS="-DPIPAR_HOST_INTERNATIONAL;-DPIPAR_OS_LINUX;-DPIPAR_LAYOUT_QWERTY"'
+    artifact-name: pipar-sool-dongle-international-linux-qwerty
   - board: xiao_ble//zmk
     shield: pipar_sool_left
     artifact-name: pipar-sool-left
