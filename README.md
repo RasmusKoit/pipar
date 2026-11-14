@@ -8,6 +8,10 @@ ZMK firmware for the Pipar PCBs.
 
 More information about **Pipar Keyboards** here [https://pipar.koit.dev](https://pipar.koit.dev)
 
+## User manual
+
+The [user manual](docs/user-manual/README.md) explains which firmware to flash, the layers, Bluetooth, and how to type Estonian letters (õ ä ö ü š ž) on Windows, macOS and Linux. It also has printable Colemak-DH and QWERTY [cheatsheets](docs/user-manual/README.md#cheatsheets).
+
 ## Firmware
 
 The Pipar keyboards run [ZMK](https://zmk.dev) firmware. Board definitions, custom drivers (LED indicators, caps-word events, a recovery watchdog), keymaps, and shields live in the [`zmk-keyboard-pipar`](https://github.com/RasmusKoit/zmk-keyboard-pipar) ZMK module — included here as the `zmk-keyboard-pipar` submodule.

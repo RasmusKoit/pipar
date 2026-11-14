@@ -1,0 +1,132 @@
+parse_config:
+  preprocess: true
+  raw_binding_map:
+    '&uc 0xfc 0xdc': Ü
+    '&uc 0xf5 0xd5': Õ
+    '&uc 0xf6 0xd6': Ö
+    '&uc 0xe4 0xc4': Ä
+    '&cut': Cut
+    '&copy': Copy
+    '&paste': Paste
+    '&word_caps':
+      t: Caps Word
+      s: Caps Lock
+    '&bt_sel_0':
+      t: BT 1
+      s: ⇧=clear
+    '&bt_sel_1':
+      t: BT 2
+      s: ⇧=clear
+    '&bt_sel_2':
+      t: BT 3
+      s: ⇧=clear
+    '&bt_sel_3':
+      t: BT 4
+      s: ⇧=clear
+    '&bt BT_CLR_ALL': Clear all BT
+    '&out OUT_TOG': USB/BT toggle
+    '&bl BL_CYCLE': Light cycle
+    '&bl BL_TOG': Light on/off
+    '&bl BL_INC': Light +
+    '&bl BL_DEC': Light −
+    '&studio_unlock': Studio unlock
+    '&mkp MB1': Left click
+    '&mkp MB2': Right click
+    '&mkp MB3': Middle click
+  zmk_keycode_map:
+    EXCLAMATION: '!'
+    EXCL: '!'
+    AT_SIGN: '@'
+    AT: '@'
+    HASH: '#'
+    POUND: '#'
+    DOLLAR: $
+    DLLR: $
+    PERCENT: '%'
+    PRCNT: '%'
+    CARET: ^
+    AMPERSAND: '&'
+    AMPS: '&'
+    ASTERISK: '*'
+    ASTRK: '*'
+    STAR: '*'
+    LEFT_PARENTHESIS: (
+    LPAR: (
+    RIGHT_PARENTHESIS: )
+    RPAR: )
+    EQUAL: '='
+    PLUS: +
+    MINUS: '-'
+    UNDERSCORE: _
+    UNDER: _
+    SLASH: /
+    FSLH: /
+    QUESTION: '?'
+    QMARK: '?'
+    BACKSLASH: \
+    BSLH: \
+    PIPE: '|'
+    NON_US_BACKSLASH: \
+    PIPE2: '|'
+    NON_US_BSLH: '|'
+    SEMICOLON: ;
+    SEMI: ;
+    COLON: ':'
+    SINGLE_QUOTE: ''''
+    SQT: ''''
+    APOSTROPHE: ''''
+    APOS: ''''
+    DOUBLE_QUOTES: '"'
+    DQT: '"'
+    COMMA: ','
+    LESS_THAN: <
+    LT: <
+    PERIOD: .
+    DOT: .
+    GREATER_THAN: '>'
+    GT: '>'
+    LEFT_BRACKET: '['
+    LBKT: '['
+    LEFT_BRACE: '{'
+    LBRC: '{'
+    RIGHT_BRACKET: ']'
+    RBKT: ']'
+    RIGHT_BRACE: '}'
+    RBRC: '}'
+    GRAVE: '`'
+    TILDE: '~'
+    NON_US_HASH: '#'
+    NUHS: '#'
+    TILDE2: '~'
+    CMMA: ','
+    RET: Enter
+    ENTER: Enter
+    BSPC: ⌫
+    DEL: Del
+    SPACE: Space
+    ESC: Esc
+    TAB: Tab
+    C_PREV: Prev
+    C_NEXT: Next
+    C_VOL_DN: Vol −
+    C_VOL_UP: Vol +
+    C_PP: Play/ Pause
+    C_STOP: Stop
+    C_MUTE: Mute
+    K_APP: Menu
+    PSCRN: PrtSc
+    SLCK: ScrLk
+    PAUSE_BREAK: Pause
+    PAGE_UP: PgUp
+    PAGE_DOWN: PgDn
+    INSERT: Ins
+    LEFT: ←
+    RIGHT: →
+    UP: ↑
+    DOWN: ↓
+    HOME: Home
+    END: End
+    LEFT_ARROW: ←
+    RIGHT_ARROW: →
+    UP_ARROW: ↑
+    DOWN_ARROW: ↓
