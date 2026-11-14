@@ -1,0 +1,95 @@
+name: Release firmware
+
+# Builds firmware for every keyboard, computer layout (Estonian /
+# international), OS (Windows / macOS / Linux) and keyboard layout
+# (Colemak-DH / QWERTY) - see products/build_release.yaml.
+#
+# Push a version tag (1.3.0 or v1.3.0) to build and publish a GitHub Release
+# with one zip per keyboard plus one with everything, the files sorted into
+# <keyboard>/<computer layout>/<os>/ folders. Tags with a hyphen (1.3.0-rc1)
+# become pre-releases.
+# Run it by hand (workflow_dispatch) to build without publishing; the files
+# are then available as the run's "pipar-firmware" artifact.
+
+on:
+  push:
+    tags: ['v*', '[0-9]*']
+  workflow_dispatch:
+
+run-name: ${{ github.event_name == 'push' && format('Release {0}', github.ref_name) || 'Release build (not published)' }}
+
+jobs:
+  build:
+    uses: zmkfirmware/zmk/.github/workflows/build-user-config.yml@6a7590c1157480c96fa82340f1f6baef169e3116 # main, 2026-11-13
+    with:
+      config_path: 'config'
+      build_matrix_path: '.github/workflows/products/build_release.yaml'
+      archive_name: 'pipar-firmware'
+
+  publish:
+    needs: build
+    if: github.event_name == 'push' && github.ref_type == 'tag'
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          sparse-checkout: .github
+
+      - uses: actions/download-artifact@v4
+        with:
+          name: pipar-firmware
+          path: firmware
+
+      # pipar-point-right-estonian-windows-qwerty.uf2
+      #   -> pipar-point/estonian/windows/pipar-point-right-estonian-windows-qwerty.uf2
+      # pipar-sool-dongle-international-qwerty.uf2
+      #   -> pipar-sool/international/pipar-sool-dongle-international-qwerty.uf2
+      # pipar-point-left.uf2 -> pipar-point/pipar-point-left.uf2
+      - name: Sort into folders and zip
+        run: |
+          set -euo pipefail
+          mkdir release
+          for f in firmware/*.uf2; do
+            name=$(basename "$f" .uf2)
+            kb=$(cut -d- -f1-2 <<< "$name")
+            dir="release/$kb"
+            if [[ "$name" =~ -(estonian|international)(-(windows|mac|linux))?-(colemak-dh|qwerty)$ ]]; then
+              dir="$dir/${BASH_REMATCH[1]}${BASH_REMATCH[3]:+/${BASH_REMATCH[3]}}"
+            fi
+            mkdir -p "$dir"
+            cp "$f" "$dir/"
+          done
+          cd release
+          for kb in */; do
+            kb=${kb%/}
+            cp ../.github/release-notes.md "$kb/README.md"
+            zip -qr "${kb}-${GITHUB_REF_NAME}.zip" "$kb"
+          done
+          zip -qr "pipar-firmware-${GITHUB_REF_NAME}.zip" pipar-*/
+          find . -name '*.uf2' | sort
+          # Every build in the matrix is here, and every variant got a folder.
+          expected=$(grep -c 'artifact-name:' ../.github/workflows/products/build_release.yaml)
+          found=$(find . -name '*.uf2' | wc -l)
+          [[ "$found" -eq "$expected" ]] || { echo "::error::$found .uf2 files, expected $expected"; exit 1; }
+          misplaced=$(find . -mindepth 2 -maxdepth 2 -name '*-estonian-*.uf2' -o -mindepth 2 -maxdepth 2 -name '*-international-*.uf2')
+          [[ -z "$misplaced" ]] || { echo "::error::not sorted into a folder: $misplaced"; exit 1; }
+
+      - name: Create release
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          # A re-run after a failed upload replaces the files of the existing release.
+          if gh release view "$GITHUB_REF_NAME" --repo "$GITHUB_REPOSITORY" > /dev/null 2>&1; then
+            gh release upload "$GITHUB_REF_NAME" --repo "$GITHUB_REPOSITORY" --clobber release/*.zip
+            exit 0
+          fi
+          prerelease=()
+          [[ "$GITHUB_REF_NAME" == *-* ]] && prerelease=(--prerelease)
+          gh release create "$GITHUB_REF_NAME" "${prerelease[@]}" \
+            --repo "$GITHUB_REPOSITORY" \
+            --title "Pipar firmware $GITHUB_REF_NAME" \
+            --notes-file .github/release-notes.md \
+            --generate-notes \
+            release/*.zip
