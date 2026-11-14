@@ -22,7 +22,7 @@ manifest:
       revision: main
     - name: zmk-unicode
       remote: urob
-      revision: v0.3
+      revision: 6ce21267e497e20ff9e05da16d4eefcdd3e89190 # main, 2026-10-08: "Include keys.h"
     - name: kb_zmk_ps2_mouse_trackpoint_driver
       remote: RasmusKoit
       revision: pipar-stability
