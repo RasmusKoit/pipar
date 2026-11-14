@@ -2,8 +2,6 @@ manifest:
   remotes:
     - name: zmkfirmware
       url-base: https://github.com/zmkfirmware
-    - name: petejohanson
-      url-base: https://github.com/petejohanson
     - name: RasmusKoit
       url-base: https://github.com/RasmusKoit
     - name: urob
@@ -15,7 +13,9 @@ manifest:
   projects:
     - name: zmk
       remote: RasmusKoit
-      revision: battery-profile-support
+      # zmk-4.1-battery-profile: upstream main bb2d711 (2026-11-14, Zephyr 4.1)
+      # plus the battery profile, split battery and backlight commits.
+      revision: e2d438bf9b3a95850115ce2bd8a98c79e4cbe6f3
       import: app/west.yml
     - name: zmk-keyboard-pipar
       remote: RasmusKoit
