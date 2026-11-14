@@ -44,8 +44,8 @@ jobs:
 
       # pipar-point-right-estonian-windows-qwerty.uf2
       #   -> pipar-point/estonian/windows/pipar-point-right-estonian-windows-qwerty.uf2
-      # pipar-sool-dongle-international-qwerty.uf2
-      #   -> pipar-sool/international/pipar-sool-dongle-international-qwerty.uf2
+      # pipar-sool-dongle-international-mac-qwerty.uf2
+      #   -> pipar-sool/international/mac/pipar-sool-dongle-international-mac-qwerty.uf2
       # pipar-point-left.uf2 -> pipar-point/pipar-point-left.uf2
       - name: Sort into folders and zip
         run: |
