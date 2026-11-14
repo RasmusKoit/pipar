@@ -18,7 +18,7 @@ The manual covers the two full keyboards, the **Pipar Point** and the **Pipar ja
 
 ## Choose your firmware
 
-Download the firmware from the [releases page](https://github.com/RasmusKoit/pipar/releases). Each keyboard's zip has a folder for every combination of three choices:
+Download the firmware from the [releases page](https://github.com/RasmusKoit/pipar/releases). Each keyboard's zip has a folder for each computer layout and operating system, with one file per keyboard layout inside. Pick them in this order:
 
 1. **Computer layout:** the keyboard layout selected on your computer.
    - **`estonian`:** your computer uses the Estonian layout, like most laptops sold in Estonia. Recommended if you type Estonian.
@@ -26,7 +26,7 @@ Download the firmware from the [releases page](https://github.com/RasmusKoit/pip
 2. **Operating system:** `windows`, `mac` or `linux`.
 3. **Keyboard layout:** the file ending in `colemak-dh` or `qwerty`. The keyboard does the Colemak-DH or QWERTY mapping itself, so leave your computer on the layout from step 1. If you also switch the computer to Colemak, the letters get remapped twice and come out wrong.
 
-The keyboard sends each symbol the way your computer's layout expects, so every key types what the [cheatsheets](#cheatsheets) show on both computer layouts. The difference is how the Estonian letters work:
+The keyboard sends each symbol the way your computer's layout expects, so every key types what the [cheatsheets](#cheatsheets) show on both computer layouts, with a few [exceptions on the Estonian firmware](#estonian-computer-layout). The main difference is how the Estonian letters work:
 
 | | Estonian | International |
 | --- | --- | --- |
@@ -71,7 +71,7 @@ With the `estonian` firmware, select the Estonian keyboard layout on your comput
 - **macOS:** System Settings → Keyboard → Text Input → Edit… → + → **Estonian**. Set the keyboard type to **ISO** (see [above](#choose-your-firmware)).
 - **Linux:** choose **Estonian** in your desktop's keyboard settings, or run `setxkbmap ee`. Use the plain "Estonian" layout, not "Estonian (no dead keys)": with that one, `~` types `~` followed by a space.
 
-That's all the setup. Õ Ä Ö Ü are ordinary keys, and Shift and Caps Lock work with them. [Caps Word](#caps-word) stops at them, as it does on the international firmware, so use Caps Lock for a word in capitals that contains one.
+That's all the setup. Õ Ä Ö Ü are ordinary keys, and Shift and Caps Lock work with them. [Caps Word](#caps-word) ends when you press one, and that letter comes out lowercase, so use Caps Lock for a word in capitals that contains one.
 
 | Letter | Keys |
 | --- | --- |
@@ -118,7 +118,7 @@ This catches most people out when writing code or English text. If it gets in yo
 ### Windows
 
 - **Õ Ä Ö Ü keys:** install [WinCompose](https://github.com/samhocevar/wincompose) and keep its default compose key (Right Alt).
-- **š and ž:** with WinCompose running, type **Compose, c, s** for š or **Compose, c, z** for ž. The compose key is Right Alt, which is AltGr on the keyboard (see [home-row modifiers](#home-row-modifiers)).
+- **š and ž:** with WinCompose running, type **Compose, c, s** for š or **Compose, c, z** for ž. The compose key is Right Alt, which is the AltGr key on the keyboard (see [home-row modifiers](#home-row-modifiers)). WinCompose needs Right Alt pressed and released on its own, and a quick tap of that key types its letter instead. So hold it for about half a second and let go without pressing anything else, then type the sequence.
 
 Without WinCompose, add **United States-International** under Settings → Time & language → Language & region → English (United States) → Language options → Add a keyboard. Then:
 
@@ -138,7 +138,7 @@ Without WinCompose, add **United States-International** under Settings → Time 
 
 **Õ Ä Ö Ü keys:** add **Unicode Hex Input** under System Settings → Keyboard → Text Input → Edit… → + → Others, and make it the active input source. It types like the US layout, but ⌥ + letter no longer types special characters, so ⌥U and the shortcuts below don't work with it. To type š with it, hold ⌥ and type `0161` (ž is `017E`).
 
-The alternative is **ABC – Extended** (Edit… → + → English). It is the only built-in US-based input source that types all six letters, without the Õ Ä Ö Ü keys:
+The alternative is **ABC – Extended** (Edit… → + → English). It is the only built-in US-based input source with key shortcuts for all six letters. The Õ Ä Ö Ü keys don't work with it:
 
 | Letter | Keys (ABC – Extended) |
 | --- | --- |
@@ -149,11 +149,13 @@ The alternative is **ABC – Extended** (Edit… → + → English). It is the o
 | š / Š | ⌥V, then `s` / `S` |
 | ž / Ž | ⌥V, then `z` / `Z` |
 
-**Press and hold.** You can also hold a letter and pick from the pop-up: hold `s` to get š, hold `o` to get õ or ö. This doesn't work on the home-row letters, because holding them gives a modifier.
+**Press and hold.** You can also hold a letter and pick from the pop-up, for example hold `u` for ü or `z` for ž. This doesn't work on the home-row letters (on Colemak-DH A R S T N E I O, on QWERTY A S D F J K L), because holding them gives a modifier.
 
 **U.S. International – PC** also works and behaves like Windows, with `"` and `~` as dead keys. Like Windows, it has no š or ž.
 
-<!-- TODO: test every row of the table, and the Õ Ä Ö Ü keys with Unicode Hex Input, on a real Mac before publishing. -->
+**Caps Word and Õ Ä Ö Ü.** Turn Caps Word off before pressing an Õ Ä Ö Ü key. With Unicode Hex Input, Caps Word adds Shift to the letters in the code, and the key may type the wrong character.
+
+<!-- TODO: test every row of the table, and the Õ Ä Ö Ü keys with Unicode Hex Input (also with Caps Word on), on a real Mac before publishing. -->
 
 ### Linux
 
@@ -161,7 +163,7 @@ The alternative is **ABC – Extended** (Edit… → + → English). It is the o
 
 For š, ž and the dead-key method, choose **English (US, intl., with dead keys)** in your desktop's keyboard settings, or run `setxkbmap us -variant intl`:
 
-| Letter | Dead key | AltGr shortcut |
+| Letter | Dead key | Other |
 | --- | --- | --- |
 | ä / Ä | `"` then `a` | AltGr + Q |
 | ö / Ö | `"` then `o` | AltGr + P |
@@ -172,7 +174,7 @@ For š, ž and the dead-key method, choose **English (US, intl., with dead keys)
 
 **š and ž.** AltGr + Shift + `.` is a caron (ˇ) dead key. Hold AltGr on the left with **X** and Shift with **T** [F], then tap `.` with the right hand.
 
-**Compose key.** A Compose key is an easier alternative. Turn one on, for example in GNOME Tweaks → Keyboard → Compose Key, or with `setxkbmap -option compose:menu`. The **Menu** key is on the Fun layer: hold Del, then tap the left outer thumb key.
+**Compose key.** A Compose key is an easier alternative. Turn one on, for example in GNOME Settings → Keyboard → Special Character Entry → Compose Key (on older GNOME versions, in GNOME Tweaks), or with `setxkbmap -option compose:menu`. The **Menu** key is on the Fun layer: hold Del, then tap the left outer thumb key.
 
 <!-- TODO: test the X+T+. chord; two left-hand home-row mods held together should both resolve as holds when the right-hand key is pressed. -->
 
@@ -188,7 +190,7 @@ Each thumb key types one thing when tapped and switches to a layer while held.
 | --- | --- | --- |
 | Left outer | Esc | **Media**: Bluetooth, volume, and lights on the Point |
 | Left middle | Space | **Nav**: arrows, Home/End, Page Up/Down. On the Sool, also Ü Õ Ö Ä |
-| Left inner | Tab | **Mouse** (Point only): clicks and Cut/Copy/Paste for the trackpoint |
+| Left inner | Tab | **Mouse** (Point only): clicks for the trackpoint |
 | Right inner | Enter | **Sym**: symbols |
 | Right middle | Backspace | **Num**: numbers |
 | Right outer | Del | **Fun**: F-keys, Print Screen, Menu |
@@ -213,7 +215,7 @@ Two rules stop fast typing from triggering modifiers by accident:
 
 ### Caps Word
 
-On the Nav layer (hold Space), the key left of the arrows is **Caps Word**. It types the next word in capitals and then switches itself off. Shift + Caps Word gives regular Caps Lock.
+On the Nav layer (hold Space), the key left of the arrows is **Caps Word**. It types the next word in capitals and then switches itself off. Shift + Caps Word gives regular Caps Lock. Caps Word also ends at Õ Ä Ö Ü, and that letter comes out lowercase, so use Caps Lock for words that contain them.
 
 ### Gaming layer
 
@@ -226,7 +228,7 @@ The gaming layer makes the left half behave like a plain keyboard, so held keys 
 
 On the Colemak-DH firmware the layer is called **Gaming-CDH** and stays Colemak-DH, so the keys in the usual WASD positions send W, A, R and S. Rebind movement in the game, or press the keys labelled W, A, S and D. On the QWERTY firmware it's called **Gaming** and WASD is where you expect.
 
-To turn it on, hold **Del** (Fun) and press the combo below. Press the same combo again to turn it off.
+To turn it on, hold **Del** (Fun) and press the two keys below together. To turn it off, press the same two keys together **without** holding Del.
 
 - **Point:** the right outer pinky keys **Õ** and **Ä** together.
 - **Sool:** the right pinky home-row and bottom-row keys together: **O** and **/** [`'` and **/**].
