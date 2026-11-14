@@ -7,31 +7,39 @@
 #   docs/user-manual/cheatsheets/generate/generate.sh
 #
 # Writes four SVGs per keyboard into docs/user-manual/cheatsheets/:
-# {colemak-dh,qwerty} x {pc,mac}. The QWERTY sheets are drawn from the
-# Colemak-DH keymap with the letters moved; the firmware itself is Colemak-DH.
+# {colemak-dh,qwerty} x {pc,mac}, each drawn from the keymap built the same
+# way as that firmware (PIPAR_LAYOUT_*, PIPAR_OS_*). The international and
+# Estonian computer-layout firmware type the same characters, so one set of
+# sheets covers both. Windows and Linux share the PC sheets.
 set -euo pipefail
 
 HERE="$(cd "$(dirname "$0")" && pwd)"
 ROOT="$(cd "$HERE/../../../.." && pwd)"
 OUT="$HERE/.."
-ZKP="$ROOT/zmk-keyboard-pipar/boards"
+ZKP="$ROOT/zmk-keyboard-pipar"
 WORK="$(mktemp -d)"
 trap 'rm -rf "$WORK"' EXIT
 
-build() { # name keymap layout-dtsi
-  local name=$1 keymap=$2 layout=$3
-  keymap -c "$HERE/parse.yaml" parse -z "$keymap" > "$WORK/$name.raw.yaml"
-  python3 "$HERE/variants.py" "$WORK/$name.raw.yaml" "$layout" "$WORK" "$name" > /dev/null
-  for f in "$WORK/$name"-*.yaml; do
-    keymap -c "$HERE/draw.yaml" draw "$f" > "$OUT/$(basename "${f%.yaml}").svg"
+build() { # name keymap layout-dtsi [extra include dir]
+  local name=$1 keymap=$2 layout=$3 extra=${4:-}
+  for variant in colemak-dh qwerty; do
+    for os in pc mac; do
+      local v="$name-$variant-$os"
+      python3 "$HERE/variants.py" config "$HERE/parse.yaml" "$WORK/$v.parse.yaml" \
+        "$variant" "$os" "$ZKP/include" ${extra:+"$extra"}
+      keymap -c "$WORK/$v.parse.yaml" parse -z "$keymap" > "$WORK/$v.raw.yaml"
+      python3 "$HERE/variants.py" sheet "$WORK/$v.raw.yaml" "$WORK/$v.yaml" "$layout" "$os"
+      keymap -c "$HERE/draw.yaml" draw "$WORK/$v.yaml" > "$OUT/$v.svg"
+    done
   done
 }
 
 build pipar-point \
-  "$ZKP/piparkeyboards/pipar_point/pipar_point.keymap" \
-  "$ZKP/piparkeyboards/pipar_point/pipar_point_zmk_common.dtsi"
+  "$ZKP/boards/piparkeyboards/pipar_point/pipar_point.keymap" \
+  "$ZKP/boards/piparkeyboards/pipar_point/pipar_point_zmk_common.dtsi" \
+  "$ZKP/boards/piparkeyboards/pipar_point/include"
 build pipar-sool \
-  "$ZKP/shields/pipar_sool/pipar_sool.keymap" \
-  "$ZKP/shields/pipar_sool/pipar_sool-layouts.dtsi"
+  "$ZKP/boards/shields/pipar_sool/pipar_sool.keymap" \
+  "$ZKP/boards/shields/pipar_sool/pipar_sool-layouts.dtsi"
 
 echo "Cheatsheets written to $OUT"

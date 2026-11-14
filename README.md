@@ -10,7 +10,7 @@ More information about **Pipar Keyboards** here [https://pipar.koit.dev](https:/
 
 ## User manual
 
-The [user manual](docs/user-manual/README.md) explains the layers, Bluetooth, and how to type Estonian letters (õ ä ö ü š ž) on Windows, macOS and Linux. It also has printable Colemak-DH and QWERTY [cheatsheets](docs/user-manual/README.md#cheatsheets).
+The [user manual](docs/user-manual/README.md) explains which firmware to flash, the layers, Bluetooth, and how to type Estonian letters (õ ä ö ü š ž) on Windows, macOS and Linux. It also has printable Colemak-DH and QWERTY [cheatsheets](docs/user-manual/README.md#cheatsheets).
 
 ## Firmware
 
