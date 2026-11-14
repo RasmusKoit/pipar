@@ -19,7 +19,7 @@ manifest:
       import: app/west.yml
     - name: zmk-keyboard-pipar
       remote: RasmusKoit
-      revision: 52ced6911ffdacc0f2ada36ac9ae9e6c03a9354d # main, same commit as the submodule
+      revision: 52ced6911ffdacc0f2ada36ac9ae9e6c03a9354d # main; bump together with the zmk-keyboard-pipar submodule
     - name: zmk-unicode
       remote: urob
       revision: 6ce21267e497e20ff9e05da16d4eefcdd3e89190 # main, 2026-10-08: "Include keys.h"
@@ -27,8 +27,10 @@ manifest:
       remote: RasmusKoit
       revision: cb9012b414b4f3a9696530137786214def0272cf # pipar-stability, 2026-08-24
     # Zephyr, pinned here instead of following the v4.1.0+zmk-fixes branch that
-    # ZMK's app/west.yml names. This entry overrides that one, so the import
-    # block must stay in step with ZMK's app/west.yml when ZMK is updated.
+    # ZMK's app/west.yml names. This entry overrides that one, so when ZMK is
+    # updated, check its zephyr revision (branch) and keep this import block
+    # the same as its. No clone-depth: at depth 1 west fetches only branch and
+    # tag tips, so this SHA would stop being fetchable once the branch moves.
     - name: zephyr
       remote: zmkfirmware
       revision: 10ba6d0cb38bc3d258775d27982f707599320085 # v4.1.0+zmk-fixes, 2026-08-14
