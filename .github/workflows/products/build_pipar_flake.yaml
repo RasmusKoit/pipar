@@ -1,6 +1,6 @@
 ---
 include:
-  - board: nice_nano
+  - board: nice_nano//zmk
     shield: pipar_flake
-  - board: nice_nano
+  - board: nice_nano//zmk
     shield: settings_reset
