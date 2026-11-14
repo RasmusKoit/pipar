@@ -26,14 +26,16 @@ To flash: connect the part by USB, put it in bootloader mode (double-tap reset o
 
 ### Pipar Point
 
-Flash the right half (`pipar-point-right-…`, it holds the keymap) from the folder you picked, and `pipar-point-left.uf2` to the left half.
-
-- **Estonian:** Õ Ä Ö Ü are the Estonian layout's own keys and work like any other letter.
-- **International:** Õ Ä Ö Ü are typed with the OS's Unicode input. On Windows that needs [WinCompose](https://github.com/samhocevar/wincompose) running. On macOS, **Unicode Hex Input** must be the active input source (System Settings → Keyboard → Text Input). On Linux, it needs Ctrl+Shift+U Unicode entry (IBus or GTK).
+Flash the right half (`pipar-point-right-…`, it holds the keymap) from the folder you picked, and `pipar-point-left.uf2` to the left half. Õ Ä Ö Ü are the outer pinky keys.
 
 ### Pipar ja Sool
 
-Flash the dongle (`pipar-sool-dongle-…`, it holds the keymap) from the folder you picked, `pipar-sool-left.uf2` to the left half and `pipar-sool-right.uf2` to the right half. The international keymap is the same on every OS, so `international/` has no OS folders.
+Flash the dongle (`pipar-sool-dongle-…`, it holds the keymap) from the folder you picked, `pipar-sool-left.uf2` to the left half and `pipar-sool-right.uf2` to the right half. Õ Ä Ö Ü are on the Nav layer: hold Space, then the right-hand top row (Ü Õ Ö Ä).
+
+### Õ Ä Ö Ü keys
+
+- **Estonian:** they are the Estonian layout's own keys and work like any other letter.
+- **International:** they are typed with the OS's Unicode input. On Windows that needs [WinCompose](https://github.com/samhocevar/wincompose) running. On macOS, **Unicode Hex Input** must be the active input source (System Settings → Keyboard → Text Input). On Linux, it needs Ctrl+Shift+U Unicode entry (IBus or GTK).
 
 ### Pipar Chip and Pipar Flake
 
