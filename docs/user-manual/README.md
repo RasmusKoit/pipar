@@ -83,7 +83,7 @@ For where AltGr and ⌥ are, see [home-row modifiers](#home-row-modifiers).
 
 **Limits of the Estonian firmware:**
 
-- **Mac, `` ` `` and `^`:** Apple's Estonian layout has neither character, so those keys do nothing. If you need them, for example for programming, use the international Mac firmware with **ABC – Extended** instead.
+- **Mac, `` ` `` and `^`:** Apple's Estonian layout has neither character, so those keys do nothing. If you need them, for example for programming, use the international Mac firmware with **Unicode Hex Input** (Õ Ä Ö Ü keys work, no ⌥ shortcuts) or **ABC – Extended** (⌥ shortcuts, Õ Ä Ö Ü keys don't work) instead.
 - **Shift on the Num layer:** Shift + a digit types what it does on an Estonian laptop. For example, Shift + 2 types `"`, not `@`. Use the Sym layer for symbols.
 - **`<` and capitals:** if you're still holding `<` when you press Shift + a letter, the letter comes out lowercase. `"` `>` and `?` don't have this problem.
 
@@ -190,7 +190,7 @@ Each thumb key types one thing when tapped and switches to a layer while held.
 | --- | --- | --- |
 | Left outer | Esc | **Media**: Bluetooth, volume, and lights on the Point |
 | Left middle | Space | **Nav**: arrows, Home/End, Page Up/Down. On the Sool, also Ü Õ Ö Ä |
-| Left inner | Tab | **Mouse** (Point only): clicks for the trackpoint. Moving the trackpoint also switches it on, see [Trackpoint](#trackpoint) |
+| Left inner | Tab | **Mouse** (Point only): clicks for the trackpoint. On a Point with a trackpoint, moving it also switches this layer on (see [Trackpoint](#trackpoint)) |
 | Right inner | Enter | **Sym**: symbols |
 | Right middle | Backspace | **Num**: numbers |
 | Right outer | Del | **Fun**: F-keys, Print Screen, Menu |
@@ -222,7 +222,7 @@ On the Nav layer (hold Space), the key left of the arrows is **Caps Word**. It t
 The gaming layer makes the left half behave like a plain keyboard, so held keys stay letters in games:
 
 - Home-row modifiers on the left half are off, and X no longer gives AltGr.
-- The left thumb keys are plain Esc, Space and Tab, with no Media, Nav or Mouse layer.
+- The left thumb keys are plain Esc, Space and Tab, with no Media, Nav or Mouse layer. On a Point with a trackpoint, moving the trackpoint still switches on the [Mouse layer](#trackpoint) for a moment, and then Esc, Space and Tab are Cut, Copy and Paste. Wait 1.5 seconds after pointing before using them.
 - Z works as Shift when held.
 - The right half is unchanged, except that the full stop no longer gives Alt.
 
@@ -261,15 +261,18 @@ Hold Shift for the capital letter. On the Estonian firmware they are ordinary ke
 
 ### Trackpoint
 
-If your Point has a trackpoint, move the pointer with it. Moving it switches on the **Mouse** layer until 1.5 seconds after the trackpoint stops, as long as you hadn't typed anything in the 1.5 seconds before you moved it. While it's on:
+If your Point has a trackpoint, move the pointer with it. Moving it switches on the **Mouse** layer, which stays on until 1.5 seconds after the trackpoint stops. It doesn't switch on until 1.5 seconds after your last keypress, so typing and pointing don't get in each other's way. While it's on:
 
 - **Right thumb keys:** left click, middle click and right click.
 - **Left thumb keys:** **Cut** (Esc), **Copy** (Space) and **Paste** (Tab). On macOS they send ⌘X ⌘C ⌘V. On Windows and Linux they send Shift+Del, Ctrl+Ins and Shift+Ins.
-- **Any other key** switches the layer off and types as normal.
+- **Any other key** switches the layer off and types as normal. That includes the home-row modifiers, so Ctrl-click or Shift-click this way sends Ctrl+Enter or Shift+Enter instead. Hold **Tab** for those (see below).
 
-So to copy, select with the trackpoint and left click, then tap Space before 1.5 seconds pass.
+The 1.5 seconds count from the last trackpoint movement. Clicking doesn't extend them, and once they're up the click keys are Enter, Backspace and Del again. Nudge the trackpoint to keep the layer on. So to copy: select with the trackpoint and left click, then tap Space straight away.
 
-You can also hold **Tab** for the Mouse layer. Don't move the trackpoint while holding it: the layer then still switches off 1.5 seconds after the trackpoint stops, and the right thumb keys go back to Enter, Backspace and Del even though Tab is held.
+**Holding Tab** also switches on the Mouse layer, for example to Ctrl-click: hold Tab, hold the modifier, click. Two catches:
+
+- Within 1.5 seconds of moving the trackpoint, Tab is Paste, so wait a moment after pointing, or just use the right thumb keys.
+- Don't move the trackpoint while holding Tab. The layer then still switches off 1.5 seconds after the trackpoint stops, even though Tab is held.
 
 <!-- TODO: firmware fix so the trackpoint's temporary layer (zip_temp_layer on layer 3) doesn't switch off the Mouse layer while Tab holds it, e.g. give the Tab hold its own layer. -->
 

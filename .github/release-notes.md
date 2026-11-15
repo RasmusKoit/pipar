@@ -48,7 +48,7 @@ macOS asks which keyboard type a new keyboard is, and the answer moves a few key
 - **Estonian firmware:** choose **ISO (European)**. With ANSI, < types ˇ, > types ~ and | types ¶.
 - **International firmware:** choose **ANSI**. With ISO, ` and ~ type § and ±.
 
-Apple's Estonian layout has no ` or ^, so on the Estonian Mac firmware those keys do nothing. If you need them, for example for programming, use the international Mac firmware with the **ABC – Extended** input source.
+Apple's Estonian layout has no ` or ^, so on the Estonian Mac firmware those keys do nothing. If you need them, for example for programming, use the international Mac firmware with the **Unicode Hex Input** or **ABC – Extended** input source (see the user manual for the difference).
 
 ### Settings reset
 
