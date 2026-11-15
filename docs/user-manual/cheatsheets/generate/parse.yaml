@@ -5,7 +5,6 @@ parse_config:
     '&uc 0xf5 0xd5': Õ
     '&uc 0xf6 0xd6': Ö
     '&uc 0xe4 0xc4': Ä
-    '&undo': Undo
     '&cut': Cut
     '&copy': Copy
     '&paste': Paste

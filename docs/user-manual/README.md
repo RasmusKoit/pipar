@@ -190,7 +190,7 @@ Each thumb key types one thing when tapped and switches to a layer while held.
 | --- | --- | --- |
 | Left outer | Esc | **Media**: Bluetooth, volume, and lights on the Point |
 | Left middle | Space | **Nav**: arrows, Home/End, Page Up/Down. On the Sool, also Ü Õ Ö Ä |
-| Left inner | Tab | **Mouse** (Point only): clicks for the trackpoint, Undo, Cut, Copy, Paste |
+| Left inner | Tab | **Mouse** (Point only): clicks for the trackpoint. Moving the trackpoint also switches it on, see [Trackpoint](#trackpoint) |
 | Right inner | Enter | **Sym**: symbols |
 | Right middle | Backspace | **Num**: numbers |
 | Right outer | Del | **Fun**: F-keys, Print Screen, Menu |
@@ -261,10 +261,17 @@ Hold Shift for the capital letter. On the Estonian firmware they are ordinary ke
 
 ### Trackpoint
 
-If your Point has a trackpoint, move the pointer with it. Hold **Tab** (left thumb) for the Mouse layer:
+If your Point has a trackpoint, move the pointer with it. Moving it switches on the **Mouse** layer until 1.5 seconds after the trackpoint stops, as long as you hadn't typed anything in the 1.5 seconds before you moved it. While it's on:
 
 - **Right thumb keys:** left click, middle click and right click.
-- **Right bottom row:** **Undo, Cut, Copy, Paste** on **H , . /** [M , . /]. On macOS they send ⌘Z ⌘X ⌘C ⌘V. On Windows and Linux they send Ctrl+Z, Shift+Del, Ctrl+Ins and Shift+Ins.
+- **Left thumb keys:** **Cut** (Esc), **Copy** (Space) and **Paste** (Tab). On macOS they send ⌘X ⌘C ⌘V. On Windows and Linux they send Shift+Del, Ctrl+Ins and Shift+Ins.
+- **Any other key** switches the layer off and types as normal.
+
+So to copy, select with the trackpoint and left click, then tap Space before 1.5 seconds pass.
+
+You can also hold **Tab** for the Mouse layer. Don't move the trackpoint while holding it: the layer then still switches off 1.5 seconds after the trackpoint stops, and the right thumb keys go back to Enter, Backspace and Del even though Tab is held.
+
+<!-- TODO: firmware fix so the trackpoint's temporary layer (zip_temp_layer on layer 3) doesn't switch off the Mouse layer while Tab holds it, e.g. give the Tab hold its own layer. -->
 
 ## Pipar ja Sool
 
