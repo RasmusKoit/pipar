@@ -190,7 +190,7 @@ Each thumb key types one thing when tapped and switches to a layer while held.
 | --- | --- | --- |
 | Left outer | Esc | **Media**: Bluetooth, volume, and lights on the Point |
 | Left middle | Space | **Nav**: arrows, Home/End, Page Up/Down. On the Sool, also Ü Õ Ö Ä |
-| Left inner | Tab | **Mouse** (Point only): clicks for the trackpoint |
+| Left inner | Tab | **Mouse** (Point only): clicks for the trackpoint, Undo, Cut, Copy, Paste |
 | Right inner | Enter | **Sym**: symbols |
 | Right middle | Backspace | **Num**: numbers |
 | Right outer | Del | **Fun**: F-keys, Print Screen, Menu |
@@ -261,9 +261,10 @@ Hold Shift for the capital letter. On the Estonian firmware they are ordinary ke
 
 ### Trackpoint
 
-If your Point has a trackpoint, move the pointer with it. Hold **Tab** (left thumb), and the right thumb keys become **left click, middle click and right click**.
+If your Point has a trackpoint, move the pointer with it. Hold **Tab** (left thumb) for the Mouse layer:
 
-<!-- TODO: the Mouse layer's Cut/Copy/Paste sit on the left thumb keys, and Paste is under Tab itself, so they can't be used while Tab is held. Move them in the firmware, then document them. -->
+- **Right thumb keys:** left click, middle click and right click.
+- **Right bottom row:** **Undo, Cut, Copy, Paste** on **H , . /** [M , . /]. On macOS they send ⌘Z ⌘X ⌘C ⌘V. On Windows and Linux they send Ctrl+Z, Shift+Del, Ctrl+Ins and Shift+Ins.
 
 ## Pipar ja Sool
 
